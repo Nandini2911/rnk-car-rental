@@ -1,8 +1,9 @@
 // app/api/send-enquiry/route.ts
+
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-export const runtime = "nodejs"; // important for nodemailer
+export const runtime = "nodejs"; // REQUIRED for nodemailer
 
 export async function POST(req: Request) {
   try {
@@ -16,8 +17,12 @@ export async function POST(req: Request) {
       passengers,
       pickupCity,
       vehicle,
+      message,
     } = body;
 
+    // ---------------------------
+    // BASIC VALIDATION
+    // ---------------------------
     if (!fullName || !email || !mobileNumber) {
       return NextResponse.json(
         { ok: false, error: "Missing required fields" },
@@ -25,38 +30,66 @@ export async function POST(req: Request) {
       );
     }
 
+    // ---------------------------
+    // SMTP CONFIG (SAFE)
+    // ---------------------------
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT) || 587,
-      secure: false,
+      secure: Number(process.env.SMTP_PORT) === 465, // best practice
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
       },
     });
 
-    // Optional: check connection
+    // Verify SMTP connection (important)
     await transporter.verify();
 
+    // ---------------------------
+    // SEND EMAIL
+    // ---------------------------
     await transporter.sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
-      to: "nandaniyadav521@gmail.com",
-      subject: `New RNK enquiry from ${fullName}`,
+      to: "nandaniyadav521@gmail.com", // change to official email later
+      replyTo: email, // so you can reply directly to customer
+      subject: `New RNK Contact Enquiry — ${fullName}`,
       html: `
-        <h2>New RNK City Enquiry</h2>
-        <p><strong>Full Name:</strong> ${fullName}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Mobile Number:</strong> ${mobileNumber}</p>
-        <p><strong>Start Date:</strong> ${startDate}</p>
-        <p><strong>Number of Passengers:</strong> ${passengers}</p>
-        <p><strong>Pickup City:</strong> ${pickupCity}</p>
-        <p><strong>Vehicle:</strong> ${vehicle}</p>
+        <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+          <h2>New RNK Website Enquiry</h2>
+          <hr />
+
+          <p><strong>Full Name:</strong> ${fullName}</p>
+          <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Mobile Number:</strong> ${mobileNumber}</p>
+
+          <p><strong>Service:</strong> ${vehicle || "General Enquiry"}</p>
+          <p><strong>Pickup City:</strong> ${pickupCity || "Contact Page"}</p>
+          <p><strong>Start Date:</strong> ${startDate || "Not specified"}</p>
+          <p><strong>Passengers:</strong> ${passengers || "Not specified"}</p>
+
+          ${
+            message
+              ? `<p><strong>Message:</strong><br />${message}</p>`
+              : ""
+          }
+
+          <hr />
+          <p style="font-size: 12px; color: #666;">
+            This enquiry was submitted from the RNK website contact form.
+          </p>
+        </div>
       `,
     });
 
+    // ---------------------------
+    // SUCCESS RESPONSE
+    // ---------------------------
     return NextResponse.json({ ok: true }, { status: 200 });
+
   } catch (error) {
-    console.error("Error sending enquiry email:", error);
+    console.error("❌ Error sending enquiry email:", error);
+
     return NextResponse.json(
       { ok: false, error: "Internal server error" },
       { status: 500 }

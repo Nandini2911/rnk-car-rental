@@ -12,20 +12,29 @@ export default function PrivacyPolicyPage() {
       <section
         className="
           relative overflow-hidden
-          h-[55vh] sm:h-[65vh] md:h-[75vh] lg:h-[85vh] 2xl:h-[90vh]
+          h-[48vh] sm:h-[60vh] md:h-[75vh] lg:h-[85vh] 2xl:h-[90vh]
           border-b border-black/10
           w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]
         "
       >
+        {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="
+            absolute inset-0
+            bg-no-repeat bg-cover
+            bg-[center_35%]
+            sm:bg-center
+          "
           style={{ backgroundImage: "url('/Mercedes_V_Class_1.webp')" }}
         />
-        <div className="absolute inset-0" />
 
+        {/* Overlay */}
+        <div className="absolute inset-0 sm:bg-black/40" />
+
+        {/* Content */}
         <div className="relative z-10 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center w-full">
-            <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] text-white/80 mb-3">
+            <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] text-white/80 mb-2">
               Home / Privacy Policy
             </p>
 
@@ -33,7 +42,7 @@ export default function PrivacyPolicyPage() {
               className="
                 text-white font-light
                 text-[28px] sm:text-[34px] md:text-[42px]
-                lg:text-[48px] 2xl:text-[56px] 4xl:text-[64px]
+                lg:text-[48px] 2xl:text-[56px]
               "
             >
               Privacy Policy
@@ -41,7 +50,7 @@ export default function PrivacyPolicyPage() {
 
             <p
               className="
-                mt-3
+                mt-2
                 text-red-900
                 text-[12px] sm:text-sm md:text-[15px]
                 max-w-xl md:max-w-2xl mx-auto
