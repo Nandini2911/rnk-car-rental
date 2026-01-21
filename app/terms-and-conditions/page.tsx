@@ -5,209 +5,192 @@ import { RnkFooter } from "@/components/footer";
 
 export default function TermsAndConditionsPage() {
   return (
-    <main className=" bg-white text-black min-h-screen">
+    <main className="bg-white text-black min-h-screen">
       <NavBar />
-      {/* ======================= HEADER / HERO ======================= */}
-<section
-  className="
-    relative overflow-hidden
-    h-[38vh] sm:h-[42vh] md:h-[48vh]
-    border-b border-black/10
-    w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]
-  "
->
-  {/* Background Image */}
-  <div
-    className="absolute inset-0 bg-cover bg-center"
-    style={{ backgroundImage: "url('/about.webp')" }} // 👈 change if needed
-  />
 
-  {/* Dark overlay */}
-  <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/55 to-black/70" />
-
-  {/* Content */}
-  <div className="relative z-10 h-full flex items-center">
-    <div className="max-w-6xl mx-auto px-6 text-center w-full">
-
-      {/* Breadcrumb */}
-      <p className="text-[10px] sm:text-xs uppercase tracking-[0.22em] text-white/80 mb-3">
-        Home <span className="mx-1">/</span> Terms &amp; Conditions
-      </p>
-
-      {/* Title */}
-      <h1
+      {/* ======================= HERO ======================= */}
+      <section
         className="
-          text-white font-light
-          text-[28px] sm:text-[34px] md:text-[44px] lg:text-[54px]
-          leading-tight
+          relative overflow-hidden
+          h-[55vh] sm:h-[65vh] md:h-[75vh] lg:h-[85vh] 2xl:h-[90vh]
+          border-b border-black/10
+          w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]
         "
       >
-        Terms &amp; Conditions
-      </h1>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/Mercedes_E_Class_1.webp')" }}
+        />
+        <div className="absolute inset-0" />
 
-      {/* Sub line */}
-      <p className="mt-3 text-white/75 text-[12px] sm:text-[13px] md:text-[14px] max-w-2xl mx-auto">
-        Please read these terms carefully before using our services.
-      </p>
+        <div className="relative z-10 h-full flex items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center w-full">
+            <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] text-white/80 mb-3">
+              Home / Terms & Conditions
+            </p>
 
-    </div>
-  </div>
-</section>
+            <h1
+              className="
+                text-white font-light
+                text-[28px] sm:text-[34px] md:text-[42px]
+                lg:text-[48px] 2xl:text-[56px] 4xl:text-[64px]
+              "
+            >
+              Terms & Conditions
+            </h1>
 
+            <p
+              className="
+                mt-3 text-white/75
+                text-[12px] sm:text-sm md:text-[15px]
+                max-w-xl md:max-w-2xl mx-auto
+              "
+            >
+              Please read these terms carefully before using our services.
+            </p>
+          </div>
+        </div>
+      </section>
 
+      {/* ======================= CONTENT ======================= */}
       <section className="border-b border-black/10">
-        <div className="max-w-4xl mx-auto px-6 py-14 sm:py-16 lg:py-20">
-            <p className="text-2xl sm:text-3xl md:text-2xl font-light mb-4">
-        Ramniranjan Kedia Rent A Car Pvt.Ltd
-      </p>
-
-          {/* Heading */}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-light mb-4 text-red-900">
-            Terms &amp; Conditions
-          </h1>
-
-          <p className="text-sm text-black/60 mb-10">
-            Last updated: {new Date().toLocaleDateString()}
+        <div
+          className="
+            max-w-4xl lg:max-w-5xl 2xl:max-w-6xl
+            mx-auto
+            px-4 sm:px-6
+            py-12 sm:py-16 lg:py-20
+          "
+        >
+          <p className="text-xs sm:text-sm font-light mb-2">
+            Ramniranjan Kedia Rent A Car Pvt. Ltd
           </p>
 
-          {/* Content */}
-          <div className="space-y-8 text-sm sm:text-[15px] text-black/75 leading-relaxed">
+          <h2
+            className="
+              text-3xl sm:text-4xl md:text-5xl
+              2xl:text-6xl
+              text-red-900
+              mt-4 mb-10
+            "
+          >
+            Terms & Conditions
+          </h2>
 
+          <div
+            className="
+              space-y-12
+              text-[14px] sm:text-[15px] lg:text-[16px] 2xl:text-[17px]
+              text-black/75
+              leading-relaxed
+            "
+          >
+            {/* ================= CHAUFFEUR DRIVEN ================= */}
             <section>
-              <h2 className="font-semibold text-black mb-2">
-                1. Introduction
-              </h2>
+              <h3 className="text-base sm:text-lg font-semibold text-black mb-3">
+                CHAUFFEUR DRIVEN CARS
+              </h3>
+
+              <h4 className="font-semibold text-black mb-2">Eligibility</h4>
               <p>
-                These Terms &amp; Conditions govern your use of RNK Rent A Car
-                (Ramniranjan Kedia Group) website and services. By accessing or
-                using our website, booking our services, or communicating with
-                us, you agree to comply with and be bound by these terms.
+                Should be of minimum 18 years and above. Children below the age
+                of 18 years can't travel alone using Company’s services/Car and
+                must be accompanied by an adult at all times.
+              </p>
+
+              <h4 className="font-semibold text-black mt-6 mb-2">
+                Booking Process
+              </h4>
+              <p>
+                Booking will be made online at the Company’s website being
+                www.rnk.com OR offline at Company’s office, details of which are
+                provided by us in the said website.
+              </p>
+              <p className="mt-3">
+                All Tolls, Taxes and Parking Fees are borne by the customer alone
+                and shall be included in their final bills on actual.
+              </p>
+              <p className="mt-3">
+                Any damages to the vehicle either temporary or permanent must be
+                fully reimbursed by the customer.
+              </p>
+              <p className="mt-3">
+                Airport transfers are not part of the outstation/local trips.
+              </p>
+
+              <h4 className="font-semibold text-black mt-6 mb-2">
+                Customer Responsibilities
+              </h4>
+              <p>
+                Our chauffeurs will drive cars as per the legal RTO regulations.
+              </p>
+              <p className="mt-3">
+                Influencing the chauffeur to drive rashly or abusing chauffeurs
+                is strictly prohibited.
+              </p>
+              <p className="mt-3">
+                Adding more passengers than the legal limit is strictly not
+                allowed.
+              </p>
+              <p className="mt-3">
+                Carrying illegal firearms, ammunition or drugs is prohibited.
+              </p>
+              <p className="mt-3">
+                Customer is prohibited from driving the vehicle.
               </p>
             </section>
 
+            {/* ================= SELF DRIVE ================= */}
             <section>
-              <h2 className="font-semibold text-black mb-2">
-                2. Services
-              </h2>
+              <h3 className="text-base sm:text-lg font-semibold text-black mb-3">
+                SELF DRIVE
+              </h3>
+
+              <h4 className="font-semibold text-black mb-2">Eligibility</h4>
               <p>
-                RNK provides chauffeur-driven car rental services including
-                corporate travel, airport &amp; railway transfers, events,
-                weddings, VIP movements and long-term contracts. Service
-                availability may vary based on location, vehicle type and
-                operational conditions.
+                Minimum age is 30 years with at least 7 years of valid driving
+                license.
+              </p>
+
+              <h4 className="font-semibold text-black mt-6 mb-2">
+                Booking Process
+              </h4>
+              <p>
+                Driving License and Aadhar copies are required. Foreign nationals
+                must provide Passport and International Driving Permit.
+              </p>
+              <p className="mt-3">
+                Security Deposit is mandatory and refundable after inspection.
+              </p>
+              <p className="mt-3">
+                Maximum speed allowed is 100 km/hr.
               </p>
             </section>
 
+            {/* ================= GENERAL ================= */}
             <section>
-              <h2 className="font-semibold text-black mb-2">
-                3. Bookings &amp; Payments
-              </h2>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>All bookings are subject to availability and confirmation.</li>
-                <li>Pricing may vary based on duration, distance, city and vehicle type.</li>
-                <li>Payments must be made as per agreed terms or invoice schedules.</li>
-                <li>GST-compliant invoices will be issued wherever applicable.</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                4. Cancellations &amp; Modifications
-              </h2>
+              <h3 className="text-base sm:text-lg font-semibold text-black mb-3">
+                GENERAL TERMS & CONDITIONS
+              </h3>
               <p>
-                Cancellation or modification of bookings must be communicated in
-                advance. Cancellation charges may apply depending on notice
-                period, vehicle allocation and service type.
+                GST, tolls, permits and parking are charged as per actuals.
+              </p>
+              <p className="mt-3">
+                Arbitration shall be as per Indian laws with jurisdiction in
+                Mumbai.
               </p>
             </section>
 
+            {/* ================= DISCLAIMER ================= */}
             <section>
-              <h2 className="font-semibold text-black mb-2">
-                5. Chauffeurs &amp; Vehicles
-              </h2>
+              <h3 className="text-base sm:text-lg font-semibold text-black mb-3">
+                Disclaimer
+              </h3>
               <p>
-                RNK ensures that vehicles are maintained, insured and operated
-                by trained chauffeurs. However, delays caused by traffic,
-                weather, force majeure or external conditions shall not be
-                considered a breach of service.
+                Use of services is at the user's sole risk. Terms are updated
+                periodically and latest version applies.
               </p>
             </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                6. User Responsibilities
-              </h2>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>Provide accurate booking and contact details.</li>
-                <li>Maintain appropriate conduct during the journey.</li>
-                <li>Be responsible for personal belongings.</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                7. Limitation of Liability
-              </h2>
-              <p>
-                RNK shall not be liable for indirect, incidental or consequential
-                damages arising from the use of our services. Our liability, if
-                any, shall be limited to the value of the service booked.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                8. Intellectual Property
-              </h2>
-              <p>
-                All website content including text, visuals, logos and design
-                elements are the property of RNK and may not be copied,
-                reproduced or used without written permission.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                9. Privacy
-              </h2>
-              <p>
-                Your personal information is handled in accordance with our
-                Privacy Policy. We do not sell or misuse customer data.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                10. Governing Law
-              </h2>
-              <p>
-                These Terms &amp; Conditions are governed by the laws of India.
-                Any disputes shall be subject to the jurisdiction of Indian
-                courts.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                11. Changes to Terms
-              </h2>
-              <p>
-                RNK reserves the right to update or modify these Terms &amp;
-                Conditions at any time without prior notice. Continued use of
-                our services implies acceptance of the updated terms.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-semibold text-black mb-2">
-                12. Contact Information
-              </h2>
-              <p>
-                For any questions regarding these Terms &amp; Conditions, please
-                contact us via the details provided on our Contact page.
-              </p>
-            </section>
-
           </div>
         </div>
       </section>
