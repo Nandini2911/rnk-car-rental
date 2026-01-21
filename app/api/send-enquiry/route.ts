@@ -2,6 +2,7 @@
 
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import crypto from "crypto";
 
 export const runtime = "nodejs"; // REQUIRED for nodemailer
 
@@ -31,32 +32,48 @@ export async function POST(req: Request) {
     }
 
     // ---------------------------
-    // SMTP CONFIG (SAFE)
+    // SMTP CONFIG
     // ---------------------------
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT) || 587,
-      secure: Number(process.env.SMTP_PORT) === 465, // best practice
+      secure: Number(process.env.SMTP_PORT) === 465,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
       },
     });
 
-    // Verify SMTP connection (important)
+    // Verify SMTP connection
     await transporter.verify();
 
     // ---------------------------
-    // SEND EMAIL
+    // UNIQUE ENQUIRY ID
+    // ---------------------------
+    const enquiryId = crypto.randomUUID();
+
+    // ---------------------------
+    // SEND EMAIL (ANTI-THREADING)
     // ---------------------------
     await transporter.sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
-      to: "nandaniyadav521@gmail.com", // change to official email later
-      replyTo: email, // so you can reply directly to customer
-      subject: `New RNK Contact Enquiry — ${fullName}`,
+      to: "info@rnk.com",                // ✅ OFFICIAL EMAIL
+      replyTo: email,                    // reply goes to customer
+
+      // 🔥 UNIQUE SUBJECT (prevents Gmail grouping)
+      subject: `RNK Website Enquiry #${enquiryId.slice(0, 8)}`,
+
+      // 🔥 UNIQUE HEADERS (MOST IMPORTANT)
+      headers: {
+        "Message-ID": `<${enquiryId}@rnk.com>`,
+        "X-RNK-Enquiry-ID": enquiryId,
+        "X-Entity-Ref-ID": enquiryId,
+      },
+
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6;">
           <h2>New RNK Website Enquiry</h2>
+          <p><strong>Enquiry ID:</strong> ${enquiryId}</p>
           <hr />
 
           <p><strong>Full Name:</strong> ${fullName}</p>
@@ -76,7 +93,7 @@ export async function POST(req: Request) {
 
           <hr />
           <p style="font-size: 12px; color: #666;">
-            This enquiry was submitted from the RNK website contact form.
+            Submitted from RNK Website Contact Form
           </p>
         </div>
       `,
