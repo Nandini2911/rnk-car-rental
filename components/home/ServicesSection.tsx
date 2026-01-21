@@ -10,7 +10,7 @@ const services = [
   { title: "Hotel Operations", slug: "hotel-operations", image: "/hotel-operations.webp" },
   { title: "Vacation Rentals", slug: "vacation-rentals", image: "/vacation-rentals.webp" },
   { title: "VIP Movements", slug: "vip-movements", image: "/vip-movements.webp" },
-  { title: "Long Term Car Rental", slug: "long-term-car-rental", image: "/long_term_car_rental.webp" },
+  { title: "Long Term Car Rental", slug: "long-term-car-rental", image: "/Long_term_car_rental.webp" },
   { title: "Event / Wedding Transport", slug: "event-wedding-transport", image: "/events-wedding.webp" },
 ];
 
