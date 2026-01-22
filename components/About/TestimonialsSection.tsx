@@ -51,8 +51,8 @@ export function TestimonialsSection() {
                 </p>
 
                 <div className="mt-5">
-                  <p className="text-sm font-semibold text-white">John Doe</p>
-                  <p className="text-xs text-white/70">CEO, XYZ Corp.</p>
+                  <p className="text-sm font-semibold text-white"></p>
+                  <p className="text-xs text-white/70"></p>
                 </div>
 
                 <span className="mt-5 h-px w-12 bg-gradient-to-r from-[#A72740]/70 via-white/10 to-transparent" />
@@ -80,8 +80,8 @@ export function TestimonialsSection() {
                 </p>
 
                 <div className="mt-5">
-                  <p className="text-sm font-semibold text-white">Jane Smith</p>
-                  <p className="text-xs text-white/70">Event Manager</p>
+                  <p className="text-sm font-semibold text-white"></p>
+                  <p className="text-xs text-white/70"></p>
                 </div>
 
                 <span className="mt-5 h-px w-12 bg-gradient-to-r from-[#A72740]/70 via-white/10 to-transparent" />
@@ -109,8 +109,8 @@ export function TestimonialsSection() {
                 </p>
 
                 <div className="mt-5">
-                  <p className="text-sm font-semibold text-white">David Patel</p>
-                  <p className="text-xs text-white/70">HR Manager</p>
+                  <p className="text-sm font-semibold text-white"></p>
+                  <p className="text-xs text-white/70"></p>
                 </div>
 
                 <span className="mt-5 h-px w-12 bg-gradient-to-r from-[#A72740]/70 via-white/10 to-transparent" />
