@@ -4,7 +4,7 @@ import "./globals.css";
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "RNK Rentals",
+  title: "RNK - RAMNIRANJAN KEDIA RENT A CAR PVT LTD ",
   description: "Luxury Car Rental Website",
 };
 
