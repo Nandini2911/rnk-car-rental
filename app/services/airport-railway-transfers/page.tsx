@@ -1,4 +1,4 @@
-import LuxuryTravelPage from "../luxury-travel/LuxuryTravelClient";
+
 
 
 import type { Metadata } from "next";

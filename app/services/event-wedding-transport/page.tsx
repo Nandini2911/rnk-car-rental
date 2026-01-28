@@ -3,26 +3,25 @@
 
 import EventWeddingTransportPage from "./EventWeddingTransportClient";
 
-
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Airport & Railway Transfer Services in India | Chauffeur-Driven Transfers – RNK",
+    "Event & Wedding Transport Services in India | Chauffeur-Driven Event Mobility – RNK",
 
   description:
-    "RNK provides seamless chauffeur-driven airport and railway transfer services across India with real-time flight tracking, punctual pickups and 24/7 support.",
+    "RNK provides premium chauffeur-driven event and wedding transport services across India for weddings, VIPs, artists, crew, delegates and large-scale corporate events.",
 
   keywords: [
-    "airport transfer services india",
-    "railway station transfer service",
-    "chauffeur driven airport transfer",
-    "airport pickup and drop service india",
-    "luxury airport transfer india",
+    "event transport services india",
+    "wedding transport services india",
+    "wedding car rental with driver",
+    "chauffeur driven event transport",
+    "luxury wedding car rental india",
   ],
 
   alternates: {
-    canonical: "https://www.rnk.com/services/airport-railway-transfers",
+    canonical: "https://www.rnk.com/services/event-wedding-transport",
   },
 
   robots: {
@@ -36,29 +35,29 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://www.rnk.com/services/airport-railway-transfers",
-    title: "Airport & Railway Transfer Services in India | RNK",
+    url: "https://www.rnk.com/services/event-wedding-transport",
+    title: "Event & Wedding Transport Services in India | RNK",
     description:
-      "Stress-free chauffeur-driven airport and railway transfers across India with flight tracking, professional chauffeurs and reliable on-time service.",
+      "Elegantly managed chauffeur-driven transport for weddings, corporate events, VIP movements and large-scale celebrations across India.",
     siteName: "Ramniranjan Kedia Rent A Car Pvt. Ltd",
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-airport-transfer-og.jpg",
+        url: "https://www.rnk.com/assets/images/rnk-event-wedding-transport-og.jpg",
         width: 1200,
         height: 630,
-        alt: "RNK Airport and Railway Transfer Services",
+        alt: "RNK Chauffeur-Driven Event and Wedding Transport Services",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Airport & Railway Transfers | RNK Chauffeur-Driven Services",
+    title: "Event & Wedding Transport Services | RNK Chauffeur-Driven Mobility",
     description:
-      "Reliable chauffeur-driven airport and railway transfers across India with punctual pickups, flight tracking and 24/7 support.",
+      "Luxury chauffeur-driven transport for weddings, VIPs, artists and corporate events across India — managed with precision and hospitality.",
     images: [
-      "https://www.rnk.com/assets/images/rnk-airport-transfer-og.jpg",
+      "https://www.rnk.com/assets/images/rnk-event-wedding-transport-og.jpg",
     ],
   },
 };
