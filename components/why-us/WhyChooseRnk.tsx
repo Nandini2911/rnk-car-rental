@@ -38,7 +38,7 @@ export function WhyChooseRNK() {
             mb-10 sm:mb-12 2xl:mb-16
           "
         >
-          With over 55 years of experience, RNK Rentals delivers a premium fleet
+          With over 56 years of experience, RNK Rentals delivers a premium fleet
           and refined chauffeur-driven services for high-net-worth individuals,
           corporations, and exclusive events across 30+ cities in India.
         </motion.p>
