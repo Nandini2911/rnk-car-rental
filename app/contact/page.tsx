@@ -1,4 +1,5 @@
-import ContactPage from "@/components/ContactSection";
+import ContactClient from "./ContactClient";
+
 
 export const metadata = {
   title: "Contact Ramniranjan Kedia Rent A Car Pvt. Ltd | Mumbai Head Office",
@@ -48,5 +49,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <ContactPage/>;
+  return <ContactClient/>;
 }
