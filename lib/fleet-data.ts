@@ -178,13 +178,13 @@ export const FLEET_CARS: FleetCar[] = [
     image: "/Byd_E6_Electric_Vehicle_1.webp",
   },
 {
-    id: "kia-cares",
-    name: "Kia Cares",
+    id: "kia-carens",
+    name: "Kia Carens",
     category: "suv-muv",
     seating: "6+1",
     doors: "5",
     luggage: "2",
-    image: "/Kia_Cares_1.webp",
+    image: "/Kia_Carens_1.webp",
   },
 
   // SEDAN (3)
