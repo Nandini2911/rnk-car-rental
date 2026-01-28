@@ -2,7 +2,7 @@
 
 import { RnkFooter } from "@/components/footer";
 import OurNetwork from "@/components/OurNetwork";
-import OurNetworkMapSection from "@/components/OurNetworkMapSection";
+
 
 
 export const metadata = {
