@@ -7,10 +7,10 @@ export const metadata = {
   title: "RNK - Ramniranjan Kedia Rent a car pvt ltd",
   description:
     "Car Rental Service - Rent a car with driver for local and outstation trips. Affordable rates, well-maintained vehicles, and excellent customer service.",
-  verification: {
-    google: "jEJ-LO-XUzsR7LH9AAJZylIx16lS6GkhpoB8ixplyBc",
-  },
-};
+verification: {
+  google: "jEJ-LO-XUzsR7LH9AAJZylIx16lS6GkhpoB8ixplyBc",
+},
+  };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
