@@ -50,7 +50,7 @@ const galleryImagesMap: Record<string, string[]> = {
   "43-seater": ["/Coaches-2.webp"],
   "27-seater": ["/Coaches-3.webp"],
   "byd-E6-electric-vehicle": ["/Byd_E6_Electric_Vehicle_1.webp","/Byd_E6_Electric_Vehicle_2.webp","/Byd_E6_Electric_Vehicle_3.webp","/Byd_E6_Electric_Vehicle_4.webp","/Byd_E6_Electric_Vehicle_5.webp"],
-  "kia-cares": ["/Kia_Cares_1.webp","/Kia_Cares_2.webp","/Kia_Cares_3.webp","/Kia_Cares_4.webp"],
+  "kia-cares": ["/Kia_Carens_1.webp","/Kia_Cares_2.webp","/Kia_Cares_3.webp","/Kia_Cares_4.webp"],
 };
 
 type SpecProps = {
