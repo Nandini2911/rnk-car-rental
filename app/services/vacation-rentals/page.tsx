@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Vacation Rental Travel Services in India | Chauffeur-Driven Holiday Mobility – RNK",
+    "Vacation Travel Services in India | RNK Rentals",
 
   description:
     "RNK provides premium chauffeur-driven vacation rental travel services across India for villas, homestays and holiday stays, ensuring stress-free, comfortable and flexible mobility throughout your getaway.",

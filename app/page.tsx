@@ -9,6 +9,7 @@ import { WhyUsSection } from "@/components/home/WhyUsSection";
 import { StatsSection } from "@/components/home/StatsSection";
 import { CustomerReviewsSection } from "@/components/home/CustomerReviewsSection";
 import { ExperienceStrip } from "@/components/home/ExperienceStrip";
+import Schema from "@/components/Schema";
 
 import type { Metadata } from "next";
 
@@ -63,9 +64,86 @@ export const metadata: Metadata = {
   },
 };
 
+
+const homeSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+      "alternateName": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "logo": "https://www.rnk.com/RNK_LOGO.jpg",
+      "email": "info@rnk.com",
+      "foundingDate": "1969",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-22-43227777",
+        "contactType": "customer support",
+        "areaServed": "IN",
+        "availableLanguage": ["English","Hindi"]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rnk.com/#website",
+      "url": "https://www.rnk.com/",
+      "name": "RNK Rentals"
+    },
+    {
+      "@type": "AutoRental",
+      "@id": "https://www.rnk.com/#autorental",
+      "name": "RNK Luxury Car Rental Services",
+      "url": "https://www.rnk.com/",
+      "telephone": "+91-22-43227777",
+      "priceRange": "₹₹₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+        "addressLocality": "Mumbai",
+        "postalCode": "400025",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "280"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you provide luxury car rentals across India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, RNK provides chauffeur-driven luxury car rental services across 170+ cities in India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your cars chauffeur driven?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All RNK vehicles come with professional chauffeurs."
+          }
+        }
+      ]
+    }
+  ]
+};
+
+
 export default function HomePage() {
   return (
     <>
+     <Schema data={homeSchema} />
       <NavBar/>
       <Hero />
       <IntroSection />

@@ -4,7 +4,7 @@ import LuxuryTravelPage from "./LuxuryTravelClient";
 
 export const metadata: Metadata = {
   title:
-    "Luxury Travel Services in India | Chauffeur-Driven Premium Journeys – RNK",
+    "Luxury Travel Services in India | RNK Rentals",
 
   description:
     "RNK offers premium chauffeur-driven luxury travel services across India for holidays, weekend getaways, celebrations and personalised long-distance journeys.",

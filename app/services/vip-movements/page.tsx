@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "VIP Movement Services in India | Chauffeur-Driven Elite Mobility – RNK",
+    "VIP Movement & Executive Transport Services in India | RNK",
 
   description:
     "RNK provides discreet, protocol-ready chauffeur-driven VIP movement services across India for celebrities, CEOs, diplomats, international guests and elite personalities.",

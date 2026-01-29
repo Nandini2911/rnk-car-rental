@@ -8,6 +8,7 @@ import { WhyChooseRNK } from "@/components/why-us/WhyChooseRnk";
 import { CustomerTestimonials } from "@/components/why-us/CustomerTestimonials";
 import { FAQSection } from "@/components/why-us/FaqSection";
 import { ContactUs } from "@/components/why-us/ContactUs";
+import Schema from "@/components/Schema";
 
 export const metadata = {
   title: "Why Choose RNK Rentals | Trusted Luxury Car Rental Since 1969",
@@ -57,9 +58,64 @@ export const metadata = {
   },
 };
 
+
+
+const whyUsSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.rnk.com/why-us/#aboutpage",
+      "url": "https://www.rnk.com/why-us",
+      "name": "Why Choose RNK Rentals",
+      "description": "Discover why RNK Rentals is trusted across India for luxury chauffeur-driven car rental services since 1969, offering premium vehicles, professional chauffeurs, and tailored rental packages.",
+      "isPartOf": {
+        "@id": "https://www.rnk.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.rnk.com/#service-premium-car-rental"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.rnk.com/why-us/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.rnk.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Why Us",
+          "item": "https://www.rnk.com/why-us"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.rnk.com/#service-premium-car-rental",
+      "name": "Premium Chauffeur-Driven Car Rental Services",
+      "serviceType": "Luxury Car Rental with Chauffeur",
+      "provider": {
+        "@id": "https://www.rnk.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "description": "RNK delivers premium chauffeur-driven car rental services with luxury vehicles, transparent pricing, professional chauffeurs, flexible rental plans, and 24/7 customer support across India."
+    }
+  ]
+};
+
 export default function WhyUsPage() {
   return (
     <main className="bg-black text-white min-h-screen">
+        <Schema data={whyUsSchema} />
+        
       <NavBar/>
       <HeroSection/>
       <WhyChooseRNK/>

@@ -9,9 +9,10 @@ import { HeroSection } from "@/components/About/HeroSection";
 import { TestimonialsSection } from "@/components/About/TestimonialsSection";
 import { RnkFooter } from "@/components/footer";
 import { NavBar } from "@/components/NavBar";
+import Schema from "@/components/Schema";
 
 export const metadata = {
-  title: "About Ramniranjan Kedia Rent A Car Pvt. Ltd | Luxury Travel Since 1969",
+  title: "About RNK Rentals | Luxury Chauffeur Car Rental Since 1969",
   description:
     "Learn about Ramniranjan Kedia Rent A Car Pvt. Ltd, a trusted luxury chauffeur-driven car rental company since 1969, operating across 170+ cities in India.",
   keywords: [
@@ -58,9 +59,77 @@ export const metadata = {
   },
 };
 
+
+const AboutSchema={
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.rnk.com/about/#aboutpage",
+      "url": "https://www.rnk.com/about",
+      "name": "About RNK Rentals",
+      "description": "RNK Rentals is a luxury chauffeur-driven car rental company founded in 1969 in Mumbai, now operating across 170+ cities in India and trusted by corporates, government bodies, and premium travelers.",
+      "isPartOf": {
+        "@id": "https://www.rnk.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.rnk.com/#organization"
+      }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.rnk.com/about/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.rnk.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://www.rnk.com/about"
+        }
+      ]
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd."
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.rnk.com/#ramniranjan-kedia",
+      "name": "Ramniranjan Kedia",
+      "jobTitle": "Founder",
+      "worksFor": {
+        "@id": "https://www.rnk.com/#organization"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://www.rnk.com/#kamal-kedia",
+      "name": "Kamal Kedia",
+      "jobTitle": "Co-Founder",
+      "worksFor": {
+        "@id": "https://www.rnk.com/#organization"
+      }
+    }
+  ]
+}
+
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-black text-white">
+
+       <Schema data={AboutSchema} />
       <NavBar/>
       <HeroSection />
       <HeritageSection />

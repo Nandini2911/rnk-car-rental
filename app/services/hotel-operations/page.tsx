@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Hotel Operations Mobility Services in India | Chauffeur-Driven Hotel Transport – RNK",
+    "Hotel Mobility & Transport Services in India | RNK Rentals",
 
   description:
     "RNK provides integrated chauffeur-driven hotel operations mobility services across India for hotels, resorts and serviced residences, covering guests, staff and VIP movements.",

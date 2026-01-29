@@ -6,7 +6,7 @@ import AirportRailwayTransfersPage from "./AirportRailwayTransfersclient";
 
 export const metadata: Metadata = {
   title:
-    "Airport & Railway Transfer Services in India | Chauffeur-Driven Transfers – RNK",
+    "Airport & Railway Transfer Services in India | RNK Rentals",
 
   description:
     "RNK provides seamless chauffeur-driven airport and railway transfer services across India with real-time flight and train tracking, punctual pickups and 24/7 support.",
