@@ -31,7 +31,7 @@ const CITIES: City[] = [
   { name: "Ahmedabad" },
   { name: "Bhopal" },
   { name: "Surat" },
-  { name: "Nagpur" },
+  { name: "nagpur" },
   { name: "Chandigarh" },
   { name: "Madurai" },
   { name: "Visakhapatnam" },
