@@ -1,6 +1,9 @@
 import Fleet from "@/components/Fleet";
 import Schema from "@/components/Schema";
 
+
+
+
 export const metadata = {
   title: "Luxury Chauffeur-Driven Car Fleet in India | RNK Rentals",
   description:

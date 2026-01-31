@@ -16,6 +16,7 @@ import {
   Fuel,
   UserCheck,
 } from "lucide-react";
+import Schema from "@/components/Schema";
 
 // Optional: multi-image gallery per car (fill with your real paths)
 const today = new Date().toISOString().split("T")[0];
@@ -57,7 +58,63 @@ type SpecProps = {
   label: string;
   value: string;
 };
+function getCarSchema(car: any, category: any) {
+  const baseUrl = "https://www.rnk.com";
+  const pageUrl = `${baseUrl}/fleet/${car.id}`;
 
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        "url": pageUrl,
+        "name": `${car.name} Chauffeur-Driven Car | RNK Rentals`,
+        "description": `${car.name} chauffeur-driven car available for corporate travel, airport transfers, weddings, events and VIP movements.`,
+        "isPartOf": {
+          "@id": `${baseUrl}/#website`
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": `${pageUrl}#service`,
+        "name": `${car.name} Chauffeur-Driven Car Rental`,
+        "serviceType": "Chauffeur-Driven Car Rental",
+        "provider": {
+          "@id": `${baseUrl}/#organization`
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        },
+        "availableVehicle": {
+          "@type": "Vehicle",
+          "name": car.name,
+          "vehicleConfiguration": "Chauffeur Driven",
+          "seatingCapacity": car.seating,
+          "numberOfDoors": car.doors,
+          "additionalProperty": [
+            {
+              "@type": "PropertyValue",
+              "name": "Category",
+              "value": category?.label
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Luggage Capacity",
+              "value": car.luggage
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Chauffeur",
+              "value": "Included"
+            }
+          ]
+        }
+      }
+    ]
+  };
+}
 function Spec({ label, value }: SpecProps) {
   return (
     <motion.div
@@ -211,11 +268,17 @@ export default function CarDetailPage() {
       </main>
     );
   }
+// ✅ DEFINE ONCE
+const category = CATEGORIES.find((c) => c.id === car.category);
 
-  const category = CATEGORIES.find((c) => c.id === car.category);
+// ✅ USE IT
+const carSchema = getCarSchema(car, category);
+
+ 
 
   return (
     <main className="min-h-screen bg-black text-white">
+            <Schema data={carSchema} />
       <NavBar />
       {/* HERO */}
       {/* HERO */}
