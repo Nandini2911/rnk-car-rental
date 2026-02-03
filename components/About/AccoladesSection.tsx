@@ -20,7 +20,7 @@ export function AccoladesSection() {
             Trust. Excellence. Comfort.
           </p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-red-900">
-            RNK's 54-year Legacy of Excellence
+            RNK's 56-year Legacy of Excellence
           </h2>
           <p className="text-sm md:text-[15px] text-black/70 leading-relaxed text-justify mb-6">
             Throughout its 54-year journey, RNK consistently surpassed expectations and garnered accolades from various segments of society. Their clientele included top-notch business houses, entertainment and event management companies, banks, multinationals, financial institutions, and diplomatic missions. 

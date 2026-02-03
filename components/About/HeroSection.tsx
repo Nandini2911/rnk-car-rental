@@ -88,7 +88,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            Over 55 years of excellence, serving 170+ cities and trusted by
+            Over 56 years of excellence, serving 170+ cities and trusted by
             corporates and travelers.
           </motion.p>
 

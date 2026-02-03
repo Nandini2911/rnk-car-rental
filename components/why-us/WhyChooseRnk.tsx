@@ -40,7 +40,7 @@ export function WhyChooseRNK() {
         >
           With over 56 years of experience, RNK Rentals delivers a premium fleet
           and refined chauffeur-driven services for high-net-worth individuals,
-          corporations, and exclusive events across 30+ cities in India.
+          corporations, and exclusive events across 170+ cities in India.
         </motion.p>
 
         {/* Features */}
@@ -56,7 +56,7 @@ export function WhyChooseRNK() {
             },
             {
               title: "Nationwide Coverage",
-              desc: "Operations across 30+ cities, delivering consistent service wherever your journey takes you.",
+              desc: "Operations across 170+ cities, delivering consistent service wherever your journey takes you.",
             },
           ].map((item, i) => (
             <motion.div
