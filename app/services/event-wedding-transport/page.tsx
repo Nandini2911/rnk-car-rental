@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-event-wedding-transport-og.jpg",
+        url: "/og-event.webp",
         width: 1200,
         height: 630,
         alt: "RNK Chauffeur-Driven Event and Wedding Transport Services",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     description:
       "Luxury chauffeur-driven transport for weddings, VIPs, artists and corporate events across India — managed with precision and hospitality.",
     images: [
-      "https://www.rnk.com/assets/images/rnk-event-wedding-transport-og.jpg",
+      "/twitter-event.webp",
     ],
   },
 };
@@ -67,122 +67,191 @@ const EventWeddingRentSchema=
 {
   "@context": "https://schema.org",
   "@graph": [
-
+    {
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+      "alternateName": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "email": "info@rnk.com",
+      "foundingDate": "1969",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.rnk.com/#logo",
+        "url": "https://www.rnk.com/RNK_LOGO.jpg"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/rnk-rentals",
+        "https://www.instagram.com/rnkrentals"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rnk.com/#website",
+      "url": "https://www.rnk.com/",
+      "name": "RNK Rentals",
+      "publisher": {
+        "@id": "https://www.rnk.com/#organization"
+      }
+    },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/services/event-wedding-transport/#webpage",
-      "url": "https://www.rnk.com/services/event-wedding-transport",
-      "name": "Event & Wedding Transport Services | RNK Rentals",
+      "@id": "https://www.rnk.com/event-wedding-transport/#webpage",
+      "url": "https://www.rnk.com/event-wedding-transport",
+      "name": "Event & Wedding Transport - RNK Rentals",
+      "description": "Premium, punctual, and elegantly managed transport for weddings, VIPs, artists, crew, delegates, and large-scale corporate events by RNK Rentals.",
       "isPartOf": {
         "@id": "https://www.rnk.com/#website"
       },
       "about": {
-        "@id": "https://www.rnk.com/services/event-wedding-transport/#service"
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.rnk.com/#logo"
       }
     },
-
     {
-      "@type": "Service",
-      "@id": "https://www.rnk.com/services/event-wedding-transport/#service",
-      "name": "Event & Wedding Transport Services",
-      "serviceType": "Chauffeur-Driven Event and Wedding Mobility",
-      "description": "Premium chauffeur-driven transport solutions for weddings, corporate events, exhibitions, conferences, artists, VIPs and large-scale celebrations. RNK manages guest logistics, luxury fleets, event schedules and on-ground coordination to deliver flawless, punctual and elegant event mobility across India.",
-      "provider": {
-        "@id": "https://www.rnk.com/#organization"
-      },
-      "audience": {
-        "@type": "Audience",
-        "name": "Wedding Families, Event Organisers, Corporates, Artists and VIP Guests"
+      "@type": "LocalBusiness",
+      "@id": "https://www.rnk.com/#localbusiness",
+      "name": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "telephone": "+91-22-43227777",
+      "priceRange": "\u20b9\u20b9\u20b9\u20b9",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+        "addressLocality": "Mumbai",
+        "postalCode": "400025",
+        "addressCountry": "IN"
       },
       "areaServed": {
         "@type": "Country",
         "name": "India"
       },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Event & Wedding Mobility Solutions",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Luxury Wedding Cars for Bride and Groom Entry"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Guest Pickup and Drop Coordination Across Venues"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "VIP, Celebrity and Artist Movements"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Corporate Events, Conferences and Exhibitions Transport"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Shuttle Services and Group Transport"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Multi-Day Destination Wedding and Event Operations"
-            }
-          }
-        ]
-      }
-    },
-
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.rnk.com/services/event-wedding-transport/#breadcrumb",
-      "itemListElement": [
+      "parentOrganization": {
+        "@id": "https://www.rnk.com/#organization"
+      },
+      "openingHoursSpecification": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.rnk.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://www.rnk.com/services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Event / Wedding Transport",
-          "item": "https://www.rnk.com/services/event-wedding-transport"
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
         }
       ]
     },
-
+    {
+      "@type": "Service",
+      "@id": "https://www.rnk.com/event-wedding-transport/#service",
+      "name": "Event and Wedding Transport Service",
+      "description": "RNK Rentals provides seamless, chauffeur-driven luxury transport for weddings, corporate events, exhibitions, conferences, and VIP gatherings across India.",
+      "provider": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Mumbai"
+        },
+        {
+          "@type": "City",
+          "name": "Delhi"
+        },
+        {
+          "@type": "City",
+          "name": "Chennai"
+        },
+        {
+          "@type": "City",
+          "name": "Bangalore"
+        },
+        {
+          "@type": "City",
+          "name": "Kolkata"
+        },
+        {
+          "@type": "City",
+          "name": "Hyderabad"
+        },
+        {
+          "@type": "City",
+          "name": "Pune"
+        },
+        {
+          "@type": "City",
+          "name": "Ahmedabad"
+        },
+        {
+          "@type": "City",
+          "name": "Vadodara"
+        },
+        {
+          "@type": "City",
+          "name": "Indore"
+        },
+        {
+          "@type": "City",
+          "name": "Bhopal"
+        },
+        {
+          "@type": "City",
+          "name": "Jaipur"
+        },
+        {
+          "@type": "City",
+          "name": "Lucknow"
+        },
+        {
+          "@type": "City",
+          "name": "Chandigarh"
+        },
+        {
+          "@type": "City",
+          "name": "Goa"
+        },
+        {
+          "@type": "City",
+          "name": "Kochi"
+        },
+        {
+          "@type": "City",
+          "name": "Guwahati"
+        },
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        }
+      ],
+      "serviceType": [
+        "Wedding Transport",
+        "Event Transport",
+        "VIP Movement Management",
+        "Artist & Crew Transport",
+        "Delegate Transport",
+        "Corporate Event Transport",
+        "Exhibition Transport",
+        "Conference Transport",
+        "Shuttle Services"
+      ]
+    },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/services/event-wedding-transport/#faq",
+      "@id": "https://www.rnk.com/event-wedding-transport/#faq",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "Do you provide wedding cars for groom and bride entry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK provides premium sedans, SUVs and luxury cars for grand bride and groom entries during wedding celebrations."
+            "text": "Yes. We offer premium sedans, SUVs and luxury cars for grand bridal and groom entries."
           }
         },
         {
@@ -190,7 +259,7 @@ const EventWeddingRentSchema=
           "name": "Can you handle large guest logistics for multi-day weddings?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK specialises in managing large guest movements for multi-day weddings with coordinated fleets, schedules and on-ground supervisors."
+            "text": "Yes, RNK specializes in seamless multi-day operations for destination weddings, exhibitions, shoots, or summits, managing constant movement of guests, VIPs, and team members."
           }
         },
         {
@@ -198,7 +267,7 @@ const EventWeddingRentSchema=
           "name": "Do you provide shuttle services for events?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK offers shuttle services and group transport solutions for weddings, corporate events, exhibitions and conferences."
+            "text": "Yes, RNK provides shuttle services for events, ensuring efficient and comfortable transportation for guests and attendees."
           }
         },
         {
@@ -206,12 +275,11 @@ const EventWeddingRentSchema=
           "name": "Are your chauffeurs trained for VIP and celebrity movements?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK chauffeurs are trained in premium hospitality, discretion, event protocol and VIP or celebrity movement handling."
+            "text": "Yes, our chauffeurs are trained for hospitality, premium guest handling, event protocol, and specifically for VIP and celebrity movements, ensuring discretion and professionalism."
           }
         }
       ]
     }
-
   ]
 }
 

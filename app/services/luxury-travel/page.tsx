@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-luxury-travel-og.jpg",
+        url: "/og-luxury-travel.webp",
         width: 1200,
         height: 630,
         alt: "RNK Luxury Chauffeur-Driven Travel Services",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description:
       "Experience premium chauffeur-driven luxury travel across India with personalised routes, comfort-first vehicles and 24/7 support.",
     images: [
-      "https://www.rnk.com/assets/images/rnk-luxury-travel-og.jpg",
+      "/twitter-luxury-travel.webp",
     ],
   },
 };
@@ -65,40 +65,110 @@ const LuxuryTravelSchema=
 {
   "@context": "https://schema.org",
   "@graph": [
-
-    {
-      "@type": "WebPage",
-      "@id": "https://www.rnk.com/services/luxury-travel/#webpage",
-      "url": "https://www.rnk.com/services/luxury-travel",
-      "name": "Luxury Travel Services | RNK Rentals",
-      "isPartOf": {
-        "@id": "https://www.rnk.com/#website"
-      },
-      "about": {
-        "@id": "https://www.rnk.com/services/luxury-travel/#service"
-      }
-    },
-
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/services/luxury-travel/#service",
-      "name": "Luxury Travel Services",
-      "serviceType": "Premium Chauffeur-Driven Luxury Travel",
-      "description": "Premium chauffeur-driven luxury travel services designed for holidays, weekend getaways, celebrations and personalised long-distance journeys. RNK curates refined travel experiences focused on comfort, privacy and elegance across India.",
+      "name": "Luxury Travel RNK - Premium Chauffeur-Driven Experiences",
+      "description": "Premium chauffeur-driven experiences curated for holidays, celebrations, weekend getaways and personalised luxury trips across India. RNK ensures every drive feels premium, private and unforgettable. Our services include chauffeur-driven sedans, SUVs, and luxury cars like BMW, Mercedes, and Audi, with features such as professional chauffeurs, GPS tracking, VIP-grade comfort, and 24/7 concierge support.",
+      "serviceType": "Luxury Chauffeur Service",
       "provider": {
-        "@id": "https://www.rnk.com/#organization"
+        "@type": "Organization",
+        "name": "RNK Rentals",
+        "legalName": "RAMNIRANJAN KEDIA RENT A CAR PRIVATE LIMITED",
+        "url": "https://www.rnk.com",
+        "logo": "/og-luxury-travel.webp",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-22-43227777",
+          "contactType": "customer service",
+          "email": "info@rnk.com"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+          "addressLocality": "Mumbai",
+          "addressRegion": "MH",
+          "postalCode": "400025",
+          "addressCountry": "IN"
+        }
       },
-      "audience": {
-        "@type": "Audience",
-        "name": "Leisure Travellers, Families, Couples and VIP Guests"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Mumbai"
+        },
+        {
+          "@type": "City",
+          "name": "Delhi"
+        },
+        {
+          "@type": "City",
+          "name": "Chennai"
+        },
+        {
+          "@type": "City",
+          "name": "Bangalore"
+        },
+        {
+          "@type": "City",
+          "name": "Kolkata"
+        },
+        {
+          "@type": "City",
+          "name": "Hyderabad"
+        },
+        {
+          "@type": "City",
+          "name": "Pune"
+        },
+        {
+          "@type": "City",
+          "name": "Ahmedabad"
+        },
+        {
+          "@type": "City",
+          "name": "Vadodara"
+        },
+        {
+          "@type": "City",
+          "name": "Indore"
+        },
+        {
+          "@type": "City",
+          "name": "Bhopal"
+        },
+        {
+          "@type": "City",
+          "name": "Jaipur"
+        },
+        {
+          "@type": "City",
+          "name": "Lucknow"
+        },
+        {
+          "@type": "City",
+          "name": "Chandigarh"
+        },
+        {
+          "@type": "City",
+          "name": "Goa"
+        },
+        {
+          "@type": "City",
+          "name": "Kochi"
+        },
+        {
+          "@type": "City",
+          "name": "Guwahati"
+        },
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        }
+      ],
+      "url": "https://www.rnk.com/services/luxury-travel",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Luxury Travel Experiences",
+        "name": "RNK Luxury Travel Solutions",
         "itemListElement": [
           {
             "@type": "Offer",
@@ -132,6 +202,13 @@ const LuxuryTravelSchema=
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
+              "name": "Road Trips & Personalised Routes"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
               "name": "Premium Outstation Travel"
             }
           },
@@ -139,22 +216,71 @@ const LuxuryTravelSchema=
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "VIP and Celebrity Travel Movements"
+              "name": "VIP & Celebrity Travel Movements"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Destination-Led Luxury Itineraries"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Chauffeur-Assisted Sightseeing & Leisure Travel"
             }
           }
         ]
       }
     },
-
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I customise my travel route?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer personalised itineraries, scenic routes and custom stopovers for your luxury journey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide luxury cars for long-distance travel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our fleet includes chauffeur-driven sedans, SUVs and luxury cars, each maintained for smooth, quiet and comfortable long journeys."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are chauffeurs trained for premium travel experiences?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our trained chauffeurs prioritise etiquette, safety and privacy to ensure a refined travel experience for solo travellers, families and VIP guests."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I book for weekend getaways?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, RNK offers luxury travel solutions designed for weekend escapes, long-distance journeys, romantic drives, family holidays, and more."
+          }
+        }
+      ]
+    },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.rnk.com/services/luxury-travel/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.rnk.com/"
+          "item": "https://www.rnk.com"
         },
         {
           "@type": "ListItem",
@@ -169,47 +295,7 @@ const LuxuryTravelSchema=
           "item": "https://www.rnk.com/services/luxury-travel"
         }
       ]
-    },
-
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.rnk.com/services/luxury-travel/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Can I customise my travel route?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. RNK offers personalised itineraries, scenic routes and custom stopovers tailored to your luxury travel preferences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide luxury cars for long-distance travel?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. RNK provides premium chauffeur-driven sedans, SUVs and luxury vehicles designed for comfortable and refined long-distance journeys."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are chauffeurs trained for premium travel experiences?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. RNK chauffeurs are professionally trained in etiquette, safety, privacy and long-distance travel protocols."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I book luxury travel for weekend getaways?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. RNK offers luxury travel services for weekend getaways, holidays and short premium escapes."
-          }
-        }
-      ]
     }
-
   ]
 }
 

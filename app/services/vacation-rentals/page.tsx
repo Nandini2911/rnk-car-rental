@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-vacation-rentals-og.jpg",
+        url: "/og-vacation-rental_converted.webp",
         width: 1200,
         height: 630,
         alt: "RNK Chauffeur-Driven Vacation Rental Travel Services",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     description:
       "Premium chauffeur-driven travel for villas, homestays and holiday rentals across India. Relax and enjoy your getaway while RNK handles every ride.",
     images: [
-      "https://www.rnk.com/assets/images/rnk-vacation-rentals-og.jpg",
+      "/twitter-vaction-travel.webp",
     ],
   },
 };
@@ -64,122 +64,134 @@ const VacationReantalSchema=
 {
   "@context": "https://schema.org",
   "@graph": [
-
+    {
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+      "alternateName": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "email": "info@rnk.com",
+      "foundingDate": "1969",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.rnk.com/#logo",
+        "url": "https://www.rnk.com/RNK_LOGO.jpg"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/rnk-rentals",
+        "https://www.instagram.com/rnkrentals"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rnk.com/#website",
+      "url": "https://www.rnk.com/",
+      "name": "RNK Rentals",
+      "publisher": {
+        "@id": "https://www.rnk.com/#organization"
+      }
+    },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#webpage",
-      "url": "https://www.rnk.com/services/vacation-rentals",
-      "name": "Vacation Rentals Travel Services | RNK Rentals",
+      "@id": "https://www.rnk.com/vacation-rentals/#webpage",
+      "url": "https://www.rnk.com/vacation-rentals",
+      "name": "Vacation Rentals Travel - RNK Rentals",
+      "description": "Chauffeur-driven cars for villas, homestays and holiday rentals — so your getaway starts the moment you leave home. Premium mobility for stress-free vacation stays.",
       "isPartOf": {
         "@id": "https://www.rnk.com/#website"
       },
       "about": {
-        "@id": "https://www.rnk.com/services/vacation-rentals/#service"
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.rnk.com/#logo"
       }
     },
-
     {
-      "@type": "Service",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#service",
-      "name": "Vacation Rentals Travel Services",
-      "serviceType": "Chauffeur-Driven Vacation Rental Mobility",
-      "description": "Premium chauffeur-driven travel services designed for villas, homestays and holiday rentals. RNK manages airport transfers, local sightseeing, on-call cars and multi-day holiday mobility so your vacation travel stays effortless across India.",
-      "provider": {
-        "@id": "https://www.rnk.com/#organization"
-      },
-      "audience": {
-        "@type": "Audience",
-        "name": "Families, Leisure Travellers, Groups and Holiday Guests"
+      "@type": "LocalBusiness",
+      "@id": "https://www.rnk.com/#localbusiness",
+      "name": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "telephone": "+91-22-43227777",
+      "priceRange": "₹₹₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+        "addressLocality": "Mumbai",
+        "postalCode": "400025",
+        "addressCountry": "IN"
       },
       "areaServed": {
         "@type": "Country",
         "name": "India"
       },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Vacation Rental Mobility Solutions",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Airport and Station to Vacation Rental Transfers"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "On-Call Cars During Entire Stay"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Full-Day Cars for Sightseeing and Local Travel"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Family and Group Holiday Travel"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Late-Night Pick-ups and Flexible Timings"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Multi-Day and Multi-City Holiday Journeys"
-            }
-          }
-        ]
-      }
-    },
-
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#breadcrumb",
-      "itemListElement": [
+      "parentOrganization": {
+        "@id": "https://www.rnk.com/#organization"
+      },
+      "openingHoursSpecification": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.rnk.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://www.rnk.com/services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Vacation Rentals",
-          "item": "https://www.rnk.com/services/vacation-rentals"
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
         }
       ]
     },
-
+    {
+      "@type": "Service",
+      "@id": "https://www.rnk.com/vacation-rentals/#service",
+      "name": "Vacation Rentals Travel Service",
+      "description": "RNK Rentals provides premium chauffeur-driven cars for villas, homestays, and holiday rentals. Our services cover airport/station transfers, on-call cars during stays, sightseeing, and group movements across India.",
+      "provider": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Mumbai" },
+        { "@type": "City", "name": "Delhi" },
+        { "@type": "City", "name": "Chennai" },
+        { "@type": "City", "name": "Bangalore" },
+        { "@type": "City", "name": "Kolkata" },
+        { "@type": "City", "name": "Hyderabad" },
+        { "@type": "City", "name": "Pune" },
+        { "@type": "City", "name": "Ahmedabad" },
+        { "@type": "City", "name": "Vadodara" },
+        { "@type": "City", "name": "Indore" },
+        { "@type": "City", "name": "Bhopal" },
+        { "@type": "City", "name": "Jaipur" },
+        { "@type": "City", "name": "Lucknow" },
+        { "@type": "City", "name": "Chandigarh" },
+        { "@type": "City", "name": "Goa" },
+        { "@type": "City", "name": "Kochi" },
+        { "@type": "City", "name": "Guwahati" },
+        { "@type": "City", "name": "Bhubaneswar" }
+      ],
+      "serviceType": [
+        "Vacation Rental Transfers",
+        "Villa & Homestay Chauffeur Service",
+        "Holiday Sightseeing Travel",
+        "Airport to Vacation Rental Pickups",
+        "Multi-day Holiday Journeys",
+        "On-call Vacation Mobility"
+      ]
+    },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#faq",
+      "@id": "https://www.rnk.com/vacation-rentals/#faq",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "Can you coordinate directly with our villa or homestay host?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK can coordinate routes, locations and arrival timings directly with your villa or homestay host to ensure smooth check-ins."
+            "text": "Yes. We can coordinate routes, locations and timings directly with your host or property manager for smooth arrivals."
           }
         },
         {
@@ -187,7 +199,7 @@ const VacationReantalSchema=
           "name": "Do you provide cars for the full duration of our stay?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK offers on-call chauffeur-driven cars for the entire duration of your vacation stay, including hourly and daily rental options."
+            "text": "Yes, we offer on-call cars and flexible hourly or daily rental options for the entire duration of your vacation stay."
           }
         },
         {
@@ -195,7 +207,7 @@ const VacationReantalSchema=
           "name": "Can you handle late-night drops back to the villa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK supports late-night and flexible pick-ups and drop-offs throughout your vacation."
+            "text": "Yes, our chauffeurs are available for late-night pick-ups from restaurants, clubs, or events to ensure you return safely to your villa."
           }
         },
         {
@@ -203,12 +215,11 @@ const VacationReantalSchema=
           "name": "Is it possible to cover multiple destinations in one holiday?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK designs multi-destination and multi-city holiday travel plans tailored to your itinerary and comfort preferences."
+            "text": "Yes, we specialize in multi-day, multi-city holiday journeys, allowing you to explore multiple destinations with a dedicated chauffeur."
           }
         }
       ]
     }
-
   ]
 }
 

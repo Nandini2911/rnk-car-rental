@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-airport-transfer-og.jpg",
+        url: "/og-airport-transfer.webp",
         width: 1200,
         height: 630,
         alt: "RNK Airport and Railway Transfer Services",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     description:
       "Reliable chauffeur-driven airport and railway transfers across India with punctual pickups, flight tracking and 24/7 support.",
     images: [
-      "https://www.rnk.com/assets/images/rnk-airport-transfer-og.jpg",
+      "/twitter-airport-transfer_converted.webp",
     ],
   },
 };

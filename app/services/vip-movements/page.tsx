@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-vip-movements-og.jpg",
+        url: "/og-vip_converted.webp",
         width: 1200,
         height: 630,
         alt: "RNK Chauffeur-Driven VIP Movement Services",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     description:
       "Protocol-ready, confidential chauffeur-driven VIP travel across India for celebrities, CEOs and high-profile movements.",
     images: [
-      "https://www.rnk.com/assets/images/rnk-vip-movements-og.jpg",
+      "/twitter-vip.webp",
     ],
   },
 };
@@ -66,153 +66,165 @@ const VipMomentsSchema=
 {
   "@context": "https://schema.org",
   "@graph": [
-
+    {
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+      "alternateName": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "email": "info@rnk.com",
+      "foundingDate": "1969",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.rnk.com/#logo",
+        "url": "https://www.rnk.com/RNK_LOGO.jpg"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/rnk-rentals",
+        "https://www.instagram.com/rnkrentals"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rnk.com/#website",
+      "url": "https://www.rnk.com/",
+      "name": "RNK Rentals",
+      "publisher": {
+        "@id": "https://www.rnk.com/#organization"
+      }
+    },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#webpage",
-      "url": "https://www.rnk.com/services/vacation-rentals",
-      "name": "Vacation Rentals Travel Services | RNK Rentals",
+      "@id": "https://www.rnk.com/vip-movements/#webpage",
+      "url": "https://www.rnk.com/vip-movements",
+      "name": "VIP Movements - RNK Rentals",
+      "description": "Precision-managed, confidential, chauffeur-driven travel for celebrities, CEOs, diplomats, international guests and elite personalities. Protocol-ready precision for high-profile clients.",
       "isPartOf": {
         "@id": "https://www.rnk.com/#website"
       },
       "about": {
-        "@id": "https://www.rnk.com/services/vacation-rentals/#service"
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.rnk.com/#logo"
       }
     },
-
     {
-      "@type": "Service",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#service",
-      "name": "Vacation Rentals Travel Services",
-      "serviceType": "Chauffeur-Driven Vacation Rental Mobility",
-      "description": "Premium chauffeur-driven travel services designed for villas, homestays and holiday rentals. RNK manages airport transfers, local sightseeing, on-call cars and multi-day holiday mobility so your vacation travel stays effortless across India.",
-      "provider": {
-        "@id": "https://www.rnk.com/#organization"
-      },
-      "audience": {
-        "@type": "Audience",
-        "name": "Families, Leisure Travellers, Groups and Holiday Guests"
+      "@type": "LocalBusiness",
+      "@id": "https://www.rnk.com/#localbusiness",
+      "name": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "telephone": "+91-22-43227777",
+      "priceRange": "₹₹₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+        "addressLocality": "Mumbai",
+        "postalCode": "400025",
+        "addressCountry": "IN"
       },
       "areaServed": {
         "@type": "Country",
         "name": "India"
       },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Vacation Rental Mobility Solutions",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Airport and Station to Vacation Rental Transfers"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "On-Call Cars During Entire Stay"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Full-Day Cars for Sightseeing and Local Travel"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Family and Group Holiday Travel"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Late-Night Pick-ups and Flexible Timings"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Multi-Day and Multi-City Holiday Journeys"
-            }
-          }
-        ]
-      }
-    },
-
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#breadcrumb",
-      "itemListElement": [
+      "parentOrganization": {
+        "@id": "https://www.rnk.com/#organization"
+      },
+      "openingHoursSpecification": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.rnk.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://www.rnk.com/services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Vacation Rentals",
-          "item": "https://www.rnk.com/services/vacation-rentals"
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
         }
       ]
     },
-
+    {
+      "@type": "Service",
+      "@id": "https://www.rnk.com/vip-movements/#service",
+      "name": "VIP Movements Service",
+      "description": "RNK Rentals provides elite chauffeur-driven travel for celebrities, CEOs, and diplomats. Our services include airport receptions, multi-vehicle convoys, backstage entries, and event-to-venue schedules with protocol-ready precision.",
+      "provider": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Mumbai" },
+        { "@type": "City", "name": "Delhi" },
+        { "@type": "City", "name": "Chennai" },
+        { "@type": "City", "name": "Bangalore" },
+        { "@type": "City", "name": "Kolkata" },
+        { "@type": "City", "name": "Hyderabad" },
+        { "@type": "City", "name": "Pune" },
+        { "@type": "City", "name": "Ahmedabad" },
+        { "@type": "City", "name": "Vadodara" },
+        { "@type": "City", "name": "Indore" },
+        { "@type": "City", "name": "Bhopal" },
+        { "@type": "City", "name": "Jaipur" },
+        { "@type": "City", "name": "Lucknow" },
+        { "@type": "City", "name": "Chandigarh" },
+        { "@type": "City", "name": "Goa" },
+        { "@type": "City", "name": "Kochi" },
+        { "@type": "City", "name": "Guwahati" },
+        { "@type": "City", "name": "Bhubaneswar" }
+      ],
+      "serviceType": [
+        "Celebrity Chauffeur Service",
+        "CEO & Executive Mobility",
+        "Diplomatic Travel Coordination",
+        "Multi-Vehicle VIP Convoys",
+        "Film Shoot Logistics",
+        "Confidential Meeting Transfers"
+      ]
+    },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/services/vacation-rentals/#faq",
+      "@id": "https://www.rnk.com/vip-movements/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can you coordinate directly with our villa or homestay host?",
+          "name": "Do you handle celebrity and VIP movements?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK can coordinate routes, locations and arrival timings directly with your villa or homestay host to ensure smooth check-ins."
+            "text": "Yes. RNK manages celebrity movements, backstage transfers, airport receptions and high-profile event logistics with protocol-ready precision."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you provide cars for the full duration of our stay?",
+          "name": "Is my travel kept confidential?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK offers on-call chauffeur-driven cars for the entire duration of your vacation stay, including hourly and daily rental options."
+            "text": "Yes, confidentiality is non-negotiable. We provide discreet travel solutions ideal for public figures, film shoots, and confidential visits."
           }
         },
         {
           "@type": "Question",
-          "name": "Can you handle late-night drops back to the villa?",
+          "name": "Can you provide multi-car convoys?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK supports late-night and flexible pick-ups and drop-offs throughout your vacation."
+            "text": "Yes, we coordinate multi-vehicle convoys for delegations, large VIP groups, and escort-managed movements across all major Indian cities."
           }
         },
         {
           "@type": "Question",
-          "name": "Is it possible to cover multiple destinations in one holiday?",
+          "name": "Are chauffeurs trained for VIP etiquette?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. RNK designs multi-destination and multi-city holiday travel plans tailored to your itinerary and comfort preferences."
+            "text": "Our chauffeurs undergo specialized training in VIP etiquette, red-carpet handling, and security-sensitive protocols to ensure a polished guest experience."
           }
         }
       ]
     }
-
   ]
 }
+
 
 
 export default function Page() {
