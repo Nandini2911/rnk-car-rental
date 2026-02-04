@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "RNK - RAMNIRANJAN KEDIA RENT A CAR PRIVATE LIMITED",
     images: [
       {
-        url: "https://rnk.com/og-image.jpg",
+        url: "/og-home-page.webp",
         width: 1200,
         height: 630,
         alt: "RNK Rentals Luxury Chauffeur Driven Car Fleet",
@@ -60,12 +60,12 @@ export const metadata: Metadata = {
     title: "Luxury Car Rental & Chauffeur Service in India | RNK Rentals",
     description:
       "Premium chauffeur-driven luxury car rental across India. Trusted since 1969 for corporate, airport, VIP and wedding travel.",
-    images: ["https://rnk.com/og-image.jpg"],
+    images: ["/twitter-home-page (1).webp"],
   },
 };
+const homeSchema=
+{
 
-
-const homeSchema = {
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -74,27 +74,58 @@ const homeSchema = {
       "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
       "alternateName": "RNK Rentals",
       "url": "https://www.rnk.com/",
-      "logo": "https://www.rnk.com/RNK_LOGO.jpg",
       "email": "info@rnk.com",
       "foundingDate": "1969",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-22-43227777",
-        "contactType": "customer support",
-        "areaServed": "IN",
-        "availableLanguage": ["English","Hindi"]
-      }
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.rnk.com/#logo",
+        "url": "https://www.rnk.com/RNK_LOGO.jpg",
+        "width": 600,
+        "height": 200
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-22-43227777",
+          "contactType": "customer support",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"],
+          "email": "info@rnk.com"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/rnk-rentals",
+        "https://www.instagram.com/rnkrentals"
+      ]
     },
     {
       "@type": "WebSite",
       "@id": "https://www.rnk.com/#website",
       "url": "https://www.rnk.com/",
-      "name": "RNK Rentals"
+      "name": "RNK Rentals",
+      "publisher": {
+        "@id": "https://www.rnk.com/#organization"
+      }
     },
     {
-      "@type": "AutoRental",
-      "@id": "https://www.rnk.com/#autorental",
-      "name": "RNK Luxury Car Rental Services",
+      "@type": "WebPage",
+      "@id": "https://www.rnk.com/#webpage",
+      "url": "https://www.rnk.com/",
+      "name": "RNK Rentals",
+      "isPartOf": {
+        "@id": "https://www.rnk.com/#website"
+      },
+      "about": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.rnk.com/#logo"
+      }
+    },
+    {
+      "@type": ["LocalBusiness", "AutoRental"],
+      "@id": "https://www.rnk.com/#localbusiness",
+      "name": "RNK Rentals",
       "url": "https://www.rnk.com/",
       "telephone": "+91-22-43227777",
       "priceRange": "₹₹₹₹",
@@ -109,14 +140,56 @@ const homeSchema = {
         "@type": "Country",
         "name": "India"
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "280"
-      }
+      "parentOrganization": {
+        "@id": "https://www.rnk.com/#organization"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.rnk.com/#chauffeur-service",
+      "name": "Chauffeur Driven Luxury Car Rental",
+      "description": "Premium chauffeur-driven luxury car rental services across 170+ cities in India since 1969.",
+      "provider": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.rnk.com/#webpage"
+      },
+      "serviceType": [
+        "Luxury Car Rental",
+        "Corporate Car Rental",
+        "Wedding Transportation",
+        "Airport Transfers",
+        "Hotel Operations",
+        "Vacation Rentals",
+        "VIP Movements",
+        "Long Term Car Rental",
+        "Event / Wedding Transport"
+      ]
     },
     {
       "@type": "FAQPage",
+      "@id": "https://www.rnk.com/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -131,13 +204,14 @@ const homeSchema = {
           "name": "Are your cars chauffeur driven?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All RNK vehicles come with professional chauffeurs."
+            "text": "All RNK vehicles are chauffeur-driven, ensuring safety, professionalism, and comfort."
           }
         }
       ]
     }
   ]
-};
+}
+
 
 
 export default function HomePage() {

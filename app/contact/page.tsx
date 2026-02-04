@@ -33,7 +33,7 @@ export const metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-contact-og.jpg",
+        url: "/og-contact-us.webp",
         width: 1200,
         height: 630,
         alt: "Contact RNK Rentals",
@@ -45,7 +45,7 @@ export const metadata = {
     title: "Contact Ramniranjan Kedia Rent A Car Pvt. Ltd",
     description:
       "Mumbai head office. 24/7 support. Contact RNK for luxury chauffeur-driven car rental services across India.",
-    images: ["https://www.rnk.com/assets/images/rnk-contact-og.jpg"],
+    images: ["/twitter-contact-us.webp"],
   },
 };
 
@@ -55,57 +55,105 @@ const ContactSchema=
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "ContactPage",
-      "@id": "https://www.rnk.com/contact/#contactpage",
-      "url": "https://www.rnk.com/contact",
-      "name": "Contact RNK Rentals",
-      "description": "Contact RNK Rentals for chauffeur-driven luxury car rental services across India via phone, email or visit the head office in Mumbai.",
-      "isPartOf": {
-        "@id": "https://www.rnk.com/#website"
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+      "alternateName": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "email": "info@rnk.com",
+      "foundingDate": "1969",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.rnk.com/#logo",
+        "url": "https://www.rnk.com/RNK_LOGO.jpg"
       },
-      "mainEntity": {
-        "@id": "https://www.rnk.com/contact/#headoffice"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.rnk.com/contact/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.rnk.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Contact Us",
-          "item": "https://www.rnk.com/contact"
-        }
+      "sameAs": [
+        "https://www.linkedin.com/company/rnk-rentals",
+        "https://www.instagram.com/rnkrentals"
       ]
     },
     {
-      "@type": "AutoRental",
-      "@id": "https://www.rnk.com/contact/#headoffice",
-      "name": "RNK Rentals Head Office",
-      "parentOrganization": {
+      "@type": "WebSite",
+      "@id": "https://www.rnk.com/#website",
+      "url": "https://www.rnk.com/",
+      "name": "RNK Rentals",
+      "publisher": {
         "@id": "https://www.rnk.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.rnk.com/contact-us/#webpage",
+      "url": "https://www.rnk.com/contact-us",
+      "name": "Contact Us - 24/7 Luxury Car Rental Support | RNK Rentals",
+      "description": "Get in touch with RNK Rentals for premium chauffeur-driven car rentals. 24/7 support for corporate travel, weddings, VIP movements, and airport transfers across India.",
+      "isPartOf": {
+        "@id": "https://www.rnk.com/#website"
       },
+      "about": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.rnk.com/#logo"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.rnk.com/#localbusiness",
+      "name": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "telephone": "+91-22-43227777",
+      "priceRange": "₹₹₹₹",
+      "image": "https://www.rnk.com/RNK_LOGO.jpg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
         "addressLocality": "Mumbai",
-        "addressRegion": "MH",
         "postalCode": "400025",
         "addressCountry": "IN"
       },
-      "telephone": "+91-22-43227777",
-      "email": "info@rnk.com",
-      "areaServed": "IN"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "19.0176",
+        "longitude": "72.8281"
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Suite+19,+Kaliandas+Udyog+Bhavan,+Century+Bazar,+Prabhadevi,+Mumbai+400025",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-22-43227777",
+        "contactType": "customer service",
+        "email": "info@rnk.com",
+        "availableLanguage": ["English", "Hindi"]
+      }
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://www.rnk.com/contact-us/#contactpage",
+      "url": "https://www.rnk.com/contact-us",
+      "name": "RNK Rentals Contact Information",
+      "mainEntity": {
+        "@id": "https://www.rnk.com/#localbusiness"
+      }
     }
   ]
 }
+
 
 
 export default function Page() {

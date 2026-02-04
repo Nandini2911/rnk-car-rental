@@ -43,7 +43,7 @@ export const metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "https://www.rnk.com/assets/images/rnk-about-og.jpg",
+        url: "/og-about.webp",
         width: 1200,
         height: 630,
         alt: "RNK Legacy Since 1969",
@@ -55,7 +55,7 @@ export const metadata = {
     title: "About Ramniranjan Kedia Rent A Car Pvt. Ltd",
     description:
       "A legacy of luxury chauffeur-driven travel since 1969. Discover the journey of RNK Rentals.",
-    images: ["https://www.rnk.com/assets/images/rnk-about-og.jpg"],
+    images: ["/twitter-about_converted.webp"],
   },
 };
 
