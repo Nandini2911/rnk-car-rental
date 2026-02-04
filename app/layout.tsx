@@ -2,6 +2,13 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import "./globals.css";
 
 import { ReactNode } from "react";
+import { Playfair_Display } from "next/font/google";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
+  variable: "--font-playfair",
+});
 
 export const metadata = {
   title: "RNK - Ramniranjan Kedia Rent a car pvt ltd",
@@ -29,8 +36,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* End Google Tag Manager */}
       </head>
 
-      {/* 👇 Added suppressHydrationWarning here */}
-      <body suppressHydrationWarning className="bg-white text-black">
+      <body
+        suppressHydrationWarning
+        className={`${playfair.variable} bg-white text-black`}
+      >
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -42,7 +51,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </noscript>
         {/* End Google Tag Manager (noscript) */}
 
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen bg-white text-black">
+          {children}
+        </main>
+
         <WhatsAppButton />
       </body>
     </html>

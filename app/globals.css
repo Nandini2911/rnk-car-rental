@@ -191,3 +191,36 @@ html, body {
 body {
   padding-top: 96px; /* navbar height */
 }
+/* 🔥 FIX BLOG TEXT FADE ISSUE */
+/* ===== BLOG CONTENT FIX (FORCED OVERRIDE) ===== */
+
+.prose h2 {
+  font-size: 2rem;          /* BIG heading */
+  font-weight: 800;        /* Bold */
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.prose hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-color: #d1d5db;
+}
+
+.prose p {
+  margin-bottom: 1.5rem;
+}
+
+.prose p:first-of-type {
+  font-size: 1.125rem;
+  font-weight: 500;
+}

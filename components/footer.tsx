@@ -104,7 +104,7 @@ export function RnkFooter() {
                   href="tel:02243227777"
                   className="text-neutral-300 hover:text-white transition-colors"
                 >
-                  022-43227777
+                  +91 9167977799
                 </a>
               </div>
             </div>
