@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "RNK - Ramniranjan Kedia Rent A Car Private Limited",
     images: [
       {
-        url: "/og-home-page.webp",
+        url: "/og-home.jpg",
         width: 1200,
         height: 630,
         alt: "RNK Rentals Luxury Chauffeur Driven Car Fleet",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Luxury Car Rental & Chauffeur Service in India | RNK Rentals",
     description:
       "Premium chauffeur-driven luxury car rental across India. Trusted since 1969 for corporate, airport, VIP and wedding travel.",
-    images: ["/twitter-home-page.webp"],
+    images: ["/twitter-home.jpg"],
   },
 
   robots: {
