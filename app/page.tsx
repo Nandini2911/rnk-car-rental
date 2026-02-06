@@ -14,24 +14,11 @@ import Schema from "@/components/Schema";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luxury Car Rental & Chauffeur Service in India | RNK Rentals",
+  metadataBase: new URL("https://rnk.com"),
 
+  title: "Luxury Car Rental & Chauffeur Service in India | RNK Rentals",
   description:
     "RNK Rentals offers luxury chauffeur-driven car rental services across 170+ cities in India. Trusted since 1969 for corporate travel, airport transfers, VIP movements, and weddings.",
-
-  keywords: [
-    "luxury car rental india",
-    "chauffeur driven car rental",
-    "corporate car rental india",
-    "airport transfer service india",
-    "wedding car rental india",
-    "vip car rental service"
-  ],
-
-  robots: {
-    index: true,
-    follow: true,
-  },
 
   alternates: {
     canonical: "https://rnk.com/",
@@ -45,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "RNK - RAMNIRANJAN KEDIA RENT A CAR PRIVATE LIMITED",
     images: [
       {
-        url: "/og-home-page.webp",
+        url: "https://rnk.com/og-home-page.webp",
         width: 1200,
         height: 630,
         alt: "RNK Rentals Luxury Chauffeur Driven Car Fleet",
@@ -60,9 +47,10 @@ export const metadata: Metadata = {
     title: "Luxury Car Rental & Chauffeur Service in India | RNK Rentals",
     description:
       "Premium chauffeur-driven luxury car rental across India. Trusted since 1969 for corporate, airport, VIP and wedding travel.",
-    images: ["/twitter-home-page (1).webp"],
+    images: ["https://rnk.com/twitter-home-page.webp"],
   },
 };
+
 const homeSchema=
 {
 
