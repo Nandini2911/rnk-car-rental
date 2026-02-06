@@ -4,6 +4,8 @@ import Image from "next/image";
 import { getBlogBySlug, getAllBlogs } from "@/lib/blog";
 import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
+import Script from "next/script";
+
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -29,11 +31,41 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!blog) return {};
 
+  const url = `https://www.rnk.com/blog/${slug}`;
+
   return {
     title: `${blog.title} | RNK Rentals`,
     description: blog.description,
+
+    alternates: {
+      canonical: url,
+    },
+
+    openGraph: {
+      title: blog.title,
+      description: blog.description,
+      url,
+      siteName: "RNK Rentals",
+      images: [
+        {
+          url: blog.image,
+          width: 1200,
+          height: 630,
+          alt: blog.title,
+        },
+      ],
+      type: "article",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: blog.title,
+      description: blog.description,
+      images: [blog.image],
+    },
   };
 }
+
 
 /* ✅ PAGE */
 export default async function BlogPost({ params }: PageProps) {
@@ -52,6 +84,37 @@ export default async function BlogPost({ params }: PageProps) {
   return (
     <>
       <NavBar />
+      <Script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": blog.title,
+      "description": blog.description,
+      "image": `https://www.rnk.com${blog.image}`,
+      "author": {
+        "@type": "Organization",
+        "name": "RNK Rentals"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "RNK Rentals",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rnk.com/logo.png"
+        }
+      },
+      "datePublished": blog.date,
+      "dateModified": blog.date,
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": `https://www.rnk.com/blog/${blog.slug}`
+      }
+    })
+  }}
+/>
+
 
       {/* ================= HERO ================= */}
       <section className="bg-gray-50 py-20 border-b border-gray-200">
