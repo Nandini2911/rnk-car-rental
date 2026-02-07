@@ -5,7 +5,7 @@ date: "2026-02-05"
 author: "RNK Rentals Team"
 category: "Corporate Travel"
 readTime: "5 min read"
-image: "/corporate_Car_rental.webp"
+image: "/images/blog/corporate_car_rental_services.webp"
 featured: true
 trending: false
 ---
