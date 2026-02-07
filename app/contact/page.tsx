@@ -33,7 +33,7 @@ export const metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/og-contact-us.webp",
+        url: "/og-contact-us.jpg",
         width: 1200,
         height: 630,
         alt: "Contact RNK Rentals",
@@ -45,7 +45,7 @@ export const metadata = {
     title: "Contact Ramniranjan Kedia Rent A Car Pvt. Ltd",
     description:
       "Mumbai head office. 24/7 support. Contact RNK for luxury chauffeur-driven car rental services across India.",
-    images: ["/twitter-contact-us.webp"],
+    images: ["/twitter-contact-us.jpg"],
   },
 };
 

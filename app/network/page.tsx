@@ -37,7 +37,7 @@ export const metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/og-our-network_converted.webp",
+        url: "/og-our-network.jpg",
         width: 1200,
         height: 630,
         alt: "RNK Pan India Network",
@@ -49,7 +49,7 @@ export const metadata = {
     title: "Pan-India Chauffeur-Driven Car Rental Network | RNK",
     description:
       "Luxury chauffeur-driven car rental services across 170+ cities in India. One network. One standard. RNK Rentals.",
-    images: ["/twitter-our-network.webp"],
+    images: ["/twitter-our-network.jpg"],
   },
 };
 

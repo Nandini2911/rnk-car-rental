@@ -37,7 +37,7 @@ export const metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/og-fleet.webp",
+        url: "/og-fleet.jpg",
         width: 1200,
         height: 630,
         alt: "RNK Luxury Fleet",
@@ -49,7 +49,7 @@ export const metadata = {
     title: "Luxury Car Fleet for Chauffeur-Driven Travel | RNK Rentals",
     description:
       "Explore RNK Rentals’ premium fleet of luxury cars, SUVs, vans and coaches for corporate travel, weddings, VIP movements and events across India.",
-    images: ["/twitter-fleet.webp"],
+    images: ["/twitter-fleet.jpg"],
   },
 };
 
