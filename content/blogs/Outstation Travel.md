@@ -5,7 +5,7 @@ date: "2026-02-15"
 author: "RNK Rentals Team"
 category: "Car Rental"
 readTime: "5 min read"
-image: "/images/blog/outstation-travel.webp"
+image: "/images/blog/outstation_car_rental_with_driver.webp"
 featured: false
 trending: true
 ---

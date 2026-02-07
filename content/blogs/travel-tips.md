@@ -5,7 +5,7 @@ date: "2026-02-11"
 author: "RNK Rentals Team"
 category: "Travel Tips"
 readTime: "3 min read"
-image: "/images/blog/RNK_LOGO.jpg"
+image: "/images/blog/top_travel_tips.webp"
 featured: false
 trending: false
 ---

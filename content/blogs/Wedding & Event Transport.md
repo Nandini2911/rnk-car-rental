@@ -5,7 +5,7 @@ date: "2026-02-07"
 author: "RNK Rentals Team"
 category: "Wedding Transport"
 readTime: "4 min read"
-image: "/images/blog/wedding-transport.webp"
+image: "/images/blog/wedding_event_transportation.webp"
 featured: false
 trending: true
 ---

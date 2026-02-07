@@ -5,7 +5,7 @@ date: "2026-02-13"
 author: "RNK Rentals Team"
 category: "Luxury Travel"
 readTime: "4 min read"
-image: "/images/blog/luxury-car-rental.webp"
+image: "/images/blog/og-luxury-travel.webp"
 featured: true
 trending: true
 ---

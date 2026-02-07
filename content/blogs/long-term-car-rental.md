@@ -5,7 +5,7 @@ date: "2026-02-09"
 author: "RNK Rentals Team"
 category: "Car Rental"
 readTime: "5 min read"
-image: "/images/blog/RNK_LOGO.jpg"
+image: "/images/blog/long_term_car_rental_with_driver.webp"
 featured: false
 trending: false
 ---

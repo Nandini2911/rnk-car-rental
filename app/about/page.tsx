@@ -2,7 +2,6 @@
 import { AccoladesSection } from "@/components/About/AccoladesSection";
 import { AccomplishmentsSection } from "@/components/About/AccomplishmentsSection";
 import { CallToAction } from "@/components/About/CallToAction";
-import { ExperienceBlockSection } from "@/components/About/ExperienceBlockSection";
 import { FAQSection } from "@/components/About/FAQSection";
 import { HeritageSection } from "@/components/About/HeritageSection";
 import { HeroSection } from "@/components/About/HeroSection";
