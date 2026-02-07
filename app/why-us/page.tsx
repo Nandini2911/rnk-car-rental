@@ -42,7 +42,7 @@ export const metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/og-why-us.webp",
+        url: "/og-why-us.jpg",
         width: 1200,
         height: 630,
         alt: "RNK Luxury Fleet",
@@ -54,7 +54,7 @@ export const metadata = {
     title: "Why Choose RNK Rentals | Luxury Chauffeur-Driven Travel",
     description:
       "56+ years of experience delivering premium chauffeur-driven car rental services across India for corporate, VIP and luxury journeys.",
-    images: ["/twitter-why-us.webp"],
+    images: ["/twitter-why-us.jpg"],
   },
 };
 
