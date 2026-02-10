@@ -224,3 +224,14 @@ body {
   font-size: 1.125rem;
   font-weight: 500;
 }
+.prose a {
+  color: #b91c1c;        /* red-700 */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.prose a:hover {
+  color: #7f1d1d;        /* red-900 */
+  text-decoration: underline;
+}
+

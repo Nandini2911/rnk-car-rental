@@ -91,13 +91,24 @@ export default async function BlogPost({ params }: PageProps) {
   if (!blog) notFound();
   const faqs = extractFAQs(blog.content);
 
+    // ✅ RELATED BLOGS LOGIC (RETURN SE PEHLE)
+  const allBlogs = getAllBlogs().filter(
+    (b) => b.slug !== blog.slug
+  );
 
-  /* ✅ RELATED BLOGS (same category, exclude current) */
-  const relatedBlogs = getAllBlogs()
-    .filter(
-      (b) => b.slug !== blog.slug && b.category === blog.category
-    )
-    .slice(0, 5);
+  const sameCategoryBlogs = allBlogs.filter(
+    (b) => b.category === blog.category
+  );
+
+  const relatedBlogs = [
+    ...sameCategoryBlogs,
+    ...allBlogs.filter((b) => b.category !== blog.category),
+  ].slice(0, 10);
+
+
+ 
+
+    
 
   return (
     <>
@@ -154,38 +165,46 @@ export default async function BlogPost({ params }: PageProps) {
 )}
 
 
-      {/* ================= HERO ================= */}
-      <section className="bg-gray-50 py-20 border-b border-gray-200">
-        <div className="max-w-5xl px-10">
-          <p className="text-red-700 text-sm font-semibold uppercase mb-3">
-            {blog.category}
-          </p>
+     {/* ================= HERO ================= */}
+<section className="bg-gray-50 border-b border-gray-200">
+  <div className="max-w-7xl mx-auto px-8 py-20">
 
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-black">
-            {blog.title}
-          </h1>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
-          <p className="text-gray-600 text-sm">
-            {blog.author} · {blog.readTime}
-          </p>
-        </div>
-      </section>
+      {/* LEFT: TEXT */}
+      <div className="order-2 lg:order-1">
+        <p className="text-red-700 text-sm font-semibold uppercase mb-3">
+          {blog.category}
+        </p>
 
-     {/* ================= FEATURE IMAGE ================= */}
-{blog.image && (
-  <section className="w-full bg-white">
-    <div className="relative w-full h-[420px] max-w-6xl mx-auto">
-      <Image
-        src={blog.image}
-        alt={blog.title}
-        fill
-        sizes="100vw"
-        priority
-        className="object-cover rounded-lg"
-      />
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-black">
+          {blog.title}
+        </h1>
+
+        <p className="text-gray-600 text-sm">
+          {blog.author} · {blog.readTime}
+        </p>
+      </div>
+
+      {/* RIGHT: IMAGE */}
+      {blog.image && (
+        <div className="order-1 lg:order-2">
+  <div className="relative w-full h-[220px] md:h-[300px] rounded-2xl overflow-hidden shadow-lg">
+    <img
+      src={blog.image}
+      alt={blog.title}
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+      )}
+
     </div>
-  </section>
-)}
+  </div>
+</section>
+
+    
 
       {/* ================= CONTENT + SIDEBAR ================= */}
       <section className="bg-white py-16">
@@ -228,7 +247,7 @@ export default async function BlogPost({ params }: PageProps) {
 
             {/* RELATED BLOGS */}
             <div className="border border-gray-300 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-4">
+              <h3 className="text-lg font-bold mb-4 ">
                 Related Blogs
               </h3>
 
@@ -237,7 +256,7 @@ export default async function BlogPost({ params }: PageProps) {
                   <li key={item.slug}>
                     <a
                       href={`/blog/${item.slug}`}
-                      className="text-black hover:underline"
+                      className="text-red-900 hover:underline"
                     >
                       {item.title}
                     </a>
@@ -249,10 +268,10 @@ export default async function BlogPost({ params }: PageProps) {
             {/* EXPLORE TOPICS */}
             <div className="border border-gray-300 rounded-xl p-6">
               <h3 className="text-lg font-bold mb-4">
-                Explore Topics
+                Explore Categories
               </h3>
 
-              <ul className="space-y-2">
+              <ul className="space-y-2  text-red-900">
                 <li><a href="/blog?category=Car Rental" className="hover:underline">Car Rental</a></li>
                 <li><a href="/blog?category=Airport Transfers" className="hover:underline">Airport Transfers</a></li>
                 <li><a href="/blog?category=Corporate Travel" className="hover:underline">Corporate Travel</a></li>

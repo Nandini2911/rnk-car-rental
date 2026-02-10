@@ -46,7 +46,6 @@ export function getAllBlogs(): BlogMeta[] {
     };
   });
 }
-
 export async function getBlogBySlug(
   slug: string
 ): Promise<BlogPost | null> {
@@ -65,8 +64,10 @@ export async function getBlogBySlug(
     author: data.author,
     category: data.category,
     readTime: data.readTime,
+    image: data.image ?? null,   // ✅ THIS LINE (IMPORTANT)
     featured: data.featured ?? false,
     trending: data.trending ?? false,
     content: processed.toString(),
   };
 }
+
