@@ -6,6 +6,22 @@ import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
 import Script from "next/script";
 
+function extractFAQs(html: string) {
+  const faqs: { question: string; answer: string }[] = [];
+
+  const regex = /<h3>(.*?)<\/h3>\s*<p>(.*?)<\/p>/g;
+  let match;
+
+  while ((match = regex.exec(html)) !== null) {
+    faqs.push({
+      question: match[1].replace(/<[^>]+>/g, "").trim(),
+      answer: match[2].replace(/<[^>]+>/g, "").trim(),
+    });
+  }
+
+  return faqs;
+}
+
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -73,6 +89,8 @@ export default async function BlogPost({ params }: PageProps) {
   const blog = await getBlogBySlug(slug);
 
   if (!blog) notFound();
+  const faqs = extractFAQs(blog.content);
+
 
   /* ✅ RELATED BLOGS (same category, exclude current) */
   const relatedBlogs = getAllBlogs()
@@ -114,6 +132,26 @@ export default async function BlogPost({ params }: PageProps) {
     })
   }}
 />
+
+{faqs.length > 0 && (
+  <Script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      }),
+    }}
+  />
+)}
 
 
       {/* ================= HERO ================= */}
