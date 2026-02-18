@@ -227,7 +227,7 @@ Mumbai
   <div className="relative max-w-xl mx-auto bg-white text-black p-10 rounded-2xl shadow-2xl">
 
     <h2 className="text-3xl font-bold text-center mb-8">
-      Get Instant Quote in 5 Minutes
+      Get Instant Quote 
     </h2>
 
     <form onSubmit={handleSubmit} className="space-y-5">
