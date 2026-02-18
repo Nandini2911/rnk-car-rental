@@ -10,11 +10,11 @@ export const metadata = {
 
 export default function Page() {
 
-    <NavBar/>
+
   return (
     <>
       <RNKLandingPage />
-      <RnkFooter />
+   
     </>
   );
 
