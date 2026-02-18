@@ -87,7 +87,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           />
         </noscript>
 
-        <main className="min-h-screen bg-white text-black">{children}</main>
+        <main className="min-h-screen">{children}</main>
 
         <WhatsAppButton />
       </body>

@@ -29,7 +29,7 @@ export function NavBar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full bg-white shadow-md">
+    <header className="absolutetop-0 left-0 z-50 w-full bg-white shadow-md">
 <nav className="max-w-8xl mx-auto px-10 py-4 grid grid-cols-[auto_1fr_auto] items-center">
 
         {/* LEFT — LOGO */}

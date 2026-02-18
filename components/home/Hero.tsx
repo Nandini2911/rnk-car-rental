@@ -2,7 +2,7 @@
 
 export function Hero() {
   return (
-    <section className="relative w-screen min-h-screen bg-black text-white overflow-hidden">
+    <section className="relative w-full h-screen bg-black text-white overflow-hidden">
       
       {/* BACKGROUND VIDEO */}
       <div className="absolute inset-0 z-0 overflow-hidden">

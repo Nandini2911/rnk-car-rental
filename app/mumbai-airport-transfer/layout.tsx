@@ -5,7 +5,10 @@ export default function LandingLayout({
 }: {
   children: React.ReactNode;
 }) {
-   <WhatsAppButton />
-  return <>{children}</>
-  ;
+  return (
+    <>
+      {children}
+      <WhatsAppButton />
+    </>
+  );
 }
