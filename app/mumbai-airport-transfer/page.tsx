@@ -1,5 +1,3 @@
-import { RnkFooter } from "@/components/footer";
-import { NavBar } from "@/components/NavBar";
 import RNKLandingPage from "@/components/RNKLandingPage";
 
 export const metadata = {

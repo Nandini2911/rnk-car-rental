@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+
 
 import {
   motion,
@@ -143,33 +145,76 @@ export default function RNKLandingPage() {
         </motion.div>
       </motion.section>
 
-      {/* FLEET */}
-      <motion.section
-        variants={stagger}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="py-24 px-6 bg-black"
-      >
-        <motion.h2 variants={fadeUp} className="text-4xl font-bold text-center mb-16">
-          Our Premium Fleet
-        </motion.h2>
+      
 
-        <div className="grid md:grid-cols-4 gap-10">
-          {["Mercedes E-Class", "Mercedes S-Class", "BMW 5 Series", "Toyota Camry"].map((car, i) => (
-            <motion.div
-              key={i}
-              variants={fadeUp}
-              whileHover={{ y: -12 }}
-              className="bg-gradient-to-b from-gray-900 to-black border border-red-900 p-8 rounded-xl text-center shadow-xl"
-            >
-              <div className="h-40 bg-red-900/20 mb-6 rounded-lg"></div>
-              <h3 className="text-xl font-semibold">{car}</h3>
-              <p className="text-gray-400 mt-2">Premium comfort & luxury experience.</p>
-            </motion.div>
-          ))}
+ {/* FLEET */}
+<motion.section
+  variants={stagger}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  className="py-24 px-6 bg-black"
+>
+  <motion.h2
+    variants={fadeUp}
+    className="text-4xl font-bold text-center mb-16"
+  >
+    Our Premium Fleet
+  </motion.h2>
+
+  <div className="grid md:grid-cols-4 gap-10 max-w-7xl mx-auto">
+    {[
+      {
+        name: "Mercedes E-Class",
+        image: "/Mercedes_E_Class_1.webp",
+      },
+      {
+        name: "Mercedes S-Class",
+        image: "/Mercedes_Sclass_1.webp",
+      },
+      {
+        name: "BMW 5 Series",
+        image: "/Byd_E6_Electric_Vehicle_1.webp", // Make sure file exists
+      },
+      {
+        name: "Toyota Camry",
+        image: "/Toyota_Camry_1.webp", // Make sure file exists
+      },
+    ].map((car) => (
+      <motion.div
+        key={car.name}
+        variants={fadeUp}
+        whileHover={{ y: -12 }}
+        className="group bg-gradient-to-b from-gray-900 to-black border border-red-900 rounded-xl overflow-hidden shadow-xl"
+      >
+        {/* IMAGE */}
+        <div className="relative w-full h-56">
+          <Image
+            src={car.image}
+            alt={car.name}
+            fill
+            className="object-cover group-hover:scale-110 transition-transform duration-700"
+            sizes="(max-width: 768px) 100vw, 25vw"
+            priority
+          />
         </div>
-      </motion.section>
+
+        {/* TEXT */}
+        <div className="p-6 text-center">
+          <h3 className="text-xl font-semibold text-white">
+            {car.name}
+          </h3>
+          <p className="text-gray-400 mt-2 text-sm">
+            Premium comfort & luxury airport experience.
+          </p>
+        </div>
+      </motion.div>
+    ))}
+  </div>
+</motion.section>
+
+
+
 
       {/* WHY RNK */}
       <motion.section
@@ -263,6 +308,8 @@ export default function RNKLandingPage() {
     </div>
   );
 }
+
+
 
 function MagneticButton({ href, text, outlined }: {
   href: string;
