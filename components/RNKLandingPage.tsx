@@ -18,6 +18,9 @@ export default function RNKLandingPage() {
     car: "",
   });
 
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+
   const heroRef = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll();
@@ -33,52 +36,55 @@ export default function RNKLandingPage() {
 
   const yParallax = useTransform(scrollY, [0, 500], [0, 150]);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
+    setLoading(true);
+    setSuccess(false);
 
-  const res = await fetch("/api/airport-transfer", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(formData),
-  });
+    try {
+      const res = await fetch("/api/airport-transfer", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-  if (res.ok) {
-    alert("Quote request sent successfully!");
-  } else {
-    alert("Something went wrong. Please try again.");
-  }
-};
+      if (res.ok) {
+        setSuccess(true);
+        setFormData({
+          name: "",
+          phone: "",
+          date: "",
+          terminal: "",
+          car: "",
+        });
+      } else {
+        alert("Something went wrong.");
+      }
+    } catch {
+      alert("Server error.");
+    }
 
+    setLoading(false);
+  };
 
-  // ✅ Type-safe animation variants
   const fadeUp: Variants = {
-    hidden: {
-      opacity: 0,
-      y: 80,
-    },
+    hidden: { opacity: 0, y: 80 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: {
-        duration: 0.8,
-        ease: [0.25, 0.1, 0.25, 1],
-      },
+      transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] },
     },
   };
 
   const stagger: Variants = {
     hidden: {},
-    visible: {
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
+    visible: { transition: { staggerChildren: 0.2 } },
   };
 
   return (
@@ -98,35 +104,24 @@ export default function RNKLandingPage() {
         variants={stagger}
         className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden"
       >
-        {/* Background */}
         <motion.div
           style={{ y: yParallax }}
           className="absolute inset-0 bg-gradient-to-br from-black via-red-950 to-black"
         />
 
-        {/* Glow */}
         <div className="absolute w-[600px] h-[600px] bg-red-700/20 blur-[150px] rounded-full top-20 animate-pulse"></div>
 
-        <motion.h1
-          variants={fadeUp}
-          className="relative text-4xl md:text-6xl font-bold leading-tight"
-        >
-          Luxury Airport Transfer 
-Mumbai
+        <motion.h1 variants={fadeUp} className="relative text-4xl md:text-6xl font-bold">
+          Luxury Airport Transfer <br />
+          <span className="text-red-600">Mumbai</span>
         </motion.h1>
 
-        <motion.p
-          variants={fadeUp}
-          className="relative mt-6 text-lg md:text-xl text-gray-300 max-w-2xl"
-        >
+        <motion.p variants={fadeUp} className="relative mt-6 text-lg text-gray-300 max-w-2xl">
           Chauffeur Driven Mercedes, BMW & Executive Fleet for Mumbai Airport (T1 & T2)
         </motion.p>
 
-        <motion.div
-          variants={fadeUp}
-          className="relative mt-10 flex flex-col md:flex-row gap-6"
-        >
-          <MagneticButton href="tel:+91 9167977799" text="📞 Call Now" />
+        <motion.div variants={fadeUp} className="relative mt-10 flex flex-col md:flex-row gap-6">
+          <MagneticButton href="tel:+919167977799" text="📞 Call Now" />
           <MagneticButton href="#lead-form" text="Get Instant Quote" outlined />
         </motion.div>
       </motion.section>
@@ -139,10 +134,7 @@ Mumbai
         viewport={{ once: true }}
         className="py-20 px-6 bg-white text-black"
       >
-        <motion.div
-          variants={fadeUp}
-          className="grid md:grid-cols-5 gap-10 text-center text-lg font-semibold"
-        >
+        <motion.div variants={fadeUp} className="grid md:grid-cols-5 gap-10 text-center font-semibold">
           <div>170+ Cities</div>
           <div>Since 1969</div>
           <div>24/7 Service</div>
@@ -168,8 +160,8 @@ Mumbai
             <motion.div
               key={i}
               variants={fadeUp}
-              whileHover={{ y: -15 }}
-              className="bg-gradient-to-b from-gray-900 to-black border border-red-900 p-8 rounded-xl text-center shadow-xl hover:shadow-red-900 transition-all duration-300"
+              whileHover={{ y: -12 }}
+              className="bg-gradient-to-b from-gray-900 to-black border border-red-900 p-8 rounded-xl text-center shadow-xl"
             >
               <div className="h-40 bg-red-900/20 mb-6 rounded-lg"></div>
               <h3 className="text-xl font-semibold">{car}</h3>
@@ -203,8 +195,8 @@ Mumbai
             <motion.div
               key={i}
               variants={fadeUp}
-              whileHover={{ y: -12 }}
-              className="rounded-2xl p-8 text-white shadow-xl bg-gradient-to-br from-red-950 via-red-800 to-red-950 hover:shadow-red-500/40 transition-all duration-500"
+              whileHover={{ y: -10 }}
+              className="rounded-2xl p-8 text-white shadow-xl bg-gradient-to-br from-red-950 via-red-800 to-red-950"
             >
               <h3 className="text-lg font-semibold">{item}</h3>
             </motion.div>
@@ -212,98 +204,67 @@ Mumbai
         </div>
       </motion.section>
 
-      {/* FORM - PREMIUM RED GRADIENT */}
-<section
-  id="lead-form"
-  className="relative py-28 px-6 overflow-hidden"
->
+      {/* FORM */}
+      <section id="lead-form" className="relative py-28 px-6 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-black via-red-900 to-black"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(220,38,38,0.25),_transparent_70%)]"></div>
 
-  {/* Background Gradient */}
-  <div className="absolute inset-0 bg-gradient-to-br from-black via-red-900 to-black"></div>
+        <div className="relative max-w-xl mx-auto bg-white text-black p-10 rounded-2xl shadow-2xl">
 
-  {/* Soft Glow Layer */}
-  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(220,38,38,0.25),_transparent_70%)]"></div>
+          <h2 className="text-3xl font-bold text-center mb-8">Get Instant Quote</h2>
 
-  <div className="relative max-w-xl mx-auto bg-white text-black p-10 rounded-2xl shadow-2xl">
+          {success && (
+            <div className="mb-6 p-4 rounded-lg bg-green-100 text-green-700 text-center">
+              ✅ Quote request sent successfully!
+            </div>
+          )}
 
-    <h2 className="text-3xl font-bold text-center mb-8">
-      Get Instant Quote 
-    </h2>
+          <form onSubmit={handleSubmit} className="space-y-5">
 
-    <form onSubmit={handleSubmit} className="space-y-5">
+            <input type="text" name="name" placeholder="Full Name" required
+              value={formData.name} onChange={handleChange}
+              className="w-full border p-3 rounded-lg focus:border-red-600 outline-none" />
 
-      <input
-        type="text"
-        name="name"
-        placeholder="Full Name"
-        required
-        onChange={handleChange}
-        className="w-full border border-gray-300 p-3 rounded-lg focus:border-red-600 focus:ring-1 focus:ring-red-600 outline-none transition"
-      />
+            <input type="tel" name="phone" placeholder="Phone Number" required
+              value={formData.phone} onChange={handleChange}
+              className="w-full border p-3 rounded-lg focus:border-red-600 outline-none" />
 
-      <input
-        type="tel"
-        name="phone"
-        placeholder="Phone Number"
-        required
-        onChange={handleChange}
-        className="w-full border border-gray-300 p-3 rounded-lg focus:border-red-600 focus:ring-1 focus:ring-red-600 outline-none transition"
-      />
+            <input type="date" name="date" required
+              value={formData.date} onChange={handleChange}
+              className="w-full border p-3 rounded-lg focus:border-red-600 outline-none" />
 
-      <input
-        type="date"
-        name="date"
-        required
-        onChange={handleChange}
-        className="w-full border border-gray-300 p-3 rounded-lg focus:border-red-600 focus:ring-1 focus:ring-red-600 outline-none transition"
-      />
+            <select name="terminal" required
+              value={formData.terminal} onChange={handleChange}
+              className="w-full border p-3 rounded-lg focus:border-red-600 outline-none">
+              <option value="">Select Terminal</option>
+              <option value="T1">T1</option>
+              <option value="T2">T2</option>
+            </select>
 
-      <select
-        name="terminal"
-        required
-        onChange={handleChange}
-        className="w-full border border-gray-300 p-3 rounded-lg focus:border-red-600 focus:ring-1 focus:ring-red-600 outline-none transition"
-      >
-        <option value="">Select Airport Terminal</option>
-        <option value="T1">T1</option>
-        <option value="T2">T2</option>
-      </select>
+            <select name="car" required
+              value={formData.car} onChange={handleChange}
+              className="w-full border p-3 rounded-lg focus:border-red-600 outline-none">
+              <option value="">Car Preference</option>
+              <option value="Mercedes E-Class">Mercedes E-Class</option>
+              <option value="Mercedes S-Class">Mercedes S-Class</option>
+              <option value="BMW 5 Series">BMW 5 Series</option>
+              <option value="Toyota Camry">Toyota Camry</option>
+            </select>
 
-      <select
-        name="car"
-        required
-        onChange={handleChange}
-        className="w-full border border-gray-300 p-3 rounded-lg focus:border-red-600 focus:ring-1 focus:ring-red-600 outline-none transition"
-      >
-        <option value="">Car Preference</option>
-        <option value="Mercedes E-Class">Mercedes E-Class</option>
-        <option value="Mercedes S-Class">Mercedes S-Class</option>
-        <option value="BMW 5 Series">BMW 5 Series</option>
-        <option value="Toyota Camry">Toyota Camry</option>
-      </select>
+            <button type="submit" disabled={loading}
+              className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold disabled:opacity-50">
+              {loading ? "Sending..." : "Get Instant Quote"}
+            </button>
 
-      <button
-        type="submit"
-        className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold transition-all duration-300"
-      >
-        Get Instant Quote
-      </button>
+          </form>
+        </div>
+      </section>
 
-    </form>
-  </div>
-</section>
-
-
-     
     </div>
   );
 }
 
-function MagneticButton({
-  href,
-  text,
-  outlined,
-}: {
+function MagneticButton({ href, text, outlined }: {
   href: string;
   text: string;
   outlined?: boolean;
@@ -311,7 +272,7 @@ function MagneticButton({
   return (
     <motion.a
       href={href}
-      whileHover={{ scale: 1.1 }}
+      whileHover={{ scale: 1.08 }}
       whileTap={{ scale: 0.95 }}
       className={`px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg ${
         outlined
