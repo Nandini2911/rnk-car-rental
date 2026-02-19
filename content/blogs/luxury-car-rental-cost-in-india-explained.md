@@ -6,7 +6,7 @@ date: "2026-02-10"
 author: "Ritika Tiwari"
 category: "Luxury Travel"
 readTime: "4 min read"
-image: "/images/blog/why_airport_transfers_with_chauffeur.webp"
+image: "/images/blog/luxury_car_rental_cost_in_India_explained.webp"
 featured: false
 trending: true
 --------------

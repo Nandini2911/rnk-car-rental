@@ -6,7 +6,7 @@ date: "2026-02-10"
 author: "Ritika Tiwari"
 category: "Luxury Travel"
 readTime: "4 min read"
-image: "/images/blog/why_airport_transfers_with_chauffeur.webp"
+image: "/images/blog/mercedes_vs_bmw_rental_which_is_better.webp"
 featured: false
 trending: true
 --------------

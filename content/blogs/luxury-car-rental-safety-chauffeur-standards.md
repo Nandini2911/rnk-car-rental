@@ -6,7 +6,7 @@ date: "2026-02-11"
 author: "Ritika Tiwari"
 category: "Luxury Travel"
 readTime: "4 min read"
-image: "/images/blog/why_airport_transfers_with_chauffeur.webp"
+image: "/images/blog/luxury_car_rental_safety_chauffeur_standards.webp"
 featured: false
 trending: true
 --------------

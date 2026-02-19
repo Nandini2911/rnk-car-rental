@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import BlogHero from "./BlogHero";
 import BlogStats from "./BlogStats";
 import BlogCategories from "./BlogCategories";
@@ -11,20 +11,45 @@ import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
 import FeaturedBlogs from "./FeaturedBlog";
 
+const safeLower = (v: unknown) => {
+  if (v === null || v === undefined) return "";
+  if (typeof v === "string") return v.toLowerCase();
+  return String(v).toLowerCase();
+};
+
 export default function BlogClient({ blogs }: { blogs: any[] }) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredBlogs = blogs.filter((blog) => {
-    const matchesCategory =
-      activeCategory === "All" || blog.category === activeCategory;
+  const safeBlogs = Array.isArray(blogs) ? blogs : [];
 
-    const matchesSearch =
-      blog.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      blog.description.toLowerCase().includes(searchQuery.toLowerCase());
+  const filteredBlogs = useMemo(() => {
+    const q = safeLower(searchQuery);
 
-    return matchesCategory && matchesSearch;
-  });
+    return safeBlogs.filter((blog) => {
+      const blogCategory = blog?.category ?? "";
+
+      const matchesCategory =
+        activeCategory === "All" || blogCategory === activeCategory;
+
+      const title = safeLower(blog?.title);
+      const desc = safeLower(blog?.description);
+
+      const matchesSearch = title.includes(q) || desc.includes(q);
+
+      return matchesCategory && matchesSearch;
+    });
+  }, [safeBlogs, activeCategory, searchQuery]);
+
+  const featuredBlogs = useMemo(
+    () => safeBlogs.filter((b) => Boolean(b?.featured)),
+    [safeBlogs]
+  );
+
+  const trendingBlogs = useMemo(
+    () => safeBlogs.filter((b) => Boolean(b?.trending)),
+    [safeBlogs]
+  );
 
   return (
     <>
@@ -33,17 +58,17 @@ export default function BlogClient({ blogs }: { blogs: any[] }) {
       <BlogHero onSearch={setSearchQuery} />
 
       <BlogStats />
-   
-
 
       <BlogCategories
         activeCategory={activeCategory}
         onChange={setActiveCategory}
       />
-  <FeaturedBlogs blogs={blogs.filter((b) => b.featured)} />
+
+      <FeaturedBlogs blogs={featuredBlogs} />
+
       <BlogGrid blogs={filteredBlogs} />
 
-      <TrendingBlogs blogs={blogs.filter((b) => b.trending)} />
+      <TrendingBlogs blogs={trendingBlogs} />
 
       <BlogCTA />
 
