@@ -11,43 +11,52 @@ import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
 import FeaturedBlogs from "./FeaturedBlog";
 
-const safeLower = (v: unknown) => {
-  if (v === null || v === undefined) return "";
-  if (typeof v === "string") return v.toLowerCase();
-  return String(v).toLowerCase();
-};
-
-export default function BlogClient({ blogs }: { blogs: any[] }) {
+export default function BlogClient({ blogs }: { blogs?: any[] }) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const safeBlogs = Array.isArray(blogs) ? blogs : [];
+  // ✅ Always work with safe array + sanitize fields
+  const safeBlogs = useMemo(() => {
+    return (Array.isArray(blogs) ? blogs : []).map((b) => ({
+      ...b,
+      title: b?.title ?? "",
+      description: b?.description ?? "",
+      category: b?.category ?? "",
+      featured: Boolean(b?.featured),
+      trending: Boolean(b?.trending),
+    }));
+  }, [blogs]);
 
+  // ✅ Safe filtering (NO unsafe toLowerCase)
   const filteredBlogs = useMemo(() => {
-    const q = safeLower(searchQuery);
+    const safeSearch = (searchQuery ?? "").toLowerCase();
 
     return safeBlogs.filter((blog) => {
-      const blogCategory = blog?.category ?? "";
-
       const matchesCategory =
-        activeCategory === "All" || blogCategory === activeCategory;
+        activeCategory === "All" || blog.category === activeCategory;
 
-      const title = safeLower(blog?.title);
-      const desc = safeLower(blog?.description);
+      if (!safeSearch) return matchesCategory;
 
-      const matchesSearch = title.includes(q) || desc.includes(q);
+      const title = blog.title.toLowerCase();
+      const description = blog.description.toLowerCase();
+
+      const matchesSearch =
+        title.includes(safeSearch) ||
+        description.includes(safeSearch);
 
       return matchesCategory && matchesSearch;
     });
   }, [safeBlogs, activeCategory, searchQuery]);
 
+  // ✅ Featured Blogs
   const featuredBlogs = useMemo(
-    () => safeBlogs.filter((b) => Boolean(b?.featured)),
+    () => safeBlogs.filter((b) => b.featured),
     [safeBlogs]
   );
 
+  // ✅ Trending Blogs
   const trendingBlogs = useMemo(
-    () => safeBlogs.filter((b) => Boolean(b?.trending)),
+    () => safeBlogs.filter((b) => b.trending),
     [safeBlogs]
   );
 
@@ -55,7 +64,7 @@ export default function BlogClient({ blogs }: { blogs: any[] }) {
     <>
       <NavBar />
 
-      <BlogHero onSearch={setSearchQuery} />
+      <BlogHero onSearch={(val) => setSearchQuery(val ?? "")} />
 
       <BlogStats />
 
