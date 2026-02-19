@@ -181,7 +181,7 @@ export default async function BlogPost({ params }: PageProps) {
           {blog.title}
         </h1>
 
-        <p className="text-gray-600 text-sm">
+        <p className="text-black text-sm">
           {blog.author} · {blog.readTime}
         </p>
       </div>
@@ -207,11 +207,11 @@ export default async function BlogPost({ params }: PageProps) {
     
 
       {/* ================= CONTENT + SIDEBAR ================= */}
-      <section className="bg-white py-16">
-        <div className="px-10 grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <section className="bg-white py-16 text-black">
+        <div className="px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 text-black">
 
           {/* ===== MAIN CONTENT ===== */}
-          <div className="lg:col-span-8">
+          <div className="lg:col-span-8 text-black">
             <article
   className="prose prose-lg max-w-none"
   dangerouslySetInnerHTML={{ __html: blog.content }}
@@ -247,7 +247,7 @@ export default async function BlogPost({ params }: PageProps) {
 
             {/* RELATED BLOGS */}
             <div className="border border-gray-300 rounded-xl p-6">
-              <h3 className="text-lg font-bold mb-4 ">
+              <h3 className="text-lg font-bold mb-4 text-black">
                 Related Blogs
               </h3>
 

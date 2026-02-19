@@ -42,16 +42,16 @@ export default function BlogGrid({ blogs }: { blogs: any[] }) {
             {/* IMAGE */}
             <div className="relative aspect-video bg-gray-100 overflow-hidden">
               <Image
-                src={
-                  typeof blog.image === "string" && blog.image.startsWith("/")
-                    ? blog.image
-                    : "/images/blog/placeholder.webp"
-                }
-                alt={blog.title}
-                fill
-                className="object-cover transition-transform duration-500
-                  group-hover:scale-105"
-              />
+  src={
+    typeof blog.image === "string" && blog.image.startsWith("/")
+      ? blog.image
+      : "/images/blog/placeholder.webp"
+  }
+  alt={blog.title ? blog.title : "Blog article image"}
+  fill
+  className="object-cover transition-transform duration-500 group-hover:scale-105"
+/>
+
             </div>
 
             {/* CONTENT */}
