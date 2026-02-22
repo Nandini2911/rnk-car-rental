@@ -5,7 +5,7 @@ date: "2026-02-20"
 author: "Ritika Tiwari"
 category: "Corporate Travel"
 readTime: "5 min read"
-image: "/images/blog/corporate_car_rental_services.webp"
+image: "/images/blog/safety-standards-in-corporate-mobility.webp"
 featured: true
 trending: false
 ---
