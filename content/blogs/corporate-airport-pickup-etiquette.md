@@ -6,7 +6,7 @@ author: "Ritika Tiwari"
 category: "Corporate Travel"
 readTime: "5 min read"
 image: "/images/blog/corporate-airport-pickup-etiquette.webp"
-featured: true
+featured: false
 trending: false
 ---
 

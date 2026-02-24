@@ -5,7 +5,7 @@ date: "2026-02-21"
 author: "Ritika Tiwari"
 category: "Travel Tips"
 readTime: "4 min read"
-image: "/images/blog/top_travel_tips.webp"
+image: "/images/blog/konkan-coast-luxury-drive-mumbai-to-goa-guide.webp"
 featured: false
 trending: false
 ---

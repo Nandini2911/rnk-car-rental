@@ -4,7 +4,7 @@ title: "How Luxury Car Rental Works in India"
 description: "Understand how luxury car rental works in India—from enquiry and pricing slabs to inspections, chauffeur vs self-drive rules, and post-trip settlement explained clearly."
 date: "2026-02-10"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/how_luxury_car_rental_works_in_india.webp"
 featured: false

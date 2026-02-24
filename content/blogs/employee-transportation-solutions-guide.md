@@ -6,7 +6,7 @@ author: "Ritika Tiwari"
 category: "Corporate Travel"
 readTime: "5 min read"
 image: "/images/blog/employee-transportation-solutions-guide.webp"
-featured: true
+featured: false
 trending: false
 ---
 

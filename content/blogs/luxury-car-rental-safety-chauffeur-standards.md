@@ -4,7 +4,7 @@ title: "Luxury Car Rental Safety & Chauffeur Standards"
 description: "Luxury car rental safety in India explained—chauffeur standards, vehicle inspections, insurance coverage, monitoring systems, and risk comparison."
 date: "2026-02-11"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/luxury_car_rental_safety_chauffeur_standards.webp"
 featured: false

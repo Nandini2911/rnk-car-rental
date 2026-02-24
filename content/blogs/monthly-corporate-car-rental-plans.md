@@ -6,7 +6,7 @@ author: "Ritika Tiwari"
 category: "Corporate Travel"
 readTime: "5 min read"
 image: "/images/blog/monthly-corporate-car-rental-plans.webp"
-featured: true
+featured: false
 trending: false
 ---
 

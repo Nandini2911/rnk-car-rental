@@ -6,7 +6,7 @@ author: "Ritika Tiwari"
 category: "Corporate Travel"
 readTime: "5 min read"
 image: "/images/blog/corporate-event-transportation-planning.webp"
-featured: true
+featured: false
 trending: false
 ---
 

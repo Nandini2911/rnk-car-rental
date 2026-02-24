@@ -4,7 +4,7 @@ title: "How to Book Luxury Cars Online in India"
 description: "Book luxury car online in India explained—step-by-step process, availability checks, pricing slabs, verification, payment, and booking confirmation."
 date: "2026-02-11"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/how_to_book_luxury_cars_online_in_India.webp"
 featured: false

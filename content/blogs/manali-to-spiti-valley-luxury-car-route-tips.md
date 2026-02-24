@@ -5,7 +5,7 @@ date: "2026-02-21"
 author: "Ritika Tiwari"
 category: "Travel Tips"
 readTime: "4 min read"
-image: "/images/blog/top_travel_tips.webp"
+image: "/images/blog/manali-to-spiti-valley-luxury-car-route-tips.webp"
 featured: false
 trending: false
 ---

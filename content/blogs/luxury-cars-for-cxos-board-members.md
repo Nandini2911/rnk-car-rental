@@ -6,7 +6,7 @@ author: "Ritika Tiwari"
 category: "Corporate Travel"
 readTime: "5 min read"
 image: "/images/blog/luxury-cars-for-cxos-board-members.webp"
-featured: true
+featured: false
 trending: false
 ---
 

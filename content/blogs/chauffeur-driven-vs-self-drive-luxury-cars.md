@@ -4,7 +4,7 @@ title: "Chauffeur-Driven vs Self-Drive Luxury Cars"
 description: "Chauffeur-driven vs self-drive luxury cars in India explained—cost predictability, deposits, liability, inspections, and which option suits different use cases."
 date: "2026-02-10"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/chauffeur_driven_vs_self_drive_luxury_cars.webp"
 featured: false
