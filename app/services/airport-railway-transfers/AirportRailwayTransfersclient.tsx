@@ -116,23 +116,6 @@ export default function AirportRailwayTransfersPage() {
   <div className="relative z-10 w-full h-full flex items-center justify-center px-4 sm:px-6">
     <div className="text-center max-w-3xl">
 
-      {/* Breadcrumb */}
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-[10px] sm:text-xs uppercase tracking-[0.22em] text-white mb-4"
-      >
-        <Link href="/" className="hover:text-white">
-          Home
-        </Link>{" "}
-        /{" "}
-        <Link href="/services" className="hover:text-white">
-          Services
-        </Link>{" "}
-        / <span className="textwhite">Airport &amp; Railway Transfers</span>
-      </motion.div>
-
       {/* Title */}
       <motion.h1
         initial={{ opacity: 0, y: 28 }}
@@ -975,7 +958,7 @@ export default function AirportRailwayTransfersPage() {
 
     {/* CTA */}
     <motion.a
-      href="/book-now"
+      href="/contact"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.97 }}
       transition={{ duration: 0.2 }}

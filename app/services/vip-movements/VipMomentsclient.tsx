@@ -102,22 +102,7 @@ export default function VipMovementsPage() {
 
         <div className="relative z-10 h-full flex items-center justify-center text-center">
           <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-10">
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: "easeOut" }}
-              className="mb-4 flex flex-wrap items-center justify-center gap-2 text-[10px] sm:text-xs uppercase tracking-[0.22em] text-white"
-            >
-              <Link href="/" className="hover:text-white">
-                Home
-              </Link>
-              <span className="text-white">/</span>
-              <Link href="/services" className="hover:text-white">
-                Services
-              </Link>
-              <span className="text-white">/</span>
-              <span className="text-red-900">VIP Movements</span>
-            </motion.div>
+            
 
             <motion.h1
               initial={{ opacity: 0, y: 26 }}

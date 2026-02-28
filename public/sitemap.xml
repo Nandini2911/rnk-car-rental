@@ -1,193 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- CORE PAGES -->
-  <url>
-    <loc>https://www.rnk.com/</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
+<!-- CORE -->
+<url><loc>https://www.rnk.com/</loc></url>
+<url><loc>https://www.rnk.com/about/</loc></url>
+<url><loc>https://www.rnk.com/why-us/</loc></url>
+<url><loc>https://www.rnk.com/network/</loc></url>
+<url><loc>https://www.rnk.com/contact/</loc></url>
 
-  <url>
-    <loc>https://www.rnk.com/why-us</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
+<!-- SERVICES -->
+<url><loc>https://www.rnk.com/services/corporate-car-rental/</loc></url>
+<url><loc>https://www.rnk.com/services/airport-railway-transfers/</loc></url>
+<url><loc>https://www.rnk.com/services/luxury-travel/</loc></url>
+<url><loc>https://www.rnk.com/services/hotel-operations/</loc></url>
+<url><loc>https://www.rnk.com/services/vacation-rentals/</loc></url>
+<url><loc>https://www.rnk.com/services/vip-movements/</loc></url>
+<url><loc>https://www.rnk.com/services/long-term-car-rental/</loc></url>
+<url><loc>https://www.rnk.com/services/event-wedding-transport/</loc></url>
 
-  <url>
-    <loc>https://www.rnk.com/about</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
+<!-- FLEET MAIN -->
+<url><loc>https://www.rnk.com/fleet/</loc></url>
 
-  <url>
-    <loc>https://www.rnk.com/network</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
+<!-- CITY PAGES -->
+<url><loc>https://www.rnk.com/city/bengaluru/</loc></url>
+<url><loc>https://www.rnk.com/city/chennai/</loc></url>
+<url><loc>https://www.rnk.com/city/mumbai/</loc></url>
+<url><loc>https://www.rnk.com/city/lucknow/</loc></url>
+<url><loc>https://www.rnk.com/city/hyderabad/</loc></url>
+<url><loc>https://www.rnk.com/city/kolkata/</loc></url>
+<url><loc>https://www.rnk.com/city/ahmedabad/</loc></url>
+<url><loc>https://www.rnk.com/city/bhopal/</loc></url>
+<url><loc>https://www.rnk.com/city/surat/</loc></url>
+<url><loc>https://www.rnk.com/city/nagpur/</loc></url>
+<url><loc>https://www.rnk.com/city/chandigarh/</loc></url>
+<url><loc>https://www.rnk.com/city/madurai/</loc></url>
+<url><loc>https://www.rnk.com/city/visakhapatnam/</loc></url>
+<url><loc>https://www.rnk.com/city/jamshedpur/</loc></url>
+<url><loc>https://www.rnk.com/city/jaipur/</loc></url>
+<url><loc>https://www.rnk.com/city/pune/</loc></url>
+<url><loc>https://www.rnk.com/city/kanpur/</loc></url>
+<url><loc>https://www.rnk.com/city/agra/</loc></url>
+<url><loc>https://www.rnk.com/city/indore/</loc></url>
+<url><loc>https://www.rnk.com/city/jodhpur/</loc></url>
+<url><loc>https://www.rnk.com/city/amritsar/</loc></url>
+<url><loc>https://www.rnk.com/city/patna/</loc></url>
+<url><loc>https://www.rnk.com/city/ludhiana/</loc></url>
+<url><loc>https://www.rnk.com/city/raipur/</loc></url>
+<url><loc>https://www.rnk.com/city/kochi/</loc></url>
+<url><loc>https://www.rnk.com/city/chhatrapati-sambhajinagar/</loc></url>
+<url><loc>https://www.rnk.com/city/bhubaneswar/</loc></url>
+<url><loc>https://www.rnk.com/city/vijayawada/</loc></url>
+<url><loc>https://www.rnk.com/city/kota/</loc></url>
+<url><loc>https://www.rnk.com/city/vadodara/</loc></url>
+<url><loc>https://www.rnk.com/city/nashik/</loc></url>
+<url><loc>https://www.rnk.com/city/thiruvananthapuram/</loc></url>
+<url><loc>https://www.rnk.com/city/varanasi/</loc></url>
+<url><loc>https://www.rnk.com/city/ranchi/</loc></url>
+<url><loc>https://www.rnk.com/city/meerut/</loc></url>
+<url><loc>https://www.rnk.com/city/gwalior/</loc></url>
+<url><loc>https://www.rnk.com/city/faridabad/</loc></url>
+<url><loc>https://www.rnk.com/city/udaipur/</loc></url>
+<url><loc>https://www.rnk.com/city/mysuru/</loc></url>
+<url><loc>https://www.rnk.com/city/prayagraj/</loc></url>
+<url><loc>https://www.rnk.com/city/guwahati/</loc></url>
+<url><loc>https://www.rnk.com/city/rajkot/</loc></url>
+<url><loc>https://www.rnk.com/city/coimbatore/</loc></url>
+<url><loc>https://www.rnk.com/city/new-delhi/</loc></url>
+<url><loc>https://www.rnk.com/city/dehradun/</loc></url>
+<url><loc>https://www.rnk.com/city/aligarh/</loc></url>
 
-  <url>
-    <loc>https://www.rnk.com/contact</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <!-- SERVICES -->
-  <url>
-    <loc>https://www.rnk.com/services/corporate-car-rental</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/airport-railway-transfers</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/luxury-travel</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/hotel-operations</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/vacation-rentals</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/vip-movements</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/long-term-car-rental</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/services/event-wedding-transport</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <!-- FLEET -->
-  <url>
-    <loc>https://www.rnk.com/fleet</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/rolls-royce</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/hummer</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/mb-s-class</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/mb-gls</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/mb-v-class</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/mb-gle</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/mb-e-class</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/toyota-camry</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/fortuner</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/hycross</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/innova-crysta</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/kia-carens</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/ciaz</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/honda-city</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/dzire</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/toyota-coaster</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/toyota-commuter</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/urbania</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/volvo-9600</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/43-seater</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/fleet/27-seater</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <!-- LEGAL -->
-  <url>
-    <loc>https://www.rnk.com/terms-and-conditions</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
-
-  <url>
-    <loc>https://www.rnk.com/PrivacyPolicy</loc>
-    <lastmod>2026-01-28</lastmod>
-  </url>
+<!-- LEGAL -->
+<url><loc>https://www.rnk.com/terms-and-conditions/</loc></url>
+<url><loc>https://www.rnk.com/privacy-policy/</loc></url>
 
 </urlset>

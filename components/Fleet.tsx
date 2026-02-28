@@ -101,7 +101,7 @@ const cars =
           {/* CTA */}
           <div className="flex justify-center mt-2">
             <Link
-              href="/book"
+              href="/contact"
               className="
                 bg-red-900 text-white
                 py-3 px-8 rounded-full

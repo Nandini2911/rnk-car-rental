@@ -61,7 +61,7 @@ export function ContactUs() {
 
         {/* Button */}
         <motion.a
-          href="/contact-us"
+          href="/contact"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.96 }}
           transition={{ duration: 0.25, ease: "easeOut" }}
