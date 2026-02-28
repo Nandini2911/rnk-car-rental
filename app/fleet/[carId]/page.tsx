@@ -76,10 +76,10 @@ function getCarSchema(car: any, category: any) {
         }
       },
       {
-        "@type": "Service",
-        "@id": `${pageUrl}#service`,
+        "@type": "CarRental",   // ✅ FIXED
+        "@id": `${pageUrl}#carrental`,
         "name": `${car.name} Chauffeur-Driven Car Rental`,
-        "serviceType": "Chauffeur-Driven Car Rental",
+        "description": `Book ${car.name} with professional chauffeur service across India.`,
         "provider": {
           "@id": `${baseUrl}/#organization`
         },
@@ -90,26 +90,21 @@ function getCarSchema(car: any, category: any) {
         "availableVehicle": {
           "@type": "Vehicle",
           "name": car.name,
+          "image": `${baseUrl}${car.image}`,   // important
           "vehicleConfiguration": "Chauffeur Driven",
           "seatingCapacity": car.seating,
           "numberOfDoors": car.doors,
-          "additionalProperty": [
-            {
-              "@type": "PropertyValue",
-              "name": "Category",
-              "value": category?.label
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Luggage Capacity",
-              "value": car.luggage
-            },
-            {
-              "@type": "PropertyValue",
-              "name": "Chauffeur",
-              "value": "Included"
-            }
-          ]
+          "brand": {
+            "@type": "Brand",
+            "name": car.name.split(" ")[0]
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": pageUrl,
+          "priceCurrency": "INR",
+          "price": "1",
+          "availability": "https://schema.org/InStock"
         }
       }
     ]
