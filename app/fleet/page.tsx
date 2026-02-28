@@ -134,100 +134,44 @@ const fleetSchema =
       "itemListElement": [
 
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Super Luxury Cars",
-            "description": "Rolls Royce, Hummer, and top-tier luxury vehicles.",
-            "image": "https://www.rnk.com/RNK_LOGO.jpg",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "1",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        },
-
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Luxury Cars",
-            "description": "Mercedes Benz S Class, GLS, E Class, BMW, and Audi.",
-            "image": "https://www.rnk.com/RNK_LOGO.jpg",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "1",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        },
-
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "SUV / MUV",
-            "description": "Toyota Fortuner, Hycross, Crysta, and Kia Carens.",
-            "image": "https://www.rnk.com/RNK_LOGO.jpg",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "1",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        },
-
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Sedans",
-            "description": "Toyota Camry, Honda City, Maruti Ciaz, and Swift Dzire.",
-            "image": "https://www.rnk.com/RNK_LOGO.jpg",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "1",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        },
-
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Mini Vans",
-            "description": "Mercedes Benz V Class, Toyota Commuter, and Urbania.",
-            "image": "https://www.rnk.com/RNK_LOGO.jpg",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "1",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        },
-
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Coaches",
-            "description": "Volvo 9600, 43 Seater Bus, and 27 Seater Bus.",
-            "image": "https://www.rnk.com/RNK_LOGO.jpg",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "INR",
-              "price": "1",
-              "availability": "https://schema.org/InStock"
-            }
-          }
-        }
+  "@type": "ItemList",
+  "@id": "https://www.rnk.com/fleet/#fleetlist",
+  "name": "RNK Premium Fleet Categories",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Super Luxury Cars"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Luxury Cars"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "SUV / MUV"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Sedans"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Mini Vans"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Coaches"
+    }
+  ]
+}
+      
+    
 
       ]
     }

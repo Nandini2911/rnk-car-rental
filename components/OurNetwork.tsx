@@ -167,24 +167,8 @@ export default function OurNetworkPage() {
     "
   >
     {/* Breadcrumb */}
-    <motion.div
-      className="
-        mb-4 sm:mb-6
-        text-[10px] sm:text-xs md:text-sm
-        uppercase tracking-[0.22em]
-        text-white/80
-        flex items-center justify-center gap-2
-      "
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
-    >
-      <Link href="/" className="hover:text-white transition">
-        Home
-      </Link>
-      <span className="opacity-60">•</span>
-      <span className="text-red-900">Our Network</span>
-    </motion.div>
+  
+     
 
     {/* Heading */}
     <motion.h1
