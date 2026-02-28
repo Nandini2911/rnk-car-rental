@@ -57,6 +57,7 @@ const fleetSchema =
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Organization",
       "@id": "https://www.rnk.com/#organization",
@@ -75,6 +76,7 @@ const fleetSchema =
         "https://www.instagram.com/rnkrentals"
       ]
     },
+
     {
       "@type": "WebSite",
       "@id": "https://www.rnk.com/#website",
@@ -84,6 +86,7 @@ const fleetSchema =
         "@id": "https://www.rnk.com/#organization"
       }
     },
+
     {
       "@type": "WebPage",
       "@id": "https://www.rnk.com/fleet/#webpage",
@@ -100,6 +103,7 @@ const fleetSchema =
         "@id": "https://www.rnk.com/#logo"
       }
     },
+
     {
       "@type": "LocalBusiness",
       "@id": "https://www.rnk.com/#localbusiness",
@@ -122,92 +126,114 @@ const fleetSchema =
         "@id": "https://www.rnk.com/#organization"
       }
     },
+
     {
-      "@type": "ItemList",
-      "@id": "https://www.rnk.com/fleet/#fleetlist",
+      "@type": "OfferCatalog",
+      "@id": "https://www.rnk.com/fleet/#fleetcatalog",
       "name": "RNK Premium Fleet Categories",
-      "description": "A curated selection of luxury vehicles for every travel requirement.",
       "itemListElement": [
+
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Super Luxury Cars",
-          "description": "Rolls Royce, Hummer, and top-tier luxury vehicles."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Super Luxury Cars",
+            "description": "Rolls Royce, Hummer, and top-tier luxury vehicles.",
+            "image": "https://www.rnk.com/RNK_LOGO.jpg",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "1",
+              "availability": "https://schema.org/InStock"
+            }
+          }
         },
+
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Luxury Cars",
-          "description": "Mercedes Benz S Class, GLS, E Class, BMW, and Audi."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Luxury Cars",
+            "description": "Mercedes Benz S Class, GLS, E Class, BMW, and Audi.",
+            "image": "https://www.rnk.com/RNK_LOGO.jpg",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "1",
+              "availability": "https://schema.org/InStock"
+            }
+          }
         },
+
         {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "SUV / MUV",
-          "description": "Toyota Fortuner, Hycross, Crysta, and Kia Carens."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "SUV / MUV",
+            "description": "Toyota Fortuner, Hycross, Crysta, and Kia Carens.",
+            "image": "https://www.rnk.com/RNK_LOGO.jpg",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "1",
+              "availability": "https://schema.org/InStock"
+            }
+          }
         },
+
         {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Sedans",
-          "description": "Toyota Camry, Honda City, Maruti Ciaz, and Swift Dzire."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Sedans",
+            "description": "Toyota Camry, Honda City, Maruti Ciaz, and Swift Dzire.",
+            "image": "https://www.rnk.com/RNK_LOGO.jpg",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "1",
+              "availability": "https://schema.org/InStock"
+            }
+          }
         },
+
         {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Mini Vans",
-          "description": "Mercedes Benz V Class, Toyota Commuter, and Urbania."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Mini Vans",
+            "description": "Mercedes Benz V Class, Toyota Commuter, and Urbania.",
+            "image": "https://www.rnk.com/RNK_LOGO.jpg",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "1",
+              "availability": "https://schema.org/InStock"
+            }
+          }
         },
+
         {
-          "@type": "ListItem",
-          "position": 6,
-          "name": "Coaches",
-          "description": "Volvo 9600, 43 Seater Bus, and 27 Seater Bus."
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Coaches",
+            "description": "Volvo 9600, 43 Seater Bus, and 27 Seater Bus.",
+            "image": "https://www.rnk.com/RNK_LOGO.jpg",
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "1",
+              "availability": "https://schema.org/InStock"
+            }
+          }
         }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://www.rnk.com/fleet/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What types of vehicles are available in the fleet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "RNK offers a diverse fleet including Super Luxury cars (Rolls Royce), Luxury Sedans (Mercedes, BMW), SUVs (Fortuner, Crysta), Mini Vans (V-Class), and Premium Coaches (Volvo)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I choose a specific vehicle for my rental?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, you can browse our fleet by category and request specific models like the Mercedes S-Class or Toyota Hycross based on your preference and availability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you offer chauffeur services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, all vehicles in the RNK fleet are chauffeur-driven. Our chauffeurs are professionally trained to deliver the RNK standard of safety and etiquette."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I make a reservation for a vehicle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can make a reservation by clicking 'Book Now' on our website, calling us at 022-43227777, or emailing info@rnk.com with your itinerary."
-          }
-        }
+
       ]
     }
+
   ]
 }
-
-
 export default function FleetPage() {
   return  <><Schema data={fleetSchema} /><Fleet /></>;
 }
