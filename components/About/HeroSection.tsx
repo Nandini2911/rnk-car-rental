@@ -95,7 +95,7 @@ export function HeroSection() {
           {/* CTA */}
           <div className="mt-5 sm:mt-6 flex justify-center">
             <Link
-              href="/contact-us"
+              href="/contact"
               className="
                 bg-red-900 text-white px-7 py-2.5 rounded-full
                 text-xs font-semibold uppercase tracking-wide
