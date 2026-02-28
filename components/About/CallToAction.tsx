@@ -27,7 +27,7 @@ export function CallToAction() {
       
       {/* Button */}
       <a
-  href="/contact-us"
+  href="/contact"
   className="inline-block bg-red-900 text-white py-3 px-6 rounded-full font-semibold shadow-lg
              hover:bg-black transition duration-300 ease-in-out"
 >

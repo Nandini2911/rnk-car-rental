@@ -136,7 +136,7 @@ export default function HotelOperationsPage() {
               className="mt-7 flex justify-center"
             >
               <Link
-                href="/contact-us"
+                href="/contact"
                 className="
                   inline-flex items-center justify-center w-full max-w-[110px]
                   rounded-full bg-red-900 px-2 py-3 text-[11px] sm:text-xs
@@ -711,7 +711,7 @@ export default function HotelOperationsPage() {
           </motion.p>
 
           <motion.a
-            href="/contact-us"
+            href="/contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             className="
