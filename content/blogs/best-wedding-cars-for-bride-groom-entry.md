@@ -5,7 +5,7 @@ date: "2026-02-16"
 author: "Ritika Tiwari"
 category: "Wedding Transport"
 readTime: "4 min read"
-image: "public/images/blog/best_wedding_cars_for_bride _groom_Entry.webp"
+image: "/images/blog/best_wedding_cars_for_bride_groom_Entry.webp"
 featured: false
 trending: true
 ---
