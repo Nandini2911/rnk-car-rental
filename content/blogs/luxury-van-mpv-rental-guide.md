@@ -4,7 +4,7 @@ title: "Luxury Van & MPV Rental Guide"
 description: "Luxury van and MPV rentals in India explained—group comfort, space, chauffeur-driven pricing, luggage handling, and when vans work better than cars."
 date: "2026-02-10"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/luxury_van_mpv_rental_guide.webp"
 featured: false

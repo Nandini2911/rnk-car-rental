@@ -4,7 +4,7 @@ title: "Luxury Car Rental Cost in India Explained"
 description: "Luxury car rental cost in India explained clearly—base rates, time and kilometre slabs, deposits, over-usage charges, tolls, challans, and final billing."
 date: "2026-02-10"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/luxury_car_rental_cost_in_India_explained.webp"
 featured: false

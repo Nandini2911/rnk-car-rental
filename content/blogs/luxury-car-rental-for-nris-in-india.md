@@ -4,7 +4,7 @@ title: "Luxury Car Rental for NRIs in India"
 description: "NRI luxury car rental in India explained—documents required, chauffeur vs self-drive rules, deposits, insurance limits, and practical travel guidance."
 date: "2026-02-11"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/luxury_car_rental_for_nris_in_India.webp"
 featured: false

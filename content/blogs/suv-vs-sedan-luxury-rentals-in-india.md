@@ -4,7 +4,7 @@ title: "SUV vs Sedan Luxury Rentals in India"
 description: "SUV vs sedan luxury rentals in India explained—ride comfort, rear-seat experience, costs, chauffeur-driven efficiency, and which suits different travel needs."
 date: "2026-02-10"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/suv_vs_sedan_luxury_rentals_in_india.webp"
 featured: false

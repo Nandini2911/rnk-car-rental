@@ -4,7 +4,7 @@ title: "Common Mistakes While Renting Luxury Cars"
 description: "Book luxury car online in India explained—step-by-step process, availability checks, pricing slabs, verification, payment, and booking confirmation."
 date: "2026-02-11"
 author: "Ritika Tiwari"
-category: "Luxury Travel"
+category: "Car Rental"
 readTime: "4 min read"
 image: "/images/blog/common_mistakes_while_renting_luxury_cars.webp"
 featured: false
