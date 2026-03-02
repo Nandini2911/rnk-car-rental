@@ -98,53 +98,71 @@ export default function RNKLandingPage() {
         className="fixed top-0 left-0 right-0 h-1 bg-red-900 origin-left z-50"
       />
 
-      {/* HERO */}
-      <motion.section
-        ref={heroRef}
-        initial="hidden"
-        animate="visible"
-        variants={stagger}
-        className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden"
-      >
-        <motion.div
-          style={{ y: yParallax }}
-          className="absolute inset-0 bg-gradient-to-br from-black via-red-950 to-black"
-        />
+   {/* HERO – HOLI BG IMAGE + YOUR CONTENT */}
+<motion.section
+  ref={heroRef}
+  initial="hidden"
+  animate="visible"
+  variants={stagger}
+  className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden"
+>
+  {/* Holi Background Image */}
+  <motion.div
+    style={{ y: yParallax }}
+    className="absolute inset-0"
+  >
+    <Image
+      src="/holi2.webp"   // 👈 put image inside public folder
+      alt="Holi background"
+      fill
+      priority
+     
+    />
 
-        <div className="absolute w-[600px] h-[600px] bg-red-700/20 blur-[150px] rounded-full top-20 animate-pulse"></div>
+    {/* Soft white overlay for readability */}
+    <div className="absolute inset-0 "></div>
+  </motion.div>
 
-        <motion.h1 variants={fadeUp} className="relative text-4xl md:text-6xl font-bold">
-          Luxury Airport Transfer <br />
-          <span className="text-red-600">Mumbai</span>
-        </motion.h1>
+  {/* ===== YOUR ORIGINAL CONTENT ===== */}
 
-        <motion.p variants={fadeUp} className="relative mt-6 text-lg text-gray-300 max-w-2xl">
-          Chauffeur Driven Mercedes, BMW & Executive Fleet for Mumbai Airport (T1 & T2)
-        </motion.p>
+  <motion.h1
+    variants={fadeUp}
+    className="relative text-4xl md:text-6xl font-bold leading-tight"
+  >
+    <span className="bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-clip-text text-transparent">
+      This Holi, Skip the Chaos.
+    </span>
+    <br />
+    <span className="bg-gradient-to-r from-purple-500 via-red-500 to-orange-400 bg-clip-text text-transparent">
+      Travel in Luxury.
+    </span>
+  </motion.h1>
 
-        <motion.div variants={fadeUp} className="relative mt-10 flex flex-col md:flex-row gap-6">
-          <MagneticButton href="tel:+919167977799" text="📞 Call Now" />
-          <MagneticButton href="#lead-form" text="Get Instant Quote" outlined />
-        </motion.div>
-      </motion.section>
+  <motion.p
+    variants={fadeUp}
+    className="relative mt-6 text-lg text-gray-800 max-w-2xl font-medium"
+  >
+    Celebrate stress-free with RNK’s premium chauffeur-driven rides —
+    safe, comfortable, and on time.
+  </motion.p>
 
-      {/* TRUST */}
-      <motion.section
-        variants={stagger}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="py-20 px-6 bg-white text-black"
-      >
-        <motion.div variants={fadeUp} className="grid md:grid-cols-5 gap-10 text-center font-semibold">
-          <div>170+ Cities</div>
-          <div>Since 1969</div>
-          <div>24/7 Service</div>
-          <div>Uniformed Chauffeurs</div>
-          <div>Corporate Billing</div>
-        </motion.div>
-      </motion.section>
+  <motion.div
+    variants={fadeUp}
+    className="relative mt-10 flex flex-col md:flex-row gap-6"
+  >
+    <MagneticButton href="tel:+919167977799" text="📞 Call Now" />
+    <MagneticButton href="#lead-form" text="Get Instant Quote" outlined />
+  </motion.div>
 
+  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: 1 }}
+    className="absolute bottom-10 bg-gradient-to-r from-pink-500 to-yellow-400 text-white px-6 py-2 rounded-full font-semibold shadow-lg"
+  >
+    🌸 Holi Special Booking Available
+  </motion.div>
+</motion.section>
       
 
  {/* FLEET */}
