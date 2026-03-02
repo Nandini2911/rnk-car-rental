@@ -6,7 +6,7 @@ date: "2026-02-26"
 author: "RNK Rentals Team"
 category: "Airport Transfers"
 readTime: "4 min read"
-image: "/images/blog/why_airport_transfers_with_chauffeur.webp"
+image: "/images/blog/best-cars-for-airport-transfers-in-delhi.webp"
 featured: false
 trending: false
 --------------

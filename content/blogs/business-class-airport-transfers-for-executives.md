@@ -6,7 +6,7 @@ date: "2026-02-26"
 author: "RNK Rentals Team"
 category: "Airport Transfers"
 readTime: "4 min read"
-image: "/images/blog/why_airport_transfers_with_chauffeur.webp"
+image: "/images/blog/business-class-airport-transfers-for-executives.webp"
 featured: false
 trending: false
 --------------
