@@ -37,6 +37,7 @@ export function NavBar() {
           <Image
             src="/RNK_LOGO.jpg"
             alt="RNK Rentals Logo"
+              title="RNK Rentals - Bike & Car Rentals"
             width={70}
             height={55}
             className="h-17 w-auto object-contain"
