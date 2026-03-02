@@ -64,51 +64,92 @@ function getCarSchema(car: any, category: any) {
 
   return {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": `${pageUrl}#webpage`,
-        "url": pageUrl,
-        "name": `${car.name} Chauffeur-Driven Car | RNK Rentals`,
-        "description": `${car.name} chauffeur-driven car available for corporate travel, airport transfers, weddings, events and VIP movements.`,
-        "isPartOf": {
-          "@id": `${baseUrl}/#website`
-        }
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.rnk.com/#organization",
+      "name": "RNK Rentals",
+      "url": "https://www.rnk.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.rnk.com/logo.png"
       },
-      {
-        "@type": "CarRental",   // ✅ FIXED
-        "@id": `${pageUrl}#carrental`,
-        "name": `${car.name} Chauffeur-Driven Car Rental`,
-        "description": `Book ${car.name} with professional chauffeur service across India.`,
-        "provider": {
-          "@id": `${baseUrl}/#organization`
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9167977799",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": "English"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+        "addressLocality": "Mumbai",
+        "postalCode": "400025",
+        "addressCountry": "IN"
+      }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "{{pageUrl}}#webpage",
+      "url": "{{pageUrl}}",
+      "name": "{{carName}} Chauffeur-Driven Car Rental | RNK Rentals",
+      "description": "Hire {{carName}} with professional chauffeur service across India for corporate travel, airport transfers, weddings, VIP movements and events.",
+      "isPartOf": {
+        "@id": "https://www.rnk.com/#website"
+      }
+    },
+
+    {
+      "@type": "Product",
+      "@id": "{{pageUrl}}#product",
+      "name": "{{carName}} Chauffeur-Driven Rental",
+      "image": "{{imageUrl}}",
+      "description": "Luxury {{carName}} with professional chauffeur included. Ideal for corporate travel, VIP transfers, weddings and premium movement requirements across India.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Mercedes-Benz"
+      },
+      "category": "Luxury Car Rental",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Seating Capacity",
+          "value": "{{seating}}"
         },
-        "areaServed": {
-          "@type": "Country",
-          "name": "India"
+        {
+          "@type": "PropertyValue",
+          "name": "Doors",
+          "value": "4"
         },
-        "availableVehicle": {
-          "@type": "Vehicle",
-          "name": car.name,
-          "image": `${baseUrl}${car.image}`,   // important
-          "vehicleConfiguration": "Chauffeur Driven",
-          "seatingCapacity": car.seating,
-          "numberOfDoors": car.doors,
-          "brand": {
-            "@type": "Brand",
-            "name": car.name.split(" ")[0]
-          }
+        {
+          "@type": "PropertyValue",
+          "name": "Luggage Capacity",
+          "value": "4"
         },
-        "offers": {
-          "@type": "Offer",
-          "url": pageUrl,
-          "priceCurrency": "INR",
-          "price": "1",
-          "availability": "https://schema.org/InStock"
+        {
+          "@type": "PropertyValue",
+          "name": "Chauffeur",
+          "value": "Included"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "{{pageUrl}}",
+        "priceCurrency": "INR",
+        "price": "25000",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31",
+        "seller": {
+          "@id": "https://www.rnk.com/#organization"
         }
       }
-    ]
-  };
+    }
+
+  ]
+}
 }
 function Spec({ label, value }: SpecProps) {
   return (
