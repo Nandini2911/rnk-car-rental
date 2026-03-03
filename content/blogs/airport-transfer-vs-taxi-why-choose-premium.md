@@ -5,7 +5,7 @@ date: "2026-02-28"
 author: "RNK Rentals Team"
 category: "Airport Transfers"
 readTime: "4 min read"
-image: "/images/blog/why_airport_transfers_with_chauffeur.webp"
+image: "/images/blog/airport-transfer-vs-taxi-why-choose-premium.webp"
 featured: false
 trending: false
 -----------
