@@ -47,7 +47,7 @@ export default function BlogStats() {
 
 
       <div className="max-w-6xl mx-auto grid grid-cols-3 gap-6">
-        <Stat value={10} label="Blogs Published" />
+        <Stat value={90} label="Blogs Published" />
         <Stat value={170} label="Cities Covered" />
         <Stat value={10000} label="Happy Trips" />
       </div>
