@@ -172,13 +172,15 @@ lg:h-[500px] xl:h-[560px]
               bg-neutral-900
             "
           >
-            <Image
-              src="/intro.jpg"
-              alt="RNK luxury fleet"
-              fill
-              className="object-cover"
-              priority
-            />
+           <div className="relative w-full h-full">
+  <Image
+    src="/intro.jpg"
+    alt="RNK luxury fleet"
+    title="RNK Rentals - Luxury Fleet"
+    fill
+    className="object-cover"
+  />
+</div>
 
             <div className="absolute inset-0 bg-linear-to-tr from-[#A72740]/60 via-black/30 to-transparent" />
           </div>

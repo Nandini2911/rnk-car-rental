@@ -40,6 +40,7 @@ export function ServicesSection() {
         <Image
           src="/about.webp"
           alt="RNK services background"
+          title="RNK Rentals - Our Services"
           fill
           className="object-center blur-lg scale-110 opacity-70"
         />
@@ -135,6 +136,7 @@ h-[clamp(180px,20vw,260px)]
                     <Image
                       src={service.image}
                       alt={service.title}
+                      title={`RNK Rentals - ${service.title}`}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-[1.1]"
                     />

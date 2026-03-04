@@ -15,10 +15,30 @@ const statItems = [
 ];
 
 const images = [
-  { src: "/statsSection1.jpg", position: "top-6 left-6" },
-  { src: "/statsSection2.webp", position: "bottom-10 left-12" },
-  { src: "/statsSection3.webp", position: "top-10 right-10" },
-  { src: "/statsSection4.jpg", position: "bottom-6 right-6" },
+  {
+    src: "/statsSection1.jpg",
+    position: "top-6 left-6",
+    alt: "RNK chauffeur opening luxury car door",
+    title: "RNK premium chauffeur service",
+  },
+  {
+    src: "/statsSection2.webp",
+    position: "bottom-10 left-12",
+    alt: "RNK fleet of premium rental vehicles",
+    title: "RNK large vehicle fleet for rentals",
+  },
+  {
+    src: "/statsSection3.webp",
+    position: "top-10 right-10",
+    alt: "RNK corporate travel vehicle service",
+    title: "RNK corporate car rental service",
+  },
+  {
+    src: "/statsSection4.jpg",
+    position: "bottom-6 right-6",
+    alt: "RNK wedding luxury car convoy",
+    title: "RNK luxury wedding car rentals",
+  },
 ];
 
 /* ================= EASING ================= */
@@ -115,11 +135,12 @@ export function StatsSection() {
                 overflow-hidden`}
             >
               <Image
-                src={img.src}
-                alt="RNK moments"
-                fill
-                className="object-cover rounded-sm [clip-path:polygon(8%_0%,100%_0%,92%_100%,0%_100%)]"
-              />
+  src={img.src}
+  alt={img.alt}
+  title={img.title}
+  fill
+  className="object-cover rounded-sm [clip-path:polygon(8%_0%,100%_0%,92%_100%,0%_100%)]"
+/>
             </motion.div>
           ))}
         </div>
