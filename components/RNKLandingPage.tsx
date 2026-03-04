@@ -98,7 +98,7 @@ export default function RNKLandingPage() {
         className="fixed top-0 left-0 right-0 h-1 bg-red-900 origin-left z-50"
       />
 
-   {/* HERO – HOLI BG IMAGE + YOUR CONTENT */}
+   {/* HERO – CRICKET SPECIAL WITH IMAGE */}
 <motion.section
   ref={heroRef}
   initial="hidden"
@@ -106,45 +106,47 @@ export default function RNKLandingPage() {
   variants={stagger}
   className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden"
 >
-  {/* Holi Background Image */}
+  {/* Background Image */}
   <motion.div
     style={{ y: yParallax }}
     className="absolute inset-0"
   >
     <Image
-      src="/holi2.webp"   // 👈 put image inside public folder
-      alt="Holi background"
+      src="/wan.png"   // put image in public folder
+      alt="Cricket stadium"
       fill
       priority
-     
+      className="object-cover"
     />
 
-    {/* Soft white overlay for readability */}
-    <div className="absolute inset-0 "></div>
+    {/* Dark overlay for readability */}
+    <div className="absolute inset-0 bg-black/55"></div>
   </motion.div>
 
-  {/* ===== YOUR ORIGINAL CONTENT ===== */}
+  {/* TEXT */}
 
   <motion.h1
     variants={fadeUp}
     className="relative text-4xl md:text-6xl font-bold leading-tight"
   >
-    <span className="bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-clip-text text-transparent">
-      This Holi, Skip the Chaos.
+    <span className="bg-gradient-to-r from-yellow-300 via-green-300 to-yellow-300 bg-clip-text text-transparent">
+      Match Day? Travel Like a Champion
     </span>
     <br />
-    <span className="bg-gradient-to-r from-purple-500 via-red-500 to-orange-400 bg-clip-text text-transparent">
-      Travel in Luxury.
+    <span className="text-white">
+      Arrive in Luxury 🏏
     </span>
   </motion.h1>
 
   <motion.p
     variants={fadeUp}
-    className="relative mt-6 text-lg text-gray-800 max-w-2xl font-medium"
+    className="relative mt-6 text-lg text-gray-200 max-w-2xl"
   >
-    Celebrate stress-free with RNK’s premium chauffeur-driven rides —
-    safe, comfortable, and on time.
+    Skip stadium traffic and parking chaos.  
+    Book RNK’s premium chauffeur-driven rides and reach the match in style.
   </motion.p>
+
+  {/* BUTTONS (UNCHANGED) */}
 
   <motion.div
     variants={fadeUp}
@@ -154,16 +156,17 @@ export default function RNKLandingPage() {
     <MagneticButton href="#lead-form" text="Get Instant Quote" outlined />
   </motion.div>
 
+  {/* TAG */}
+
   <motion.div
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ delay: 1 }}
-    className="absolute bottom-10 bg-gradient-to-r from-pink-500 to-yellow-400 text-white px-6 py-2 rounded-full font-semibold shadow-lg"
+    className="absolute bottom-10 bg-gradient-to-r from-green-500 to-yellow-400 text-white px-6 py-2 rounded-full font-semibold shadow-lg"
   >
-    🌸 Holi Special Booking Available
+    🏏 Cricket Match Special Transfers
   </motion.div>
 </motion.section>
-      
 
  {/* FLEET */}
 <motion.section
