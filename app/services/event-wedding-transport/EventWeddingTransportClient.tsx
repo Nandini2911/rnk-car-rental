@@ -234,6 +234,7 @@ export default function EventWeddingTransportPage() {
                 <motion.img
                   src="/about.webp"
                   alt="Event & Wedding Travel RNK"
+                  title="Luxury Wedding and Event Travel Services"
                   className="w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[520px] xl:h-[620px] object-cover object-center"
                   initial={{ scale: 1.06, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}

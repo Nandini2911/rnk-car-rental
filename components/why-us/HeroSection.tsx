@@ -25,6 +25,7 @@ export function HeroSection() {
       <motion.img
         src="/about.webp"
         alt="RNK Luxury Rentals"
+        title="About RNK Luxury Rentals"
         className="absolute inset-0 h-full w-full object-cover"
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
