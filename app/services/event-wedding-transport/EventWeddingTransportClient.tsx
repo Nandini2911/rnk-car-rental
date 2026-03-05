@@ -90,6 +90,7 @@ export default function EventWeddingTransportPage() {
         <motion.img
           src="/about.webp"
           alt="Event & Wedding Transport RNK"
+          title="Wedding Guest Transportation by RNK"
           className="absolute inset-0 h-full w-full object-cover object-center"
           initial={{ scale: 1.12, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
