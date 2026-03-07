@@ -84,6 +84,7 @@ const payload = {
 <motion.img
   src="/about.webp"
   alt="Contact RNK"
+  title="Contact RNK for Corporate and Luxury Car Rental Services"
   className="
     absolute inset-0
     w-full h-full
@@ -240,6 +241,7 @@ const payload = {
         <img
           src="/Head_Office.webp"
           alt="RNK Head Office"
+          title="RNK Corporate Head Office"
           className="
             w-full
             h-44 sm:h-48 md:h-52 lg:h-56 2xl:h-64
@@ -292,6 +294,7 @@ const payload = {
         <img
           src="/call_us.webp"
           alt="Call RNK"
+          title="Call RNK for Car Rental Bookings and Enquiries"
           className="
             w-full
             h-44 sm:h-48 md:h-52 lg:h-56 2xl:h-64
@@ -347,6 +350,7 @@ const payload = {
         <img
           src="/email.webp"
           alt="Email RNK"
+          title="Email RNK for Car Rental Enquiries and Bookings"
           className="
             w-full
             h-44 sm:h-48 md:h-52 lg:h-56 2xl:h-64

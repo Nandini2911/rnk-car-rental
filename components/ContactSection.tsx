@@ -62,6 +62,7 @@ export default function ContactPage() {
         <motion.img
           src="/about.webp"
           alt="RNK Contact"
+          title="Contact RNK for Corporate and Luxury Car Rental Services"
           className="absolute inset-0 h-full w-full object-cover"
           initial={{ scale: 1.08, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}

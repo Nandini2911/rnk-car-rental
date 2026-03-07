@@ -39,6 +39,7 @@ export function HeritageSection() {
           <motion.img
             src="/about.webp" // Replace with your high-quality image
             alt="Founding years of RNK Rentals"
+            title="Early Years and Founding of RNK Rentals"
             className="w-full h-full object-cover max-h-[450px]"
             initial={{ scale: 1.08 }}
             animate={{ scale: 1 }}

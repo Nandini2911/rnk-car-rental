@@ -49,6 +49,7 @@ export function AccoladesSection() {
           <motion.img
             src="/about.webp" // Replace with the actual image
             alt="RNK's Clientele and Services"
+            title="RNK Corporate and Luxury Travel Services"
             className="w-full h-full object-cover max-h-[400px]" // Adjusted max-height
             initial={{ scale: 1.06 }}
             animate={{ scale: 1 }}

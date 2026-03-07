@@ -24,6 +24,7 @@ export type FleetCar = {
   doors: string;
   luggage: string;
   image?: string;
+  
 };
 
 export const CATEGORIES: FleetCategory[] = [
@@ -67,14 +68,15 @@ export const CATEGORIES: FleetCategory[] = [
 export const FLEET_CARS: FleetCar[] = [
   // SUPER LUXURY (2)
   {
-    id: "rolls-royce",
-    name: "Rolls Royce",
-    category: "super-luxury",
-    seating: "3+1",
-    doors: "4",
-    luggage: "2",
-    image: "/RollsRoyals_1.webp",
+  id: "rolls-royce",
+  name: "Rolls Royce",
+  category: "super-luxury",
+  seating: "3+1",
+  doors: "4",
+  luggage: "2",
+  image: "/RollsRoyals_1.webp",
   },
+
   {
     id: "hummer",
     name: "Hummer",
@@ -83,6 +85,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "2",
     image: "/Hummer_1.webp",
+
   },
 
   // LUXURY (6)
@@ -94,6 +97,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "1",
     image: "/Mercedes_Sclass_1.webp",
+   
   },
   {
     id: "mb-gls",
@@ -112,6 +116,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "4",
     image: "/Mercedes_V_Class_1.webp",
+ 
   },
   {
     id: "mb-gle",
@@ -121,6 +126,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "2",
     image: "/Mercedes_GLE_1.webp",
+   
   },
   {
     id: "mb-e-class",
@@ -168,6 +174,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "5",
     luggage: "2",
     image: "/Toyota_Crysta_1.webp",
+
   },
   {
     id: "byd-E6-electric-vehicle",
@@ -186,6 +193,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "5",
     luggage: "2",
     image: "/Byd_E6_Electric_Vehicle_1.webp",
+  
   },
 
   // SEDAN (3)
@@ -197,6 +205,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "1",
     image: "/Maruti_Ciaz_1.webp",
+
   },
   {
     id: "honda-city",
@@ -206,6 +215,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "1",
     image: "/Honda_City_1.webp",
+  
   },
   {
     id: "dzire",
@@ -215,6 +225,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "4",
     luggage: "1",
     image: "/Maruti_Swift_Dzire_1.webp",
+  
   },
 
   // MINI VANS (5)
@@ -235,6 +246,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "1",
     luggage: "4",
     image: "/Toyota_Commuter_1.webp",
+  
   },
   
 
@@ -258,6 +270,7 @@ export const FLEET_CARS: FleetCar[] = [
     doors: "1",
     luggage: "30",
     image: "/Coaches-1.webp",
+  
   },
   {
     id: "43-seater",

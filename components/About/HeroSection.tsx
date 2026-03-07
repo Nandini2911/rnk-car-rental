@@ -21,6 +21,7 @@ export function HeroSection() {
       <motion.img
         src="/about.webp"
         alt="RNK About"
+        title="About RNK Luxury Chauffeur Driven Car Rental Services"
         className="
           absolute inset-0 w-full h-full
           object-cover
