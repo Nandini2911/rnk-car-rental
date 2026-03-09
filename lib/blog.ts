@@ -43,6 +43,7 @@ export function getAllBlogs(): BlogMeta[] {
       image: data.image ?? null, 
       featured: data.featured ?? false,
       trending: data.trending ?? false,
+      tags: data.tags || [],
     };
   });
 }
@@ -69,5 +70,6 @@ export async function getBlogBySlug(
     trending: data.trending ?? false,
     content: processed.toString(),
   };
+  
 }
 

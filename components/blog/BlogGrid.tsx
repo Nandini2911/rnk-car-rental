@@ -2,18 +2,22 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import router from "next/router";
+import { useState, useEffect } from "react";
 
 const BLOGS_PER_PAGE = 9;
 
 export default function BlogGrid({ blogs }: { blogs: any[] }) {
   const [currentPage, setCurrentPage] = useState(1);
 
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [blogs]);
+
   const totalPages = Math.ceil(blogs.length / BLOGS_PER_PAGE);
 
   const startIndex = (currentPage - 1) * BLOGS_PER_PAGE;
   const currentBlogs = blogs.slice(startIndex, startIndex + BLOGS_PER_PAGE);
-
   return (
     <section id="blog-grid" className="w-full bg-white">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-12 sm:py-16 lg:py-20">
@@ -80,6 +84,22 @@ export default function BlogGrid({ blogs }: { blogs: any[] }) {
                 <p className="text-gray-600 text-[13px] mb-3 leading-relaxed line-clamp-3">
                   {blog.description}
                 </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+ {Array.isArray(blog.tags) &&
+  blog.tags.slice(0, 3).map((tag: string) => (
+    <span
+      key={tag}
+      onClick={(e) => {
+        e.stopPropagation();
+        router.push(`/blog/tag/${tag.toLowerCase().replace(/\s+/g, "-")}`);
+      }}
+      className="text-[10px] bg-red-100 text-red-800 px-2 py-1 rounded hover:bg-red-200 cursor-pointer"
+    >
+      #{tag}
+    </span>
+))}
+ 
+</div>
 
                 <div className="text-[11px] text-gray-500 flex justify-between">
                   <span>{blog.author}</span>
@@ -144,6 +164,8 @@ export default function BlogGrid({ blogs }: { blogs: any[] }) {
           </div>
         )}
       </div>
+      
     </section>
   );
 }
+
