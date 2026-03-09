@@ -2,13 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import router from "next/router";
+import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 
 const BLOGS_PER_PAGE = 9;
 
 export default function BlogGrid({ blogs }: { blogs: any[] }) {
   const [currentPage, setCurrentPage] = useState(1);
+   const router = useRouter();
 
   useEffect(() => {
     setCurrentPage(1);
@@ -85,20 +86,20 @@ export default function BlogGrid({ blogs }: { blogs: any[] }) {
                   {blog.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-2">
- {Array.isArray(blog.tags) &&
-  blog.tags.slice(0, 3).map((tag: string) => (
-    <span
-      key={tag}
-      onClick={(e) => {
-        e.stopPropagation();
-        router.push(`/blog/tag/${tag.toLowerCase().replace(/\s+/g, "-")}`);
-      }}
-      className="text-[10px] bg-red-100 text-red-800 px-2 py-1 rounded hover:bg-red-200 cursor-pointer"
-    >
-      #{tag}
-    </span>
-))}
- 
+  {Array.isArray(blog.tags) &&
+    blog.tags.slice(0, 3).map((tag: string) => (
+      <span
+        key={tag}
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          router.push(`/blog/tag/${tag.toLowerCase().replace(/\s+/g, "-")}`);
+        }}
+        className="text-[10px] bg-red-100 text-red-800 px-2 py-1 rounded hover:bg-red-200 cursor-pointer"
+      >
+        #{tag}
+      </span>
+    ))}
 </div>
 
                 <div className="text-[11px] text-gray-500 flex justify-between">
