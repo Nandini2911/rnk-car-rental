@@ -69,6 +69,7 @@ export default function LuxuryTravelPage() {
         <motion.img
           src="/about.webp"
           alt="Luxury Travel RNK"
+          title="Premium Luxury Travel Services by RNK"
           className="absolute inset-0 h-full w-full object-cover object-center"
           initial={{ scale: 1.12, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -217,6 +218,7 @@ export default function LuxuryTravelPage() {
                 <motion.img
                   src="/about.webp"
                   alt="RNK Luxury Travel"
+                  title="RNK Executive Luxury Travel Experience"
                   className="w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[520px] xl:h-[620px] object-cover object-center"
                   initial={{ scale: 1.06, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}

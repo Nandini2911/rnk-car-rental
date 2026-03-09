@@ -103,6 +103,7 @@ export default function AirportRailwayTransfersPage() {
   <motion.img
     src="/about.webp"
     alt="Airport & Railway Transfers by RNK"
+    title="Airport and Railway Transfer Services by RNK"
     className="absolute inset-0 w-full h-full object-cover object-center"
     initial={{ scale: 1.08, opacity: 0 }}
     animate={{ scale: 1, opacity: 1 }}
@@ -282,6 +283,7 @@ export default function AirportRailwayTransfersPage() {
           <motion.img
             src="/about.webp"
             alt="RNK Airport & Railway Transfers"
+            title="RNK Airport and Railway Station Transfer Services"
             className="w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[520px] object-cover"
             initial={{ scale: 1.05, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}

@@ -90,6 +90,7 @@ export default function VacationRentalsPage() {
         <motion.img
           src="/about.webp"
           alt="Vacation Rentals Travel by RNK"
+          title="Vacation Rental Travel Transportation by RNK"
           className="absolute inset-0 h-full w-full object-cover object-center"
           initial={{ scale: 1.12, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -243,6 +244,7 @@ export default function VacationRentalsPage() {
                 <motion.img
                   src="/about.webp"
                   alt="RNK Vacation Rentals Travel"
+                  title="Premium Vacation Travel Services by RNK"
                   className="w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[520px] xl:h-[620px] object-cover object-center"
                   initial={{ scale: 1.06, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}

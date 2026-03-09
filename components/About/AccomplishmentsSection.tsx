@@ -19,6 +19,7 @@ export function AccomplishmentsSection() {
           <motion.img
             src="/about.webp" // Replace with your image
             alt="Image description"
+            title=" RNK Chauffeur Driven Luxury Car Rental Services"
             className="w-full h-full object-cover rounded-3xl overflow-hidden border border-black/10 shadow-xl max-h-[450px]"
             initial={{ scale: 1.08 }}
             animate={{ scale: 1 }}

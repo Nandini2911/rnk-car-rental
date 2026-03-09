@@ -90,6 +90,7 @@ export default function CorporateCarRentalPage() {
   <motion.img
     src="/about.webp"
     alt="Corporate Car Rental RNK"
+    title="Corporate Car Rental Services by RNK"
     className="absolute inset-0 h-full w-full object-cover object-center"
     initial={{ scale: 1.12, opacity: 0 }}
     animate={{ scale: 1, opacity: 1 }}
@@ -239,6 +240,7 @@ export default function CorporateCarRentalPage() {
           <motion.img
             src="/about.webp"
             alt="Corporate chauffeur-driven car by RNK"
+            title="RNK Corporate Chauffeur-Driven Car Services"
             className="w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[520px] xl:h-[620px] object-cover object-center"
             initial={{ scale: 1.06, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}

@@ -653,6 +653,7 @@ export default function OurNetworkMapSection() {
               <Image
                 src="/map.webp"
                 alt="India map showing service locations"
+                title="RNK Pan India Car Rental Service Locations"
                 fill
                 priority
                 className="object-contain"

@@ -146,6 +146,7 @@ export default function OurNetworkPage() {
   <motion.img
     src="/about.webp"
     alt="RNK pan-India network"
+    title="RNK Corporate Travel Network Across India"
     className="absolute inset-0 w-full h-full object-cover object-center"
     initial={{ scale: 1.08, opacity: 0 }}
     animate={{ scale: 1, opacity: 1 }}
