@@ -109,7 +109,7 @@ At the time of return, the operator inspects the vehicle again. Light road dust 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. What is the main difference between self-drive and chauffeur-driven luxury rentals?
 

@@ -103,7 +103,7 @@ Structured departure planning ensures that the event concludes smoothly without 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. How early should transportation planning begin for corporate events?
 

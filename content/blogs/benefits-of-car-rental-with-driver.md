@@ -67,7 +67,7 @@ This makes chauffeur-driven rentals particularly useful for business trips, tour
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is renting a car with a driver safer than self-driving?
 

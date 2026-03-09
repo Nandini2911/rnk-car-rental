@@ -103,7 +103,7 @@ Matching the vehicle type to the travel purpose ensures a more comfortable exper
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. What is the most common luxury rental mistake?
 

@@ -90,7 +90,7 @@ Professional service consistency strengthens the overall premium experience.
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is luxury car rental in Goa chauffeur-driven?
 

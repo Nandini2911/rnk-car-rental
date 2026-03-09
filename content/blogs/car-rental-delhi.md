@@ -75,7 +75,7 @@ For executives, tourists, and families alike, the presence of a trained chauffeu
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions
 
 Q1. Is car rental in Delhi usually chauffeur-driven?
 

@@ -81,7 +81,7 @@ Understanding the complete cost structure in advance helps couples plan their we
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 **Can I use a wedding car from another city?**
 

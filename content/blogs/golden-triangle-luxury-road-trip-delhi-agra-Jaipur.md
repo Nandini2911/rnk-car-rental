@@ -5,7 +5,7 @@ date: "2026-02-23"
 author: "Ritika Tiwari"
 category: "Travel Tips"
 readTime: "4 min read"
-image: "/images/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur.webp"
+image: "/images/blog/golden-triangle-luxury-road-trip-delhi-agra-Jaipur.webp"
 featured: false
 trending: false
 ---
@@ -91,7 +91,7 @@ Planning the trip during the cooler months enhances the overall travel experienc
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is the Golden Triangle suitable for a luxury sedan?
 

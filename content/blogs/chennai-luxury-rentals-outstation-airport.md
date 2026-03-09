@@ -98,7 +98,7 @@ Clear communication ensures smooth service delivery.
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is luxury car rental in Chennai chauffeur-driven?
 

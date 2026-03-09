@@ -99,7 +99,7 @@ Understanding your travel context is the key to making the correct decision.
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions
 
 Q1. Is self-drive luxury rental cheaper than chauffeur-driven?
 
