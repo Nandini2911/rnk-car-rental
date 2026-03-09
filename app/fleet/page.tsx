@@ -58,126 +58,242 @@ const fleetSchema =
   "@context": "https://schema.org",
   "@graph": [
 
-    {
-      "@type": "Organization",
-      "@id": "https://www.rnk.com/#organization",
-      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
-      "alternateName": "RNK Rentals",
-      "url": "https://www.rnk.com/",
-      "email": "info@rnk.com",
-      "foundingDate": "1969",
-      "logo": {
-        "@type": "ImageObject",
-        "@id": "https://www.rnk.com/#logo",
-        "url": "https://www.rnk.com/RNK_LOGO.jpg"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/rnk-rentals",
-        "https://www.instagram.com/rnkrentals"
-      ]
-    },
+{
+ "@type": "WebPage",
+ "@id": "https://www.rnk.com/fleet/#webpage",
+ "url": "https://www.rnk.com/fleet",
+ "name": "RNK Premium Fleet | Luxury Chauffeur Driven Cars & Coaches",
+ "description": "Explore RNK's premium fleet including Rolls Royce, Mercedes Benz, SUVs, Sedans, Mini Vans and Luxury Coaches for corporate travel, weddings and VIP transport across India.",
+ "isPartOf": {
+   "@id": "https://www.rnk.com/#website"
+ }
+},
 
-    {
-      "@type": "WebSite",
-      "@id": "https://www.rnk.com/#website",
-      "url": "https://www.rnk.com/",
-      "name": "RNK Rentals",
-      "publisher": {
-        "@id": "https://www.rnk.com/#organization"
-      }
-    },
+{
+ "@type": "BreadcrumbList",
+ "@id": "https://www.rnk.com/fleet/#breadcrumb",
+ "itemListElement": [
+   {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.rnk.com/"
+   },
+   {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Fleet",
+     "item": "https://www.rnk.com/fleet"
+   }
+ ]
+},
 
-    {
-      "@type": "WebPage",
-      "@id": "https://www.rnk.com/fleet/#webpage",
-      "url": "https://www.rnk.com/fleet",
-      "name": "Our Fleet - Premium Chauffeur-Driven Cars & Coaches | RNK Rentals",
-      "description": "Explore RNK's premium fleet including Rolls Royce, Mercedes-Benz, BMW, Audi, SUVs, and luxury coaches. Curated for corporate travel, weddings, and VIP movements across India.",
-      "isPartOf": {
-        "@id": "https://www.rnk.com/#website"
-      },
-      "about": {
-        "@id": "https://www.rnk.com/#localbusiness"
-      },
-      "primaryImageOfPage": {
-        "@id": "https://www.rnk.com/#logo"
-      }
-    },
+{
+ "@type": "ItemList",
+ "@id": "https://www.rnk.com/fleet/#fleetlist",
+ "name": "RNK Fleet Vehicles",
+ "numberOfItems": 22,
+ "itemListElement": [
 
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.rnk.com/#localbusiness",
-      "name": "RNK Rentals",
-      "url": "https://www.rnk.com/",
-      "telephone": "+91-22-43227777",
-      "priceRange": "₹₹₹₹",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
-        "addressLocality": "Mumbai",
-        "postalCode": "400025",
-        "addressCountry": "IN"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
-      "parentOrganization": {
-        "@id": "https://www.rnk.com/#organization"
-      }
-    },
+{
+ "@type": "ListItem",
+ "position": 1,
+ "name": "Rolls Royce"
+},
 
-    {
-      "@type": "OfferCatalog",
-      "@id": "https://www.rnk.com/fleet/#fleetcatalog",
-      "name": "RNK Premium Fleet Categories",
-      "itemListElement": [
+{
+ "@type": "ListItem",
+ "position": 2,
+ "name": "Hummer"
+},
 
-        {
-  "@type": "ItemList",
-  "@id": "https://www.rnk.com/fleet/#fleetlist",
-  "name": "RNK Premium Fleet Categories",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Super Luxury Cars"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Luxury Cars"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "SUV / MUV"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "name": "Sedans"
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
-      "name": "Mini Vans"
-    },
-    {
-      "@type": "ListItem",
-      "position": 6,
-      "name": "Coaches"
-    }
-  ]
+{
+ "@type": "ListItem",
+ "position": 3,
+ "name": "Mercedes Benz S Class"
+},
+
+{
+ "@type": "ListItem",
+ "position": 4,
+ "name": "Mercedes Benz GLS"
+},
+
+{
+ "@type": "ListItem",
+ "position": 5,
+ "name": "Mercedes Benz V Class"
+},
+
+{
+ "@type": "ListItem",
+ "position": 6,
+ "name": "Mercedes Benz GLE"
+},
+
+{
+ "@type": "ListItem",
+ "position": 7,
+ "name": "Mercedes Benz E Class"
+},
+
+{
+ "@type": "ListItem",
+ "position": 8,
+ "name": "Toyota Camry"
+},
+
+{
+ "@type": "ListItem",
+ "position": 9,
+ "name": "Toyota Fortuner"
+},
+
+{
+ "@type": "ListItem",
+ "position": 10,
+ "name": "Toyota Hycross"
+},
+
+{
+ "@type": "ListItem",
+ "position": 11,
+ "name": "Toyota Crysta"
+},
+
+{
+ "@type": "ListItem",
+ "position": 12,
+ "name": "BYD E6 Electric Vehicle"
+},
+
+{
+ "@type": "ListItem",
+ "position": 13,
+ "name": "Kia Carens"
+},
+
+{
+ "@type": "ListItem",
+ "position": 14,
+ "name": "Maruti Ciaz"
+},
+
+{
+ "@type": "ListItem",
+ "position": 15,
+ "name": "Honda City"
+},
+
+{
+ "@type": "ListItem",
+ "position": 16,
+ "name": "Maruti Swift Dzire"
+},
+
+{
+ "@type": "ListItem",
+ "position": 17,
+ "name": "Toyota Coaster"
+},
+
+{
+ "@type": "ListItem",
+ "position": 18,
+ "name": "Toyota Commuter"
+},
+
+{
+ "@type": "ListItem",
+ "position": 19,
+ "name": "Force Urbania"
+},
+
+{
+ "@type": "ListItem",
+ "position": 20,
+ "name": "Volvo 9600 Coach"
+},
+
+{
+ "@type": "ListItem",
+ "position": 21,
+ "name": "43 Seater Bus"
+},
+
+{
+ "@type": "ListItem",
+ "position": 22,
+ "name": "27 Seater Bus"
 }
-      
+
+ ]
+},
+
+{
+ "@type": "Service",
+ "@id": "https://www.rnk.com/#fleetservice",
+ "serviceType": "Luxury Chauffeur Driven Fleet Rental",
+ "provider": {
+   "@type": "Organization",
+   "name": "RNK Rentals",
+   "url": "https://www.rnk.com"
+ },
+ "areaServed": {
+   "@type": "Country",
+   "name": "India"
+ }
+},
+
+{
+ "@type": "FAQPage",
+ "@id": "https://www.rnk.com/fleet/#faq",
+ "mainEntity": [
+
+{
+ "@type": "Question",
+ "name": "What types of vehicles are available in the RNK fleet?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "RNK offers a premium fleet including Rolls Royce, Mercedes Benz, SUVs, Sedans, Mini Vans and Luxury Coaches for corporate travel, weddings and VIP movements."
+ }
+},
+
+{
+ "@type": "Question",
+ "name": "Can I choose a specific vehicle for my rental?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "Yes, clients can request specific vehicles from the RNK fleet depending on availability and service requirements."
+ }
+},
+
+{
+ "@type": "Question",
+ "name": "Do you provide chauffeur driven vehicles?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "All RNK fleet vehicles are chauffeur driven to ensure safety, professionalism and a premium travel experience."
+ }
+},
+
+{
+ "@type": "Question",
+ "name": "How do I book a vehicle from the RNK fleet?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "You can book a vehicle by contacting RNK directly via phone, email or the booking form on the website."
+ }
+}
+
+ ]
+}
+
+  ]
+}      
     
 
-      ]
-    }
-
-  ]
-}
+      
 export default function FleetPage() {
   return  <><Schema data={fleetSchema} /><Fleet /></>;
 }
