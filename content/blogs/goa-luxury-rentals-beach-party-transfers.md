@@ -1,6 +1,14 @@
 ---
 title: "Goa Luxury Rentals: Beach & Party Transfers"
 description: "Luxury car rental Goa with chauffeur-driven sedans and SUVs for airport transfers, beach resorts, party travel, weddings, and full-day bookings with transparent pricing."
+tags:
+  - luxury car rental goa
+  - goa airport transfer luxury car
+  - chauffeur driven car rental goa
+  - goa beach resort transportation
+  - luxury suv rental goa
+  - goa party transfer luxury car
+  - destination wedding car rental goa
 author: "Ritika Tiwari"
 category: "Car Blogs"
 readTime: "4 min read"

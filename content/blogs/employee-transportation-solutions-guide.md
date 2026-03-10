@@ -1,6 +1,14 @@
 ---
 title: "Employee Transportation Solutions Guide"
 description: "Employee transport services in India explained—route planning, fleet optimisation, GPS tracking, safety compliance, shift scheduling, and cost control for companies."
+tags:
+  - employee transport services india
+  - corporate employee transportation solutions
+  - employee shuttle service for companies
+  - workforce commute management india
+  - corporate staff transport systems
+  - employee transport fleet management
+  - shift based employee transport planning
 date: "2026-02-20"
 author: "Ritika Tiwari"
 category: "Corporate Travel"

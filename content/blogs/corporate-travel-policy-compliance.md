@@ -1,6 +1,14 @@
 ---
 title: "Corporate Travel Policy & Compliance"
 description: "How to create a corporate travel policy in India—compliance rules, vendor verification, expense control, GST invoices, safety standards, and audit-ready travel management."
+tags:
+  - corporate travel policy india
+  - corporate travel compliance india
+  - business travel policy guidelines india
+  - gst compliant corporate travel expenses
+  - corporate travel vendor verification india
+  - employee travel policy compliance india
+  - corporate mobility compliance management
 date: "2026-02-20"
 author: "Ritika Tiwari"
 category: "Corporate Travel"

@@ -1,6 +1,14 @@
 ---
 title: "Cost of Wedding Car Rental in Mumbai"
 description: "Wedding car rental cost in Mumbai explained—price ranges by vehicle type, standby charges, decoration impact, peak-season demand, and booking tips."
+tags:
+  - wedding car rental cost mumbai
+  - luxury wedding car rental mumbai
+  - bride groom entry car rental mumbai
+  - vintage wedding car rental mumbai
+  - wedding transportation mumbai
+  - luxury car for wedding entry india
+  - mumbai wedding car booking guide
 date: "2026-02-19"
 author: "Ritika Tiwari"
 category: "Wedding Transport"

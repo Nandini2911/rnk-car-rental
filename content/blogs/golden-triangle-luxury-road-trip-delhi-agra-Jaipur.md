@@ -1,6 +1,14 @@
 ---
 title: "Golden Triangle Luxury Road Trip: Delhi-Agra-Jaipur"
 description: "Golden Triangle luxury road trip guide—Delhi, Agra, Jaipur by chauffeur-driven car. Routes, travel time, sedan vs SUV choice, best season, and premium itinerary tips."
+tags:
+  - golden triangle luxury road trip india
+  - delhi agra jaipur road trip guide
+  - chauffeur driven golden triangle tour
+  - yamuna expressway luxury travel
+  - delhi to agra jaipur itinerary
+  - luxury road trip north india
+  - delhi agra jaipur chauffeur tour
 date: "2026-02-23"
 author: "Ritika Tiwari"
 category: "Travel Tips"
