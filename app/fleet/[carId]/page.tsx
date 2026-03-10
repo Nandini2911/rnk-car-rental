@@ -61,95 +61,60 @@ type SpecProps = {
 function getCarSchema(car: any, category: any) {
   const baseUrl = "https://www.rnk.com";
   const pageUrl = `${baseUrl}/fleet/${car.id}`;
+  const imageUrl = `${baseUrl}${car.image}`;
 
   return {
     "@context": "https://schema.org",
-  "@graph": [
+    "@graph": [
 
-    {
-      "@type": "Organization",
-      "@id": "https://www.rnk.com/#organization",
-      "name": "RNK Rentals",
-      "url": "https://www.rnk.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.rnk.com/logo.png"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-9167977799",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": "English"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
-        "addressLocality": "Mumbai",
-        "postalCode": "400025",
-        "addressCountry": "IN"
-      }
-    },
-
-    {
-      "@type": "WebPage",
-      "@id": "{{pageUrl}}#webpage",
-      "url": "{{pageUrl}}",
-      "name": "{{carName}} Chauffeur-Driven Car Rental | RNK Rentals",
-      "description": "Hire {{carName}} with professional chauffeur service across India for corporate travel, airport transfers, weddings, VIP movements and events.",
-      "isPartOf": {
-        "@id": "https://www.rnk.com/#website"
-      }
-    },
-
-    {
-      "@type": "Product",
-      "@id": "{{pageUrl}}#product",
-      "name": "{{carName}} Chauffeur-Driven Rental",
-      "image": "{{imageUrl}}",
-      "description": "Luxury {{carName}} with professional chauffeur included. Ideal for corporate travel, VIP transfers, weddings and premium movement requirements across India.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Mercedes-Benz"
-      },
-      "category": "Luxury Car Rental",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Seating Capacity",
-          "value": "{{seating}}"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Doors",
-          "value": "4"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Luggage Capacity",
-          "value": "4"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Chauffeur",
-          "value": "Included"
+      {
+        "@type": "Organization",
+        "@id": "https://www.rnk.com/#organization",
+        "name": "RNK Rentals",
+        "url": "https://www.rnk.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.rnk.com/logo.png"
         }
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "{{pageUrl}}",
-        "priceCurrency": "INR",
-        "price": "25000",
-        "availability": "https://schema.org/InStock",
-        "priceValidUntil": "2026-12-31",
-        "seller": {
-          "@id": "https://www.rnk.com/#organization"
+      },
+
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        "url": pageUrl,
+        "name": `${car.name} Chauffeur-Driven Car Rental | RNK Rentals`,
+        "description": `Hire ${car.name} with professional chauffeur service across India for corporate travel, airport transfers, weddings and VIP movements.`,
+        "isPartOf": {
+          "@id": "https://www.rnk.com/#website"
+        }
+      },
+
+      {
+        "@type": "Product",
+        "@id": `${pageUrl}#product`,
+        "name": `${car.name} Chauffeur-Driven Rental`,
+        "image": imageUrl,
+        "description": `Luxury ${car.name} with professional chauffeur included. Ideal for corporate travel, VIP transfers, weddings and premium movements.`,
+        "brand": {
+          "@type": "Brand",
+          "name": car.name
+        },
+        "category": "Luxury Car Rental",
+        "offers": {
+          "@type": "Offer",
+          "url": pageUrl,
+          "priceCurrency": "INR",
+          "price": "25000",
+          "availability": "https://schema.org/InStock",
+          "priceValidUntil": "2026-12-31",
+          "seller": {
+            "@id": "https://www.rnk.com/#organization"
+          }
         }
       }
-    }
 
-  ]
-}
+    ]
+  };
 }
 function Spec({ label, value }: SpecProps) {
   return (
