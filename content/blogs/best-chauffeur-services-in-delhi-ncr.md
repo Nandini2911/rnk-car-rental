@@ -87,7 +87,7 @@ Travelers may also forget to clarify overtime policies or waiting charges during
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is chauffeur-driven service better than self-drive in Delhi NCR?
 

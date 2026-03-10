@@ -105,7 +105,7 @@ Operational risk tolerance should therefore be considered when choosing between 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is corporate car rental cheaper than leasing?
 

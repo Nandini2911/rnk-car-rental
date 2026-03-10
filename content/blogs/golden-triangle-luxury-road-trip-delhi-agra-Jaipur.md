@@ -91,7 +91,7 @@ Planning the trip during the cooler months enhances the overall travel experienc
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is the Golden Triangle suitable for a luxury sedan?
 

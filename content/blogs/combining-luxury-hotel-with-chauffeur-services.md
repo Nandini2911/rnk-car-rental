@@ -95,7 +95,7 @@ Transparent pricing contributes to trust and long-term customer satisfaction.
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Should luxury hotel guests pre-book chauffeur services?
 

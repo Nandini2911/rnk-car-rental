@@ -87,7 +87,7 @@ Selecting oversized vehicles for single-passenger transfers may also increase co
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Are business airport transfers different from regular luxury transfers?
 

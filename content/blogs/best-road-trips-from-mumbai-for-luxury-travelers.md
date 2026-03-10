@@ -93,7 +93,7 @@ Long weekends often bring heavy traffic on popular routes, so additional buffer 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Which destination is best for a quick luxury road trip from Mumbai?
 

@@ -95,7 +95,7 @@ Ultimately, the choice depends on the context of the journey and the level of co
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions
 
 Q1. Is a luxury airport transfer more expensive than a taxi?
 

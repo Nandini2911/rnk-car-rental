@@ -86,7 +86,7 @@ This environment allows travelers to make phone calls, check travel plans, or si
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Are chauffeur airport transfers available for both arrivals and departures?
 

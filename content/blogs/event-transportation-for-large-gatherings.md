@@ -85,7 +85,7 @@ A structured departure plan assigns pickup zones, prioritises VIP departures, an
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. How early should transport planning begin?
 

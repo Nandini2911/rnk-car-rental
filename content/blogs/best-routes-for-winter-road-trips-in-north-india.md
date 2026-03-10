@@ -95,7 +95,7 @@ February is often considered the most balanced month for luxury road trips becau
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Which is the safest winter road trip route in North India?
 
