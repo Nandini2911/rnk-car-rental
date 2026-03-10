@@ -96,7 +96,7 @@ Providing accurate flight details and confirming the correct arrival terminal us
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is business-class airport transfer different from standard luxury transfer?
 
@@ -129,5 +129,3 @@ Business airport transfer luxury services perform best when flight tracking, rep
 When airport transfers are professionally managed, executives can move from the airport to the hotel or office without delays, confusion, or unnecessary travel stress.
 
 📞 **Call us:** +91 9167977799 &nbsp;&nbsp;&nbsp;&nbsp; ✉️ **Write to us:** [info@rnk.com](mailto:info@rnk.com)
-
----

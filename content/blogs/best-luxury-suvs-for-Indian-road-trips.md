@@ -93,7 +93,7 @@ However, the choice between diesel and petrol engines ultimately depends on rout
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions
 
 Q1. Which SUV is best for long highway road trips in India?
 

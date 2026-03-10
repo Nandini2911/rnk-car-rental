@@ -95,7 +95,7 @@ Choosing the right transportation model depends on passenger profile and travel 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Are luxury airport transfers better than corporate shuttles?
 

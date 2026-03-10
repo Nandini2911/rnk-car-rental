@@ -103,7 +103,7 @@ Understanding regulatory variations across states helps companies maintain compl
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is a written corporate travel policy necessary?
 

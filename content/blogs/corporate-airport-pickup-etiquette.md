@@ -113,7 +113,7 @@ Attention to detail ensures a more professional experience.
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Should chauffeurs wait inside the terminal?
 

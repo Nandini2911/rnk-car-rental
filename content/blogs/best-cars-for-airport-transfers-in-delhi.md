@@ -87,7 +87,7 @@ Clarifying terminal information, luggage requirements, and waiting policies in a
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is airport transfer in Delhi usually chauffeur-driven?
 

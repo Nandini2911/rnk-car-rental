@@ -85,7 +85,7 @@ Clear coordination between the decorator and rental provider ensures that decora
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is wedding car rental more expensive in Mumbai compared to other cities?
 

@@ -103,7 +103,7 @@ In premium travel, comfort and reliability often matter more than marginal cost 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is chauffeur-driven travel safer for long outstation trips?
 

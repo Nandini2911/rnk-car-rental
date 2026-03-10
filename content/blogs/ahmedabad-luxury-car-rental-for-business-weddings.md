@@ -119,7 +119,7 @@ Providing a clear travel itinerary and discussing service expectations during bo
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is luxury car rental in Ahmedabad chauffeur-driven?
 

@@ -117,7 +117,7 @@ Planning travel buffers according to the city’s mobility patterns helps avoid 
 
 ---
 
-## Frequently Asked Questions (Short & Clear)
+## Frequently Asked Questions 
 
 Q1. Is luxury car rental more expensive in Mumbai or Delhi?
 
