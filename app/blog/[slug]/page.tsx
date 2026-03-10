@@ -114,34 +114,102 @@ export default async function BlogPost({ params }: PageProps) {
     <>
       <NavBar />
       <Script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": blog.title,
-      "description": blog.description,
-      "image": `https://www.rnk.com${blog.image}`,
-      "author": {
-        "@type": "Organization",
-        "name": "RNK Rentals"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "RNK Rentals",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.rnk.com/logo.png"
-        }
-      },
-      "datePublished": blog.date,
-      "dateModified": blog.date,
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": `https://www.rnk.com/blog/${blog.slug}`
-      }
-    })
-  }}
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+__html: JSON.stringify({
+"@context":"https://schema.org",
+"@graph":[
+
+{
+"@type":"Organization",
+"@id":"https://www.rnk.com/#organization",
+"name":"RNK Rentals",
+"url":"https://www.rnk.com",
+"logo":{
+"@type":"ImageObject",
+"url":"https://www.rnk.com/RNK_LOGO.jpg"
+}
+},
+
+{
+"@type":"WebSite",
+"@id":"https://www.rnk.com/#website",
+"url":"https://www.rnk.com",
+"name":"RNK Rentals",
+"publisher":{
+"@id":"https://www.rnk.com/#organization"
+}
+},
+
+{
+"@type":"WebPage",
+"@id":`https://www.rnk.com/blog/${blog.slug}#webpage`,
+"url":`https://www.rnk.com/blog/${blog.slug}`,
+"name":blog.title,
+"isPartOf":{
+"@id":"https://www.rnk.com/#website"
+},
+"primaryImageOfPage":{
+"@type":"ImageObject",
+"url":`https://www.rnk.com${blog.image}`
+}
+},
+
+{
+"@type":"BreadcrumbList",
+"@id":`https://www.rnk.com/blog/${blog.slug}#breadcrumb`,
+"itemListElement":[
+{
+"@type":"ListItem",
+"position":1,
+"name":"Home",
+"item":"https://www.rnk.com/"
+},
+{
+"@type":"ListItem",
+"position":2,
+"name":"Blog",
+"item":"https://www.rnk.com/blog"
+},
+{
+"@type":"ListItem",
+"position":3,
+"name":blog.title,
+"item":`https://www.rnk.com/blog/${blog.slug}`
+}
+]
+},
+
+{
+"@type":"BlogPosting",
+"@id":`https://www.rnk.com/blog/${blog.slug}#article`,
+"headline":blog.title,
+"description":blog.description,
+"image":[`https://www.rnk.com${blog.image}`],
+
+"author":{
+"@type":"Person",
+"name":blog.author
+},
+
+"publisher":{
+"@id":"https://www.rnk.com/#organization"
+},
+
+"datePublished":blog.date,
+"dateModified":blog.date,
+
+"timeRequired":`PT${blog.readTime.replace(/[^0-9]/g,'')}M`,
+
+"mainEntityOfPage":{
+"@id":`https://www.rnk.com/blog/${blog.slug}#webpage`
+}
+
+}
+
+]
+})
+}}
 />
 
 {faqs.length > 0 && (

@@ -59,67 +59,132 @@ export const metadata = {
 };
 
 
-const AboutSchema={
+const AboutSchema=
+ {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "AboutPage",
-      "@id": "https://www.rnk.com/about/#aboutpage",
-      "url": "https://www.rnk.com/about",
-      "name": "About RNK Rentals",
-      "description": "RNK Rentals is a luxury chauffeur-driven car rental company founded in 1969 in Mumbai, now operating across 170+ cities in India and trusted by corporates, government bodies, and premium travelers.",
-      "isPartOf": {
-        "@id": "https://www.rnk.com/#website"
-      },
-      "mainEntity": {
-        "@id": "https://www.rnk.com/#organization"
-      }
-    },
 
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.rnk.com/about/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.rnk.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About Us",
-          "item": "https://www.rnk.com/about"
-        }
-      ]
-    },
+{
+ "@type": "AboutPage",
+ "@id": "https://www.rnk.com/about/#aboutpage",
+ "url": "https://www.rnk.com/about",
+ "name": "About RNK Rentals",
+ "description": "RNK Rentals is a luxury chauffeur driven car rental company founded in 1969 in Mumbai, operating across 170+ cities in India and trusted by corporates, government departments and global travellers.",
+ "isPartOf": {
+   "@id": "https://www.rnk.com/#website"
+ },
+ "about": {
+   "@id": "https://www.rnk.com/#organization"
+ }
+},
 
-    {
-      "@type": "Organization",
-      "@id": "https://www.rnk.com/#organization",
-      "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd."
-    },
+{
+ "@type": "BreadcrumbList",
+ "@id": "https://www.rnk.com/about/#breadcrumb",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Home",
+   "item": "https://www.rnk.com/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "About Us",
+   "item": "https://www.rnk.com/about"
+  }
+ ]
+},
 
-    {
-      "@type": "Person",
-      "@id": "https://www.rnk.com/#ramniranjan-kedia",
-      "name": "Ramniranjan Kedia",
-      "jobTitle": "Founder",
-      "worksFor": {
-        "@id": "https://www.rnk.com/#organization"
-      }
-    },
+{
+ "@type": "Organization",
+ "@id": "https://www.rnk.com/#organization",
+ "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+ "alternateName": "RNK Rentals",
+ "url": "https://www.rnk.com",
+ "foundingDate": "1969",
+ "logo": {
+   "@type": "ImageObject",
+   "url": "https://www.rnk.com/RNK_LOGO.jpg"
+ },
+ "address": {
+   "@type": "PostalAddress",
+   "streetAddress": "Suite 19, Kaliandas Udyog Bhavan, Century Bazar, Prabhadevi",
+   "addressLocality": "Mumbai",
+   "postalCode": "400025",
+   "addressCountry": "IN"
+ },
+ "sameAs": [
+   "https://www.linkedin.com/company/rnk-rentals",
+   "https://www.instagram.com/rnkrentals"
+ ]
+},
 
-    {
-      "@type": "Person",
-      "@id": "https://www.rnk.com/#kamal-kedia",
-      "name": "Kamal Kedia",
-      "jobTitle": "Co-Founder",
-      "worksFor": {
-        "@id": "https://www.rnk.com/#organization"
-      }
-    }
+{
+ "@type": "Person",
+ "@id": "https://www.rnk.com/#ramniranjan-kedia",
+ "name": "Ramniranjan Kedia",
+ "jobTitle": "Founder",
+ "worksFor": {
+   "@id": "https://www.rnk.com/#organization"
+ }
+},
+
+{
+ "@type": "Person",
+ "@id": "https://www.rnk.com/#kamal-kedia",
+ "name": "Kamal Kedia",
+ "jobTitle": "Co-Founder",
+ "worksFor": {
+   "@id": "https://www.rnk.com/#organization"
+ }
+},
+
+{
+ "@type": "FAQPage",
+ "@id": "https://www.rnk.com/about/#faq",
+ "mainEntity": [
+
+{
+ "@type": "Question",
+ "name": "What types of cars does RNK Rentals offer?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "RNK Rentals offers a premium fleet including Rolls Royce, Mercedes Benz, SUVs, Sedans, Mini Vans and Luxury Coaches for corporate travel, weddings and VIP movements."
+ }
+},
+
+{
+ "@type": "Question",
+ "name": "How can I book a vehicle with RNK Rentals?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "You can book a vehicle by contacting RNK Rentals through phone, email or the booking form available on the website."
+ }
+},
+
+{
+ "@type": "Question",
+ "name": "Which cities does RNK Rentals operate in?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "RNK Rentals operates in more than 170 cities across India providing premium chauffeur driven transportation services."
+ }
+},
+
+{
+ "@type": "Question",
+ "name": "Do you provide chauffeur services for VIP clients?",
+ "acceptedAnswer": {
+   "@type": "Answer",
+   "text": "Yes, RNK Rentals provides professional chauffeur driven luxury vehicles for VIP movements, corporate travel and events."
+ }
+}
+
+ ]
+}
+
   ]
 }
 

@@ -1,60 +1,77 @@
 import BlogClient from "@/components/blog/BlogClient";
+import Schema from "@/components/Schema";
 import { getAllBlogs } from "@/lib/blog";
 
-export const metadata = {
-  title: "Car Rental Blog | Travel & Luxury Car Rental Guides by RNK Rentals",
-  description:
-    "Explore expert guides on car rentals, airport transfers, corporate travel, wedding transport, and luxury chauffeur services across India from RNK Rentals.",
-  keywords: [
-    "car rental blog india",
-    "luxury car rental guides",
-    "airport transfer tips india",
-    "chauffeur driven car rental guide",
-    "corporate travel car service india",
-    "wedding car rental guide india",
-    "travel tips with car rental india",
-    "luxury car rental insights",
-    "rnk rentals blog",
-  ],
-  alternates: {
-    canonical: "https://www.rnk.com/blog",
+const Aboutblog=
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+{
+ "@type": "CollectionPage",
+ "@id": "https://www.rnk.com/blog/#collectionpage",
+ "url": "https://www.rnk.com/blog",
+ "name": "RNK Rentals Blog | Travel & Car Rental Insights",
+ "description": "Expert guides, travel tips and insights about luxury car rentals, airport transfers, corporate travel and wedding transportation across India.",
+ "isPartOf": {
+   "@id": "https://www.rnk.com/#website"
+ },
+ "about": {
+   "@id": "https://www.rnk.com/#organization"
+ }
+},
+
+{
+ "@type": "BreadcrumbList",
+ "@id": "https://www.rnk.com/blog/#breadcrumb",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Home",
+   "item": "https://www.rnk.com/"
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
-  openGraph: {
-    type: "website",
-    url: "https://www.rnk.com/blog",
-    title: "RNK Rentals Blog | Car Rental & Luxury Travel Insights",
-    description:
-      "Expert travel insights and practical guides on car rentals, chauffeur services, airport transfers, corporate travel, and luxury transportation across India.",
-    siteName: "RNK Rentals",
-    locale: "en_IN",
-    images: [
-      {
-        url: "/og_blog_page.webp",
-        width: 1200,
-        height: 630,
-        alt: "RNK Rentals Blog – Luxury Car Rental & Travel Insights",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "RNK Rentals Blog | Car Rental & Travel Guides",
-    description:
-      "Learn about airport transfers, corporate car rentals, wedding transport, and luxury chauffeur services with expert guides from RNK Rentals.",
-    images: ["/twitter_blog_page.webp"],
-  },
-};
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Blog",
+   "item": "https://www.rnk.com/blog"
+  }
+ ]
+},
+
+{
+ "@type": "Organization",
+ "@id": "https://www.rnk.com/#organization",
+ "name": "Ramniranjan Kedia Rent A Car Pvt. Ltd",
+ "alternateName": "RNK Rentals",
+ "url": "https://www.rnk.com/",
+ "logo": {
+   "@type": "ImageObject",
+   "url": "https://www.rnk.com/RNK_LOGO.jpg"
+ },
+ "sameAs": [
+   "https://www.linkedin.com/company/rnk-rentals",
+   "https://www.instagram.com/rnkrentals"
+ ]
+},
+
+{
+ "@type": "WebSite",
+ "@id": "https://www.rnk.com/#website",
+ "url": "https://www.rnk.com/",
+ "name": "RNK Rentals",
+ "publisher": {
+   "@id": "https://www.rnk.com/#organization"
+ }
+}
+
+  ]
+}
 
 export default function BlogPage() {
   const blogs = getAllBlogs(); // ✅ fs safe (server)
+  <Schema data={Aboutblog} />
 
 
   return <BlogClient blogs={blogs} />;

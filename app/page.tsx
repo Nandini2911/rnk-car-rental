@@ -67,9 +67,9 @@ export const metadata = {
 };
 const homeSchema=
 {
-
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Organization",
       "@id": "https://www.rnk.com/#organization",
@@ -85,21 +85,19 @@ const homeSchema=
         "width": 600,
         "height": 200
       },
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+91-22-43227777",
-          "contactType": "customer support",
-          "areaServed": "IN",
-          "availableLanguage": ["English", "Hindi"],
-          "email": "info@rnk.com"
-        }
-      ],
       "sameAs": [
         "https://www.linkedin.com/company/rnk-rentals",
         "https://www.instagram.com/rnkrentals"
-      ]
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 9167977799",
+        "contactType": "customer support",
+        "areaServed": "IN",
+        "availableLanguage": ["English","Hindi"]
+      }
     },
+
     {
       "@type": "WebSite",
       "@id": "https://www.rnk.com/#website",
@@ -107,13 +105,19 @@ const homeSchema=
       "name": "RNK Rentals",
       "publisher": {
         "@id": "https://www.rnk.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.rnk.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
     },
+
     {
       "@type": "WebPage",
       "@id": "https://www.rnk.com/#webpage",
       "url": "https://www.rnk.com/",
-      "name": "RNK Rentals",
+      "name": "Luxury Chauffeur Driven Car Rental in India | RNK Rentals",
       "isPartOf": {
         "@id": "https://www.rnk.com/#website"
       },
@@ -124,8 +128,9 @@ const homeSchema=
         "@id": "https://www.rnk.com/#logo"
       }
     },
+
     {
-      "@type": ["LocalBusiness", "AutoRental"],
+      "@type": ["LocalBusiness","AutoRental"],
       "@id": "https://www.rnk.com/#localbusiness",
       "name": "RNK Rentals",
       "url": "https://www.rnk.com/",
@@ -145,26 +150,19 @@ const homeSchema=
       "parentOrganization": {
         "@id": "https://www.rnk.com/#organization"
       },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "00:00",
-          "closes": "23:59"
-        }
-      ]
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
     },
+
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/#chauffeur-service",
+      "@id": "https://www.rnk.com/#service",
       "name": "Chauffeur Driven Luxury Car Rental",
       "description": "Premium chauffeur-driven luxury car rental services across 170+ cities in India since 1969.",
       "provider": {
@@ -174,21 +172,31 @@ const homeSchema=
         "@type": "Country",
         "name": "India"
       },
-      "mainEntityOfPage": {
-        "@id": "https://www.rnk.com/#webpage"
-      },
       "serviceType": [
         "Luxury Car Rental",
         "Corporate Car Rental",
         "Wedding Transportation",
         "Airport Transfers",
         "Hotel Operations",
-        "Vacation Rentals",
         "VIP Movements",
         "Long Term Car Rental",
-        "Event / Wedding Transport"
+        "Event Transportation"
       ]
     },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.rnk.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.rnk.com/"
+        }
+      ]
+    },
+
     {
       "@type": "FAQPage",
       "@id": "https://www.rnk.com/#faq",
@@ -206,14 +214,22 @@ const homeSchema=
           "name": "Are your cars chauffeur driven?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All RNK vehicles are chauffeur-driven, ensuring safety, professionalism, and comfort."
+            "text": "All RNK vehicles are chauffeur-driven, ensuring safety, professionalism and comfort."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer corporate car rental services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, RNK offers premium corporate transportation services for executives, events and business travel."
           }
         }
       ]
     }
+
   ]
 }
-
 
 
 export default function HomePage() {
