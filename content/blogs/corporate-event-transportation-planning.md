@@ -1,6 +1,14 @@
 ---
 title: "Corporate Event Transportation Planning"
 description: "Corporate event transportation planning in India explained—VIP mobility, fleet mix, airport coordination, staggered arrivals, traffic buffers, and control strategies."
+tags:
+  - corporate event transportation planning india
+  - corporate event transport logistics
+  - vip transportation for corporate events
+  - conference transportation planning india
+  - airport transfers for corporate delegates
+  - corporate shuttle planning for events
+  - business event mobility management
 date: "2026-02-20"
 author: "Ritika Tiwari"
 category: "Corporate Travel"

@@ -1,6 +1,14 @@
 ---
 title: "Behind the Scenes: RNK's Legacy Since 1969"
 description: "RNK’s luxury mobility legacy since 1969—generational chauffeur expertise, evolving premium fleet, regulatory adaptation, and trusted corporate, VIP, and wedding travel in India."
+tags:
+  - luxury chauffeur service india
+  - luxury car rental legacy india
+  - premium mobility company india
+  - executive chauffeur services india
+  - vip car rental services india
+  - corporate luxury travel india
+  - chauffeur driven luxury cars india
 date: "2026-02-24"
 author: "Ritika Tiwari"
 category: "Luxury Travel"
