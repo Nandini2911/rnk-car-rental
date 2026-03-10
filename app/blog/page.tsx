@@ -70,8 +70,12 @@ const Aboutblog=
 }
 
 export default function BlogPage() {
-  const blogs = getAllBlogs(); // ✅ fs safe (server)
-  <Schema data={Aboutblog} />
+  const blogs = getAllBlogs();
 
-  return <BlogClient blogs={blogs} />;
+  return (
+    <>
+      <Schema data={Aboutblog} />
+      <BlogClient blogs={blogs} />
+    </>
+  );
 }

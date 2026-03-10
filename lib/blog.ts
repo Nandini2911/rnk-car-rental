@@ -17,6 +17,7 @@ export type BlogMeta = {
    image?: string;
   featured?: boolean;
   trending?: boolean;
+   tags?: string[];   // ✅ ADD THIS
 };
 
 export type BlogPost = BlogMeta & {
@@ -26,7 +27,9 @@ export type BlogPost = BlogMeta & {
 export function getAllBlogs(): BlogMeta[] {
   if (!fs.existsSync(blogsDirectory)) return [];
 
-  return fs.readdirSync(blogsDirectory).map((file) => {
+  const now = new Date();
+
+  const blogs = fs.readdirSync(blogsDirectory).map((file) => {
     const slug = file.replace(".md", "");
     const fullPath = path.join(blogsDirectory, file);
     const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -40,12 +43,27 @@ export function getAllBlogs(): BlogMeta[] {
       author: data.author,
       category: data.category,
       readTime: data.readTime,
-      image: data.image ?? null, 
+      image: data.image ?? null,
       featured: data.featured ?? false,
       trending: data.trending ?? false,
       tags: data.tags || [],
+      
     };
   });
+
+  // ✅ SCHEDULED BLOG FILTER
+  const publishedBlogs = blogs.filter((blog: any) => {
+    if (!blog.date) return true;
+
+    const publishDate = new Date(blog.date);
+    return publishDate <= now;
+  });
+
+  // newest first
+  return publishedBlogs.sort(
+    (a: any, b: any) =>
+      new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
 }
 export async function getBlogBySlug(
   slug: string
@@ -68,6 +86,7 @@ export async function getBlogBySlug(
     image: data.image ?? null,   // ✅ THIS LINE (IMPORTANT)
     featured: data.featured ?? false,
     trending: data.trending ?? false,
+    tags: data.tags || [],
     content: processed.toString(),
   };
   

@@ -10,6 +10,7 @@ author: "Ritika Tiwari"
 category: "Car Blogs"
 readTime: "4 min read"
 image: "/images/blog/ahmedabad-luxury-car-rental-for-business-weddings.webp"
+date: "2026-03-11"
 featured: false
 trending: false
 ---

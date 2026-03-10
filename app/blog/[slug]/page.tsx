@@ -91,6 +91,9 @@ export default async function BlogPost({ params }: PageProps) {
   if (!blog) notFound();
   const faqs = extractFAQs(blog.content);
 
+  const tags = blog.tags || [];
+  
+
     // ✅ RELATED BLOGS LOGIC (RETURN SE PEHLE)
   const allBlogs = getAllBlogs().filter(
     (b) => b.slug !== blog.slug
@@ -347,6 +350,26 @@ __html: JSON.stringify({
                 <li><a href="/blog?category=Wedding Transport" className="hover:underline">Wedding Transport</a></li>
               </ul>
             </div>
+            {/* BLOG TAGS */}
+{tags.length > 0 && (
+  <div className="border border-gray-300 rounded-xl p-6">
+    <h3 className="text-lg font-bold mb-4 text-black">
+      Explore Tags
+    </h3>
+
+    <div className="flex flex-wrap gap-2">
+      {tags.map((tag: string) => (
+        <a
+          key={tag}
+          href={`/blog/tag/${tag.toLowerCase().replace(/\s+/g, "-")}`}
+          className="text-xs px-3 py-1 rounded-full bg-red-50 text-red-800 border border-red-200 hover:bg-red-100 transition"
+        >
+          #{tag}
+        </a>
+      ))}
+    </div>
+  </div>
+)}
 
           </aside>
         </div>
