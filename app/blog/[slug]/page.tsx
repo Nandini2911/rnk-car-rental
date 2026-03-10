@@ -154,6 +154,12 @@ const schema = {
     <>
       <NavBar />
   
+<script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+__html: JSON.stringify(schema),
+}}
+/>
 
 {faqs.length > 0 && (
 <script
