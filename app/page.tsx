@@ -13,7 +13,58 @@ import Schema from "@/components/Schema";
 
 
 
-
+export const metadata = {
+  title: "Luxury Chauffeur-Driven Car Rental in India | RNK Rentals Since 1969",
+  description:
+    "RNK Rentals offers chauffeur-driven luxury car rental services across 170+ cities in India for corporate travel, airport transfers, VIP movements, weddings, events, and long-term rentals.",
+  keywords: [
+    "luxury car rental india",
+    "chauffeur driven car rental india",
+    "rnk rentals",
+    "ramniranjan kedia rent a car",
+    "corporate car rental india",
+    "airport transfer service india",
+    "wedding car rental india",
+    "vip movement transport india",
+    "long term car rental india",
+    "luxury chauffeur service india",
+  ],
+  alternates: {
+    canonical: "https://www.rnk.com/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.rnk.com/",
+    title: "RNK Rentals | Drive Luxury, Not Just a Car",
+    description:
+      "Premium chauffeur-driven car rental services across India since 1969. RNK Rentals serves corporate travel, airport transfers, weddings, VIP movements, luxury travel, and long-term rentals.",
+    siteName: "RNK Rentals",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/og-home-page.webp",
+        width: 1200,
+        height: 630,
+        alt: "RNK Rentals Luxury Chauffeur Driven Car Rental in India",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "RNK Rentals | Luxury Chauffeur-Driven Car Rental Across India",
+    description:
+      "Luxury chauffeur-driven car rental across 170+ cities in India since 1969. Book premium travel for business, airport transfers, weddings, and VIP movements.",
+    images: ["/twitter-home-page.webp"],
+  },
+};
 const homeSchema=
 {
 
