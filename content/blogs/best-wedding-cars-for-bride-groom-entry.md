@@ -1,6 +1,14 @@
 ---
 title: "Best Wedding Cars for Bride & Groom Entry"
 description: "Best wedding cars in India explained—luxury sedans, vintage cars, SUVs, decoration limits, venue access, and chauffeur-driven entry planning."
+tags:
+  - best wedding cars for bride and groom entry
+  - luxury wedding car rental india
+  - bride entry luxury car india
+  - groom baraat car rental india
+  - vintage wedding car rental india
+  - wedding chauffeur car india
+  - premium wedding transport india
 date: "2026-02-16"
 author: "Ritika Tiwari"
 category: "Wedding Transport"

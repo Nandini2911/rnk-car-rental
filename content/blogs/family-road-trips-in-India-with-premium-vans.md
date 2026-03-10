@@ -1,6 +1,14 @@
 ---
 title: "Family Road Trips in India with Premium Vans"
 description: "Premium vans vs SUVs for family road trips in India. Discover which offers better comfort, seating space, luggage capacity, and safety for long-distance travel."
+tags:
+  - family road trips india luxury van
+  - premium van for family travel india
+  - luxury mpv road trip india
+  - toyota vellfire family road trip
+  - kia carnival road trip comfort
+  - chauffeur driven family road trip india
+  - luxury van vs suv family travel
 date: "2026-02-23"
 author: "Ritika Tiwari"
 category: "Travel Tips"

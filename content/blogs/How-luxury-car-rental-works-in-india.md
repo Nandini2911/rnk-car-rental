@@ -1,6 +1,14 @@
 ---
 title: "How Luxury Car Rental Works in India: Self-Drive vs Chauffeur Explained"
 description: "A practical guide to luxury car rental in India. Learn how self-drive and chauffeur-driven rentals work, pricing structures, deposits, documents, city rules, and expert tips to avoid hidden charges."
+tags:
+  - luxury car rental india guide
+  - self drive vs chauffeur car rental india
+  - luxury car rental pricing india
+  - executive car rental services india
+  - chauffeur driven luxury car rental
+  - luxury car rental booking process india
+  - premium car hire india
 date: "2026-01-25"
 author: "RNK Rentals Team"
 category: "Car Rental Services"
