@@ -73,5 +73,6 @@ export default function BlogPage() {
   const blogs = getAllBlogs(); // ✅ fs safe (server)
   <Schema data={Aboutblog} />
 
+
   return <BlogClient blogs={blogs} />;
 }
