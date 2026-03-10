@@ -53,6 +53,12 @@ export async function generateMetadata({ params }: PageProps) {
     title: `${blog.title} | RNK Rentals`,
     description: blog.description,
 
+    robots: {
+    index: true,
+    follow: true,
+  },
+
+  
     alternates: {
       canonical: url,
     },
