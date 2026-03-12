@@ -81,10 +81,14 @@ export function Hero() {
             drop-shadow-[0_6px_18px_rgba(0,0,0,0.85)]
           "
         >
-          From corporate runs and airport transfers to VIP movements and weddings —
+          From corporate runs and airport transfers to <a href="https://www.rnk.com/services/vip-movements" 
+        className="text-red-900 underline hover:text-white mx-1">
+          VIP movements
+        </a>
+          and weddings —
           RNK curates a car and chauffeur for every journey.
         </p>
-
+        
         {/* CTA BUTTONS */}
         <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-4">
           {/* PRIMARY */}

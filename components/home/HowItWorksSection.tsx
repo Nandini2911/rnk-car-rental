@@ -82,7 +82,10 @@ className="flex flex-col items-center text-center gap-4 mb-[clamp(36px,4.5vw,64p
           <p className="text-[clamp(15px,1.25vw,20px)] text-neutral-600 max-w-3xl leading-relaxed">
             Whether it's a board meeting, a wedding convoy, or an airport run —
             we’ve simplified the process into a few polished steps, handled
-            end-to-end by RNK’s expert team.
+            end-to-end by  <a href="https://www.rnk.com/contact" className="text-red-900 underline hover:text-black mx-1">
+            RNK’s expert team.
+            </a>
+           
           </p>
         </motion.div>
 

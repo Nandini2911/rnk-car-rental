@@ -128,7 +128,10 @@ export default function CorporateCarRentalPage() {
         className="mt-4 mx-auto max-w-2xl text-white text-[13px] sm:text-sm md:text-[19px] leading-relaxed"
       >
         Premium, punctual and professionally managed corporate mobility designed
-        for executives, teams, clients and VIP movements.
+        for executives, teams, clients and <a href="https://www.rnk.com/services/vip-movements" 
+        className="text-red-900 underline hover:text-white mx-1">
+          VIP movements
+        </a>.
       </motion.p>
 
       {/* Book Now button */}
@@ -175,12 +178,12 @@ export default function CorporateCarRentalPage() {
         </h2>
 
         <p className="text-[13px] sm:text-sm md:text-[15px] text-black/80 mb-3 leading-relaxed">
-          At RNK – Ramniranjan Kedia Group, we strive to make your experience of
-          renting a car unforgettable. You will experience quality with every ride.
+          At RNK – Ramniranjan Kedia Group, we strive to make your<a href="https://www.rnk.com/blog/how-to-book-luxury-cars-online-in-India" className="text-red-900 underline hover:text-black mx-1">
+          experience of renting a car</a>unforgettable. You will experience quality with every ride.
         </p>
 
         <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
-          Make the most of your ride with comfort and panache. Chauffeur-driven cars
+          Make the most of your ride with comfort and panache.<a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">Chauffeur-driven cars</a>
           allow you to focus on your work while we handle traffic, routes and time.
         </p>
 
@@ -338,7 +341,8 @@ export default function CorporateCarRentalPage() {
         >
           Renting a luxury car for local travel isn’t just transportation —{" "}
           <span className="text-red-900 font-medium">it’s an elevated experience.</span>{" "}
-          Whether you’re marking a special occasion, attending a corporate event,
+          Whether you’re marking a special occasion, attending a <a href="https://www.rnk.com/services/corporate-car-rental" 
+          className="text-red-900 underline hover:text-white mx-1">corporate event</a>,
           hosting global guests or indulging in premium comfort, RNK ensures every
           journey feels premium, polished and unforgettable.
         </motion.p>
@@ -356,7 +360,9 @@ export default function CorporateCarRentalPage() {
             hyphens-auto
           "
         >
-          Our fleet includes chauffeur-driven sedans, SUVs and luxury cars — each
+          <a href="https://www.rnk.com/fleet"  className="text-red-900 underline hover:text-white mx-1">Our fleet</a>includes chauffeur-driven sedans, 
+          <a href="https://www.rnk.com/blog/best-luxury-suvs-for-Indian-road-trips" 
+          className="text-red-900 underline hover:text-white mx-1"> SUVs and luxury cars</a>— each
           maintained with{" "}
           <span className="text-red-900 font-medium">precision, hygiene and detailing</span>{" "}
           to ensure a peaceful and comfortable ride every single time.
@@ -378,7 +384,7 @@ export default function CorporateCarRentalPage() {
         >
           Your comfort. Your style.{" "}
           <span className="text-red-900 font-semibold">
-            Your luxury journey begins with RNK.
+            <a href="https://www.rnk.com/about" className="text-red-900 underline hover:text-white mx-1">Your luxury journey begins with RNK.</a>
           </span>
         </motion.p>
       </div>

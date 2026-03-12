@@ -84,8 +84,8 @@ export function CoreAdvantages() {
               leading-relaxed
             "
           >
-            Every journey is treated like a small project — right car, right
-            chauffeur, right timing. That’s how we keep movements smooth.
+            Every <a href="https://www.rnk.com/blog/travel-tips" className="text-red-900 underline hover:text-black mx-1"> journey</a>is treated like a small project — <a href="https://www.rnk.com/fleet" className="text-red-900 underline hover:text-black mx-1"> 
+            right car</a>,right chauffeur, right timing. That’s how we keep movements smooth.
           </p>
         </motion.div>
 
