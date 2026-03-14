@@ -127,7 +127,8 @@ export default function VacationRentalsPage() {
               transition={{ duration: 1, ease: "easeOut", delay: 0.05 }}
               className="mt-4 mx-auto max-w-2xl text-white/80 text-[13px] sm:text-sm md:text-[19px] leading-relaxed"
             >
-              Chauffeur-driven cars for villas, homestays and holiday rentals — so your
+              <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-white mx-1">
+              Chauffeur-driven cars</a> for villas, homestays and holiday rentals — so your
               getaway starts the moment you leave home.
             </motion.p>
 
@@ -183,7 +184,8 @@ export default function VacationRentalsPage() {
               </p>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
-                From airport or city pick-ups to local sightseeing and grocery runs — RNK covers
+                From <a href="/services/airport-railway-transfers/" className="text-red-900 underline hover:text-black mx-1">
+                airport or city pick-ups</a>to local sightseeing and grocery runs — RNK covers
                 every movement around your holiday home.
               </p>
 
@@ -327,7 +329,8 @@ export default function VacationRentalsPage() {
                 className="text-white/80 mb-7 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px]
                            leading-[1.75] sm:leading-[1.8] lg:leading-[1.9]"
               >
-                Your chauffeur is ready when you are — with a clean car, planned route and complete clarity on your destination.
+                Your chauffeur is ready when you are — with a clean car, planned route and complete clarity on your <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-white mx-1">
+               destination</a>.
               </motion.p>
 
               <motion.p
@@ -372,8 +375,8 @@ export default function VacationRentalsPage() {
             <p className="mx-auto max-w-4xl text-black/70
                           text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px]
                           leading-[1.75] lg:leading-[1.85]">
-              RNK makes sure your travel to and from vacation rentals is as memorable as the stay itself —
-              smooth, premium and worry-free.
+              RNK makes sure your<a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+              travel</a>to and from vacation rentals is as memorable as the stay itself —smooth,<a href="/fleet/" className="text-red-900 underline hover:text-black mx-1">premium</a>and worry-free.
             </p>
           </motion.div>
 
@@ -466,7 +469,8 @@ export default function VacationRentalsPage() {
 
         {/* Sub paragraph */}
         <p className="w-full text-center text-white/70 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] leading-[1.75] lg:leading-[1.85] max-w-3xl mx-auto">
-          From quick weekend escapes to long villa stays, RNK tailors your chauffeur-driven travel
+          From quick weekend escapes to long villa stays,<a href="/about/" className="text-red-900 underline hover:text-white mx-1">RNK
+          </a>  tailors your chauffeur-driven travel
           around how you like to holiday.
         </p>
       </motion.div>
@@ -647,7 +651,10 @@ export default function VacationRentalsPage() {
         leading-[1.75] lg:leading-[1.9]"
     >
       RNK Rent A Car delivers premium chauffeur-driven travel across India — built for
-      corporate leaders, families, celebrations and VIP movements. From punctual
+      <a href="/services/corporate-car-rental/"
+       className="text-red-900 underline hover:text-black mx-1">corporate leaders
+       </a>, families, celebrations and <a href="/services/vip-movements/" 
+      className="text-red-900 underline hover:text-black mx-1">VIP movements</a>.  From punctual
       pickups to polished on-road experience, every ride is designed to feel effortless,
       safe and truly comfortable.
     </motion.p>

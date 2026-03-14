@@ -127,7 +127,8 @@ export default function VipMovementsPage() {
               className="mt-4 mx-auto max-w-2xl text-white/80 text-[13px] sm:text-sm md:text-[19px] leading-relaxed"
             >
               Precision-managed, confidential, chauffeur-driven travel for celebrities,
-              CEOs, diplomats, international guests and elite personalities.
+              <a href="/services/airport-railway-transfers/" className="text-red-900 underline hover:text-white mx-1">international guests
+              </a>  diplomats, international guests and elite personalities.
             </motion.p>
 
             <motion.div
@@ -170,13 +171,16 @@ export default function VipMovementsPage() {
               </h2>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/80 mb-3 leading-relaxed">
-                Every VIP movement demands discretion, punctuality and premium guest
-                handling. RNK coordinates travel for celebrities, executives and
-                high-profile clients with protocol-ready precision.
+                Every <a href="/services/vip-movements/" className="text-red-900 underline hover:text-black mx-1">VIP movement
+                </a> demands discretion, punctuality and premium guest
+                handling. RNK coordinates travel for <a href="/services/vip-movements/"
+                 className="text-red-900 underline hover:text-black mx-1">celebrities
+                </a> executives andhigh-profile clients with protocol-ready precision.
               </p>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
-                From airport receptions to multi-vehicle convoys, backstage entries,
+                From <a href="/services/airport-railway-transfers/" className="text-red-900 underline hover:text-black mx-1">airport receptions
+</a>             to multi-vehicle convoys, backstage entries,
                 hotel transfers and event-to-venue schedules — every detail is managed.
               </p>
 
@@ -309,8 +313,9 @@ export default function VipMovementsPage() {
                 "
               >
                 VIP movements aren’t just transport — they’re coordination, timing and
-                trust. RNK ensures polished arrivals, controlled routing and
-                guest-first hospitality for high-profile schedules.
+                trust. <a href="/about/" className="text-red-900 underline hover:text-white mx-1">RNK</a>ensures polished arrivals, controlled routing and
+                guest-first hospitality for <a href="/services/corporate-car-rental/" 
+                className="text-red-900 underline hover:text-white mx-1">high-profile schedules</a>.
               </motion.p>
 
               <motion.p
@@ -484,7 +489,8 @@ export default function VipMovementsPage() {
 
         {/* Sub paragraph */}
         <p className="w-full text-center text-white/70 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] leading-[1.75] lg:leading-[1.85] max-w-3xl mx-auto">
-          From film shoot logistics to confidential meetings, RNK manages
+          From film shoot logistics to <a href="/services/corporate-car-rental/" 
+          className="text-red-900 underline hover:text-white mx-1">confidential meetings</a>,RNK manages
           high-profile movements with precision.
         </p>
       </motion.div>
@@ -663,8 +669,9 @@ export default function VipMovementsPage() {
                 [text-wrap:pretty]
               "
             >
-              RNK VIP Movements delivers discreet, protocol-ready chauffeur-driven
-              travel across India — built for high-profile arrivals, time-sensitive
+              RNK VIP Movements delivers discreet, protocol-ready<a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+              chauffeur-driven travel</a> across India — built for <a href="/services/airport-railway-transfers/" className="text-red-900 underline hover:text-black mx-1">
+              high-profile arrivals</a>, time-sensitive
               schedules and elite guest care. From secure routing to polished
               on-road experience, every ride is designed to feel effortless and safe.
             </motion.p>

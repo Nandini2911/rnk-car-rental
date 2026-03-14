@@ -153,8 +153,9 @@ export default function AirportRailwayTransfersPage() {
           leading-relaxed
         "
       >
-        Seamless, punctual and stress-free transfers to and from airports and
-        railway stations – for executives, families, guests and VIPs.
+        Seamless, punctual and stress-free transfers to and from<a href="https://www.rnk.com/blog/international-arrivals-luxury-meet-greet-india"  
+        className="text-red-900 underline hover:text-white mx-1">airports and railway stations</a>
+        – for executives, families, guests and VIPs.
       </motion.p>
 
       {/* CTA BUTTON */}
@@ -222,8 +223,8 @@ export default function AirportRailwayTransfersPage() {
         </p>
 
         <p className="text-sm sm:text-[15px] text-black/75 mb-6 leading-relaxed">
-          Our chauffeur-driven vehicles manage luggage, routes and timing so you can
-          focus on work, calls or simply relax between journeys.
+          Our Our<a href="https://www.rnk.com/services/luxury-travel" className="text-red-900 underline hover:text-black mx-1">chauffeur-driven vehicles</a>manage luggage, routes and timing so you can
+          focus on work, calls or<a href="https://www.rnk.com/blog/travel-tips" className="text-red-900 underline hover:text-black mx-1">simply relax between journeys</a>.
         </p>
 
         {/* CARD (keep within text column) */}
@@ -245,7 +246,9 @@ export default function AirportRailwayTransfersPage() {
 
           <p className="text-xs sm:text-[13px] text-black/75 leading-relaxed mb-3">
   RNK’s airport mobility services are designed to remove uncertainty from arrivals
-  and departures, especially for time-sensitive corporate and VIP travel.
+  and departures, especially for time-sensitive<a href="https://www.rnk.com/blog/benefits-of-chauffeur-driven-cars-for-executives"
+  className="text-red-900 underline hover:text-black mx-1">corporate and VIP travel.</a>
+  
 </p>
 
 <ul className="space-y-2 text-xs sm:text-[13px] text-black/75 leading-relaxed">
@@ -358,8 +361,8 @@ export default function AirportRailwayTransfersPage() {
           className="text-sm sm:text-[15px] lg:text-base leading-relaxed mb-4 text-white/80"
         >
           Vehicles are dispatched with buffer time, routes are planned in advance and
-          chauffeurs are briefed thoroughly – ensuring punctual, smooth transfers
-          every time.
+        <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-white mx-1">chauffeurs</a>are briefed thoroughly – ensuring punctual, smooth transfers
+         every time.
         </motion.p>
 
         <motion.p
@@ -371,11 +374,12 @@ export default function AirportRailwayTransfersPage() {
         >
           Your flight. Your train.{" "}
           <span className="text-red-900 font-semibold">
-            Your journey begins and ends seamlessly with RNK.
+          <a href="/blog/benefits-of-chauffeur-driven-cars-for-executives" className="text-red-900 underline hover:text-white mx-1">
+           Your journey begins and ends seamlessly with RNK.</a>
           </span>
         </motion.p>
 
-       
+    
       </div>
     </div>
   </div>
@@ -438,8 +442,10 @@ export default function AirportRailwayTransfersPage() {
         "
       >
         RNK offers much more than just transfers. Every journey is designed around
-        comfort, safety, timing and a truly elevated travel experience. Here’s why
-        guests and corporates trust us for airport &amp; railway transfers:
+        comfort, <a href="https://www.rnk.com/blog/late-night-airport-transfers-safety-reliability" className="text-red-900 underline hover:text-black mx-1">safety</a>, 
+        timing and a truly elevated 
+       <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+       travel experience</a>. Here’s why guests and corporates trust us for airport &amp; railway transfers:
       </p>
     </motion.div>
 
@@ -586,7 +592,8 @@ export default function AirportRailwayTransfersPage() {
 
         {/* Sub paragraph */}
         <p className="w-full text-center text-white/70 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] leading-[1.75] lg:leading-[1.85] max-w-3xl mx-auto">
-          From solo business travellers to entire delegations, RNK builds reliable,
+          From solo <a href="https://www.rnk.com/blog/business-class-airport-transfers-for-executives"  
+          className="text-red-900 underline hover:text-white mx-1">business travellers</a> to entire delegations, RNK builds reliable,
           on-time transfer plans that match your flight and train schedules.
         </p>
       </motion.div>
@@ -668,8 +675,10 @@ export default function AirportRailwayTransfersPage() {
             </h2>
 
             <p className="text-sm md:text-[15px] text-black/70 max-w-3xl mx-auto leading-relaxed">
-              RNK offers premium chauffeur-driven car rental and transfer services across
-              multiple cities in India, ensuring comfort, style and convenience wherever
+              RNK offers premium chauffeur-driven<a href="https://www.rnk.com/blog/outstation-travel" 
+              className="text-red-900 underline hover:text-black mx-1">car rental and transfer services</a>across
+              <a href="/network/" className="text-red-900 underline hover:text-black mx-1">
+              multiple cities in India</a>, ensuring comfort, style and convenience wherever
               you travel.
             </p>
           </motion.div>
@@ -858,10 +867,12 @@ export default function AirportRailwayTransfersPage() {
           [text-wrap:pretty]
         "
       >
-        RNK Rent A Car provides seamless chauffeur-driven airport and railway
-        transfers across India. Whether it’s an early morning departure or a late
+        RNK Rent A Car provides seamless chauffeur-driven airport and <a href="https://www.rnk.com/blog/railway-station-premium-pickup-guide"
+        className="text-red-900 underline hover:text-black mx-1">railway
+        transfers</a>across India. Whether it’s an early morning departure or a late
         night arrival, our service ensures punctual pickups, smooth transitions
-        and a calm, comfortable journey from terminal to destination.
+        and a calm, <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+        comfortable journey</a> from terminal to destination.
       </motion.p>
 
       {/* Trust points */}

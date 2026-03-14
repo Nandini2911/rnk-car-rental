@@ -176,8 +176,9 @@ export default function HotelOperationsPage() {
               </h2>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/80 mb-3 leading-relaxed">
-                RNK partners with hotels and hospitality brands to manage all ground transport — from
-                guest arrivals and departures to staff and crew movements, events and corporate stays.
+                RNK partners with hotels and hospitality brands to manage all <a href="/services/airport-railway-transfers/" className="text-red-900 underline hover:text-black mx-1">
+                ground transport</a>— from guest arrivals and departures to staff and crew movements, events and <a href="/services/corporate-car-rental/" 
+                className="text-red-900 underline hover:text-black mx-1">corporate stays</a>.
               </p>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
@@ -314,7 +315,8 @@ export default function HotelOperationsPage() {
                 className="text-white/85 mb-5 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px]
                            leading-[1.75] sm:leading-[1.8] lg:leading-[1.9]"
               >
-                From first airport greeting to the final goodbye, transport plays a crucial role in
+                From first <a href="/services/airport-railway-transfers/" className="text-red-900 underline hover:text-white mx-1">
+                airport greeting</a> to the final goodbye, transport plays a crucial role in
                 shaping your guest’s memory of their stay.
               </motion.p>
 
@@ -374,8 +376,11 @@ export default function HotelOperationsPage() {
             <p className="mx-auto max-w-4xl text-black/70
                           text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px]
                           leading-[1.75] lg:leading-[1.85]">
-              RNK doesn’t just send cars — we build long-term mobility partnerships with hotels,
-              ensuring consistency, reliability and guest delight across every stay.
+             
+             <a href="/about/" className="text-red-900 underline hover:text-black mx-1">RNK
+              </a> doesn’t just send cars — we build long-term mobility partnerships with hotels,
+              ensuring consistency, reliability and <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">guest delight
+             </a> across every stay.
             </p>
           </motion.div>
 
@@ -469,7 +474,8 @@ export default function HotelOperationsPage() {
         {/* Sub paragraph */}
         <p className="w-full text-center text-white/70 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] leading-[1.75] lg:leading-[1.85] max-w-3xl mx-auto">
           From independent boutique hotels to large chains and resorts, RNK designs mobility
-          plans that support daily operations and special occasions.
+          plans that support daily operations and <a href="https://www.rnk.com/blog/event-transportation-for-large-gatherings" 
+          className="text-red-900 underline hover:text-white mx-1">special occasions</a>.
         </p>
       </motion.div>
 
@@ -645,7 +651,8 @@ export default function HotelOperationsPage() {
               className="text-black/70 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px]
                          leading-[1.75] lg:leading-[1.9] [text-wrap:pretty]"
             >
-              RNK supports hotels, resorts and serviced residences with professional, chauffeur-driven mobility —
+              RNK supports <a href="/services/hotel-operations/" className="text-red-900 underline hover:text-black mx-1">hotels, resorts and serviced residences
+              </a> with professional, chauffeur-driven mobility —
               planned around guest experience, punctuality and on-ground coordination.
             </motion.p>
 
