@@ -93,8 +93,10 @@ const cars =
 
             <p className="mt-4 text-sm sm:text-[15px] text-white/90 max-w-xl mx-auto">
               From Rolls Royce and Mercedes-Benz to premium vans and coaches,
-              RNK offers a curated fleet for corporate travel, weddings, events,
-              airport transfers and VIP movements across India.
+              RNK offers a curated fleet for <a href="/services/corporate-car-rental/" 
+              className="text-red-900 underline hover:text-white mx-1">corporate travel</a>,weddings, events,
+             <a href="/services/airport-railway-transfers/"
+              className="text-red-900 underline hover:text-white mx-1">airport transfers</a> and VIP movements across India.
             </p>
           </div>
 
@@ -136,7 +138,9 @@ const cars =
           One fleet that flexes for every journey.
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 max-w-lg">
-          Every vehicle in the RNK fleet is selected, maintained, and chauffeur-managed to deliver the same high standard of experience — whether it's a Rolls Royce for a wedding entry or a well-timed coach movement for a corporate conference.
+          Every vehicle in the <a href="/about/"
+          className="text-red-900 underline hover:text-black mx-1">RNK</a> fleet is selected, maintained, and chauffeur-managed to deliver the same high standard of experience — whether it's a Rolls Royce for a <a href="/services/event-wedding-transport/" 
+          className="text-red-900 underline hover:text-black mx-1">wedding entry</a> or a well-timed coach movement for a corporate conference.
         </p>
       </div>
 

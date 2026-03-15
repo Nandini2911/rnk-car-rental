@@ -94,7 +94,9 @@ className="flex flex-col items-center gap-5 mb-[clamp(32px,5vw,60px)]"
               leading-relaxed
             "
           >
-            From corporate mobility to VIP convoys and destination weddings —
+            From corporate mobility to <a href="/services/vip-movements/"
+            className="text-red-900 underline hover:text-white mx-1">VIP convoys</a> and <a href="/services/event-wedding-transport/" 
+            className="text-red-900 underline hover:text-white mx-1">destination weddings</a>
             RNK orchestrates end-to-end transport with precision, discretion,
             and an unwavering focus on comfort.
           </motion.p>

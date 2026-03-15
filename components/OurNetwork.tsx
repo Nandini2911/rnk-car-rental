@@ -359,8 +359,10 @@ export default function OurNetworkPage() {
         </h2>
 
         <p className="mt-4 text-sm sm:text-base md:text-lg xl:text-[19px] leading-relaxed text-black/90">
-          Whether it&apos;s a board meeting in Mumbai, a wedding in Jaipur
-          or an artist arrival in Guwahati, RNK operates like a single,
+          Whether it&apos;s a <a href="/services/corporate-car-rental/" 
+          className="text-red-900 underline hover:text-black mx-1">board meeting</a>in Mumbai, a wedding in Jaipur
+          or an<a href="/services/vip-movements/" className="text-red-900 underline hover:text-black mx-1">artist arrival</a> in Guwahati, <a href="/about/" className="text-red-900 underline hover:text-black mx-1">
+          RNK</a>operates like a single,
           well-rehearsed team. Your guests experience the same greeting,
           the same car standards and the same quiet efficiency—no matter
           where their pin drops.
@@ -368,7 +370,8 @@ export default function OurNetworkPage() {
 
         <p className="mt-3 text-sm sm:text-base md:text-lg xl:text-[19px] leading-relaxed text-black/80">
           For you, that means one contact, one consolidated itinerary, and
-          a network that simply plugs into your plan instead of complicating it.
+          a<a href="/our-network/" className="text-red-900 underline hover:text-black mx-1">network
+          </a>that simply plugs into your plan instead of complicating it.
         </p>
       </motion.div>
 

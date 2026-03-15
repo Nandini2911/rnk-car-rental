@@ -21,9 +21,12 @@ export function HeritageSection() {
           <p className="text-sm md:text-[15px] text-black/70 max-w-3xl leading-relaxed text-justify mb-6">
             Offering excellence since 1969, operating today across 170+ cities Pan India.
             <br /><br />
-            What began in 1969 as a modest vision soon became a landmark journey. In the bustling heart of Mumbai, Shri Ramniranjan Kedia, along with co-founder Mr. Kamal Kedia, laid the foundation of what would evolve into the RNK Group — a name now synonymous with refined travel, dependable service, and elevated car rental experiences.
+            What began in 1969 as a modest vision soon became a landmark journey. In the bustling heart of Mumbai, Shri Ramniranjan Kedia, along with co-founder Mr. Kamal Kedia, laid the foundation of what would evolve into the<a href="/about/" 
+            className="text-red-900 underline hover:text-black mx-1">RNK Group</a> — a name now synonymous with refined travel, dependable service, and elevated
+            <a href="/services/" className="text-red-900 underline hover:text-black mx-1">car rental experiences</a>.
             <br /><br />
-            Armed with a passion for excellence and an intuitive understanding of the travel industry, they built a company that redefined expectations. Over the decades, RNK expanded rapidly, establishing strong operational bases across India’s key cities and becoming a symbol of trust, reliability, and innovation.
+            Armed with a passion for excellence and an intuitive understanding of the travel industry, they built a company that redefined expectations. Over the decades, RNK expanded rapidly, establishing strong operational bases across India’s <a href="/our-network/" 
+            className="text-red-900 underline hover:text-black mx-1">key cities</a> and becoming a symbol of trust, reliability, and innovation.
           </p>
         </motion.div>
 

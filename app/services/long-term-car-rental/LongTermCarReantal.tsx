@@ -176,8 +176,10 @@ export default function LongTermCarRentalPage() {
               </p>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
-                Perfect for company executives, project teams, long-stay travellers,
-                NRI families and anyone who wants predictable, premium transport every day.
+                Perfect for<a href="/services/corporate-car-rental/" className="text-red-900 underline hover:text-black mx-1">company executives
+                </a>,project teams, long-stay travellers,
+                NRI families and anyone who wants predictable, <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+                premium transport</a> every day.
               </p>
 
               <motion.div
@@ -310,7 +312,8 @@ export default function LongTermCarRentalPage() {
                 "
               >
                 Whether you’re in the city for a 3-month project, setting up a new office,
-                or hosting long-stay guests — RNK gives you the freedom of a personal car
+                or hosting long-stay guests — <a href="/about/" 
+                className="text-red-900 underline hover:text-white mx-1">RNK</a>gives you the freedom of a personal car
                 without the headache of ownership.
               </motion.p>
 
@@ -325,7 +328,8 @@ export default function LongTermCarRentalPage() {
                   leading-[1.75] sm:leading-[1.8] lg:leading-[1.9]
                 "
               >
-                Our fleet is maintained with precision, hygiene and detailing — so your
+                <a href="/fleet/" className="text-red-900 underline hover:text-white mx-1">Our fleet</a>
+                is maintained with precision, hygiene and detailing — so your
                 everyday commute feels premium, consistent and reliable.
               </motion.p>
 
@@ -390,9 +394,11 @@ export default function LongTermCarRentalPage() {
                 leading-[1.75] lg:leading-[1.85]
               "
             >
-              RNK long-term programs are built around your routes, timings and comfort
-              preferences. You get reliability, consistency and a premium experience —
-              without the long-term commitment of ownership.
+              RNK long-term programs are built around your <a href="/services/corporate-car-rental/" 
+              className="text-red-900 underline hover:text-black mx-1">routes</a>, timings and comfort
+              preferences. You get reliability, consistency and a <a href="/services/luxury-travel/" 
+              className="text-red-900 underline hover:text-black mx-1">premium experience
+              </a> —without the long-term commitment of ownership.
             </p>
           </motion.div>
 
@@ -663,8 +669,11 @@ export default function LongTermCarRentalPage() {
               "
             >
               RNK long-term rentals deliver chauffeur-driven consistency across India —
-              ideal for executives, corporates, expats and long-stay families. Predictable
-              billing, maintained vehicles and reliable support — designed to feel effortless.
+              ideal for executives,<a href="/services/corporate-car-rental/"
+               className="text-red-900 underline hover:text-black mx-1">corporates</a>, expats and long-stay families. Predictable
+              billing, maintained<a href="/fleet/" 
+              className="text-red-900 underline hover:text-black mx-1">vehicles
+              </a>and reliable support — designed to feel effortless.
             </motion.p>
 
             <div className="mt-6 grid gap-3 sm:gap-4 sm:grid-cols-3">

@@ -27,7 +27,10 @@ export function AccoladesSection() {
             <br /><br />
             Public sector companies like the Government of India Departments, such as the Protocol Division and the Ministry of External Affairs - Media Dept, also relied on RNK's impeccable services. Even the esteemed Lok Sabha Secretariat's Protocol 1 trusted RNK for their travel needs.
             <br /><br />
-            The RNK Group's extensive range of services catered to corporate and individual travellers' diverse requirements. Whether it was a seamless travel experience, a luxurious car rental, or a comprehensive travel package, RNK has it all covered.
+            The RNK Group's extensive range of services catered to corporate and individual travellers' diverse requirements. Whether it was a <a href="/services/luxury-travel/" 
+            className="text-red-900 underline hover:text-black mx-1">seamless travel experience</a>, a
+            <a href="/fleet/" className="text-red-900 underline hover:text-black mx-1">luxurious car rental
+            </a>, or a comprehensive travel package, RNK has it all covered.
             <br /><br />
             Today, as you embark on your own journey, you can trust the RNK Group to be your reliable companion. With their unwavering commitment to excellence, their profound industry knowledge, and their passion for providing the highest standards of service, RNK will make your travel dreams come true. Join the ranks of the countless satisfied customers who have experienced the magic of RNK and let them weave a tale of unforgettable memories for you.
           </p>
