@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "9167977799"; // 👈 apna number yaha daalo
+  const phoneNumber = "9819877799"; // 👈 apna number yaha daalo
   const message = encodeURIComponent(
     "Hi RNK team, I would like to enquire about your services."
   );

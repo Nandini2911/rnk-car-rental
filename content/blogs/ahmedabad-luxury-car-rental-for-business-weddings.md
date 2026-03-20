@@ -48,7 +48,7 @@ In Ahmedabad, proper coordination between the booking team, chauffeur, and custo
 
 Airport movement is centred around Sardar Vallabhbhai Patel International Airport, where executive pickups require careful coordination with flight arrival timings. Professional rental services usually monitor flight schedules so that chauffeurs arrive according to actual landing times rather than scheduled arrival times, reducing unnecessary waiting.
 
-Luxury sedans such as the [Mercedes-Benz S-Class]() and BMW 7 Series are often preferred for CXO travel because they offer exceptional rear-seat comfort, smooth ride quality, and a professional corporate appearance. These vehicles also provide quiet cabins and advanced suspension systems that support productive travel between meetings.
+Luxury sedans such as the Mercedes-Benz S-Class and BMW 7 Series are often preferred for CXO travel because they offer exceptional rear-seat comfort, smooth ride quality, and a professional corporate appearance. These vehicles also provide quiet cabins and advanced suspension systems that support productive travel between meetings.
 
 For corporate clients, reliability, driver professionalism, and transparent billing structures are typically more important than brand visibility. Consistency in service delivery ensures that executive travel remains efficient and stress-free.
 

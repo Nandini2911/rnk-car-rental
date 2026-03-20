@@ -69,7 +69,7 @@ Vehicle selection plays an important role in maintaining privacy and comfort. Hi
 
 Premium sedans such as the [Mercedes-Benz S-Class](https://www.rnk.com/fleet/mb-s-class) and [BMW 7 Series](https://www.rnk.com/fleet/) are widely used in celebrity chauffeur services. These vehicles are designed specifically for chauffeur-driven travel with exceptional rear-seat comfort.
 
-Luxury SUVs such as the [Range Rover](https://www.rnk.com/fleet/) or Mercedes-Benz GLS are often selected for events, family travel, or situations requiring additional passenger space.
+Luxury SUVs such as the   Mercedes-Benz GLS are often selected for events, family travel, or situations requiring additional passenger space.
 
 Regardless of vehicle category, cleanliness and mechanical condition must meet exceptional standards. Interior detailing, climate control performance, and smooth suspension all contribute to passenger comfort.
 

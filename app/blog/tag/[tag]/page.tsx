@@ -4,6 +4,56 @@ import { NavBar } from "@/components/NavBar";
 import { getAllBlogs } from "@/lib/blog";
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+type Props = {
+  params: Promise<{ tag: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { tag } = await params;
+
+  const formattedTag = tag.replace(/-/g, " ");
+
+  const title = `${formattedTag} Blogs & Guides | RNK Rentals`;
+  const description = `Explore ${formattedTag} related blogs, guides and insights on luxury car rentals and chauffeur services across India.`;
+
+  return {
+    title,
+    description,
+
+    keywords: [
+      `${formattedTag} car rental`,
+      `${formattedTag} chauffeur service`,
+      `${formattedTag} blog`,
+      "luxury car rental India",
+    ],
+
+    alternates: {
+      canonical: `https://www.rnk.com/blog/tag/${tag}`,
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
+
+    openGraph: {
+      title,
+      description,
+      url: `https://www.rnk.com/blog/tag/${tag}`,
+      siteName: "RNK Rentals",
+      type: "website",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
+
 export default function TagPage({ params }: { params: { tag: string } }) {
 
   const blogs = getAllBlogs();

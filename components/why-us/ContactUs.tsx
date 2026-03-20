@@ -57,7 +57,7 @@ export function ContactUs() {
         >
           Book your ride today or <a href="https://www.rnk.com/contact" className="text-red-900 underline hover:text-black mx-1">
         contact us</a> to know more about our premium
-          <a href="http://localhost:3000/blog/chauffeur-driven-outstation-trips-benefits" className="text-red-900 underline hover:text-black mx-1">
+          <a href="http://rnk.com/blog/chauffeur-driven-outstation-trips-benefits" className="text-red-900 underline hover:text-black mx-1">
           chauffeur-driven services.</a>
         </motion.p>
 

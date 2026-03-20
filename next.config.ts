@@ -20,6 +20,11 @@ const nextConfig: NextConfig = {
         destination: "/network",
         permanent: true,
       },
+      {
+        source: '/blog/fleet',
+        destination: '/fleet',
+        permanent: true,
+      },
     ];
   },
 };
