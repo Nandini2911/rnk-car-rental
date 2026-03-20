@@ -168,14 +168,17 @@ export default function EventWeddingTransportPage() {
               </h2>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/80 mb-3 leading-relaxed">
-                Whether it’s a luxury wedding, destination celebration, corporate event,
+                Whether it’s a luxury wedding, destination celebration, <a href="/services/corporate-car-rental/" 
+                className="text-red-900 underline hover:text-black mx-1">corporate event</a>,
                 exhibition, conference or VIP gathering — RNK ensures every travel moment
                 runs perfectly.
               </p>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
-                From airport pickups to mandap arrivals, backstage crew drops or VIP
-                green-room movements — our coordination team manages everything end-to-end.
+                From <a href="/services/airport-railway-transfers/" 
+                className="text-red-900 underline hover:text-black mx-1">airport pickups</a> to mandap arrivals, backstage crew drops or <a href="/services/vip-movements/" 
+                className="text-red-900 underline hover:text-black mx-1">VIP green-room movements
+                </a>— our coordination team manages everything end-to-end.
               </p>
 
               <motion.div
@@ -311,8 +314,9 @@ export default function EventWeddingTransportPage() {
                 "
               >
                 Whether transporting 20 guests or 2,000 — RNK delivers a seamless,
-                comfortable and perfectly coordinated experience for weddings, corporate
-                events and destination celebrations.
+                comfortable and perfectly coordinated experience for weddings,<a href="/services/corporate-car-rental/" 
+                className="text-red-900 underline hover:text-white mx-1">corporate events
+                </a> and destination celebrations.
               </motion.p>
 
               <motion.p
@@ -341,7 +345,8 @@ export default function EventWeddingTransportPage() {
                   leading-[1.65] sm:leading-[1.7] lg:leading-[1.8]
                 "
               >
-                One team, one fleet —{" "}
+                One team, one <a href="/fleet/" 
+                className="text-red-900 underline hover:text-white mx-1">fleet</a> —{" "}
                 <span className="text-red-900 font-semibold">
                   flawless transport for every function.
                 </span>
@@ -391,7 +396,9 @@ export default function EventWeddingTransportPage() {
                 leading-[1.75] lg:leading-[1.85]
               "
             >
-              RNK goes beyond basic travel. Our event & wedding transport is built around
+              <a href="/about/" className="text-red-900 underline hover:text-black mx-1">RNK</a>
+               goes beyond <a href="/services/luxury-travel/" 
+               className="text-red-900 underline hover:text-black mx-1">basic travel</a>.Our event & wedding transport is built around
               timing, hospitality and guest comfort — so every arrival feels as special
               as the occasion itself.
             </p>
@@ -487,7 +494,8 @@ export default function EventWeddingTransportPage() {
 
         {/* Sub paragraph */}
         <p className="w-full text-center text-white/70 text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] leading-[1.75] lg:leading-[1.85] max-w-3xl mx-auto">
-          From intimate family weddings to large-scale events, RNK manages guest
+          From intimate family weddings to <a href="/services/corporate-car-rental/" 
+          className="text-red-900 underline hover:text-white mx-1">large-scale events</a>, RNK manages guest
           movement with precision, comfort, and impeccable timing — so every
           moment arrives exactly as planned.
         </p>

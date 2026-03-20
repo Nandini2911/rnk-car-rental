@@ -97,7 +97,10 @@ py-12 sm:py-16 lg:py-20
           >
             Offering excellence since 1969, across{" "}
             <span className="font-semibold text-black">
-              170+ cities Pan India.
+              <a href="https://www.rnk.com/network"className="text-red-900 underline hover:text-black mx-1">
+                170+ cities Pan India.
+              </a>
+              
             </span>
           </motion.p>
 
@@ -113,7 +116,7 @@ py-12 sm:py-16 lg:py-20
             "
           >
             At <span className="font-semibold">RNK – Ramniranjan Kedia Group</span>,
-            we deliver premium chauffeur-driven experiences across India —
+            we deliver  <a href="https://www.rnk.com/fleet" className="text-red-900 underline hover:text-black mx-1"> premium chauffeur-driven cars</a> across India —
             blending comfort, reliability and luxury in every journey.
           </motion.p>
 

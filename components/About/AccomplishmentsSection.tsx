@@ -43,7 +43,8 @@ export function AccomplishmentsSection() {
             Accolades and Appreciation
           </h2>
           <p className="text-sm md:text-[15px] text-black/70 max-w-3xl leading-relaxed text-justify mb-6">
-            The Government of India, through the Department of Tourism, bestowed its recognition upon the RNK group, further validating its commitment to exceptional service and unwavering quality. It was a testament to the tireless efforts of the entire team and their unyielding pursuit of excellence.
+            The Government of India, through the Department of Tourism, bestowed its recognition upon the RNK group, further validating its commitment to 
+            exceptional service and unwavering quality. It was a testament to the tireless efforts of the entire team and their unyielding pursuit of excellence.
           </p>
         </motion.div>
       </div>

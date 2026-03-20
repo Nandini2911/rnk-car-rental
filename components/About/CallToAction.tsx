@@ -22,7 +22,9 @@ export function CallToAction() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         className="text-lg mb-6"
       >
-        Book your ride today or contact us to know more about our services.
+        Book your ride today or<a href="https://www.rnk.com/contact" 
+        className="text-red-900 underline hover:text-black mx-1">contact us</a>to know more about 
+        <a href="https://www.rnk.com/services/corporate-car-rental" className="text-red-900 underline hover:text-black mx-1">our services.</a>
       </motion.p>
       
       {/* Button */}

@@ -68,7 +68,8 @@ export function StatsStrip() {
 
           <p className="mx-auto max-w-3xl text-neutral-400 text-[13px] sm:text-sm lg:text-[15px] leading-relaxed">
             Every number reflects consistency, discipline, and trust built over
-            decades of premium chauffeur-driven mobility.
+            <a href="https://www.rnk.com/blog/behind-the-scenes-rnk's-legacy-since-1969" className="text-red-700 underline hover:text-white mx-1">decades</a>
+            of premium chauffeur-driven mobility.
           </p>
         </div>
 

@@ -106,7 +106,9 @@ export default function LuxuryTravelPage() {
               transition={{ duration: 1, ease: "easeOut", delay: 0.05 }}
               className="mt-4 mx-auto max-w-2xl text-white/80 text-[13px] sm:text-sm md:text-[19px] leading-relaxed"
             >
-              Premium chauffeur-driven experiences curated for holidays, celebrations,
+              Premium chauffeur-driven experiences curated for <a href="/services/vacation-rentals/" className="text-red-900 underline hover:text-white mx-1">
+             holidays</a>, <a href="/services/event-wedding-transport/" className="text-red-900 underline hover:text-white mx-1">
+             celebrations</a>,
               weekend getaways and personalised luxury trips.
             </motion.p>
 
@@ -157,12 +159,14 @@ export default function LuxuryTravelPage() {
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/80 mb-3 leading-relaxed">
                 Whether it’s a romantic getaway, a weekend escape, a family holiday or a
-                luxurious long drive — RNK turns travel into an elevated experience.
+                <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+                 luxurious long drive</a> — RNK turns travel into an elevated experience.
               </p>
 
               <p className="text-[13px] sm:text-sm md:text-[15px] text-black/75 mb-6 leading-relaxed">
                 Every route, stop and detail is curated around your comfort, privacy and
-                premium expectations.
+                <a href="/fleet/" className="text-red-900 underline hover:text-black mx-1">
+                 premium expectations</a>..
               </p>
 
               {/* PINK CARD */}
@@ -289,9 +293,11 @@ export default function LuxuryTravelPage() {
                 className="text-white/85 mb-5 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px]
                            leading-[1.75] sm:leading-[1.8] lg:leading-[1.9]"
               >
-                Luxury travel isn’t only about reaching a destination —{" "}
+               <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-white mx-1">
+                Luxury travel</a> isn’t only about reaching a destination —{" "}
                 <span className="text-red-900 font-medium">it’s about the journey.</span>{" "}
-                From scenic routes to celebrations and outstation holidays, RNK ensures every
+                From scenic routes to celebrations and<a href="/services/vacation-rentals/" className="text-red-900 underline hover:text-white mx-1">
+                outstation holidays</a>,, RNK ensures every
                 drive feels premium, private and unforgettable.
               </motion.p>
 
@@ -348,8 +354,10 @@ export default function LuxuryTravelPage() {
             <p className="mx-auto max-w-4xl text-black/70
                           text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px]
                           leading-[1.75] lg:leading-[1.85]">
-              RNK curates premium travel tailored to your style, comfort and journey. Here’s why
-              guests choose our luxury travel services.
+              RNK curates premium travel tailored to your style, comfort and<a href="https://www.rnk.com/blog/family-road-trips-in-India-with-premium-vans" 
+              className="text-red-900 underline hover:text-black mx-1">journey</a>. Here’s why
+              guests choose our <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+              luxury travel services</a>.
             </p>
           </motion.div>
 
@@ -620,8 +628,10 @@ export default function LuxuryTravelPage() {
               className="text-black/70 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px]
                          leading-[1.75] lg:leading-[1.9] [text-wrap:pretty]"
             >
-              RNK Luxury Travel delivers premium chauffeur-driven journeys across India —
-              built for holidays, weekend getaways, celebrations and long-distance comfort.
+              <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+               RNK Luxury Travel</a> delivers premium chauffeur-driven journeys across India —
+              built for holidays, weekend getaways, celebrations and <a href="https://www.rnk.com/blog/best-road-trips-from-mumbai-for-luxury-travelers"
+              className="text-red-900 underline hover:text-black mx-1">long-distance comfort</a>.
               Every ride is designed to feel effortless, safe and truly luxurious.
             </motion.p>
 

@@ -89,7 +89,9 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            Over 56 years of excellence, serving 170+ cities and trusted by
+            Over 56 years of excellence, serving <a href="https://www.rnk.com/network" 
+            className="text-red-900 underline hover:text-white mx-1">170+ cities</a>
+            and trusted by
             corporates and travelers.
           </motion.p>
 

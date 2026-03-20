@@ -43,9 +43,11 @@ export function ExperienceStrip() {
 
           {/* Subtext */}
           <p className="mx-auto max-w-2xl text-[clamp(18px,1.05vw,16px)] text-white/85 mb-8 leading-relaxed">
-            Don&apos;t hesitate — experience comfort, reliability, and premium
-            service every mile of the journey.
+            Don&apos;t hesitate — experience comfort, reliability, and <a href="https://www.rnk.com/blog/how-hnis-choose-premium-mobility-in-india" className="text-red-900 underline hover:text-white mx-1">
+          premium service
+          </a>every mile of the journey.
           </p>
+          
 
           {/* CTA */}
           <Link href="/contact">

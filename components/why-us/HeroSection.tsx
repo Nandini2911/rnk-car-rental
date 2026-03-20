@@ -110,7 +110,8 @@ export function HeroSection() {
               leading-relaxed
             "
           >
-          “Luxury, reliability, and seamless Pan-India travel — delivered by RNK.”
+          “Luxury, reliability, and seamless <a href="https://www.rnk.com/network" className="text-red-900 underline hover:text-white mx-1">
+           Pan-India travel</a> — delivered by RNK.”
           </p>
         </motion.div>
 

@@ -38,11 +38,13 @@ export function WhyChooseRNK() {
             mb-10 sm:mb-12 2xl:mb-16
           "
         >
-          With over 56 years of experience, RNK Rentals delivers a premium fleet
-          and refined chauffeur-driven services for high-net-worth individuals,
-          corporations, and exclusive events across 170+ cities in India.
+          With over 56 years of experience, <a href="https://www.rnk.com/about" className="text-red-900 underline hover:text-black mx-1">RNK Rentals</a> 
+          delivers a <a href="https://www.rnk.com/fleet" className="text-red-900 underline hover:text-black mx-1"> 
+          premium fleet</a>and refined <a href="/services/luxury-travel/" className="text-red-900 underline hover:text-black mx-1">
+          chauffeur-driven services</a>for high-net-worth individuals,
+          corporations, and exclusive events across  <a href="https://www.rnk.com/network" className="text-red-900 underline hover:text-black mx-1">170+ cities in India</a>.
         </motion.p>
-
+        
         {/* Features */}
         <div className="grid gap-6 sm:gap-7 md:grid-cols-3">
           {[
