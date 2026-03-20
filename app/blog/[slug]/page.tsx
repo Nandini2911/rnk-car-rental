@@ -196,6 +196,9 @@ mainEntity: faqs.map((faq) => ({
         <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-black">
           {blog.title}
         </h1>
+          <h6 className="  leading-tight mb-6 text-black">
+          {blog.description}
+        </h6>
 
         <p className="text-black text-sm">
           {blog.author} · {blog.readTime}
@@ -205,7 +208,7 @@ mainEntity: faqs.map((faq) => ({
       {/* RIGHT: IMAGE */}
       {blog.image && (
         <div className="order-1 lg:order-2">
-  <div className="relative w-full h-[220px] md:h-[300px] rounded-2xl overflow-hidden shadow-lg">
+  <div className="relative w-full h-[220px] md:h-[350px] rounded-2xl overflow-hidden shadow-lg">
     <img
       src={blog.image}
       alt={blog.title}

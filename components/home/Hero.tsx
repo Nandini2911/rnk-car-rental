@@ -71,6 +71,7 @@ export function Hero() {
         </h1>
 
         {/* DESCRIPTION */}
+<<<<<<< Updated upstream
         <p
           className="
             mt-4 sm:mt-6
@@ -89,6 +90,31 @@ export function Hero() {
           RNK curates a car and chauffeur for every journey.
         </p>
         
+=======
+       <p
+  className="
+    mt-4 sm:mt-6
+    text-[12px] sm:text-[15px] md:text-[16px]
+    lg:text-[17px] xl:text-[18px] 2xl:text-[20px]
+    text-white/80
+    max-w-[90%] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl
+    drop-shadow-[0_6px_18px_rgba(0,0,0,0.85)]
+  "
+>
+  From corporate runs and airport transfers to{" "}
+  <a
+    href="https://www.rnk.com/services/vip-movements"
+    className="underline hover:text-red-900"
+  >
+    VIP movements
+  </a>{" "}
+  and weddings — RNK curates a car and chauffeur for every journey.
+</p>
+
+
+
+
+>>>>>>> Stashed changes
         {/* CTA BUTTONS */}
         <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-4">
           {/* PRIMARY */}
