@@ -101,7 +101,7 @@ export function RnkFooter() {
               <div className="text-sm leading-relaxed">
                 <p className="font-semibold">Call us</p>
                 <a
-                  href="tel:02243227777"
+                  href="tel:9167977799"
                   className="text-neutral-300 hover:text-white transition-colors"
                 >
                   +91 9167977799
