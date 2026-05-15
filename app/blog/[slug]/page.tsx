@@ -1,9 +1,13 @@
 
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import { getBlogBySlug, getAllBlogs } from "@/lib/blog";
 import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
+
+import BlogPopupWrapper from "@/components/blog/BlogPopupWrapper";
+
+
+
 
 
 function extractFAQs(html: string) {
@@ -25,6 +29,7 @@ function extractFAQs(html: string) {
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
+
 
 type PageProps = {
   params: Promise<{
@@ -222,6 +227,8 @@ mainEntity: faqs.map((faq) => ({
     </div>
   </div>
 </section>
+
+<BlogPopupWrapper />
 
     
 

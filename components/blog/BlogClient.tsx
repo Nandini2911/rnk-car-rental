@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import BlogHero from "./BlogHero";
+import { useEffect, useState } from "react";import BlogHero from "./BlogHero";
 import BlogStats from "./BlogStats";
 import BlogCategories from "./BlogCategories";
 import BlogGrid from "./BlogGrid";
@@ -11,9 +10,20 @@ import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
 import FeaturedBlogs from "./FeaturedBlog";
 
+
+
 export default function BlogClient({ blogs = [] }: { blogs?: any[] }) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+  const [showPopup, setShowPopup] = useState(false);
+
+useEffect(() => {
+  const timer = setTimeout(() => {
+    setShowPopup(true);
+  }, 1500);
+
+  return () => clearTimeout(timer);
+}, []);
 
 const filteredBlogs = (blogs || []).filter((blog) => {
   if (!blog) return false;
@@ -84,7 +94,7 @@ const matchesSearch =
       <TrendingBlogs blogs={(blogs || []).filter((b) => b?.trending)} />
 
       <BlogCTA />
-
+    
       <RnkFooter />
     </>
   );
