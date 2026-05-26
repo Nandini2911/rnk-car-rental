@@ -12,26 +12,26 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 });
 
-/* ✅ ADD THIS (Google Verification + SEO) */
+/* ✅ RNK Metadata */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.dtsworld.in"),
+  metadataBase: new URL("https://www.rnk.com"),
 
   verification: {
     google: "jEJ-LO-XUzsR7LH9AAJZylIx16lS6GkhpoB8ixplyBc",
   },
 
   title: {
-    default: "Double Trouble Studio",
-    template: "%s | Double Trouble Studio",
+    default: "Ramniranjan Kedia Rent A Car Pvt. Ltd.",
+    template: "%s | RNK Rentals",
   },
 
   description:
-    "Double Trouble Studio is a 360° branding, PR, digital marketing, events, and web execution agency.",
+    "RNK Rentals offers chauffeur-driven luxury car rental services across 170+ cities in India for corporate travel, airport transfers, VIP movements, weddings, events, and long-term rentals.",
 
   openGraph: {
     type: "website",
-    siteName: "Double Trouble Studio",
-    url: "https://www.dtsworld.in",
+    siteName: "RNK Rentals",
+    url: "https://www.rnk.com",
   },
 
   twitter: {
