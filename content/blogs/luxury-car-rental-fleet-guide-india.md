@@ -15,7 +15,7 @@ tags:
 author: "RNK Rentals Team"
 category: "Car Blogs"
 readTime: "12 min read"
-image: "public/images/blog/2026-luxury-car-rental-fleet-guide.webp"
+image: "/images/blog/2026-luxury-car-rental-fleet-guide.webp"
 date: "2026-05-11"
 featured: true
 trending: false
