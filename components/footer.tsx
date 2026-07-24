@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export function RnkFooter() {
   return (
@@ -132,13 +133,20 @@ export function RnkFooter() {
               </div>
               <div className="text-sm leading-relaxed">
                 <p className="font-semibold">Head Office Address</p>
-                <p className="text-neutral-300">
-                  Suite 19, Kaliandas Udyog Bhavan,
-                  <br />
-                  Century Bazar, Prabhadevi, Mumbai,
-                  <br />
-                  400025 India
-                </p>
+               <p className="text-neutral-300">
+  <a
+    href="https://maps.app.goo.gl/JpQeTL51YAHt3QaR8"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition-colors"
+  >
+    Suite 19, Kaliandas Udyog Bhavan,
+    
+    Century Bazar, Prabhadevi, Mumbai,
+    
+    400025 India
+  </a>
+</p>
               </div>
             </div>
 
@@ -197,17 +205,28 @@ export function RnkFooter() {
       </div>
 
       {/* bottom bar */}
-      <motion.div
-        className="relative border-t border-white/10"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
+<div className="border-t border-neutral-800 mt-10 py-6 relative z-50 bg-black">
+  <div className="flex flex-col md:flex-row justify-between items-center gap-3 text-sm px-4">
+    
+    {/* Left Side */}
+    <p className="!text-white text-center md:text-left">
+      © 2025 RAMNIRANJAN KEDIA RENT A CAR PRIVATE LIMITED. All Rights Reserved.
+    </p>
+
+    {/* Right Side */}
+    <p className="!text-white text-center md:text-right">
+      Developed by{" "}
+      <Link
+        href="https://dtsworld.in"
+        target="_blank"
+        className="!text-white hover:text-red-500 transition-colors underline"
       >
-        <p className="mx-auto max-w-6xl px-6 py-4 text-center text-[11px] md:text-xs text-neutral-400">
-          © 2025 RAMNIRANJAN KEDIA RENT A CAR PRIVATE LIMITED. All Rights Reserved.
-        </p>
-      </motion.div>
+        Double Trouble Studio
+      </Link>
+    </p>
+
+  </div>
+</div>
     </motion.footer>
   );
 }

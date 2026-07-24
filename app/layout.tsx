@@ -5,6 +5,7 @@ import Script from "next/script";
 import { ReactNode } from "react";
 import { Playfair_Display } from "next/font/google";
 import type { Metadata } from "next";
+import CallButton from "@/components/CallButton";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -78,6 +79,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <main className="min-h-screen">{children}</main>
 
         <WhatsAppButton />
+        <CallButton />
       </body>
     </html>
   );
