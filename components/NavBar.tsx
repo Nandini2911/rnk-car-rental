@@ -58,19 +58,19 @@ export function NavBar() {
         className="
           mx-auto
           grid
-          h-[94px]
+          h-[74px]
           max-w-8xl
           grid-cols-[auto_1fr_auto]
           items-center
           overflow-visible
           px-5
-          sm:h-[102px]
+          sm:h-[80px]
           sm:px-7
-          md:h-[108px]
+          md:h-[86px]
           md:px-9
-          lg:h-[116px]
+          lg:h-[92px]
           lg:px-10
-          xl:h-[122px]
+          xl:h-[98px]
           xl:px-12
         "
       >
@@ -83,12 +83,12 @@ export function NavBar() {
             z-10
             block
             h-full
-            w-[135px]
+            w-[125px]
             overflow-visible
-            sm:w-[155px]
-            md:w-[175px]
-            lg:w-[190px]
-            xl:w-[215px]
+            sm:w-[140px]
+            md:w-[155px]
+            lg:w-[172px]
+            xl:w-[195px]
           "
         >
           <Image
@@ -103,14 +103,14 @@ export function NavBar() {
               left-0
               top-1/2
               h-auto
-              w-[150px]
+              w-[138px]
               max-w-none
               -translate-y-1/2
               object-contain
-              sm:w-[175px]
-              md:w-[195px]
-              lg:w-[220px]
-              xl:w-[245px]
+              sm:w-[155px]
+              md:w-[172px]
+              lg:w-[192px]
+              xl:w-[215px]
             "
           />
         </a>
@@ -165,7 +165,7 @@ export function NavBar() {
               rounded-full
               bg-red-900
               px-6
-              py-3.5
+              py-3
               text-xs
               font-semibold
               uppercase
@@ -178,7 +178,7 @@ export function NavBar() {
               hover:bg-black
               lg:inline-flex
               xl:px-8
-              xl:py-4
+              xl:py-3.5
               xl:text-sm
             "
           >
@@ -197,8 +197,8 @@ export function NavBar() {
             aria-expanded={mobileOpen}
             className="
               flex
-              h-12
-              w-12
+              h-11
+              w-11
               flex-col
               items-center
               justify-center
@@ -212,19 +212,19 @@ export function NavBar() {
             "
           >
             <span
-              className={`block h-0.5 w-7 bg-black transition duration-300 ${
+              className={`block h-0.5 w-6 bg-black transition duration-300 ${
                 mobileOpen ? "translate-y-2 rotate-45" : ""
               }`}
             />
 
             <span
-              className={`block h-0.5 w-7 bg-black transition duration-300 ${
+              className={`block h-0.5 w-6 bg-black transition duration-300 ${
                 mobileOpen ? "opacity-0" : ""
               }`}
             />
 
             <span
-              className={`block h-0.5 w-7 bg-black transition duration-300 ${
+              className={`block h-0.5 w-6 bg-black transition duration-300 ${
                 mobileOpen ? "-translate-y-2 -rotate-45" : ""
               }`}
             />
@@ -238,14 +238,14 @@ export function NavBar() {
           <div
             className="
               flex
-              max-h-[calc(100vh-94px)]
+              max-h-[calc(100vh-74px)]
               flex-col
               gap-5
               overflow-y-auto
               px-6
               py-6
-              sm:max-h-[calc(100vh-102px)]
-              md:max-h-[calc(100vh-108px)]
+              sm:max-h-[calc(100vh-80px)]
+              md:max-h-[calc(100vh-86px)]
               sm:px-8
             "
           >
@@ -353,7 +353,7 @@ function DesktopServicesDropdown({
           left-1/2
           top-full
           z-50
-          mt-6
+          mt-4
           w-[340px]
           -translate-x-1/2
           overflow-hidden
