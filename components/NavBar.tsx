@@ -53,7 +53,17 @@ export function NavBar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="absolute left-0 top-0 z-50 w-full bg-white shadow-[0_10px_35px_rgba(0,0,0,0.10)]">
+    <header
+      className="
+        sticky
+        left-0
+        top-0
+        z-50
+        w-full
+        bg-white
+        shadow-[0_10px_35px_rgba(0,0,0,0.10)]
+      "
+    >
       <nav
         className="
           mx-auto
@@ -64,17 +74,23 @@ export function NavBar() {
           items-center
           overflow-visible
           px-5
+
           sm:h-[80px]
           sm:px-7
+
           md:h-[86px]
           md:px-9
+
           lg:h-[92px]
           lg:px-10
+
           xl:h-[98px]
           xl:px-12
         "
       >
-        {/* LEFT — LARGE LOGO */}
+        {/* ========================= */}
+        {/* LEFT — LOGO */}
+        {/* ========================= */}
         <a
           href="/"
           aria-label="RNK Rentals Home"
@@ -85,6 +101,7 @@ export function NavBar() {
             h-full
             w-[125px]
             overflow-visible
+
             sm:w-[140px]
             md:w-[155px]
             lg:w-[172px]
@@ -107,6 +124,7 @@ export function NavBar() {
               max-w-none
               -translate-y-1/2
               object-contain
+
               sm:w-[155px]
               md:w-[172px]
               lg:w-[192px]
@@ -115,7 +133,9 @@ export function NavBar() {
           />
         </a>
 
+        {/* ========================= */}
         {/* CENTER — DESKTOP MENU */}
+        {/* ========================= */}
         <div
           className="
             hidden
@@ -124,9 +144,12 @@ export function NavBar() {
             gap-5
             text-[15px]
             font-medium
+
             lg:flex
+
             xl:gap-8
             xl:text-[17px]
+
             2xl:gap-10
             2xl:text-lg
           "
@@ -151,12 +174,15 @@ export function NavBar() {
               >
                 {item.label}
               </a>
-            ),
+            )
           )}
         </div>
 
-        {/* RIGHT — CTA AND MOBILE BUTTON */}
+        {/* ========================= */}
+        {/* RIGHT — CTA + MOBILE BTN */}
+        {/* ========================= */}
         <div className="flex items-center justify-end">
+          {/* DESKTOP CTA */}
           <a
             href="/contact"
             className="
@@ -174,9 +200,12 @@ export function NavBar() {
               shadow-[0_7px_20px_rgba(127,29,29,0.28)]
               transition
               duration-300
+
               hover:-translate-y-0.5
               hover:bg-black
+
               lg:inline-flex
+
               xl:px-8
               xl:py-3.5
               xl:text-sm
@@ -208,6 +237,7 @@ export function NavBar() {
               border-black/10
               bg-white
               shadow-sm
+
               lg:hidden
             "
           >
@@ -232,7 +262,9 @@ export function NavBar() {
         </div>
       </nav>
 
-      {/* MOBILE AND TABLET MENU */}
+      {/* ========================= */}
+      {/* MOBILE + TABLET MENU */}
+      {/* ========================= */}
       {mobileOpen && (
         <div className="border-t border-black/10 bg-white shadow-xl lg:hidden">
           <div
@@ -244,9 +276,11 @@ export function NavBar() {
               overflow-y-auto
               px-6
               py-6
+
               sm:max-h-[calc(100vh-80px)]
-              md:max-h-[calc(100vh-86px)]
               sm:px-8
+
+              md:max-h-[calc(100vh-86px)]
             "
           >
             {links.map((item) =>
@@ -274,9 +308,10 @@ export function NavBar() {
                 >
                   {item.label}
                 </a>
-              ),
+              )
             )}
 
+            {/* MOBILE BOOK NOW */}
             <a
               href="/contact"
               onClick={() => setMobileOpen(false)}
@@ -305,14 +340,17 @@ export function NavBar() {
   );
 }
 
-/* ========================= */
+/* ============================================= */
 /* DESKTOP SERVICES DROPDOWN */
-/* ========================= */
+/* ============================================= */
 
 function DesktopServicesDropdown({
   serviceItems,
 }: {
-  serviceItems: { label: string; href: string }[];
+  serviceItems: {
+    label: string;
+    href: string;
+  }[];
 }) {
   const [open, setOpen] = useState(false);
 
@@ -347,6 +385,7 @@ function DesktopServicesDropdown({
         </span>
       </button>
 
+      {/* DROPDOWN */}
       <div
         className={`
           absolute
@@ -364,6 +403,7 @@ function DesktopServicesDropdown({
           shadow-[0_24px_60px_rgba(0,0,0,0.22)]
           transition-all
           duration-200
+
           ${
             open
               ? "visible translate-y-0 opacity-100"
@@ -386,6 +426,7 @@ function DesktopServicesDropdown({
               text-black
               transition-colors
               last:border-b-0
+
               hover:bg-red-900
               hover:text-white
             "
@@ -398,15 +439,18 @@ function DesktopServicesDropdown({
   );
 }
 
-/* ========================= */
+/* ============================================= */
 /* MOBILE SERVICES DROPDOWN */
-/* ========================= */
+/* ============================================= */
 
 function MobileServicesDropdown({
   serviceItems,
   closeMenu,
 }: {
-  serviceItems: { label: string; href: string }[];
+  serviceItems: {
+    label: string;
+    href: string;
+  }[];
   closeMenu: () => void;
 }) {
   const [open, setOpen] = useState(false);
@@ -457,6 +501,7 @@ function MobileServicesDropdown({
                 text-black
                 transition
                 last:border-b-0
+
                 hover:bg-red-900
                 hover:text-white
               "

@@ -5,6 +5,7 @@ import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
 
 import BlogPopupWrapper from "@/components/blog/BlogPopupWrapper";
+import { formatBlogDate } from "@/lib/blogDate";
 
 
 
@@ -206,8 +207,8 @@ mainEntity: faqs.map((faq) => ({
         </h6>
 
         <p className="text-black text-sm">
-          {blog.author} · {blog.readTime}
-        </p>
+  {blog.author} · {formatBlogDate(blog.date)} · {blog.readTime}
+</p>
       </div>
 
       {/* RIGHT: IMAGE */}
