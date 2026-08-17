@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: PageProps) {
   const url = `https://www.rnk.com/blog/${slug}`;
 
   return {
-    title: `${blog.title} | RNK Rentals`,
+    title: `${blog.title} RNK`,
     description: blog.description,
 
     robots: {

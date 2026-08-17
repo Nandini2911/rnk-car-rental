@@ -11,7 +11,7 @@ import { NavBar } from "@/components/NavBar";
 import Schema from "@/components/Schema";
 
 export const metadata = {
-  title: "About RNK Rentals | Luxury Chauffeur Car Rental Since 1969",
+  title: "About RNK Rentals | Luxury Car Rental Since 1969",
   description:
     "Learn about Ramniranjan Kedia Rent A Car Pvt. Ltd, a trusted luxury chauffeur-driven car rental company since 1969, operating across 170+ cities in India.",
   keywords: [

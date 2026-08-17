@@ -28,7 +28,7 @@ This checklist walks through everything a bride and groom should confirm before,
 
 The single most common mistake couples make is trying to book cars before they've mapped out the full wedding schedule. Car requirements depend entirely on how many functions there are, how many venues, and how many people need to move — so this step has to come first.
 
-Before reaching out to any provider, confirm your full function list with dates and venues (mehendi, haldi, sangeet, baraat, ceremony, reception), get a rough guest count for each function, and identify which moments need a dedicated statement vehicle versus which just need reliable guest transport. Our guide on [how many cars are actually needed for Indian weddings](https://www.rnk.com/blog/how-many-cars-are-needed-for-indian-weddings) is worth reading at this stage, since it walks through exactly how to size your fleet against a real function-by-function schedule. If you're planning a destination wedding, our [destination wedding car rental guide](https://www.rnk.com/blog/destination-wedding-car-rental-guide) and [guest transportation planning guide](https://www.rnk.com/blog/wedding-guest-transportation-planning-guide) cover the additional logistics involved.
+Before reaching out to any provider, confirm your full function list with dates and venues (mehendi, haldi, sangeet, baraat, ceremony, reception), get a rough guest count for each function, and identify which moments need a dedicated statement vehicle versus which just need reliable guest transport. Our guide on how many cars are actually needed for Indian weddings is worth reading at this stage, since it walks through exactly how to size your fleet against a real function-by-function schedule. If you're planning a destination wedding, our [destination wedding car rental guide](https://www.rnk.com/blog/destination-wedding-car-rental-guide) and [guest transportation planning guide](https://www.rnk.com/blog/wedding-guest-transportation-planning-guide) cover the additional logistics involved.
 
 **Checklist:**
 - [ ] Full function list with confirmed dates and venues
@@ -151,7 +151,7 @@ What's the most commonly overlooked item on a wedding car checklist? Insurance a
 
 Do we need a different vehicle for the entry versus the getaway? Not always, but many couples choose to — the entry car is planned around photography and presence, while the getaway car is chosen for comfort and privacy.
 
-How many vehicles do we actually need for a multi-day wedding? This depends on guest count and function spread — see our dedicated breakdown on [how many cars are needed for Indian weddings](https://www.rnk.com/blog/how-many-cars-are-needed-for-indian-weddings) for a fuller answer.
+How many vehicles do we actually need for a multi-day wedding? This depends on guest count and function spread — see our dedicated breakdown on how many cars are needed for Indian weddingsfor a fuller answer.
 
 Should we handle transportation with one provider or several? One coordinated provider is generally easier to manage, since it means a single point of contact and consistent vehicle availability instead of juggling separate bookings.
 
