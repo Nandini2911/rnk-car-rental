@@ -35,7 +35,7 @@ Across most well-run MNC VIP transportation programs, a handful of standards sho
 Dedicated, vetted drivers are non-negotiable — VIP transport is rarely handled by rotating or on-demand drivers, but by a small, trusted pool who are briefed specifically on protocol and discretion. A named point of contact is standard too, someone who can be reached directly if a flight is delayed or a schedule shifts, rather than the guest or their assistant having to navigate a general booking line. Our guide on [safety standards in corporate mobility](https://www.rnk.com/blog/safety-standards-in-corporate-mobility) and our piece on [luxury car rental safety and chauffeur standards](https://www.rnk.com/blog/luxury-car-rental-safety-chauffeur-standards) both cover the vetting and protocol expectations that sit behind this kind of dedicated service.
 
 ### Airport Arrival Protocol: Where the Standard Is Set Immediately
-![Airport Arrival Protocol: Where the Standard Is Set Immediately](public/images/blog/How_mnc1.webp)
+![Airport Arrival Protocol: Where the Standard Is Set Immediately](/images/blog/How_mnc1.webp)
 
 For most VIP guests, the airport arrival is the very first impression of the visit, and MNCs typically treat this specific moment with the most rigor of any single touchpoint in the entire trip.
 
