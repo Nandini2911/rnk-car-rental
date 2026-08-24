@@ -13,7 +13,7 @@ date: "2026-07-24"
 author: "RNK Rentals Team"
 category: "Corporate Travel"
 readTime: "5 min read"
-image: "/images/blog/luxury-chauffeur-services-india-sla-metrics.webp"
+image: "/images/blog/long_term_car_rental_with_driver.webp"
 featured: true
 trending: false
 ---

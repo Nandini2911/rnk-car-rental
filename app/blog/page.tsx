@@ -2,6 +2,8 @@ import BlogClient from "@/components/blog/BlogClient";
 import Schema from "@/components/Schema";
 import { getAllBlogs } from "@/lib/blog";
 
+export const revalidate = 3600;
+
 export const metadata = {
   title: "RNK Rentals Blog | Travel Tips, Luxury Car Rental & Airport Transfer Guides",
 

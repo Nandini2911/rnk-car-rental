@@ -10,11 +10,12 @@ import { StatsSection } from "@/components/home/StatsSection";
 import { CustomerReviewsSection } from "@/components/home/CustomerReviewsSection";
 import { ExperienceStrip } from "@/components/home/ExperienceStrip";
 import Schema from "@/components/Schema";
+import HomePopupWrapper from "@/components/home/HomePopupWrapper";
 
 
 
 export const metadata = {
-  title: "Luxury Chauffeur-Driven Car Rental in India | RNK Rentals Since 1969",
+  title: "RNK Rentals: Luxury Car Rental in India Since 1969",
   description:
     "RNK Rentals offers chauffeur-driven luxury car rental services across 170+ cities in India for corporate travel, airport transfers, VIP movements, weddings, events, and long-term rentals.",
   keywords: [
@@ -247,6 +248,7 @@ export default function HomePage() {
       <CustomerReviewsSection />
       <ExperienceStrip />
       <RnkFooter />
+      <HomePopupWrapper />
       {/* Other sections: Why Us, Services, Fleet, etc. */}
     </>
   );

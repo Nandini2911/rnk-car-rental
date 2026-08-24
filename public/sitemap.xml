@@ -1,144 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<!-- CORE -->
-<url><loc>https://www.rnk.com/</loc></url>
-<url><loc>https://www.rnk.com/about</loc></url>
-<url><loc>https://www.rnk.com/why-us/</loc></url>
-<url><loc>https://www.rnk.com/network</loc></url>
-<url><loc>https://www.rnk.com/contact/</loc></url>
-
-<!-- SERVICES -->
-<url><loc>https://www.rnk.com/services/corporate-car-rental</loc></url>
-<url><loc>https://www.rnk.com/services/airport-railway-transfers</loc></url>
-<url><loc>https://www.rnk.com/services/luxury-travel</loc></url>
-<url><loc>https://www.rnk.com/services/hotel-operations</loc></url>
-<url><loc>https://www.rnk.com/services/vacation-rentals</loc></url>
-<url><loc>https://www.rnk.com/services/vip-movements</loc></url>
-<url><loc>https://www.rnk.com/services/long-term-car-rental</loc></url>
-<url><loc>https://www.rnk.com/services/event-wedding-transport</loc></url>
-
-<!-- FLEET MAIN -->
-<url><loc>https://www.rnk.com/fleet</loc></url>
-<url><loc>https://www.rnk.com/fleet/rolls-royce/</loc></url>
-<url><loc>https://www.rnk.com/fleet/hummer/</loc></url>
-<url><loc>https://www.rnk.com/fleet/mb-s-class</loc></url>
-<url><loc>https://www.rnk.com/fleet/mb-gls</loc></url>
-
-
-<url><loc>https://www.rnk.com/fleet/mb-v-class/</loc></url>
-<url><loc>https://www.rnk.com/fleet/mb-gle/</loc></url>
-
-<url><loc>https://www.rnk.com/fleet/mb-e-class/</loc></url>
-<url><loc>https://www.rnk.com/fleet/toyota-camry/</loc></url>
-<url><loc>https://www.rnk.com/fleet/fortuner/</loc></url>
-
-<url><loc>https://www.rnk.com/fleet/hycross/</loc></url>
-<url><loc>https://www.rnk.com/fleet/innova-crysta/</loc></url>
-<url><loc>https://www.rnk.com/fleet/byd-E6-electric-vehicle/</loc></url>
-<url><loc>https://www.rnk.com/fleet/kia-carens/</loc></url>
-<url><loc>https://www.rnk.com/fleet/ciaz/</loc></url>
-<url><loc>https://www.rnk.com/fleet/honda-city/</loc></url>
-<url><loc>https://www.rnk.com/fleet/dzire/</loc></url>
-
-<url><loc>https://www.rnk.com/fleet/toyota-coaster/</loc></url>
-<url><loc>https://www.rnk.com/fleet/toyota-commuter/</loc></url>
-<url><loc>https://www.rnk.com/fleet/urbania/</loc></url>
-<url><loc>https://www.rnk.com/fleet/volvo-9600/</loc></url>
-<url><loc>https://www.rnk.com/fleet/43-seater/</loc></url>
-<url><loc>https://www.rnk.com/fleet/27-seater/</loc></url>
-
-
-<!-- CITY PAGES -->
-<url><loc>https://www.rnk.com/city/bengaluru/</loc></url>
-<url><loc>https://www.rnk.com/city/chennai/</loc></url>
-<url><loc>https://www.rnk.com/city/mumbai/</loc></url>
-<url><loc>https://www.rnk.com/city/lucknow/</loc></url>
-<url><loc>https://www.rnk.com/city/hyderabad/</loc></url>
-<url><loc>https://www.rnk.com/city/kolkata/</loc></url>
-<url><loc>https://www.rnk.com/city/ahmedabad/</loc></url>
-<url><loc>https://www.rnk.com/city/bhopal/</loc></url>
-<url><loc>https://www.rnk.com/city/surat/</loc></url>
-<url><loc>https://www.rnk.com/city/nagpur/</loc></url>
-<url><loc>https://www.rnk.com/city/chandigarh/</loc></url>
-<url><loc>https://www.rnk.com/city/madurai/</loc></url>
-<url><loc>https://www.rnk.com/city/visakhapatnam/</loc></url>
-<url><loc>https://www.rnk.com/city/jamshedpur/</loc></url>
-<url><loc>https://www.rnk.com/city/jaipur/</loc></url>
-<url><loc>https://www.rnk.com/city/pune/</loc></url>
-<url><loc>https://www.rnk.com/city/kanpur/</loc></url>
-<url><loc>https://www.rnk.com/city/agra/</loc></url>
-<url><loc>https://www.rnk.com/city/indore/</loc></url>
-<url><loc>https://www.rnk.com/city/jodhpur/</loc></url>
-<url><loc>https://www.rnk.com/city/amritsar/</loc></url>
-<url><loc>https://www.rnk.com/city/patna/</loc></url>
-<url><loc>https://www.rnk.com/city/ludhiana/</loc></url>
-<url><loc>https://www.rnk.com/city/raipur/</loc></url>
-<url><loc>https://www.rnk.com/city/kochi/</loc></url>
-<url><loc>https://www.rnk.com/city/chhatrapati-sambhajinagar/</loc></url>
-<url><loc>https://www.rnk.com/city/bhubaneswar/</loc></url>
-<url><loc>https://www.rnk.com/city/vijayawada/</loc></url>
-<url><loc>https://www.rnk.com/city/kota/</loc></url>
-<url><loc>https://www.rnk.com/city/vadodara/</loc></url>
-<url><loc>https://www.rnk.com/city/nashik/</loc></url>
-<url><loc>https://www.rnk.com/city/thiruvananthapuram/</loc></url>
-<url><loc>https://www.rnk.com/city/varanasi/</loc></url>
-<url><loc>https://www.rnk.com/city/ranchi/</loc></url>
-<url><loc>https://www.rnk.com/city/meerut/</loc></url>
-<url><loc>https://www.rnk.com/city/gwalior/</loc></url>
-<url><loc>https://www.rnk.com/city/faridabad/</loc></url>
-<url><loc>https://www.rnk.com/city/udaipur/</loc></url>
-<url><loc>https://www.rnk.com/city/mysuru/</loc></url>
-<url><loc>https://www.rnk.com/city/prayagraj/</loc></url>
-<url><loc>https://www.rnk.com/city/guwahati/</loc></url>
-<url><loc>https://www.rnk.com/city/rajkot/</loc></url>
-<url><loc>https://www.rnk.com/city/coimbatore/</loc></url>
-<url><loc>https://www.rnk.com/city/new-delhi/</loc></url>
-<url><loc>https://www.rnk.com/city/dehradun/</loc></url>
-<url><loc>https://www.rnk.com/city/aligarh/</loc></url>
-
-<!-- BLOG -->
-<url><loc>https://www.rnk.com/blog/</loc></url>
-
-
+  <!-- CORE -->
   <url>
-    <loc>https://www.rnk.com/blog/wedding-car-rental-checklist</loc>
-    <lastmod>2026-02-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.rnk.com/</loc>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/wedding-guest-transportation-planning-guide</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.rnk.com/about</loc>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/best-cars-for-airport-transfers-in-delhi</loc>
-    <lastmod>2026-02-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.rnk.com/why-us/</loc>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/wedding-event-transport</loc>
-    <lastmod>2026-02-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.rnk.com/network</loc>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/airport-transfers-for-business-travelers</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.rnk.com/contact/</loc>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/why-mncs-prefer-premium-chauffeur-services</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.rnk.com/faq</loc>
+  </url>
+  <!-- SERVICES -->
+  <url>
+    <loc>https://www.rnk.com/services/corporate-car-rental</loc>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/wedding-event-cars-in-jaipur-rajasthan</loc>
+    <loc>https://www.rnk.com/services/airport-railway-transfers</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/services/luxury-travel</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/services/hotel-operations</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/services/vacation-rentals</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/services/vip-movements</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/services/long-term-car-rental</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/services/event-wedding-transport</loc>
+  </url>
+  <!-- FLEET MAIN -->
+  <url>
+    <loc>https://www.rnk.com/fleet</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/rolls-royce/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/hummer/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/mb-s-class</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/mb-gls</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/mb-v-class/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/mb-gle/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/mb-e-class/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/toyota-camry/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/fortuner/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/hycross/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/innova-crysta/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/byd-E6-electric-vehicle/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/kia-carens/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/ciaz/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/honda-city/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/dzire/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/toyota-coaster/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/toyota-commuter/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/urbania/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/volvo-9600/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/43-seater/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/fleet/27-seater/</loc>
+  </url>
+  <!-- CITY PAGES -->
+  <url>
+    <loc>https://www.rnk.com/city/bengaluru/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/chennai/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/mumbai/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/lucknow/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/hyderabad/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/kolkata/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/ahmedabad/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/bhopal/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/surat/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/nagpur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/chandigarh/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/madurai/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/visakhapatnam/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/jamshedpur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/jaipur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/pune/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/kanpur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/agra/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/indore/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/jodhpur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/amritsar/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/patna/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/ludhiana/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/raipur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/kochi/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/chhatrapati-sambhajinagar/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/bhubaneswar/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/vijayawada/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/kota/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/vadodara/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/nashik/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/thiruvananthapuram/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/varanasi/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/ranchi/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/meerut/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/gwalior/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/faridabad/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/udaipur/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/mysuru/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/prayagraj/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/guwahati/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/rajkot/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/coimbatore/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/new-delhi/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/dehradun/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/city/aligarh/</loc>
+  </url>
+  <!-- BLOG -->
+  <url>
+    <loc>https://www.rnk.com/blog/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/ahmedabad-luxury-car-rental-for-business-weddings</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -150,8 +270,20 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.rnk.com/blog/airport-transfer-tips</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.rnk.com/blog/airport-transfer-vs-taxi-why-choose-premium</loc>
     <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/airport-transfers-for-business-travelers</loc>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -162,20 +294,43 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/what-makes-ground-travel-truly-luxurious-in-india</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.rnk.com/blog/benefits-of-car-rental-with-driver</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/city-wise-comparison-mumbai-vs-delhi-luxury-rentals</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.rnk.com/blog/benefits-of-chauffeur-driven-cars-for-executives</loc>
     <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/best-cars-for-airport-transfers-in-delhi</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/best-chauffeur-services-in-delhi-ncr</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/best-luxury-cars-for-baraat-entry-in-india</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/best-luxury-suvs-for-indian-road-trips</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/best-road-trips-from-mumbai-for-luxury-travelers</loc>
+    <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -186,20 +341,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/benefits-of-car-rental-with-driver</loc>
-    <lastmod>2026-02-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/chauffeur-driven-outstation-trips-benefits</loc>
-    <lastmod>2026-02-23</lastmod>
+    <loc>https://www.rnk.com/blog/best-wedding-cars-for-bride-groom-entry</loc>
+    <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/ahmedabad-luxury-car-rental-for-business-weddings</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://www.rnk.com/blog/business-class-airport-transfers-for-executives</loc>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -216,26 +365,26 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/best-chauffeur-services-in-delhi-ncr</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/family-road-trips-in-india-with-premium-vans</loc>
+    <loc>https://www.rnk.com/blog/chauffeur-driven-outstation-trips-benefits</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/corporate-car-rental-vs-leasing-explained</loc>
+    <loc>https://www.rnk.com/blog/chauffeur-driven-vs-self-drive-luxury-cars</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/chennai-luxury-rentals-outstation-airport</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/business-class-airport-transfers-for-executives</loc>
-    <lastmod>2026-02-26</lastmod>
+    <loc>https://www.rnk.com/blog/city-wise-comparison-mumbai-vs-delhi-luxury-rentals</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -246,7 +395,30 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/corporate-travel-policy-compliance</loc>
+    <loc>https://www.rnk.com/blog/common-mistakes-while-renting-luxury-cars</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/corporate-airport-pickup-etiquette</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/corporate-airport-shuttle-alternatives-in-luxury</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/corporate-car-rental-service-guide-india</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/corporate-car-rental-vs-leasing-explained</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -258,61 +430,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/best-wedding-cars-for-bride-groom-entry</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/common-mistakes-while-renting-luxury-cars</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/airport-transfer-tips</loc>
-    <lastmod>2026-02-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/best-luxury-suvs-for-indian-road-trips</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/employee-transportation-solutions-guide</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/chauffeur-driven-vs-self-drive-luxury-cars</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.rnk.com/blog/corporate-luxury-rentals-in-hyderabad-guide</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/chennai-luxury-rentals-outstation-airport</loc>
+    <loc>https://www.rnk.com/blog/corporate-travel</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/corporate-travel-policy-compliance</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/how-hnis-choose-premium-mobility-in-india</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/event-transportation-for-large-gatherings</loc>
+    <loc>https://www.rnk.com/blog/cost-of-wedding-car-rental-in-mumbai</loc>
     <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -324,14 +460,30 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur</loc>
+    <loc>https://www.rnk.com/blog/destination-wedding-car-rental-in-india-top-venues-logistics-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/employee-transportation-solutions-guide</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/event-transportation-for-large-gatherings</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/family-road-trips-in-india-with-premium-vans</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/best-road-trips-from-mumbai-for-luxury-travelers</loc>
-    <lastmod>2026-02-21</lastmod>
+    <loc>https://www.rnk.com/blog/full-wedding-car-fleet-planning-from-baraat-to-reception-logistics</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -342,8 +494,24 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/kerala-backroads-luxury-drive-guide</loc>
+    <loc>https://www.rnk.com/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur</loc>
     <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/group-event-transportation-for-shaadi-season-vans-coaches-luxury-coordination</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/how-ai-apps-are-transforming-luxury-car-booking-in-india</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/how-hnis-choose-premium-mobility-in-india</loc>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -353,81 +521,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+ 
   <url>
-    <loc>https://www.rnk.com/blog/corporate-travel</loc>
-    <lastmod>2026-02-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/corporate-airport-pickup-etiquette</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/how-many-cars-are-needed-for-indian-weddings</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/cost-of-wedding-car-rental-in-mumbai</loc>
-    <lastmod>2026-02-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/corporate-airport-shuttle-alternatives-in-luxury</loc>
-    <lastmod>2026-02-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-car-rental-in-mumbai-full-guide-2026</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-cars-for-cxos-board-members</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/monsoon-airport-transfer-safety-tips</loc>
-    <lastmod>2026-02-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/nri-luxury-travel-guide-arriving-in-style</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/monsoon-road-trip-safety-in-luxury-cars</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-car-rental-safety-chauffeur-standards</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/travel-tips</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/kolkata-premium-chauffeur-driven-cars</loc>
-    <lastmod>2026-02-20</lastmod>
+    <loc>https://www.rnk.com/blog/how-to-manage-guest-transportation-for-destination-weddings</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -438,8 +535,50 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.rnk.com/blog/kerala-backroads-luxury-drive-guide</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/kolkata-premium-chauffeur-driven-cars</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/konkan-coast-luxury-drive-mumbai-to-goa-guide</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.rnk.com/blog/late-night-airport-transfers-safety-reliability</loc>
     <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/leh-ladakh-road-trip-with-chauffeur-driven-luxury-car</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/long-term-car-rental</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-airport-pickup-in-mumbai-step-by-step-guide</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-airport-transfers-car-rental-in-bangalore</loc>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -450,10 +589,71 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/how-to-book-luxury-cars-online-in-india</loc>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-cost-in-india-explained</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-fleet-guide-india</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-fleet-guide-top-new-models-evs-in-india</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-for-nris-in-india</loc>
     <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-in-mumbai-full-guide-2026</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-insurance-damage-protection-explained</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-insurance-damage-protection-explained-for-first-timers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-car-rental-safety-chauffeur-standards</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-cars-for-cxos-board-members</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-cars-for-sangeet-reception-events</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-transportation-planning-for-big-fat-indian-weddings</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/luxury-travel</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.rnk.com/blog/luxury-travel-etiquette-for-indian-roads</loc>
@@ -468,55 +668,18 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/leh-ladakh-road-trip-with-chauffeur-driven-luxury-car</loc>
+    <loc>https://www.rnk.com/blog/luxury-wedding-car-decoration-ideas-themes-flowers-lighting</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/manali-to-spiti-valley-luxury-car-route-tips</loc>
     <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-airport-transfers-car-rental-in-bangalore</loc>
-    <lastmod>2026-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/long-term-car-rental</loc>
-    <lastmod>2026-02-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.rnk.com/blog/mercedes-vs-bmw-rental-which-is-better</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-travel</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-airport-pickup-in-mumbai-step-by-step-guide</loc>
-    <lastmod>2026-02-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/konkan-coast-luxury-drive-mumbai-to-goa-guide</loc>
-    <lastmod>2026-02-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers</loc>
-    <lastmod>2026-02-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/luxury-car-rental-cost-in-india-explained</loc>
     <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -528,26 +691,20 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/luxury-cars-for-sangeet-reception-events</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://www.rnk.com/blog/modern-luxury-tech-comfort-in-premium-cars</loc>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/luxury-car-rental-for-nris-in-india</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://www.rnk.com/blog/monsoon-airport-transfer-safety-tips</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/safety-standards-in-corporate-mobility</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/suv-vs-sedan-luxury-rentals-in-india</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://www.rnk.com/blog/monsoon-road-trip-safety-in-luxury-cars</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -558,10 +715,22 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/manali-to-spiti-valley-luxury-car-route-tips</loc>
-    <lastmod>2026-02-21</lastmod>
+    <loc>https://www.rnk.com/blog/mumbai-to-delhi-nationwide-wedding</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/nri-luxury-travel-guide-arriving-in-style</loc>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/outstation-travel</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.rnk.com/blog/premium-mobility-for-film-productions-shoots</loc>
@@ -570,20 +739,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/modern-luxury-tech-comfort-in-premium-cars</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/mumbai-to-delhi-nationwide-wedding</loc>
-    <lastmod>2026-02-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/vip-arrival-departure-standards-in-luxury-cars</loc>
-    <lastmod>2026-02-24</lastmod>
+    <loc>https://www.rnk.com/blog/programmatic-luxury-car-rental-in-tier-2-cities-india</loc>
+    <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -600,20 +757,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/sustainable-luxury-mobility-trends-in-india</loc>
-    <lastmod>2026-02-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/programmatic-luxury-car-rental-in-tier-2-cities-india</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.rnk.com/blog/wedding-car-decoration-rules-ideas</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -624,10 +769,54 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.rnk.com/blog/outstation-travel</loc>
-    <lastmod>2026-02-15</lastmod>
+    <loc>https://www.rnk.com/blog/rolls-royce-wedding-entry-ideas-for-modern-couples</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/safety-standards-in-corporate-mobility</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/self-drive-vs-chauffeur-luxury-rentals-updated-comparison-costs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/sustainable-luxury-car-rentals-eco-friendly-options-for-conscious-travelers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/sustainable-luxury-mobility-trends-in-india</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/suv-vs-sedan-luxury-rentals-in-india</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/travel-tips</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/vintage-vs-modern-wedding</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/vip-arrival-departure-standards-in-luxury-cars</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.rnk.com/blog/vip-celebrity-airport-movements-in-india</loc>
@@ -635,12 +824,63 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-               
-
-
-<!-- LEGAL -->
-<url><loc>https://www.rnk.com/terms-and-conditions/</loc></url>
-<url><loc>https://www.rnk.com/privacy-policy/</loc></url>
-
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-car-decoration-rules-ideas</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-car-rental-checklist</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-car-rental-checklist-for-brides-grooms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-event-cars-in-jaipur-rajasthan</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-event-transport</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-guest-transportation-planning-guide</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/wedding-logistics-guide-for-multi-venue-functions</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/what-makes-ground-travel-truly-luxurious-in-india</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/blog/why-mncs-prefer-premium-chauffeur-services</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- LEGAL -->
+  <url>
+    <loc>https://www.rnk.com/terms-and-conditions/</loc>
+  </url>
+  <url>
+    <loc>https://www.rnk.com/privacy-policy/</loc>
+  </url>
 </urlset>

@@ -67,7 +67,7 @@ Most plans include a predefined kilometre allowance for city travel. This allows
 
 Additional expenses such as toll charges, parking fees, extended duty hours, and outstation travel are typically billed separately. These costs should be clearly defined in the contract to avoid misunderstandings.
 
-Compared to [daily bookings](https://www.rnk.com/blog/how-to-book-luxury-cars-online-in-india), where costs fluctuate based on demand and availability, monthly plans provide financial stability and clarity.
+ where costs fluctuate based on demand and availability, monthly plans provide financial stability and clarity.
 
 ## Operational Advantages Over Daily Rentals
 

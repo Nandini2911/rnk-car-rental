@@ -1,5 +1,5 @@
 ---
-title: "Wedding & Event Transportation: Making Every Moment Grand"
+title: "Luxury Wedding & Event Transportation in India"
 description: "Luxury wedding and event transportation in India—chauffeur-driven cars for bride and groom entry, VIP guest transfers, coordinated logistics, and seamless ceremony travel."
 tags:
   - wedding transportation services india

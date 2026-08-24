@@ -210,7 +210,7 @@ If you are looking for a [reliable luxury car rental in Mumbai](https://www.rnk.
 
 Our luxury car rental service offers a wide range of vehicles including **Mercedes-Benz, BMW, Audi, Range Rover, Jaguar, and other premium models**. Each vehicle is well maintained, sanitized, and designed to deliver a comfortable and luxurious driving experience.
 
-[Booking your luxury car is quick and easy](https://www.rnk.com/blog/how-to-book-luxury-cars-online-in-india). Simply contact our team, share your travel date, location, and preferred car model, and we will arrange everything for you. We provide **flexible rental packages including hourly, daily, and long-term rentals**.
+Simply contact our team, share your travel date, location, and preferred car model, and we will arrange everything for you. We provide **flexible rental packages including hourly, daily, and long-term rentals**.
 
 Our goal is to provide **safe, stylish, and affordable luxury car rental services in Mumbai**. Contact us today to experience premium travel with reliable support and the best vehicles available in the city.
 
