@@ -2,15 +2,13 @@
 
 title: "Pairing Luxury Cars with 5-Star Hotels & Private Experiences Across India"
 
-slug: "pairing-luxury-cars-5-star-hotels-private-experiences-india"
+
 
 description: "Discover how luxury chauffeur-driven cars, 5-star hotels and private experiences can be paired to create seamless premium journeys across India, from Mumbai and Rajasthan to Kerala and beyond."
 
-seoTitle: "Luxury Cars, 5-Star Hotels & Private Experiences in India"
 
-focusKeyword: "luxury travel in India"
 
-secondaryKeywords:
+tags:
 
 - luxury car rental in India
 - chauffeur driven luxury cars India

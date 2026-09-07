@@ -4,11 +4,7 @@ title: "Sustainable & Experiential Luxury Travel Trends with Premium Chauffeurs"
 
 description: "Explore how sustainable luxury travel in India is evolving through meaningful local experiences, slower itineraries, electric mobility, premium chauffeurs and more conscious luxury journeys."
 
-seoTitle: "Sustainable Luxury Travel Trends in India | Chauffeur Travel"
-
-focusKeyword: "sustainable luxury travel India"
-
-secondaryKeywords:
+tags:
 
 - experiential luxury travel India
 - responsible luxury tourism India
