@@ -1,6 +1,6 @@
 ---
 title: "Luxury Travel Etiquette for Indian Roads"
-description: "Luxury travel etiquette in India—calm driving, respectful chauffeur interaction, punctual coordination, traffic discipline, privacy awareness, and refined arrival behaviour."
+description: "Tipping, seating, rest stops and working with your chauffeur: simple etiquette for luxury road travel in India that makes every trip smoother. Book now."
 tags:
   - luxury travel etiquette india
   - chauffeur etiquette india

@@ -1,6 +1,6 @@
 ---
-title: "Corporate Airport Shuttle Alternatives in Luxury"
-description: "Luxury alternative to corporate airport shuttles in India—dedicated chauffeur-driven transfers for executives with flight tracking, privacy, flexible timing, and direct point-to-point travel."
+title: "Luxury Alternatives to Corporate Airport Shuttles"
+description: "Looking for a corporate airport shuttle alternative? Scheduled chauffeur-driven sedans, MPVs and vans for staff and clients. Compare and get a quote."
 tags:
   - corporate airport shuttle alternative india
   - luxury corporate airport transfer india

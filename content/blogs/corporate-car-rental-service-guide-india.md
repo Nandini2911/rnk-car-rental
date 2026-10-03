@@ -1,6 +1,6 @@
 ---
-title: "Luxury Chauffeur Services in India: 5 SLA Metrics Every Premium Traveler and Corporate Head Should Demand"
-description: "Discover the five essential SLA metrics every premium traveler and corporate leader should evaluate before choosing a luxury chauffeur service in India."
+title: "Chauffeur Service SLAs: 5 Metrics to Demand"
+description: "On-time pickup, chauffeur vetting, vehicle age, response time and billing accuracy: 5 chauffeur service SLA metrics buyers should demand. Get a quote."
 tags:
   - premium car rental india
   - chauffeur driven luxury cars

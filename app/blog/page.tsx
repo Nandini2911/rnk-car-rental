@@ -5,10 +5,10 @@ import { getAllBlogs } from "@/lib/blog";
 export const revalidate = 3600;
 
 export const metadata = {
-  title: "RNK Rentals Blog | Travel Tips, Luxury Car Rental & Airport Transfer Guides",
+  title: "Luxury Car Rental & Travel Blog",
 
   description:
-    "Explore expert guides, travel tips, and insights on luxury car rentals, airport transfers, corporate travel, wedding transportation, and chauffeur services across India.",
+    "The RNK luxury car rental blog: guides on wedding cars, airport transfers, corporate travel and road trips across India, from RNK since 1969. Read now.",
 
   keywords: [
     "luxury car rental blog india",

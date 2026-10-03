@@ -5,10 +5,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Corporate Car Rental Services in India | RNK Rentals",
+    "Corporate Car Rental with Chauffeur in India ",
 
   description:
-    "RNK provides premium corporate chauffeur-driven car rental services across India for executives, teams, clients and VIP movements. Trusted since 1969.",
+    "Corporate car rental with vetted chauffeurs for executives, client visits and events across India. Monthly billing and GST invoices. Get a corporate quote.",
 
   keywords: [
     "corporate car rental india",

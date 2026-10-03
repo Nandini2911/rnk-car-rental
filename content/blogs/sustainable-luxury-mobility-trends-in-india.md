@@ -1,6 +1,6 @@
 ---
 title: "Sustainable Luxury Mobility Trends in India"
-description: "Sustainable luxury mobility in India—electric premium sedans, hybrid SUVs, ESG-driven corporate travel, eco-driving chauffeurs, and low-emission strategies for refined transport."
+description: "EV fleets, hybrids and smarter routing: the sustainable luxury mobility trends reshaping chauffeur travel in India, and how to choose greener. Read more."
 tags:
   - sustainable luxury mobility india
   - electric luxury cars india

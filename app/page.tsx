@@ -17,7 +17,7 @@ import HomePopupWrapper from "@/components/home/HomePopupWrapper";
 export const metadata = {
   title: "RNK Rentals: Luxury Car Rental in India Since 1969",
   description:
-    "RNK Rentals offers chauffeur-driven luxury car rental services across 170+ cities in India for corporate travel, airport transfers, VIP movements, weddings, events, and long-term rentals.",
+    "RNK Rentals: chauffeur-driven luxury car rental in 170+ Indian cities for corporate travel, airport transfers, weddings and VIP movements. Get a quote.",
   keywords: [
     "luxury car rental india",
     "chauffeur driven car rental india",

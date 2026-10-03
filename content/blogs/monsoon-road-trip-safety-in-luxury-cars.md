@@ -1,6 +1,6 @@
 ---
 title: "Monsoon Road Trip Safety in Luxury Cars"
-description: "Are luxury cars safe for monsoon road trips in India? Learn SUV advantages, tyre checks, braking control, flooded road risks, and safe driving strategies."
+description: "Monsoon road trip safety in a luxury car: route checks, tyre and wiper prep, ghat driving tips and why an experienced chauffeur helps. Book a safe ride."
 tags:
   - monsoon road trip safety india
   - luxury car monsoon driving tips

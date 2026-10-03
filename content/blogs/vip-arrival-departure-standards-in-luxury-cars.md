@@ -1,6 +1,6 @@
 ---
 title: "VIP Arrival & Departure Standards in Luxury Cars"
-description: "VIP luxury travel standards in India—precise arrival timing, discreet chauffeurs, immaculate vehicles, privacy, security coordination, and seamless airport or event transfers."
+description: "VIP arrival protocol and departure standards: timing, door etiquette, vehicle choice, security coordination and chauffeur conduct. Plan a VIP movement."
 tags:
   - vip luxury car service india
   - vip airport transfer india

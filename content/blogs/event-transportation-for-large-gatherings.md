@@ -1,6 +1,6 @@
 ---
 title: "Event Transportation for Large Gatherings"
-description: "Event transportation services in India explained—fleet planning, guest segmentation, staggered scheduling, route strategy, parking control, and logistics tips."
+description: "Transportation for large events, done right: coaches, vans and sedans, staggered pickups and on-ground marshals for hundreds of guests. Get an event quote."
 tags:
   - event transportation services india
   - large event transport planning

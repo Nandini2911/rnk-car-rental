@@ -1,6 +1,6 @@
 ---
-title: "Monsoon-Proof Luxury Road Trips: Konkan, Kerala & Northeast Routes"
-description: "Plan a luxury monsoon road trip across India in 2026 with scenic routes through Konkan, Kerala and the Northeast. Discover safer route options, luxury SUVs, chauffeur-driven travel tips, monsoon precautions and premium road-trip planning advice."
+title: "Monsoon Road Trips: Konkan, Kerala & Northeast"
+description: "The best monsoon road trips in India along the Konkan coast, Kerala and the Northeast, with safe-driving tips and the right car. Book a chauffeur car."
 
 tags:
 

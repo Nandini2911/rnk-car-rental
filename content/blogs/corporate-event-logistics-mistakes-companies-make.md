@@ -1,6 +1,6 @@
 ---
-title: "Corporate Event Logistics Mistakes Companies Make"
-description: "The most common corporate event logistics mistakes companies make in India — transportation planning failures, VIP guest oversights, budgeting errors, and how to avoid them for your next event."
+title: "Corporate Event Logistics Mistakes to Avoid"
+description: "Late pickups, too few vehicles, no backup plan: the corporate event logistics mistakes companies make, and how to avoid them. Plan with RNK Rentals today."
 tags:
   - corporate event logistics mistakes india
   - corporate event planning mistakes

@@ -1,6 +1,6 @@
 ---
-title: "2026 Luxury Car Rental Fleet Guide: Top New Models & EVs in India"
-description: "A complete look at the luxury cars and EVs defining India's premium mobility scene in 2026 — from the Mercedes S-Class and Rolls-Royce to the electric fleet reshaping chauffeur-driven travel."
+title: "2026 Luxury Car Rental Fleet Guide: New Models & EVs"
+description: "Which new luxury cars and EVs can you rent in India in 2026? A guide to sedans, SUVs, MPVs and electric options for chauffeur travel. Explore the fleet."
 tags:
   - best wedding cars for bride and groom entry
   - luxury wedding car rental india

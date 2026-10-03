@@ -1,12 +1,8 @@
 ---
 
-title: "Pairing Luxury Cars with 5-Star Hotels & Private Experiences Across India"
+title: "Luxury Cars + 5-Star Hotels: Private Experiences"
 
-
-
-description: "Discover how luxury chauffeur-driven cars, 5-star hotels and private experiences can be paired to create seamless premium journeys across India, from Mumbai and Rajasthan to Kerala and beyond."
-
-
+description: "Pair 5-star hotel stays with luxury car experiences: a chauffeur for private dining, heritage tours and spa days across India's top cities. Plan your trip."
 
 tags:
 

@@ -1,6 +1,6 @@
 ---
 title: "Event Transportation Checklist for HR & Admin Teams"
-description: "A complete, no-skip checklist for HR and admin teams planning corporate event transportation in India — vendor selection, employee transport, VIP logistics, budgeting, and day-of coordination."
+description: "A ready-to-use event transport checklist for HR and admin teams: headcount, vehicle mix, pickup schedules, contacts and contingencies. Get a quote now."
 tags:
   - event transportation checklist hr teams
   - corporate transportation planning admin

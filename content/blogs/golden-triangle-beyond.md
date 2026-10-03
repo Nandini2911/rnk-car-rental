@@ -1,8 +1,8 @@
 ---
 
-title: "Golden Triangle & Beyond: Luxury Chauffeur-Driven Heritage Road Trips"
+title: "Golden Triangle & Beyond: Heritage Road Trips"
 
-description: "Plan a luxury Golden Triangle road trip through Delhi, Agra and Jaipur, then extend the journey into Rajasthan. Discover chauffeur-driven itineraries, heritage stops, luxury cars, travel pacing and premium road-trip planning tips."
+description: "Go beyond Delhi, Agra and Jaipur: chauffeur-driven heritage road trips to Ranthambore, Udaipur, Jodhpur and more, with route ideas. Plan your trip now."
 
 tags:
 

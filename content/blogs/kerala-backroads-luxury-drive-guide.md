@@ -1,6 +1,6 @@
 ---
-title: "Kerala Backroads Luxury Drive Guide"
-description: "Luxury Kerala road trip guide—best routes from Kochi to Munnar, Thekkady, Alleppey, and Kovalam with SUV vs sedan advice, monsoon tips, and chauffeur planning."
+title: "Kerala Backroads: Luxury Road Trip Guide"
+description: "Plan a Kerala road trip in comfort: Munnar tea hills, Alleppey backwaters and Thekkady with a chauffeur-driven car. Routes, timing, tips. Plan yours now."
 tags:
   - kerala luxury road trip guide
   - kochi to munnar road trip luxury

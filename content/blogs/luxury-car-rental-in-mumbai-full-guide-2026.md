@@ -1,6 +1,6 @@
 ---
-title: "Luxury Car Rental in Mumbai: Full Guide 2026"
-description: "Luxury car rental in Mumbai 2026—chauffeur-driven sedans and SUVs, pricing, airport transfers, wedding cars, hourly packages, and booking tips for premium travel."
+title: "Mumbai Luxury Car Rental Guide 2026"
+description: "Our luxury car rental Mumbai guide for 2026: best cars, airport pickups, wedding hire, traffic tips and pricing factors before you book. Get a quote today."
 tags:
   - luxury car rental mumbai
   - mumbai chauffeur driven car rental

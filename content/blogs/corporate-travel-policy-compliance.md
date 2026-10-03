@@ -1,6 +1,6 @@
 ---
-title: "Corporate Travel Policy & Compliance"
-description: "How to create a corporate travel policy in India—compliance rules, vendor verification, expense control, GST invoices, safety standards, and audit-ready travel management."
+title: "Corporate Travel Policy & Compliance for Car Rental"
+description: "Build a corporate travel policy for car rental: approved car classes, billing, GST invoices, safety rules and audit trails. Get a quote today."
 tags:
   - corporate travel policy india
   - corporate travel compliance india

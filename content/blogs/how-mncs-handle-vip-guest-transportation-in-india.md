@@ -1,6 +1,6 @@
 ---
 title: "How MNCs Handle VIP Guest Transportation in India"
-description: "How multinational companies manage VIP guest transportation in India — dedicated fleets, driver vetting, protocol standards, and how MNCs structure premium mobility for visiting executives and clients."
+description: "How MNCs handle VIP guest transportation in India: vetted chauffeurs, protocol, airport meet-and-greet, security and billing. Plan your next VIP visit now."
 tags:
   - vip guest transportation india
   - mnc corporate mobility india

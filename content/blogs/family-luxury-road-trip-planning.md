@@ -1,8 +1,8 @@
 ---
 
-title: "Family Luxury Road Trip Planning: Vans, Itineraries & Kid-Friendly Tips"
+title: "Family Luxury Road Trip Planning: Vans & Tips"
 
-description: "Plan the perfect family luxury road trip in India with the right premium van or MPV, child-friendly itineraries, chauffeur-driven comfort, packing advice, safety tips and smart travel planning for kids, parents and grandparents."
+description: "Family road trip planning made easy: the right van or MPV, kid-friendly itineraries, rest stops and packing tips. Book a chauffeur-driven van with RNK."
 
 tags:
 

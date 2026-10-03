@@ -1,6 +1,6 @@
 ---
-title: "Wedding Logistics Guide for Multi-Venue Functions"
-description: "A complete logistics guide for multi-venue Indian weddings — how to plan transportation, timing, and vehicle coordination across sangeet, haldi, baraat, ceremony, and reception venues without last-minute chaos."
+title: "Multi-Venue Wedding Transport Logistics Guide"
+description: "Multi-venue wedding logistics made simple: haldi, mehendi, sangeet and pheras across venues with timed shuttles and a car schedule. Get a wedding quote."
 tags:
   - multi venue wedding logistics india
   - wedding transportation planning multiple venues

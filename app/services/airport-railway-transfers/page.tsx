@@ -7,10 +7,10 @@ import Schema from "@/components/Schema";
 
 export const metadata: Metadata = {
   title:
-    "Airport & Railway Transfer Services in India | RNK Rentals",
+    "Airport & Railway Transfers with Chauffeur",
 
   description:
-    "RNK provides seamless chauffeur-driven airport and railway transfer services across India with real-time flight and train tracking, punctual pickups and 24/7 support.",
+    "Chauffeur-driven airport transfer service and railway station pickups across India with flight and train tracking, meet-and-greet and 24/7 help. Book now.",
 
   keywords: [
     "airport transfer services india",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.rnk.com/services/airport-railway-transfers",
-    title: "Airport & Railway Transfer Services in India | RNK",
+    title: "Airport & Railway Transfer Services in India ",
     description:
       "Stress-free chauffeur-driven airport and railway transfers across India with flight tracking, professional chauffeurs and reliable on-time service.",
     siteName: "Ramniranjan Kedia Rent A Car Pvt. Ltd",

@@ -1,6 +1,6 @@
 ---
 title: "Vintage vs Modern Wedding Cars: Which Is Better?"
-description: "Vintage or modern luxury car for your wedding? A complete comparison covering looks, photography value, cost, availability, and which style actually fits different wedding moments in India."
+description: "Classic vintage charm or modern luxury? Compare vintage and modern wedding cars on style, comfort, reliability, photos and cost. Get a wedding car quote."
 tags:
   - vintage vs modern wedding cars
   - vintage wedding car rental india

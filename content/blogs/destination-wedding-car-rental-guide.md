@@ -1,6 +1,6 @@
 ---
-title: "Destination Wedding Car Rental Guide"
-description: "Destination wedding car rental in India explained—interstate permits, vehicle transport, chauffeur stay planning, venue access, timing, and logistics."
+title: "Destination Wedding Car Rental Guide (India)"
+description: "Destination wedding car rental in India: bridal car, family fleet, guest shuttles and airport pickups planned as one. Get a destination wedding quote."
 tags:
   - destination wedding car rental india
   - luxury car for destination wedding

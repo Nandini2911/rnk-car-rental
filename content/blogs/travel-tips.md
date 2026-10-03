@@ -1,6 +1,6 @@
 ---
-title: "Top Travel Tips for Comfortable Road Journeys in India"
-description: "Practical tips to ensure safe, comfortable, and enjoyable road travel across Indian cities."
+title: "Road Journey Tips for Comfortable Travel in India"
+description: "Road travel tips for India: timing, rest stops, snacks, seating and choosing the right car for comfortable long journeys. Book a chauffeur car today."
 tags:
   - road travel tips india
   - comfortable road journey india

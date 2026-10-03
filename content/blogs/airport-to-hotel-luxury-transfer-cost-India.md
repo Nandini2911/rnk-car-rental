@@ -1,6 +1,6 @@
 ---
-title: "Airport to Hotel Luxury Transfer Cost India"
-description: "Airport to hotel luxury transfer cost in India—chauffeur-driven executive pickup with transparent pricing, waiting policy, vehicle options, and business-class comfort."
+title: "Airport to Hotel Luxury Transfer Cost in India"
+description: "What does a luxury airport-to-hotel transfer cost in India? See the price factors: car class, distance, waiting time, tolls and night charges. Get a quote."
 tags:
   - luxury car rental
   - wedding car rental

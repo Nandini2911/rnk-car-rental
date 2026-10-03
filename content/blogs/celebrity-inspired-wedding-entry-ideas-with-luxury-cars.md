@@ -1,6 +1,6 @@
 ---
 title: "Celebrity-Inspired Wedding Entry Ideas with Luxury Cars"
-description: "Celebrity-style wedding entry ideas using luxury cars — red-carpet arrivals, cinematic reveals, and statement vehicle choices inspired by how India's biggest celebrity weddings make their entrances."
+description: "Recreate a celebrity-style wedding entry with a Rolls-Royce, vintage car or convertible: staging, decor and timing ideas. Book your wedding car with RNK."
 tags:
   - celebrity wedding car entry ideas
   - celebrity style wedding entrance india

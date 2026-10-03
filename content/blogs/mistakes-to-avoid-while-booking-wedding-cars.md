@@ -1,6 +1,6 @@
 ---
-title: "Mistakes to Avoid While Booking Wedding Cars"
-description: "Avoid common wedding car booking mistakes in India like unclear pricing, wrong vehicle choice, decoration issues, standby charges, and venue access problems."
+title: "Wedding Car Booking Mistakes to Avoid"
+description: "Booking late, skipping the car check, vague hours and decor surprises: the wedding car booking mistakes couples make and how to avoid them. Get a quote."
 tags:
   - wedding car booking mistakes india
   - luxury wedding car rental tips

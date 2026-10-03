@@ -1,6 +1,6 @@
 ---
-title: "Wedding & Event Cars in Jaipur & Rajasthan"
-description: "Wedding car rental Jaipur—luxury chauffeur-driven cars for palace weddings, groom entry, VIP guest transport, and destination wedding events across Rajasthan with standby flexibility."
+title: "Wedding Cars in Jaipur & Rajasthan"
+description: "Planning a wedding in Jaipur, Udaipur or Jodhpur? Luxury and vintage wedding cars, baraat vehicles and guest shuttles across Rajasthan. Get a quote today."
 tags:
   - wedding car rental jaipur
   - luxury wedding cars rajasthan

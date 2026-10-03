@@ -1,6 +1,6 @@
 ---
-title: "How AI & Apps Are Transforming Luxury Car Booking in India"
-description: "Discover how AI technology and mobile apps are changing luxury car booking in India through smart reservations, real-time tracking, personalised travel experiences, faster customer support, and seamless chauffeur coordination."
+title: "How AI & Apps Are Changing Luxury Car Booking"
+description: "Is a luxury car booking app worth it in India? How AI and apps bring live tracking, instant quotes and smart dispatch to chauffeur rental. Book online."
 tags:
   - ai luxury car booking india
   - luxury car rental apps india

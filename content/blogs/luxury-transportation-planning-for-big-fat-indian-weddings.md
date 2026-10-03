@@ -1,6 +1,6 @@
 ---
-title: "Luxury Transportation Planning for Big Fat Indian Weddings"
-description: "A complete planning guide to luxury wedding transportation in India — from bride and groom entry cars to guest logistics, baraat vehicles, and how to build a seamless multi-day wedding fleet plan."
+title: "Big Fat Indian Wedding Transport Planning"
+description: "Plan transport for a big fat Indian wedding: bridal cars, baraat vehicles, guest coaches and multi-day schedules run by one team. Get a wedding quote."
 tags:
   - luxury wedding transportation india
   - big fat indian wedding car planning

@@ -1,6 +1,6 @@
 ---
-title: "Ahmedabad Luxury Car Rental for Business & Weddings"
-description: "Luxury car rental Ahmedabad with chauffeur-driven sedans and SUVs for corporate travel, airport transfers, weddings, and outstation trips with transparent pricing."
+title: "Ahmedabad Business & Wedding Car Hire Guide"
+description: "Car hire in Ahmedabad for weddings and business visits: compare chauffeur-driven sedans, SUVs and wedding cars, with airport and venue tips. Get a quote."
 tags:
   - luxury car rental
   - wedding car rental

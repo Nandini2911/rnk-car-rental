@@ -1,6 +1,6 @@
 ---
-title: "Luxury Van & MPV Rentals in India (2026): Best Vehicles for Comfortable Group Travel"
-description: "Luxury van and MPV rentals in India explained—group comfort, space, chauffeur-driven pricing, luggage handling, and when vans work better than cars."
+title: "Luxury Van & MPV Rental in India: Group Travel Guide"
+description: "Luxury van rental in India: Mercedes V-Class, Urbania or Toyota Commuter? Compare seating, luggage space and pricing factors for group travel. Get a quote."
 tags:
   - luxury van rental india
   - luxury mpv rental india

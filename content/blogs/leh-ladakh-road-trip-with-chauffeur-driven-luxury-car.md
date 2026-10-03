@@ -1,6 +1,6 @@
 ---
-title: "Leh-Ladakh Road Trip with Chauffeur-Driven Luxury Car"
-description: "Leh–Ladakh road trip in a chauffeur-driven luxury SUV—routes, best season, permits, altitude tips, terrain challenges, and expert planning for safe luxury travel."
+title: "Leh-Ladakh Road Trip with a Chauffeur-Driven Car"
+description: "Plan a Leh Ladakh road trip by car with a chauffeur-driven SUV: routes via Manali or Srinagar, acclimatisation, permits and packing tips. Plan now."
 tags:
   - leh ladakh luxury road trip
   - ladakh chauffeur driven suv travel

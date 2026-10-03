@@ -1,6 +1,6 @@
 ---
-title: "Programmatic: Luxury Car Rental in Tier-2 Cities India"
-description: "Luxury car rental in Tier-2 cities India with chauffeur-driven vehicles for weddings, airport transfers, corporate visits, and outstation travel with advance booking."
+title: "Luxury Car Rental in Tier-2 Cities of India"
+description: "Luxury cars with chauffeurs are no longer a metro-only service. See how rentals work in tier-2 cities like Nashik, Indore and Kochi. Get a quote today."
 tags:
   - luxury car rental tier 2 cities india
   - luxury car rental indore lucknow jaipur

@@ -5,9 +5,9 @@ import Schema from "@/components/Schema";
 
 
 export const metadata = {
-  title: "Luxury Chauffeur-Driven Car Fleet in India | RNK Rentals",
+  title: "Luxury Car Fleet: Rolls-Royce, Mercedes, SUVs & Vans",
   description:
-    "Explore RNK Rentals’ luxury car fleet including Rolls Royce, Mercedes, BMW, SUVs, sedans, vans and premium coaches for chauffeur-driven travel across India.",
+    "Browse our luxury car fleet for rent with chauffeur: Rolls-Royce, Mercedes, SUVs, vans and coaches for weddings, corporate and airport trips. Get a quote.",
   keywords: [
     "luxury car fleet india",
     "chauffeur driven car fleet",

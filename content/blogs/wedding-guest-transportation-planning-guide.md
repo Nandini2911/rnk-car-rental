@@ -1,6 +1,6 @@
 ---
-title: "Wedding Guest Transportation Planning Guide"
-description: "Wedding guest transport in India explained—fleet planning, VIP segmentation, pickup scheduling, traffic buffers, coordination, and smooth event logistics."
+title: "Wedding Guest Transportation Planning Guide (India)"
+description: "Plan wedding guest transport in India: fleet sizing, VIP segments, pickup schedules and traffic buffers, with a free planning table from RNK Rentals."
 tags:
   - wedding guest transportation india
   - wedding guest transport planning india

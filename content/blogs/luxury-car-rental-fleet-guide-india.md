@@ -1,6 +1,6 @@
 ---
-title: "2026 Luxury Car Rental Fleet: Mercedes, BMW & EVs in India | RNK Rentals"
-description: "Explore RNK's 2026 luxury car rental fleet across India. From Mercedes S-Class to electric vehicles, discover premium sedans, SUVs & wedding cars with 56+ years of trusted service."
+title: "Luxury Rental Fleet in India: Mercedes, BMW & EVs"
+description: "Explore the luxury car rental fleet in India, from Mercedes sedans and SUVs to BMWs and EVs, with the best use for each. Pick your car and get a quote now."
 tags:
   - luxury car rental
   - luxury car rental fleet India 2026

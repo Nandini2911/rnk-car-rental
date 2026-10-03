@@ -1,6 +1,6 @@
 ---
-title: "Luxury Transportation for Award Nights & Brand Launches"
-description: "A complete guide to planning luxury transportation for award nights and brand launches in India — red-carpet arrivals, VIP guest logistics, media coordination, and fleet planning for high-profile events."
+title: "Luxury Transport for Award Nights & Brand Launches"
+description: " Luxury transport for award nights, premieres and brand launches: red-carpet arrivals, trained chauffeurs and timed drop-offs. Get an event transport quote."
 tags:
   - luxury transportation award nights india
   - brand launch transportation india

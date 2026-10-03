@@ -1,6 +1,6 @@
 ---
-title: "How to Manage Guest Transportation for Destination Weddings"
-description: "A practical guide to planning guest transportation for destination weddings in India — airport transfers, multi-day shuttle logistics, out-of-town guest coordination, and how to avoid the most common destination wedding transport mistakes."
+title: "Destination Wedding Guest Transport: How to Manage"
+description: "Manage destination wedding guest transport: airport arrivals, hotel shuttles, venue timings and VIP cars for family. Plan your wedding fleet with RNK."
 tags:
   - destination wedding transportation india
   - guest transportation planning india

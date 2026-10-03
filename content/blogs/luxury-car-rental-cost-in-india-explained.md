@@ -1,6 +1,6 @@
 ---
-title: "Luxury Car Rental Cost in India Explained"
-description: "Luxury car rental cost in India explained clearly—base rates, time and kilometre slabs, deposits, over-usage charges, tolls, challans, and final billing."
+title: "Luxury Car Rental Cost in India Explained "
+description: "How much does luxury car rental cost in India? See how car class, hours, km, chauffeur allowance, tolls and city affect the price. Get an instant quote."
 tags:
   - luxury car rental cost india
   - luxury car rental price india

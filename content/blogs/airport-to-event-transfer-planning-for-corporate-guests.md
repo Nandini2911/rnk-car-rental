@@ -1,6 +1,6 @@
 ---
-title: "Airport-to-Event Transfer Planning for Corporate Guests"
-description: "A complete guide to planning airport-to-event transfers for corporate guests in India — meet-and-greet standards, timing buffers, fleet planning, and how to handle staggered arrivals for conferences and events."
+title: "Corporate Guest Airport-to-Event Transfers"
+description: "Plan airport to event transfers for corporate guests: flight tracking, meet-and-greet, staggered arrivals and fleet sizing for offsites. Get a quote today."
 tags:
   - airport to event transfer corporate india
   - corporate guest airport transfer planning

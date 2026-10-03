@@ -11,9 +11,9 @@ import { ContactUs } from "@/components/why-us/ContactUs";
 import Schema from "@/components/Schema";
 
 export const metadata = {
-  title: "Why Choose RNK Rentals | Trusted Luxury Car Rental Since 1969",
+  title: "Why Choose RNK Rentals: Trusted Since 1969",
   description:
-    "Discover why RNK Rentals is trusted for luxury chauffeur-driven car rental across India. 56+ years of experience, premium fleet and nationwide reliability.",
+    "Why clients choose RNK Rentals: 56+ years of chauffeur-driven service, a premium fleet, vetted chauffeurs and one number for 170+ cities. Get a quote.",
   keywords: [
     "why choose rnk rentals",
     "luxury car rental india",

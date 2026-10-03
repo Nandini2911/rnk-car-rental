@@ -1,6 +1,6 @@
 ---
-title: "Sustainable Luxury Car Rentals: Eco-Friendly Options for Conscious Travelers"
-description: "A complete guide to sustainable luxury car rentals in India — from electric fleets and hybrid options to what 'eco-friendly luxury travel' actually means for corporate and personal bookings in 2026."
+title: "Eco-Friendly Luxury Car Rentals in India | RNK Rentals"
+description: "Eco-friendly luxury car rental in India: EVs, hybrids like the Camry and Hycross, and smarter routing for conscious travelers. Book a greener ride today."
 tags:
   - sustainable luxury car rental india
   - eco friendly luxury car rental

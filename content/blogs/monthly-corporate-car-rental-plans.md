@@ -1,6 +1,6 @@
 ---
-title: "Monthly Corporate Car Rental Plans"
-description: "Monthly corporate car rental in India explained—fixed pricing, dedicated chauffeur-driven vehicles, kilometre limits, flexibility vs leasing, and executive mobility benefits."
+title: "Monthly Corporate Car Rental Plans with Driver "
+description: "Monthly car rental for companies with a dedicated chauffeur: compare plans on fixed rates, km limits, replacement cars and GST billing. Get a plan quote."
 tags:
   - monthly corporate car rental india
   - corporate chauffeur driven car plans

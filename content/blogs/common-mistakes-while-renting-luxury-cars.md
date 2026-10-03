@@ -1,6 +1,6 @@
 ---
-title: "Common Mistakes While Renting Luxury Cars"
-description: "Book luxury car online in India explained—step-by-step process, availability checks, pricing slabs, verification, payment, and booking confirmation."
+title: "Common Mistakes When Renting a Luxury Car in India"
+description: "Avoid the mistakes people make when renting a luxury car in India: hidden charges, the wrong car, deposit disputes and insurance gaps. Get a clear quote."
 tags:
   - common mistakes renting luxury cars india
   - luxury car rental mistakes india

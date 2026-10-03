@@ -3,9 +3,9 @@ import ContactClient from "./ContactClient";
 
 
 export const metadata = {
-  title: "Contact RNK Rentals | Luxury Chauffeur Car Rental Mumbai",
+  title: "Contact RNK Rentals | Luxury Chauffeur Car Rental, Mumbai",
   description:
-    "Contact Ramniranjan Kedia Rent A Car Pvt. Ltd for luxury chauffeur-driven car rental services across India. Mumbai head office, 24/7 support.",
+    "Call, WhatsApp or send an enquiry to contact RNK Rentals for chauffeur-driven luxury car rental in Mumbai and 170+ Indian cities, 24/7. Get a quote today.",
   keywords: [
     "contact rnk rentals",
     "ramniranjan kedia rent a car contact",

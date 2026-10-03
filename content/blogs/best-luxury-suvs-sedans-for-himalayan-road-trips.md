@@ -1,6 +1,6 @@
 ---
-title: "Best Luxury SUVs & Sedans for Himalayan Road Trips 2026 (Safety & Comfort)"
-description: "The best luxury SUVs and sedans for Himalayan road trips in 2026 — ground clearance, safety features, comfort for high altitude, and how to choose the right chauffeur-driven vehicle for mountain terrain."
+title: "Best Luxury SUVs & Sedans for Himalayan Road Trips"
+description: "Planning a Himalayan road trip? Compare luxury cars, from SUVs to sedans, for mountain safety, comfort and luggage, then book a chauffeur car with RNK."
 tags:
   - best cars for himalayan road trips
   - luxury suv for mountain roads india

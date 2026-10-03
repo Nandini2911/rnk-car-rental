@@ -1,6 +1,6 @@
 ---
-title: "Best Wedding Cars for Bride & Groom Entry"
-description: "Best wedding cars in India explained—luxury sedans, vintage cars, SUVs, decoration limits, venue access, and chauffeur-driven entry planning."
+title: "Best Wedding Cars for Bride & Groom Entry (2026)"
+description: "Rolls-Royce, vintage, Mercedes or Hummer? Compare the best wedding entry cars for the bride and groom, with decor and venue tips. Get a quote from RNK."
 tags:
   - best wedding cars for bride and groom entry
   - luxury wedding car rental india

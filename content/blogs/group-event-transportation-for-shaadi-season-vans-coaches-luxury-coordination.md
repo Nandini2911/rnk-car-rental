@@ -1,6 +1,6 @@
 ---
-title: "Group Event Transportation for Shaadi Season: Vans, Coaches & Luxury Coordination"
-description: "Explore complete group event transportation planning for Indian weddings including luxury vans, guest coaches, airport pickups, chauffeur coordination, baraat logistics, and premium travel management during shaadi season."
+title: "Shaadi Season Group Transport: Vans & Coaches"
+description: "Wedding group transportation in vans and coaches: move baraats and guests in shaadi season with Urbania, Toyota Coaster and luxury coaches. Get a quote."
 tags:
   - wedding group transportation india
   - luxury wedding guest transport

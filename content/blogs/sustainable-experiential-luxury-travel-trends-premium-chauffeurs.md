@@ -1,9 +1,8 @@
 ---
 
-title: "Sustainable & Experiential Luxury Travel Trends with Premium Chauffeurs"
+title: "Sustainable & Experiential Travel Trends"
 
-description: "Explore how sustainable luxury travel in India is evolving through meaningful local experiences, slower itineraries, electric mobility, premium chauffeurs and more conscious luxury journeys."
-
+description: "From EV chauffeurs to slow, curated road journeys: the sustainable and experiential luxury travel trends shaping India. Plan a greener trip with RNK.
 tags:
 
 - experiential luxury travel India

@@ -1,6 +1,6 @@
 ---
-title: "Celebrity-Style Chauffeur Experiences with RNK"
-description: "Celebrity chauffeur service in India explained—VIP pickups, discreet chauffeurs, luxury vehicles, security planning, privacy protocols, and flawless elite ground travel execution."
+title: "Celebrity-Style Chauffeur Experience in India "
+description: "Book a celebrity chauffeur service: discreet drivers, luxury cars, red-carpet arrivals and privacy protocols for events and city travel. Book with RNK."
 tags:
   - celebrity chauffeur service india
   - vip chauffeur service india

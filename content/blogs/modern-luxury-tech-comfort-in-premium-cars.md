@@ -1,6 +1,6 @@
 ---
 title: "Modern Luxury: Tech & Comfort in Premium Cars"
-description: "Modern luxury car technology in India—rear-seat comfort, adaptive suspension, noise insulation, climate control, ADAS safety, and digital features for refined urban and highway travel."
+description: "Massage seats, ambient lighting, rear entertainment and quiet cabins: the tech and comfort features that define today's premium cars. Book one today."
 tags:
   - modern luxury car technology india
   - premium car comfort features india

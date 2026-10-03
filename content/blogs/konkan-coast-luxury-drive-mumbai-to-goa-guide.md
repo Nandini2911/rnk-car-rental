@@ -1,6 +1,6 @@
 ---
-title: "Konkan Coast Luxury Drive: Mumbai to Goa Guide"
-description: "Mumbai to Goa Konkan coast luxury drive guide—best route via NH66, travel time, SUV vs sedan choice, scenic stops, monsoon tips, and planning for a refined road trip."
+title: "Mumbai to Goa by Road: Konkan Coast Drive Guide"
+description: "Plan a Mumbai to Goa road trip along the Konkan coast: best route, stops at Alibaug, Ganpatipule and Tarkarli, and timing tips. Book a chauffeur car."
 tags:
   - mumbai to goa luxury road trip
   - konkan coast road trip guide

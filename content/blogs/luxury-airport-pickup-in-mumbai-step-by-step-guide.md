@@ -1,6 +1,6 @@
 ---
-title: "Luxury Airport Pickup in Mumbai: Step-by-Step Guide"
-description: "Luxury airport pickup in Mumbai explained step-by-step—chauffeur-driven transfers with flight tracking, terminal coordination, waiting policy, and transparent pricing."
+title: "Luxury Airport Pickup in Mumbai: Step-by-Step"
+description: "Arriving at Mumbai T1 or T2? A step-by-step guide to luxury airport pickups: meeting point, flight tracking, luggage help and your car. Book a pickup."
 tags:
   - luxury airport pickup mumbai
   - mumbai airport chauffeur service

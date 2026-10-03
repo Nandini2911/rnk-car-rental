@@ -1,6 +1,6 @@
 ---
-title: "Wedding Car Rental Checklist for Brides & Grooms"
-description: "A complete, no-skip checklist for booking wedding car rentals in India — from choosing the right models and locking in dates to insurance, styling, and day-of logistics every bride and groom should confirm."
+title: "Wedding Car Checklist for Brides & Grooms"
+description: "A wedding car checklist for the bride and groom: car choice, decor, timings, chauffeur briefing and backup plans before the big day. Book your car early."
 tags:
   - wedding car rental checklist india
   - bride and groom wedding car booking

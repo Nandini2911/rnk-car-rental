@@ -1,6 +1,6 @@
 ---
-title: "Corporate Event Transportation in Mumbai: Complete Planning Guide"
-description: "A complete guide to planning corporate event transportation in Mumbai — executive transfers, guest logistics, VIP movements, and fleet planning for conferences, product launches, and large corporate gatherings."
+title: "Corporate Event Transport in Mumbai: Planning Guide"
+description: "Plan corporate event transport in Mumbai: fleet sizing, BKC and airport pickups, traffic buffers and on-site coordination. Get an event transport quote."
 tags:
   - corporate event transportation mumbai
   - corporate car rental mumbai

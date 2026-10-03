@@ -1,6 +1,6 @@
 ---
-title: "Best Routes for Winter Road Trips in North India"
-description: "Best winter road trips in North India for luxury travel—Delhi to Shimla, Manali, Udaipur, and Ranthambore with route tips, fog safety, and sedan vs SUV guidance."
+title: "Best Winter Road Trip Routes in North India"
+description: "Shimla, Manali, Mussoorie, Rishikesh and Jaipur: the best winter road trip routes in North India, with drive times and car tips. Book a chauffeur car."
 tags:
   - winter road trips north india
   - luxury winter road trips india

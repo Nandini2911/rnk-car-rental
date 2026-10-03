@@ -1,12 +1,12 @@
 ---
 
-title: "Winter Road Trips in Luxury Cars: Ladakh, Spiti & Rajasthan Snow Routes"
+title: "Winter Road Trips: Ladakh, Spiti & Rajasthan Routes"
 
-description: "Plan the best luxury winter road trips in India across Ladakh, Spiti and Rajasthan. Explore snow routes, chauffeur-driven SUVs, winter itineraries, vehicle safety, high-altitude planning and premium road-trip tips for 2026."
+description: "Snow routes in Ladakh and Spiti or sunny Rajasthan drives: plan winter road trips in a luxury car with the right SUV, timing and safety tips. Book now."
 
 tags:
 
-- winter road trips in India
+- winter road trips in Indias
 - luxury winter road trips India
 - Ladakh winter road trip
 - Spiti winter road trip

@@ -1,6 +1,6 @@
 ---
-title: "Luxury Car Rental Insurance & Damage Protection Explained for First-Timers"
-description: "Everything a first-time renter needs to know about luxury car rental insurance in India — what's covered, what isn't, security deposits, and how to avoid surprise damage charges."
+title: "Luxury Car Rental Insurance & Damage Cover Explained"
+description: "What does luxury car rental insurance cover in India? Understand damage protection, deposits, excess and exclusions before you rent. Get a clear quote."
 tags:
   - luxury car rental insurance india
   - damage protection luxury car rental

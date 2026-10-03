@@ -1,6 +1,6 @@
 ---
-title: "Raksha Bandhan 2026: A Complete Guide to Car Rental & Family Travel in Mumbai"
-description: "Planning Raksha Bandhan 2026 travel in Mumbai? Compare self-drive vs chauffeur-driven car rental, get airport pickup tips, and book with RNK — trusted since 1969."
+title: "Raksha Bandhan in Mumbai: Family Car Rental Guide"
+description: "Plan Raksha Bandhan car rental in Mumbai for family visits: chauffeur-driven vs self-drive, airport pickups and booking tips. Book with RNK, since 1969."
 tags:
   - raksha bandhan car rental mumbai
   - rakhi car rental mumbai

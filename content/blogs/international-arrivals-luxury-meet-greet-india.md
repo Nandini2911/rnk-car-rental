@@ -1,6 +1,6 @@
 ---
-title: "International Arrivals: Luxury Meet & Greet India"
-description: "International airport meet & greet India—luxury chauffeur-driven pickup with flight tracking, terminal assistance, immigration delay handling, waiting policy, and privacy-focused transfer."
+title: "Luxury Meet & Greet for International Arrivals"
+description: "How an airport meet and greet service works for international arrivals in India: name boards, luggage help, flight tracking and your chauffeur. Book now."
 tags:
   - international airport meet and greet india
   - luxury airport pickup india

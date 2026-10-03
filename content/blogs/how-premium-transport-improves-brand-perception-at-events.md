@@ -1,6 +1,6 @@
 ---
-title: "How Premium Transport Improves Brand Perception at Events"
-description: "How premium transportation shapes brand perception at corporate events in India — first impressions, guest experience, and why companies treat transport as a visible extension of their brand."
+title: "How Premium Transport Lifts Brand Perception at Events"
+description: "Guest arrivals shape first impressions. See how premium event transport lifts brand perception at launches, summits and galas. Get an event quote."
 tags:
   - premium transport brand perception india
   - corporate event branding transportation

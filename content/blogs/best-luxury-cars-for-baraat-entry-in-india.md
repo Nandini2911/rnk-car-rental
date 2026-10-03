@@ -1,6 +1,6 @@
 ---
-title: "Best Luxury Cars for Baraat Entry in India (2026)"
-description: "A complete guide to choosing the best luxury car for a baraat entry in India — vintage classics, modern statement cars, open-top options, and how to match the right vehicle to your groom entry style."
+title: "Best Luxury Cars for Baraat Entry in India"
+description: "From Rolls-Royce to vintage convertibles and Hummers, compare the best luxury cars for a grand baraat entry, plus decor and route tips. Get a quote."
 tags:
   - best car for baraat entry india
   - luxury baraat car rental india

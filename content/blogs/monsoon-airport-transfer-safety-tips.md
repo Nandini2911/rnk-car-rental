@@ -1,6 +1,6 @@
 ---
 title: "Monsoon Airport Transfer Safety Tips"
-description: "Monsoon airport transfer safety in India—chauffeur-driven travel tips for heavy rain, traffic delays, waterlogging, route planning, vehicle readiness, and safe airport arrival."
+description: "Rain, flight delays and waterlogged roads: practical monsoon airport transfer tips on timing, route buffers and choosing the right car. Book a transfer."
 tags:
   - monsoon airport transfer india
   - airport transfer safety in rain

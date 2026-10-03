@@ -22,9 +22,9 @@ const FAQ_TWITTER_IMAGE_URL = `${SITE_URL}/og-home-page.webp`;
 const LAST_REVIEWED = "2026-08-06";
 
 const PAGE_TITLE =
-  "Car Rental FAQs India | Chauffeur-Driven Cars | RNK Rentals";
+  "Chauffeur-Driven Car Rental FAQs";
 const PAGE_DESCRIPTION =
-  "Find answers about chauffeur-driven car rentals in India, including pricing, airport transfers, corporate mobility, luxury cars, weddings and long-term rentals.";
+  "Car rental FAQs on chauffeur-driven rental in India, from pricing and airport transfers to corporate accounts, wedding cars and monthly plans. Call us.";
 
 const SEO_KEYWORDS = [
   "car rental FAQs India",

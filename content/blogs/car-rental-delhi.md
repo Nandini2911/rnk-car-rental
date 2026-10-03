@@ -1,6 +1,6 @@
 ---
-title: "Car Rental in Delhi: A Complete Guide for Comfortable & Hassle-Free Travel"
-description: "Discover why renting a car with a professional driver in Delhi is the smartest travel choice. Explore benefits, pricing, vehicle options, and expert tips."
+title: "Car Rental in Delhi: A Complete Travel Guide"
+description: "Metro, cab or chauffeur-driven car? A complete guide to car rental in Delhi: IGI airport pickups, NCR commutes, day trips and costs. Get a quote today."
 tags:
   - car rental in delhi with driver
   - chauffeur driven car rental delhi

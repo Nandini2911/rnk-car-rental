@@ -1,6 +1,6 @@
 ---
-title: "Rolls-Royce vs Vintage Cars for Weddings"
-description: "Rolls-Royce vs vintage wedding cars in India explained—comfort, visual appeal, entry logistics, decoration limits, and how to choose the right option."
+title: "Rolls-Royce vs Vintage Car for Your Wedding"
+description: "Rolls-Royce or a vintage classic for your wedding? Compare the look, comfort, reliability, photos and price of each option. Get a wedding car quote now."
 tags:
   - rolls royce wedding car rental india
   - vintage wedding car rental india

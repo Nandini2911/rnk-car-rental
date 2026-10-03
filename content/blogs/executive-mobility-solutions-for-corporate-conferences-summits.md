@@ -1,6 +1,6 @@
 ---
-title: "Executive Mobility Solutions for Corporate Conferences & Summits"
-description: "A complete guide to executive mobility planning for corporate conferences and summits in India — VIP transfers, speaker logistics, multi-day scheduling, and building a reliable executive fleet plan."
+title: "Executive Transport for Corporate Conferences & Summits"
+description: "Conference transportation for executives: move speakers, delegates and CXOs at summits with chauffeur-driven sedans, MPVs and coaches. Get a quote."
 tags:
   - executive mobility solutions india
   - corporate conference transportation india

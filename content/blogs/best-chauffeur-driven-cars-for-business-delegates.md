@@ -1,6 +1,6 @@
 ---
 title: "Best Chauffeur-Driven Cars for Business Delegates"
-description: "A complete guide to choosing the best chauffeur-driven cars for business delegates in India — flagship sedans, executive SUVs, and how to match vehicle class to delegate seniority and travel needs."
+description: "Mercedes E-Class, S-Class, Camry or V-Class? Choose chauffeur-driven cars for business delegates by group size, seniority and itinerary. Request a quote."
 tags:
   - best cars for business delegates india
   - chauffeur driven cars for delegates

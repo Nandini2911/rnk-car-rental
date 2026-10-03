@@ -1,9 +1,7 @@
 ---
 
-title: "HNI & Celebrity Luxury Ground Travel Secrets in India"
-
-description: "Discover how HNIs, celebrities, CXOs and VIP travellers manage luxury ground travel in India with discreet chauffeurs, premium cars, airport coordination, privacy, backup planning and seamless multi-city mobility."
-
+title: "How HNIs & Celebrities Travel by Road in India"
+description: "Inside HNI luxury ground travel in India: privacy, vetted chauffeurs, backup vehicles and route planning used by HNIs and celebrities. Book the same."
 tags:
 
 - HNI luxury travel India

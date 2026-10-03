@@ -1,6 +1,6 @@
 ---
-title: "Family Road Trips in India with Premium Vans"
-description: "Premium vans vs SUVs for family road trips in India. Discover which offers better comfort, seating space, luggage capacity, and safety for long-distance travel."
+title: "How to Book a Luxury Car Online in India"
+description: "Book a luxury car online in India in five steps: choose the car, share your itinerary, confirm the quote, pay securely and meet your chauffeur. Book now."
 tags:
   - family road trips india luxury van
   - premium van for family travel india

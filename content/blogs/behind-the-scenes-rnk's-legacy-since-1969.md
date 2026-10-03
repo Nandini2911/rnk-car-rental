@@ -1,6 +1,6 @@
 ---
 title: "Behind the Scenes: RNK's Legacy Since 1969"
-description: "RNK’s luxury mobility legacy since 1969—generational chauffeur expertise, evolving premium fleet, regulatory adaptation, and trusted corporate, VIP, and wedding travel in India."
+description: "The RNK Rentals history: how a Mumbai car hire firm founded in 1969 grew into a pan-India chauffeur-driven luxury car network. Read the story, then book."
 tags:
   - luxury chauffeur service india
   - luxury car rental legacy india

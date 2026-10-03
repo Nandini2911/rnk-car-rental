@@ -1,6 +1,6 @@
 ---
 title: "VIP & Celebrity Airport Movements in India"
-description: "VIP and celebrity airport transfers in India explained—discreet chauffeur-driven movement with flight tracking, security coordination, privacy protection, and controlled routing."
+description: "How VIP airport movement is handled in India: tarmac-to-car coordination, privacy, backup vehicles and security for celebrities and CXOs. Plan a VIP move."
 tags:
   - vip airport transfer india
   - celebrity airport pickup india
