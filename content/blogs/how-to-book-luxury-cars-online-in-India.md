@@ -204,4 +204,4 @@ By following the proper booking process and confirming details in writing, custo
 
 
 📞 **Call us:** +91 9167977799  
-✉️ **Write to us:** [info@rnk.com](info@rnk.com)
+✉️ **Write to us:** [info@rnk.com](mailto:info@rnk.com)

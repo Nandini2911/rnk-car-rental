@@ -168,6 +168,6 @@ We offer flexible rental packages for weddings, corporate events, airport transf
 Contact us today to book your [wedding or event car rental in Jaipur and Rajasthan](https://www.rnk.com/services/event-wedding-transport/) and enjoy a royal transportation experience for your special day.
 
 Phone: +91 9167977799
-Email: [info@rnk.com](info@rnk.com)
+Email:[info@rnk.com](mailto:info@rnk.com)
 Website: [www.rnk.com](www.rnk.com)
 

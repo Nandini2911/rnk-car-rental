@@ -25,7 +25,7 @@ trending: false
 
 India’s transportation landscape is changing rapidly as economic growth spreads beyond traditional metropolitan cities. Tier-2 cities are now emerging as important business centers, attracting multinational companies, entrepreneurs, corporate travelers, and tourism activity. As these cities grow, the demand for premium services such as luxury car rentals has increased significantly.
 
-[Luxury car rental services are no longer limited to large cities like Delhi, Mumbai, or Bangalore](https://www.rnk.com/services/luxury-travel/). Many smaller cities are now seeing strong demand for executive transportation, [airport transfers](https://www.rnk.com/services/airport-railway-transfers/), [wedding travel](https://www.rnk.com/services/event-wedding-transport/[]), and [VIP guest](https://www.rnk.com/services/vip-movements/) mobility. This growth has created new opportunities for car rental companies to expand services across India.
+[Luxury car rental services are no longer limited to large cities like Delhi, Mumbai, or Bangalore](https://www.rnk.com/services/luxury-travel/). Many smaller cities are now seeing strong demand for executive transportation, [airport transfers](https://www.rnk.com/services/airport-railway-transfers/), [Event & Wedding Transport](/services/event-wedding-transport), and [VIP guest](https://www.rnk.com/services/vip-movements/) mobility. This growth has created new opportunities for car rental companies to expand services across India.
 
 Renting a luxury vehicle allows travelers and professionals to experience comfort, style, and convenience without owning expensive cars. Customers can choose premium sedans, luxury SUVs, executive vans, or group transport vehicles depending on their needs. This flexibility makes luxury transportation accessible to businesses and travelers in Tier-2 cities.
 
@@ -152,7 +152,7 @@ Many car rental companies also offer customized travel packages for corporate cl
 Contact our team today to arrange luxury car rental services and experience premium travel designed for comfort, professionalism, and convenience.
 
 Phone: +91 9167977799
-Email: [info@rnk.com](info@rnk.com)
+Email: [info@rnk.com](mailto:info@rnk.com)
 Website: [www.rnk.com](www.rnk.com)
 
 ---

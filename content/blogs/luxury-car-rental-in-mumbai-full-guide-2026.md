@@ -217,8 +217,8 @@ Our goal is to provide **safe, stylish, and affordable luxury car rental service
 **Contact Details**
 
 Phone: +91 9167977799
-Email: [info@rnk.com](info@rnk.com)
-Website: [rnk.com](rnk.com)
+Email: [info@rnk.com](mailto:info@rnk.com)
+Website: [RNK Rentals](https://www.rnk.com/)
 Location: Mumbai, Maharashtra, India
 
 ---

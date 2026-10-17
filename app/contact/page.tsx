@@ -13,7 +13,7 @@ export const metadata = {
     "chauffeur driven car rental mumbai",
   ],
   alternates: {
-    canonical: "https://www.rnk.com/contact-us",
+    canonical: "https://www.rnk.com/contact",
   },
   robots: {
     index: true,
@@ -25,7 +25,7 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://www.rnk.com/contact-us",
+    url: "https://www.rnk.com/contact",
     title: "Contact Ramniranjan Kedia Rent A Car Pvt. Ltd",
     description:
       "Get in touch with Ramniranjan Kedia Rent A Car Pvt. Ltd for premium chauffeur-driven car rental services. Mumbai head office, pan-India operations.",

@@ -180,9 +180,9 @@ All vehicles are professionally maintained and driven by experienced chauffeurs 
 
 We offer flexible booking options including airport transfers, hourly executive travel, daily corporate transport, and long-term business contracts. Our goal is to provide efficient travel solutions that support corporate productivity and comfort.
 
-Contact our [team](rnk.com/contact) today to arrange executive car rental services in Pune and experience professional corporate transportation designed for business professionals.
+Contact our [team](/contact) today to arrange executive car rental services in Pune and experience professional corporate transportation designed for business professionals.
 
 Phone: +91 9167977799
-Email: [info@rnk.com](info@rnk.com)
+Email: [info@rnk.com](mailto:info@rnk.com)
 Website: [www.rnk.com](www.rnk.com)
 
