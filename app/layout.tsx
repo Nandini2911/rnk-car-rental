@@ -1,19 +1,37 @@
 import WhatsAppButton from "@/components/WhatsAppButton";
+import CallButton from "@/components/CallButton";
 import "./globals.css";
 
 import Script from "next/script";
-import { ReactNode } from "react";
-import { Playfair_Display } from "next/font/google";
+import type { ReactNode } from "react";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
-import CallButton from "@/components/CallButton";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+const playfair = localFont({
+  src: [
+    {
+      path: "../public/fonts/PlayfairDisplay-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayfairDisplay-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayfairDisplay-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayfairDisplay-ExtraBold.ttf",
+      weight: "800",
+      style: "normal",
+    },
+  ],
   variable: "--font-playfair",
+  display: "swap",
 });
-
-/* ✅ RNK Metadata */
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.rnk.com"),
 
@@ -40,7 +58,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
     <html lang="en-IN">
       <head>

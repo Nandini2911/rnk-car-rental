@@ -2,7 +2,7 @@
 
 title: "Sustainable & Experiential Travel Trends"
 
-description: "From EV chauffeurs to slow, curated road journeys: the sustainable and experiential luxury travel trends shaping India. Plan a greener trip with RNK.
+description: "From EV chauffeurs to slow, curated road journeys: the sustainable and experiential luxury travel trends shaping India. Plan a greener trip with RNK."
 tags:
 
 - experiential luxury travel India
