@@ -25,6 +25,11 @@ const nextConfig: NextConfig = {
         destination: '/fleet',
         permanent: true,
       },
+         {
+      source: "/home",
+      destination: "/",
+      permanent: true,
+    },
     ];
   },
 };
