@@ -1,6 +1,6 @@
 ---
-title: "Corporate Airport Pickup Etiquette"
-description: "Corporate airport pickup etiquette in India explained—flight tracking, chauffeur protocol, signage rules, greeting etiquette, luggage handling, route planning, and privacy."
+title: "Corporate Airport Pickup Etiquette Guide"
+description: "Name boards, dress code, luggage handling and first-impression rules: a practical airport pickup etiquette guide for corporate hosts. Book a guest pickup."
 tags:
   - corporate airport pickup etiquette india
   - executive airport pickup protocol india

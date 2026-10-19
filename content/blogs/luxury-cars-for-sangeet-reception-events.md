@@ -1,6 +1,6 @@
 ---
 title: "Luxury Cars for Sangeet & Reception Events"
-description: "Best luxury cars for Sangeet and reception events in India explained—sedans vs SUVs, entry timing, venue access, decoration limits, and planning tips."
+description: "Arrive in style at your sangeet or reception: the best luxury cars, convoy ideas and timing tips for evening wedding events. Get a reception car quote."
 tags:
   - luxury car for sangeet event
   - reception luxury car rental india

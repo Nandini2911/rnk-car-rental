@@ -1,6 +1,6 @@
 ---
-title: "NRI Luxury Travel Guide: Arriving in Style"
-description: "NRI luxury car services in India—airport pickup, chauffeur-driven transfers, meet-and-greet assistance, premium vehicles, transparent pricing, and seamless arrival experience."
+title: "NRI Travel Guide: Arriving in India in Style"
+description: "An NRI arrival travel guide for India: pre-booked airport pickups, family visits, outstation trips and trusted chauffeurs for a stress-free trip. Book now."
 tags:
   - nri luxury car service india
   - nri airport pickup india

@@ -1,6 +1,6 @@
 ---
 title: "Wedding Car Decoration Rules & Ideas"
-description: "Wedding car decoration rules in India explained—number plate visibility, sensor safety, airflow limits, adhesive guidelines, and compliant styling tips."
+description: "Wedding car decoration rules to follow: paint-safe fixings, road-legal flower placement and clear visibility, plus elegant ideas. Book a decorated car."
 tags:
   - wedding car decoration rules india
   - luxury wedding car decoration india

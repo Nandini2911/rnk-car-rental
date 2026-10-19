@@ -4,10 +4,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Vacation Travel Services in India | RNK Rentals",
+    "Holiday Car Rental with Driver in India",
 
   description:
-    "RNK provides premium chauffeur-driven vacation rental travel services across India for villas, homestays and holiday stays, ensuring stress-free, comfortable and flexible mobility throughout your getaway.",
+    "Holiday car rental with driver across India: airport pickups, villa and resort transfers, sightseeing and day trips at your own pace. Get a holiday quote.",
 
   keywords: [
     "vacation rental travel services india",

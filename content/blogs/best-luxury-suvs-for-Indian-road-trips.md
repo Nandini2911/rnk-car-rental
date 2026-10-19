@@ -1,6 +1,6 @@
 ---
-title: "Best Luxury SUVs for Indian Road Trips"
-description: "Best luxury SUVs for Indian road trips—BMW X7, GLS, Fortuner, XC90 and more, with ground clearance, comfort, diesel range, terrain capability, and long-distance travel tips."
+title: "Best Luxury SUVs for Indian Road Trips (2026)"
+description: "Need the best luxury SUV for road trips in India? Compare the Mercedes GLS, GLE, Fortuner and Hycross on comfort and luggage, then book with a chauffeur."
 tags:
   - best luxury suv for road trips india
   - luxury suv road trip india

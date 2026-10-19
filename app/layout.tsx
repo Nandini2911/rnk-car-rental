@@ -1,37 +1,56 @@
 import WhatsAppButton from "@/components/WhatsAppButton";
+import CallButton from "@/components/CallButton";
 import "./globals.css";
 
 import Script from "next/script";
-import { ReactNode } from "react";
-import { Playfair_Display } from "next/font/google";
+import type { ReactNode } from "react";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+const playfair = localFont({
+  src: [
+    {
+      path: "../public/fonts/PlayfairDisplay-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayfairDisplay-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayfairDisplay-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/PlayfairDisplay-ExtraBold.ttf",
+      weight: "800",
+      style: "normal",
+    },
+  ],
   variable: "--font-playfair",
+  display: "swap",
 });
-
-/* ✅ ADD THIS (Google Verification + SEO) */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.dtsworld.in"),
+  metadataBase: new URL("https://www.rnk.com"),
 
   verification: {
     google: "jEJ-LO-XUzsR7LH9AAJZylIx16lS6GkhpoB8ixplyBc",
   },
 
   title: {
-    default: "Double Trouble Studio",
-    template: "%s | Double Trouble Studio",
+    default: "Ramniranjan Kedia Rent A Car Pvt. Ltd.",
+    template: "%s | RNK Rentals",
   },
 
   description:
-    "Double Trouble Studio is a 360° branding, PR, digital marketing, events, and web execution agency.",
+    "RNK Rentals offers chauffeur-driven luxury car rental services across 170+ cities in India for corporate travel, airport transfers, VIP movements, weddings, events, and long-term rentals.",
 
   openGraph: {
     type: "website",
-    siteName: "Double Trouble Studio",
-    url: "https://www.dtsworld.in",
+    siteName: "RNK Rentals",
+    url: "https://www.rnk.com",
   },
 
   twitter: {
@@ -39,31 +58,50 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
     <html lang="en-IN">
+      <head>
+        {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MWP46VPT');
+          `}
+        </Script>
+      </head>
+
       <body
         suppressHydrationWarning
         className={`${playfair.variable} bg-white text-black`}
       >
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-DWPCLSDQKL"
-          strategy="afterInteractive"
-        />
-
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-DWPCLSDQKL');
-          `}
-        </Script>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MWP46VPT"
+            height="0"
+            width="0"
+            style={{
+              display: "none",
+              visibility: "hidden",
+            }}
+          />
+        </noscript>
 
         <main className="min-h-screen">{children}</main>
 
         <WhatsAppButton />
+        <CallButton />
       </body>
     </html>
   );

@@ -1,9 +1,14 @@
 
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import { getBlogBySlug, getAllBlogs } from "@/lib/blog";
 import { NavBar } from "@/components/NavBar";
 import { RnkFooter } from "@/components/footer";
+
+import BlogPopupWrapper from "@/components/blog/BlogPopupWrapper";
+import { formatBlogDate } from "@/lib/blogDate";
+
+
+
 
 
 function extractFAQs(html: string) {
@@ -25,6 +30,7 @@ function extractFAQs(html: string) {
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
+
 
 type PageProps = {
   params: Promise<{
@@ -50,7 +56,7 @@ export async function generateMetadata({ params }: PageProps) {
   const url = `https://www.rnk.com/blog/${slug}`;
 
   return {
-    title: `${blog.title} | RNK Rentals`,
+    title: `${blog.title} RNK`,
     description: blog.description,
 
     robots: {
@@ -201,8 +207,8 @@ mainEntity: faqs.map((faq) => ({
         </h6>
 
         <p className="text-black text-sm">
-          {blog.author} · {blog.readTime}
-        </p>
+  {blog.author} · {formatBlogDate(blog.date)} · {blog.readTime}
+</p>
       </div>
 
       {/* RIGHT: IMAGE */}
@@ -222,6 +228,8 @@ mainEntity: faqs.map((faq) => ({
     </div>
   </div>
 </section>
+
+<BlogPopupWrapper />
 
     
 

@@ -6,9 +6,9 @@ import Schema from "@/components/Schema";
 
 
 export const metadata = {
-  title: "Pan-India Luxury Car Rental Network | 170+ Cities – RNK Rentals",
+  title: "Luxury Car Rental Network in 170+ Cities ",
   description:
-    "RNK Rentals operates a pan-India luxury chauffeur-driven car rental network across 170+ cities, offering consistent service for corporate, wedding and VIP travel.",
+    "Our pan-India car rental network covers 170+ cities with one number for chauffeur-driven luxury cars, airport transfers and weddings. Find your city today.",
   keywords: [
     "pan india car rental network",
     "luxury car rental across india",

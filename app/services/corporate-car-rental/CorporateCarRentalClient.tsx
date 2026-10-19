@@ -178,7 +178,7 @@ export default function CorporateCarRentalPage() {
         </h2>
 
         <p className="text-[13px] sm:text-sm md:text-[15px] text-black/80 mb-3 leading-relaxed">
-          At RNK – Ramniranjan Kedia Group, we strive to make your<a href="https://www.rnk.com/blog/how-to-book-luxury-cars-online-in-India" className="text-red-900 underline hover:text-black mx-1">
+          At RNK – Ramniranjan Kedia Group, we strive to make your<a  className="text-red-900 underline hover:text-black mx-1">
           experience of renting a car</a>unforgettable. You will experience quality with every ride.
         </p>
 

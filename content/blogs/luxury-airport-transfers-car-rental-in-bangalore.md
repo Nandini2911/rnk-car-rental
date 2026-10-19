@@ -1,6 +1,6 @@
 ---
-title: "Luxury Airport Transfers & Car Rental in Bangalore"
-description: "Luxury airport transfers and car rental in Bangalore—chauffeur-driven sedans and SUVs for Kempegowda Airport pickup, corporate travel, city rides, and outstation trips."
+title: "Bangalore Airport Luxury Transfers & Car Rental"
+description: "Bangalore airport luxury transfers: chauffeur-driven sedans and SUVs for Kempegowda Airport pickups, corporate travel and outstation trips. Get a quote."
 tags:
   - luxury car rental bangalore
   - bangalore airport transfer luxury

@@ -1,6 +1,6 @@
 ---
-title: "Safety Standards in Corporate Mobility"
-description: "Corporate transport safety standards in India explained—driver verification, GPS tracking, duty-hour compliance, vehicle maintenance, night-shift safety, and risk control."
+title: "SSafety Standards in Corporate Mobility"
+description: "Chauffeur vetting, women-safety protocols, GPS tracking and vehicle audits: the safety standards every corporate mobility programme needs. Get a quote."
 tags:
   - corporate transport safety india
   - executive chauffeur safety standards india

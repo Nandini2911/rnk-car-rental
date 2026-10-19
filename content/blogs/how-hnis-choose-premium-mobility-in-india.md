@@ -1,6 +1,6 @@
 ---
 title: "How HNIs Choose Premium Mobility in India"
-description: "How HNIs choose luxury transport in India—privacy, chauffeur professionalism, vehicle reliability, security, punctuality, and seamless premium mobility standards."
+description: "Discretion, vehicle choice, chauffeur vetting and consistency across cities: what India's HNIs look for in premium mobility. Request a private quote."
 tags:
   - hni luxury mobility india
   - premium chauffeur service india

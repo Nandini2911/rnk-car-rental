@@ -1,6 +1,6 @@
 ---
-title: "Wedding Car Rental Checklist"
-description: "Wedding car rental checklist in India—vehicle selection, pricing confirmation, decoration rules, chauffeur coordination, venue access, timing, and inspection tips."
+title: "Wedding Car Rental Checklist Before You Book"
+description: "Our wedding car rental checklist: confirm the exact model, hours, km, decoration, chauffeur dress code and backup car before you book. Get a quote today."
 tags:
   - wedding car rental checklist india
   - luxury wedding car booking tips india

@@ -1,6 +1,6 @@
 ---
-title: "Best Road Trips from Mumbai for Luxury Travelers"
-description: "Best luxury road trips from Mumbai—Lonavala, Alibaug, Mahabaleshwar, Nashik, and Udaipur with premium routes, travel time, vehicle tips, and luxury stay recommendations."
+title: "Luxury Road Trips from Mumbai: Best Routes "
+description: "The best road trips from Mumbai: Lonavala, Alibaug, Mahabaleshwar, Nashik and Udaipur, with drive times and the right luxury car. Book a chauffeur car."
 tags:
   - luxury road trips from mumbai
   - weekend road trips from mumbai luxury

@@ -1,6 +1,6 @@
 ---
-title: "Luxury Wedding Car Decoration Ideas 2026: Themes, Flowers & Lighting"
-description: "Explore the latest luxury wedding car decoration ideas for 2026 including floral themes, premium lighting concepts, bridal car styling, elegant colour combinations, and modern luxury wedding vehicle trends in India."
+title: "Wedding Car Decoration Ideas: Themes, Flowers & Lights"
+description: "Fresh wedding car decoration ideas for 2026: floral themes, ribbons, lighting and elegant looks for a Rolls-Royce or vintage car. Book a decorated car."
 tags:
   - luxury wedding car decoration india
   - bridal car decoration ideas 2026

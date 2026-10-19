@@ -1,6 +1,6 @@
 ---
-title: "City-Wise Comparison: Mumbai vs Delhi Luxury Rentals"
-description: "Compare luxury car rental in Mumbai vs Delhi for airport transfers, corporate travel, weddings, and events — traffic impact, vehicle choices, pricing, and planning differences explained."
+title: "Mumbai vs Delhi Luxury Car Rental: City Comparison"
+description: "How do luxury car rentals compare in Mumbai and Delhi? Fleet choice, airport transfers, traffic, typical use cases and pricing factors. Get a quote today."
 tags:
   - luxury car rental mumbai vs delhi
   - chauffeur driven car rental mumbai

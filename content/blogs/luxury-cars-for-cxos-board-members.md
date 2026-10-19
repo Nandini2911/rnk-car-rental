@@ -1,6 +1,6 @@
 ---
 title: "Luxury Cars for CXOs & Board Members"
-description: "CXO luxury car travel in India explained—chauffeur-driven premium sedans, executive comfort, privacy, security, punctuality, and corporate mobility standards."
+description: "S-Class, E-Class or GLS? Choosing chauffeur-driven luxury cars for CXOs and board members: comfort, privacy, punctuality and protocol. Get a quote."
 tags:
   - cxo luxury car travel india
   - executive chauffeur service india

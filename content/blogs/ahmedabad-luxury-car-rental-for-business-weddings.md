@@ -1,6 +1,6 @@
 ---
-title: "Ahmedabad Luxury Car Rental for Business & Weddings"
-description: "Luxury car rental Ahmedabad with chauffeur-driven sedans and SUVs for corporate travel, airport transfers, weddings, and outstation trips with transparent pricing."
+title: "Ahmedabad Business & Wedding Car Hire Guide"
+description: "Car hire in Ahmedabad for weddings and business visits: compare chauffeur-driven sedans, SUVs and wedding cars, with airport and venue tips. Get a quote."
 tags:
   - luxury car rental
   - wedding car rental
@@ -157,6 +157,6 @@ Corporate mobility prioritises professional presentation, dependable airport tra
 
 When the type of usage, vehicle selection, and pricing structure are aligned properly, luxury transportation enhances both business travel efficiency and the overall experience of large celebrations.
 
-📞 **Call us:** +91 9167977799 &nbsp;&nbsp;&nbsp;&nbsp; ✉️ **Write to us:** [info@rnk.com](info@rnk.com)
+📞 **Call us:** +91 9167977799 &nbsp;&nbsp;&nbsp;&nbsp; ✉️ **Write to us:** [info@rnk.com](mailto:info@rnk.com)
 
 

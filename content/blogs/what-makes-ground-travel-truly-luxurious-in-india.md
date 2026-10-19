@@ -1,6 +1,6 @@
 ---
 title: "What Makes Ground Travel Truly Luxurious in India"
-description: "What defines luxury ground travel in India—professional chauffeurs, premium vehicles, punctuality, safety compliance, privacy, and seamless stress-free journeys."
+description: "Cabin comfort, chauffeur skill, punctuality and privacy: what separates truly luxurious ground travel in India from a cab ride. Book a luxury car today."
 tags:
   - luxury ground travel india
   - chauffeur driven luxury travel india

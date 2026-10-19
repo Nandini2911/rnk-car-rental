@@ -1,6 +1,6 @@
 ---
-title: "Luxury Car Rental in Kolkata with Chauffeur: Airport, Corporate & Wedding Travel"
-description: "Luxury car rental Kolkata with chauffeur-driven sedans and SUVs for airport transfers, corporate travel, weddings, and outstation trips with transparent pricing."
+title: "Kolkata Chauffeur-Driven Cars: Airport & Weddings"
+description: "A guide to chauffeur-driven cars in Kolkata: CCU airport pickups, corporate trips to Salt Lake and Sector V, and wedding cars. Get a Kolkata car quote."
 tags:
   - luxury car rental kolkata
   - chauffeur driven cars kolkata

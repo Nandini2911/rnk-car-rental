@@ -5,10 +5,10 @@ import Schema from "@/components/Schema";
 
 export const metadata: Metadata = {
   title:
-    "Luxury Travel Services in India | RNK Rentals",
+    "Luxury Travel with Chauffeur-Driven Cars ",
 
   description:
-    "RNK offers premium chauffeur-driven luxury travel services across India for holidays, weekend getaways, celebrations and personalised long-distance journeys.",
+    "Plan holidays, weekend getaways and long-distance journeys in a chauffeur-driven luxury car, with custom itineraries across India. Get a travel quote.",
 
   keywords: [
     "luxury travel services india",

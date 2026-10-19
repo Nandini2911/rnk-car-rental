@@ -1,6 +1,6 @@
 ---
-title: "Combining Luxury Hotels with Chauffeur Services"
-description: "Luxury hotel chauffeur services in India—airport transfers, hotel driveway coordination, city travel, event arrivals, and seamless premium mobility during five-star stays."
+title: "Luxury Hotel Stays with Chauffeur Services"
+description: "Pair a luxury hotel stay with a chauffeur service: airport pickups, day itineraries and evening plans handled by one dedicated driver. Plan with RNK."
 tags:
   - luxury hotel chauffeur service india
   - chauffeur service for luxury hotels

@@ -1,6 +1,6 @@
 ---
-title: "Luxury Car Rental in Goa for Beach Resorts, Airport Transfers & Party Travel"
-description: "Luxury car rental Goa with chauffeur-driven sedans and SUVs for airport transfers, beach resorts, party travel, weddings, and full-day bookings with transparent pricing."
+title: "Luxury Car Rental in Goa with Chauffeur"
+description: "Luxury car rental in Goa with chauffeur: Dabolim and Mopa airport pickups, beach resort transfers, weddings and nights out. Get a Goa luxury car quote now."
 tags:
   - luxury car rental goa
   - goa airport transfer luxury car

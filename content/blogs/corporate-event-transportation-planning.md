@@ -1,6 +1,6 @@
 ---
-title: "Corporate Event Transportation Planning"
-description: "Corporate event transportation planning in India explained—VIP mobility, fleet mix, airport coordination, staggered arrivals, traffic buffers, and control strategies."
+title: "Corporate Event Transportation Planning Guide"
+description: "Step-by-step corporate event transportation planning: guest lists, vehicle mix, routing, timing buffers and on-ground coordination. Request a quote."
 tags:
   - corporate event transportation planning india
   - corporate event transport logistics

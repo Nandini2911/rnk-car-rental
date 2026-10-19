@@ -1,6 +1,6 @@
 ---
-title: "Mumbai to Delhi: Nationwide Wedding Car Rentals That Delivered 1K+ Happy Couples"
-description: "Planning a Mumbai to Delhi wedding? Learn how nationwide wedding car rentals work, which luxury fleets suit cross-city baraats, when to book, and how to avoid last-minute transport issues."
+title: "Nationwide Wedding Car Rentals: Mumbai to Delhi"
+description: "Nationwide wedding car rental from Mumbai to Delhi: bridal cars, baraat vehicles and guest fleets managed end to end by one partner. Get a wedding quote."
 tags:
   - nationwide wedding car rental india
   - wedding car rental mumbai to delhi

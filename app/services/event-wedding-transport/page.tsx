@@ -8,10 +8,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Event & Wedding Transport Services in India | Chauffeur-Driven Event Mobility – RNK",
+    "Wedding Car Rental & Event Transport ",
 
   description:
-    "RNK provides premium chauffeur-driven event and wedding transport services across India for weddings, VIPs, artists, crew, delegates and large-scale corporate events.",
+    "Wedding car rental and event transport across India: Rolls-Royce, vintage cars, Mercedes, baraat vehicles and guest coaches. Get a wedding car quote today.",
 
   keywords: [
     "event transport services india",

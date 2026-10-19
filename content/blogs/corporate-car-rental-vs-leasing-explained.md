@@ -1,6 +1,6 @@
 ---
-title: "Corporate Car Rental vs Leasing Explained"
-description: "Corporate car rental vs leasing in India explained—cost, flexibility, commitment, chauffeur management, tax impact, and which option suits business mobility needs."
+title: "Corporate Car Rental vs Leasing: Which Is Better?"
+description: "Corporate car rental vs leasing: compare cost, tax treatment, flexibility, maintenance and admin effort for Indian companies. Get a quote today."
 tags:
   - corporate car rental vs leasing india
   - business car leasing vs rental india

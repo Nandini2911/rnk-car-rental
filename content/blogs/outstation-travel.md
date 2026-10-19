@@ -1,6 +1,6 @@
 ---
-title: "Outstation Car Rental with Driver: The Safest Way to Travel Long Distances"
-description: "Outstation car rental with driver in India explained—chauffeur-driven long-distance travel, highway safety, comfort, flexible routes, and reliable intercity transport planning."
+title: "Outstation Car Rental with Driver: Safe Long Trips"
+description: "Planning a long-distance trip? Outstation car rental with driver: one-way vs round trip, driver allowance, night charges and safety tips. Get a quote."
 tags:
   - outstation car rental with driver india
   - chauffeur driven outstation car rental

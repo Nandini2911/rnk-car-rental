@@ -1,6 +1,6 @@
 ---
-title: "Luxury Car Rental in Chennai for Airport Transfers & Outstation Travel"
-description: "Luxury car rental Chennai for airport transfers and outstation trips—chauffeur-driven sedans and SUVs for corporate travel, Pondicherry drives, and premium city mobility."
+title: "Chennai Luxury Cars for Airport & Outstation Trips"
+description: "Chennai airport and outstation car rental with chauffeur: luxury cars for MAA pickups and trips to Pondicherry, Mahabalipuram and beyond. Get a quote."
 tags:
   - luxury car rental chennai
   - chauffeur driven car rental chennai

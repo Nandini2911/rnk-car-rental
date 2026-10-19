@@ -1,6 +1,6 @@
 ---
-title: "Destination Wedding Car Rental in India: Top Venues & Logistics Guide"
-description: "Explore destination wedding car rental planning in India including luxury guest transportation, airport pickups, bridal entries, venue logistics, chauffeur coordination, and the best destination wedding locations for premium celebrations."
+title: "Destination Wedding Car Rental: Top Venues & Logistics"
+description: "Udaipur, Jaipur, Goa or Kerala? Car rental logistics for top destination wedding venues: airport pickups, guest shuttles and bridal cars. Get a quote."
 tags:
   - destination wedding car rental india
   - luxury wedding transportation india

@@ -1,12 +1,13 @@
 ---
-title: "How Many Cars Are Needed for Indian Weddings"
-description: "How many cars are needed for Indian weddings explained—guest segmentation, VIP transport, family vehicles, buses, venue distance, and planning factors."
+title: "How Many Cars Do You Need for an Indian Wedding?"
+description: "Work out how many cars your Indian wedding needs, from baraat and bridal car to family and guest transport, with a simple guest-count rule. Get a quote."
 tags:
   - how many cars needed for indian wedding
   - wedding car rental india
   - indian wedding transportation planning
   - luxury wedding car rental india
   - wedding guest transport india
+  
   - wedding transport planning guide
   - cars required for wedding guests
   - indian wedding logistics planning

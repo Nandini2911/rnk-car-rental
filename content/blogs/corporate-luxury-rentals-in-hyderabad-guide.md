@@ -1,6 +1,6 @@
 ---
-title: "Corporate Car Rental in Hyderabad: Executive Luxury Travel Guide"
-description: "Corporate car rental Hyderabad—chauffeur-driven luxury sedans and SUVs for airport transfers, executive meetings, roadshows, and business travel with transparent billing."
+title: "Corporate Car Rental in Hyderabad: Executive Guide"
+description: "Corporate car rental in Hyderabad for HITEC City meetings, RGIA airport pickups and client visits: executive cars, billing and tips. Get a corporate quote."
 tags:
   - corporate car rental hyderabad
   - executive car rental hyderabad

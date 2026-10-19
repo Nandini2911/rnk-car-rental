@@ -1,9 +1,10 @@
 ---
-title: "Full Wedding Car Fleet Planning: From Baraat to Reception Logistics"
-description: "Explore complete wedding car fleet planning in India including baraat transportation, bridal entry vehicles, luxury guest transfers, chauffeur coordination, reception logistics, and premium wedding travel management."
+title: "Wedding Car Fleet Planning: Baraat to Reception"
+description: "Wedding car fleet planning from baraat to reception: bridal car, family sedans, guest shuttles and timings in one simple plan. Get a wedding fleet quote."
 tags:
   - wedding car fleet planning india
   - luxury wedding transportation india
+  
   - baraat luxury car rental
   - wedding chauffeur services india
   - bridal car rental india

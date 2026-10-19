@@ -260,3 +260,14 @@ body {
 .prose tr:nth-child(even) {
   background: #fafafa;
 }
+.rnk-popup-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rnk-popup-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}

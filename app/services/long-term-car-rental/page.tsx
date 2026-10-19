@@ -6,10 +6,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Long-Term Car Rental Services in India | RNK Rentals",
+    "Monthly & Long-Term Car Rental with Driver",
 
   description:
-    "RNK offers long term chauffeur-driven car rental services across India with monthly and yearly plans for corporates, professionals, expats and long-stay guests.",
+    "Long-term car rental with a dedicated driver on monthly or yearly plans for companies, expats and long-stay guests. No ownership hassle. Get a plan quote.",
 
   keywords: [
     "long term car rental india",

@@ -1,6 +1,6 @@
 ---
-title: "Manali to Spiti Valley: Luxury Car Route & Tips"
-description: "Manali to Spiti Valley luxury road trip guide—best SUV choice, route via Atal Tunnel & Kunzum Pass, altitude tips, fuel planning, permits, and safest travel season."
+title: "Manali to Spiti Valley by Car: Route & Tips"
+description: "Plan a Manali to Spiti road trip: route options, road conditions, best months, stops and the right SUV for high passes. Book a chauffeur-driven SUV today."
 tags:
   - manali to spiti valley road trip
   - luxury spiti valley road trip

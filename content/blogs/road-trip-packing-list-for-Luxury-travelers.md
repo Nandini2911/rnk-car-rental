@@ -1,6 +1,6 @@
 ---
-title: "Road Trip Packing List for Luxury Travelers"
-description: "Luxury road trip packing list for India—essential documents, clothing, health kit, tech gear, snacks, and luggage tips for comfortable long-distance travel."
+title: "Luxury Road Trip Packing List"
+description: "Don't forget the essentials: a luxury road trip packing list covering documents, comfort kit, tech, snacks and weather gear for India. Book a car."
 tags:
   - luxury road trip packing list india
   - road trip essentials luxury travelers
