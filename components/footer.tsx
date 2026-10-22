@@ -38,7 +38,7 @@ export function RnkFooter() {
               <FooterLink label="Our Network" href="#network" />
               <FooterLink label="Faq" href="/faq" />
               <FooterLink label="Terms &amp; Conditions" href="/terms-and-conditions" />
-              <FooterLink label="Privacy Policy" href="/PrivacyPolicy" />
+              <FooterLink label="Privacy Policy" href="/privacy-policy" />
               <FooterLink label="Contact Us" href="#contact" />
 
               

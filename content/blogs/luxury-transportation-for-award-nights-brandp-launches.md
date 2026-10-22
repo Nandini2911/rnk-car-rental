@@ -39,7 +39,7 @@ This means building a specific arrival schedule with staggered time slots for VI
 
 For award nights and launches involving celebrities, senior executives, or high-profile guests, this tier of transportation deserves a distinctly higher standard than general attendee logistics — dedicated vehicles, vetted drivers, and a level of discretion that matches the visibility of the guest.
 
-Our [VIP movements service](https://www.rnk.com/services/vip-movements) page covers exactly how this dedicated tier is typically structured, and our guide on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-india) covers the standards worth applying for high-profile arrivals specifically. Our piece on [celebrity-style chauffeur experiences with RNK](https://www.rnk.com/blog/celebrity-style-chauffeur-experiences-with-rnk) is also directly relevant here, since it covers how this exact brief — a staged, camera-ready arrival — is typically handled for high-profile clients.
+Our [VIP movements service](https://www.rnk.com/services/vip-movements) page covers exactly how this dedicated tier is typically structured, and our guide on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-India) covers the standards worth applying for high-profile arrivals specifically. Our piece on [celebrity-style chauffeur experiences with RNK](https://www.rnk.com/blog/celebrity-style-chauffeur-experiences-with-rnk) is also directly relevant here, since it covers how this exact brief — a staged, camera-ready arrival — is typically handled for high-profile clients.
 
 ### Choosing the Right Vehicle for a Red-Carpet Moment
 

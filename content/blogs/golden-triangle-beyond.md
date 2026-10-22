@@ -78,7 +78,7 @@ A road journey fills in the spaces between them.
 
 You see metropolitan Delhi gradually thin into highways and agricultural landscapes. You experience the physical relationship between cities that once occupied important positions within imperial networks. And when the route enters Rajasthan, the architecture, colours and terrain begin changing before you even reach Jaipur.
 
-RNK's existing guide to the [Golden Triangle luxury road trip from Delhi to Agra and Jaipur](https://www.rnk.com/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur) explores the core circuit in greater detail.
+RNK's existing guide to the [Golden Triangle luxury road trip from Delhi to Agra and Jaipur](https://www.rnk.com/blog/golden-triangle-luxury-road-trip-delhi-agra-Jaipur) explores the core circuit in greater detail.
 
 This article goes further by looking at how to turn that famous itinerary into a broader luxury heritage journey.
 
@@ -663,7 +663,7 @@ Carry water, sunglasses, sun protection where appropriate and a lightweight laye
 
 Keep important medication and essentials in a small cabin bag rather than the main luggage compartment.
 
-For a more complete checklist, see RNK's [road-trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers).
+For a more complete checklist, see RNK's [road-trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-Luxury-travelers).
 
 ## Luxury Road Etiquette Matters Too
 

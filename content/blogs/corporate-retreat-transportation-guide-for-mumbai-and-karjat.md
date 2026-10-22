@@ -45,7 +45,7 @@ For senior leadership or smaller executive groups, a comfortable sedan or SUV li
 
 Karjat's resort and retreat venues vary considerably in road access — some sit right off the main highway, while others involve a stretch of narrower, less maintained road toward the final approach.
 
-It's worth confirming venue access details with your transportation provider ahead of time, particularly for larger vehicles like coaches, which may not be able to navigate the final stretch to certain properties. Our [family road trips in India with premium vans](https://www.rnk.com/blog/family-road-trips-in-india-with-premium-vans) guide touches on similar road-condition planning considerations that apply just as well to a corporate retreat context.
+It's worth confirming venue access details with your transportation provider ahead of time, particularly for larger vehicles like coaches, which may not be able to navigate the final stretch to certain properties. Our [family road trips in India with premium vans](https://www.rnk.com/blog/family-road-trips-in-India-with-premium-vans) guide touches on similar road-condition planning considerations that apply just as well to a corporate retreat context.
 
 ### Scheduling the Outbound and Return Journeys
 ![Scheduling the Outbound and Return Journeys](/images/blog/Corporate_Retreat3.webp)

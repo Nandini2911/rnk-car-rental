@@ -109,7 +109,7 @@ A seven-seat vehicle carrying seven passengers may technically have enough seats
 
 That is why family road-trip vehicle selection should always account for **passengers plus luggage**, not passengers alone.
 
-Families planning longer journeys can also read RNK's dedicated guide to [family road trips in India with premium vans](https://www.rnk.com/blog/family-road-trips-in-india-with-premium-vans).
+Families planning longer journeys can also read RNK's dedicated guide to [family road trips in India with premium vans](https://www.rnk.com/blog/family-road-trips-in-India-with-premium-vans).
 
 ## When an MPV Is Better Than a Luxury Sedan
 
@@ -415,7 +415,7 @@ The objective is simple:
 
 Nobody should need to unload three suitcases at a roadside stop because one child needs a clean T-shirt.
 
-RNK's complete [road-trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers) can help with broader luggage planning.
+RNK's complete [road-trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-Luxury-travelers) can help with broader luggage planning.
 
 ## Travelling With Toddlers Requires a Different Itinerary
 

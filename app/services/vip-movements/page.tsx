@@ -95,8 +95,8 @@ const VipMomentsSchema=
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/vip-movements/#webpage",
-      "url": "https://www.rnk.com/vip-movements",
+      "@id": "https://www.rnk.com/services/vip-movements/#webpage",
+      "url": "https://www.rnk.com/services/vip-movements",
       "name": "VIP Movements - RNK Rentals",
       "description": "Precision-managed, confidential, chauffeur-driven travel for celebrities, CEOs, diplomats, international guests and elite personalities. Protocol-ready precision for high-profile clients.",
       "isPartOf": {
@@ -149,7 +149,7 @@ const VipMomentsSchema=
     },
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/vip-movements/#service",
+      "@id": "https://www.rnk.com/services/vip-movements/#service",
       "name": "VIP Movements Service",
       "description": "RNK Rentals provides elite chauffeur-driven travel for celebrities, CEOs, and diplomats. Our services include airport receptions, multi-vehicle convoys, backstage entries, and event-to-venue schedules with protocol-ready precision.",
       "provider": {
@@ -186,7 +186,7 @@ const VipMomentsSchema=
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/vip-movements/#faq",
+      "@id": "https://www.rnk.comservices/vip-movements/#faq",
       "mainEntity": [
         {
           "@type": "Question",

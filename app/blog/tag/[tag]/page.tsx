@@ -1,8 +1,10 @@
+
 import BlogGrid from "@/components/blog/BlogGrid";
 import { RnkFooter } from "@/components/footer";
 import { NavBar } from "@/components/NavBar";
 import { getAllBlogs } from "@/lib/blog";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 import type { Metadata } from "next";
 
@@ -34,10 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
 
     robots: {
-      index: true,
-      follow: true,
-    },
-
+  index: false,
+  follow: true,
+},
     openGraph: {
       title,
       description,
@@ -53,21 +54,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
-
-export default function TagPage({ params }: { params: { tag: string } }) {
+export default async function TagPage({ params }: Props) {
+  const { tag: tagSlug } = await params;
 
   const blogs = getAllBlogs();
 
-  const tagSlug = params?.tag || "";
   const tag = tagSlug.replace(/-/g, " ").toLowerCase();
 
   const filteredBlogs = blogs.filter((blog: any) =>
     Array.isArray(blog.tags) &&
     blog.tags.some((t: string) =>
-      t.toLowerCase().includes(tag)
+     t.toLowerCase().trim().replace(/\s+/g, "-") === tagSlug.toLowerCase()
     )
   );
-
+if (filteredBlogs.length === 0) {
+  notFound();
+}
   const allTags = Array.from(
     new Set(
       blogs.flatMap((blog: any) => blog.tags || [])

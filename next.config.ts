@@ -11,13 +11,18 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+  source: "/services",
+  destination: "/",
+  permanent: true,
+},
+      {
         source: "/contact-us",
         destination: "/contact",
         permanent: true,
       },
       {
-  source: "/blog/rnk.com/contact",
-  destination: "/contact",
+  source: "/blog/rnk.com",
+  destination: "/",
   permanent: true,
 },
       {
@@ -36,7 +41,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/blog/corporate-car-rental-services",
+        source: "/blog/services/corporate-car-rental",
         destination: "/blog/corporate-travel",
         permanent: true,
       },

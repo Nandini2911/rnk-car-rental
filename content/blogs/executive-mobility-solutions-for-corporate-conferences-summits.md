@@ -39,7 +39,7 @@ This means listing every speaker and executive's arrival time, session time, and
 
 Keynote speakers and headline VIP guests carry the most reputational weight of any single movement in a conference schedule, and their transport deserves a distinctly higher standard of coordination than general attendee logistics.
 
-This typically means a dedicated vehicle and driver briefed specifically on that speaker's schedule, a named point of contact who can adjust in real time if a flight is delayed or a session runs long, and zero reliance on shared or on-demand transport for this tier of guest. Our [VIP movements service](https://www.rnk.com/services/vip-movements) page covers exactly how this dedicated tier of transport is typically structured, and our guide on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-india) covers the standards worth applying to headline speaker arrivals specifically.
+This typically means a dedicated vehicle and driver briefed specifically on that speaker's schedule, a named point of contact who can adjust in real time if a flight is delayed or a session runs long, and zero reliance on shared or on-demand transport for this tier of guest. Our [VIP movements service](https://www.rnk.com/services/vip-movements) page covers exactly how this dedicated tier of transport is typically structured, and our guide on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-India) covers the standards worth applying to headline speaker arrivals specifically.
 
 ### Delegate and Attendee Transport: Planning for Volume Without Losing Reliability
 

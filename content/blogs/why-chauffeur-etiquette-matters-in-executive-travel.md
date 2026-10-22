@@ -59,7 +59,7 @@ Our guide on [luxury cars for CXOs and board members](https://www.rnk.com/blog/l
 
 For VIP guests, celebrities, or senior executives who may be recognized publicly, chauffeur etiquette takes on an added dimension — managing public attention, understanding when and how to assist without drawing unwanted notice, and maintaining composure in situations that might otherwise be disruptive.
 
-Our guide on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-india) and our piece on [celebrity-style chauffeur experiences with RNK](https://www.rnk.com/blog/celebrity-style-chauffeur-experiences-with-rnk) both cover the specific standards this higher tier of etiquette requires, beyond what a standard executive transfer needs.
+Our guide on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-India) and our piece on [celebrity-style chauffeur experiences with RNK](https://www.rnk.com/blog/celebrity-style-chauffeur-experiences-with-rnk) both cover the specific standards this higher tier of etiquette requires, beyond what a standard executive transfer needs.
 
 ### Etiquette Across Cultural and Business Contexts
 
