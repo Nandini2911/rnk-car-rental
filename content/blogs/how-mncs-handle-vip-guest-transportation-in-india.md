@@ -39,7 +39,7 @@ Dedicated, vetted drivers are non-negotiable — VIP transport is rarely handled
 
 For most VIP guests, the airport arrival is the very first impression of the visit, and MNCs typically treat this specific moment with the most rigor of any single touchpoint in the entire trip.
 
-This usually means a meet-and-greet coordinator at arrivals (sometimes airside for very senior guests, where permitted), immediate baggage assistance, and a vehicle staged and ready rather than being called once the guest has already cleared arrivals. Our guide to [international arrivals and luxury meet-and-greet in India](https://www.rnk.com/blog/international-arrivals-luxury-meet-greet-india) covers exactly how this process is typically structured, and our piece on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-india) covers the broader standard MNCs apply to high-profile arrivals specifically.
+This usually means a meet-and-greet coordinator at arrivals (sometimes airside for very senior guests, where permitted), immediate baggage assistance, and a vehicle staged and ready rather than being called once the guest has already cleared arrivals. Our guide to [international arrivals and luxury meet-and-greet in India](https://www.rnk.com/blog/international-arrivals-luxury-meet-greet-india) covers exactly how this process is typically structured, and our piece on [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-India) covers the broader standard MNCs apply to high-profile arrivals specifically.
 
 ### Vehicle Standards: Why the Choice Isn't Arbitrary
 

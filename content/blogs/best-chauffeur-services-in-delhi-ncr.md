@@ -77,7 +77,7 @@ Reliable service delivery across multiple bookings builds long-term trust betwee
 
 ## Pricing Structure in Delhi NCR
 
-[Luxury car rental](https://www.rnk.com/blog/How-luxury-car-rental-works-in-india) pricing in Delhi NCR generally follows structured hourly packages. These packages include a predefined duration of vehicle usage within the NCR region, along with chauffeur service and fuel.
+[Luxury car rental](https://www.rnk.com/blog/how-luxury-car-rental-works-in-india) pricing in Delhi NCR generally follows structured hourly packages. These packages include a predefined duration of vehicle usage within the NCR region, along with chauffeur service and fuel.
 
 Additional charges may apply for overtime beyond the agreed time, airport parking fees, highway tolls, or interstate permits when traveling outside NCR boundaries. Professional service providers usually specify these charges clearly in advance.
 

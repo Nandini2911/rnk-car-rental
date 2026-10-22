@@ -96,8 +96,8 @@ const EventWeddingRentSchema=
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/event-wedding-transport/#webpage",
-      "url": "https://www.rnk.com/event-wedding-transport",
+      "@id": "https://www.rnk.com/services/event-wedding-transport/#webpage",
+      "url": "https://www.rnk.com/services/event-wedding-transport",
       "name": "Event & Wedding Transport - RNK Rentals",
       "description": "Premium, punctual, and elegantly managed transport for weddings, VIPs, artists, crew, delegates, and large-scale corporate events by RNK Rentals.",
       "isPartOf": {
@@ -150,7 +150,7 @@ const EventWeddingRentSchema=
     },
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/event-wedding-transport/#service",
+      "@id": "https://www.rnk.com/services/event-wedding-transport/#service",
       "name": "Event and Wedding Transport Service",
       "description": "RNK Rentals provides seamless, chauffeur-driven luxury transport for weddings, corporate events, exhibitions, conferences, and VIP gatherings across India.",
       "provider": {
@@ -244,7 +244,7 @@ const EventWeddingRentSchema=
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/event-wedding-transport/#faq",
+      "@id": "https://www.rnk.com/services/event-wedding-transport/#faq",
       "mainEntity": [
         {
           "@type": "Question",

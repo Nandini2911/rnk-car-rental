@@ -414,7 +414,7 @@ These destinations can be incorporated into a longer road itinerary where winter
 
 A multi-day Jaipur–Jodhpur–Udaipur circuit works particularly well for luxury travellers who want architecture, food and changing scenery without constantly changing the style of transport.
 
-RNK's [Golden Triangle luxury road trip from Delhi to Agra and Jaipur](https://www.rnk.com/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur) can also be combined with a Rajasthan extension for travellers beginning their winter holiday in Delhi.
+RNK's [Golden Triangle luxury road trip from Delhi to Agra and Jaipur](https://www.rnk.com/blog/golden-triangle-luxury-road-trip-delhi-agra-Jaipur) can also be combined with a Rajasthan extension for travellers beginning their winter holiday in Delhi.
 
 ## Ladakh, Spiti or Rajasthan: Which Winter Road Trip Is Right for You?
 
@@ -612,7 +612,7 @@ Cold-weather footwear matters.
 
 Sunglasses can also be important because bright sunlight reflecting from snow can become uncomfortable even when temperatures are extremely low.
 
-For longer itineraries, RNK's [road trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers) provides a broader framework.
+For longer itineraries, RNK's [road trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-Luxury-travelers) provides a broader framework.
 
 In Ladakh and Spiti, winter packing should always be more conservative than the minimum.
 

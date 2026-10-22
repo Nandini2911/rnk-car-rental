@@ -424,7 +424,7 @@ Quick-dry clothing is useful for longer road trips, while spare socks and footwe
 
 Power banks and offline maps are particularly useful in mountain regions where mobile connectivity may become unreliable.
 
-For a more complete guide, see RNK's [road trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers).
+For a more complete guide, see RNK's [road trip packing list for luxury travellers](https://www.rnk.com/blog/road-trip-packing-list-for-Luxury-travelers).
 
 ## Common Mistakes to Avoid During Monsoon Road Trips
 

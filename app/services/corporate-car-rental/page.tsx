@@ -94,8 +94,8 @@ const CorporateCaeRentalSchema=
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/corporate-car-rental/#webpage",
-      "url": "https://www.rnk.com/corporate-car-rental",
+      "@id": "https://www.rnk.com/services/corporate-car-rental/#webpage",
+      "url": "https://www.rnk.com/services/corporate-car-rental",
       "name": "Corporate Car Rental - RNK Rentals",
       "description": "Premium, punctual, and professionally managed corporate mobility services by RNK Rentals, designed for executives, teams, clients, and VIP movements across India.",
       "isPartOf": {
@@ -148,7 +148,7 @@ const CorporateCaeRentalSchema=
     },
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/corporate-car-rental/#service",
+      "@id": "https://www.rnk.com/services/corporate-car-rental/#service",
       "name": "Corporate Car Rental Service",
       "description": "RNK Rentals provides premium chauffeur-driven corporate mobility solutions, including executive commutes, client pick-ups, airport transfers, and long-term contracts.",
       "provider": {
@@ -240,7 +240,7 @@ const CorporateCaeRentalSchema=
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/corporate-car-rental/#faq",
+      "@id": "https://www.rnk.com/services/corporate-car-rental/#faq",
       "mainEntity": [
         {
           "@type": "Question",

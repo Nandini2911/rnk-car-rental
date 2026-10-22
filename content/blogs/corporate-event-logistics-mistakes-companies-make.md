@@ -82,7 +82,7 @@ Requesting itemized quotes by transport category (VIP, general shuttle, airport 
 
 When transportation issues arise on the day of the event — and something almost always shifts — having no clear, single person responsible for resolving it in real time is one of the most common and most damaging mistakes.
 
-A named point of contact with visibility into the full transportation plan, and the authority to adjust timing or reroute vehicles as needed, is what actually prevents small issues from cascading into bigger ones. Our [event transportation checklist for HR and admin teams](https://www.rnk.com/blog/event-transportation-checklist-for-hr-admin-teams) covers this and the rest of the planning process in a structured, step-by-step format.
+A named point of contact with visibility into the full transportation plan, and the authority to adjust timing or reroute vehicles as needed, is what actually prevents small issues from cascading into bigger ones. Our [event transportation checklist for HR and admin teams](/blog/event-transportation-checklist-for-admin-teams) covers this and the rest of the planning process in a structured, step-by-step format.
 
 ### Mistake 11: Failing to Communicate the Plan to Attendees
 
@@ -98,7 +98,7 @@ Reconfirming every vehicle, driver, and pickup time with the vendor 24-48 hours 
 
 ### How to Avoid These Mistakes: A Quick Reference
 
-Most of these mistakes trace back to the same root cause — treating transportation as a single, undifferentiated task rather than several distinct planning tracks (VIP, general shuttle, airport/railway, budget, communication) that each need their own attention. Our [corporate event transportation checklist for HR and admin teams](https://www.rnk.com/blog/event-transportation-checklist-for-hr-admin-teams) walks through all of these tracks as a structured, repeatable process rather than something to figure out fresh for every event.
+Most of these mistakes trace back to the same root cause — treating transportation as a single, undifferentiated task rather than several distinct planning tracks (VIP, general shuttle, airport/railway, budget, communication) that each need their own attention. Our [corporate event transportation checklist for HR and admin teams](/blog/event-transportation-checklist-for-admin-teams) walks through all of these tracks as a structured, repeatable process rather than something to figure out fresh for every event.
 
 ### Frequently Asked Questions
 

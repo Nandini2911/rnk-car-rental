@@ -93,8 +93,8 @@ const VacationReantalSchema=
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/vacation-rentals/#webpage",
-      "url": "https://www.rnk.com/vacation-rentals",
+      "@id": "https://www.rnk.com/services/vacation-rentals/#webpage",
+      "url": "https://www.rnk.com/services/vacation-rentals",
       "name": "Vacation Rentals Travel - RNK Rentals",
       "description": "Chauffeur-driven cars for villas, homestays and holiday rentals — so your getaway starts the moment you leave home. Premium mobility for stress-free vacation stays.",
       "isPartOf": {
@@ -147,7 +147,7 @@ const VacationReantalSchema=
     },
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/vacation-rentals/#service",
+      "@id": "https://www.rnk.com/services/vacation-rentals/#service",
       "name": "Vacation Rentals Travel Service",
       "description": "RNK Rentals provides premium chauffeur-driven cars for villas, homestays, and holiday rentals. Our services cover airport/station transfers, on-call cars during stays, sightseeing, and group movements across India.",
       "provider": {
@@ -184,7 +184,7 @@ const VacationReantalSchema=
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/vacation-rentals/#faq",
+      "@id": "https://www.rnk.com/services/vacation-rentals/#faq",
       "mainEntity": [
         {
           "@type": "Question",

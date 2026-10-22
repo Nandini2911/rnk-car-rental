@@ -30,7 +30,7 @@ Because of this, premium mobility services in India must deliver more than just 
 
 HNIs choose premium mobility services in India based on discretion, punctuality, chauffeur professionalism, vehicle reliability, and operational consistency. Rather than focusing only on vehicle brand or visual luxury, affluent travelers prioritize predictable execution, security awareness, and privacy-focused travel experiences.
 
-Understanding these priorities explains why [luxury chauffeur services](https://www.rnk.com/services/luxury-chauffeur-service/) remain the preferred choice for high-profile travelers across India.
+Understanding these priorities explains why [luxury chauffeur services](https://www.rnk.com/) remain the preferred choice for high-profile travelers across India.
 
 ---
 

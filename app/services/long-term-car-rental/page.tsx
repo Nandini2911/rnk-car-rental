@@ -94,8 +94,8 @@ const longTermCarReantSchema=
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/long-term-car-rental/#webpage",
-      "url": "https://www.rnk.com/long-term-car-rental",
+      "@id": "https://www.rnk.com/services/long-term-car-rental/#webpage",
+      "url": "https://www.rnk.com/services/long-term-car-rental",
       "name": "Long Term Car Rental - RNK Rentals",
       "description": "Monthly & yearly chauffeur-driven plans for corporates, professionals, expats, NRI families and long-stay guests \u2014 premium mobility without the stress of ownership.",
       "isPartOf": {
@@ -148,7 +148,7 @@ const longTermCarReantSchema=
     },
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/long-term-car-rental/#service",
+      "@id": "https://www.rnk.com/services/long-term-car-rental/#service",
       "name": "Long Term Car Rental Service",
       "description": "RNK Rentals provides monthly & yearly chauffeur-driven plans for corporates, professionals, expats, NRI families and long-stay guests, offering premium mobility without the stress of ownership.",
       "provider": {
@@ -239,7 +239,7 @@ const longTermCarReantSchema=
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/long-term-car-rental/#faq",
+      "@id": "https://www.rnk.com/services/long-term-car-rental/#faq",
       "mainEntity": [
         {
           "@type": "Question",

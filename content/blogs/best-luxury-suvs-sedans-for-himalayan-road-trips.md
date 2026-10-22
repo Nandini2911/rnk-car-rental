@@ -66,7 +66,7 @@ Four-wheel drive or all-wheel drive is close to essential for any route involvin
 
 Himalayan road trips typically involve long consecutive days of driving, often six to eight hours or more between stops, which makes cabin comfort a genuine practical concern rather than just a luxury nice-to-have.
 
-Look for vehicles with strong seat ergonomics for extended sitting, effective climate control that can handle the sharp temperature swings common at altitude, and reasonable luggage capacity for the layered clothing and gear multi-day mountain travel requires. Our [road trip packing list for luxury travelers](https://www.rnk.com/blog/road-trip-packing-list-for-luxury-travelers) covers exactly what to plan for on this front, and our guide to [family road trips in India with premium vans](https://www.rnk.com/blog/family-road-trips-in-india-with-premium-vans) is a useful reference for larger groups prioritizing space and comfort over multiple days.
+Look for vehicles with strong seat ergonomics for extended sitting, effective climate control that can handle the sharp temperature swings common at altitude, and reasonable luggage capacity for the layered clothing and gear multi-day mountain travel requires. Our [road trip packing list for luxury travelers](https://www.rnk.com/blog/road-trip-packing-list-for-Luxury-travelers) covers exactly what to plan for on this front, and our guide to [family road trips in India with premium vans](https://www.rnk.com/blog/family-road-trips-in-India-with-premium-vans) is a useful reference for larger groups prioritizing space and comfort over multiple days.
 
 ### Route-Specific Vehicle Recommendations
 

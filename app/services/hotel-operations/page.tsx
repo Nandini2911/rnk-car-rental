@@ -93,7 +93,7 @@ const HotelOperationSchema=
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.rnk.com/hotel-operations/#webpage",
+      "@id": "https://www.rnk.com/services/hotel-operations/#webpage",
       "url": "https://www.rnk.com/hotel-operations",
       "name": "Hotel Operations - RNK Rentals",
       "description": "Integrated, chauffeur-driven mobility solutions designed specially for hotels, resorts and serviced residences by RNK Rentals, for guests, staff and VIP movements.",
@@ -147,7 +147,7 @@ const HotelOperationSchema=
     },
     {
       "@type": "Service",
-      "@id": "https://www.rnk.com/hotel-operations/#service",
+      "@id": "https://www.rnk.com/services/hotel-operations/#service",
       "name": "Hotel Operations Mobility Solutions",
       "description": "RNK partners with hotels and hospitality brands to manage all ground transport \u2014 from guest arrivals and departures to staff and crew movements, events and corporate stays.",
       "provider": {
@@ -241,7 +241,7 @@ const HotelOperationSchema=
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.rnk.com/hotel-operations/#faq",
+      "@id": "https://www.rnk.com/services/hotel-operations/#faq",
       "mainEntity": [
         {
           "@type": "Question",

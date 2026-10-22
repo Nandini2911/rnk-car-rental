@@ -35,7 +35,7 @@ For senior executives, international guests, and high-value clients, this experi
 
 ## Clear Answer Upfront
 
-[Corporate airport pickup etiquette](https://www.rnk.com/blog/business-class-airport-transfers-for-executive) in India involves structured coordination and disciplined execution. A professional pickup process includes accurate flight tracking, correct terminal identification, punctual chauffeur reporting, clear signage, respectful greeting etiquette, luggage assistance, and efficient route planning.
+[Corporate airport pickup etiquette](https://www.rnk.com/blog/business-class-airport-transfers-for-executives) in India involves structured coordination and disciplined execution. A professional pickup process includes accurate flight tracking, correct terminal identification, punctual chauffeur reporting, clear signage, respectful greeting etiquette, luggage assistance, and efficient route planning.
 
 Chauffeurs must present themselves professionally and maintain polite communication while assisting passengers from the arrival terminal to the vehicle. The journey itself must prioritise comfort, confidentiality, and smooth driving.
 

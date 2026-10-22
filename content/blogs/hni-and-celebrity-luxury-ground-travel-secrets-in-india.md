@@ -128,7 +128,7 @@ Airports are one of the most important tests of premium chauffeur services in In
 
 A properly managed VIP airport transfer starts before landing. The relevant flight should be monitored, the correct terminal and pickup procedure should be confirmed and the chauffeur should be positioned with an appropriate buffer. If another authorised representative is coordinating the passenger, communication should be clear enough that the traveller never has to become the link between two service providers.
 
-This level of planning is particularly important for celebrities and high-profile international guests. RNK's dedicated guide to [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-india) explains how airport pickups change when timing, privacy and presentation all matter simultaneously.
+This level of planning is particularly important for celebrities and high-profile international guests. RNK's dedicated guide to [VIP and celebrity airport movements in India](https://www.rnk.com/blog/vip-celebrity-airport-movements-in-India) explains how airport pickups change when timing, privacy and presentation all matter simultaneously.
 
 ## Airport Meet-and-Greet and Chauffeur Service Should Feel Like One Journey
 

@@ -116,7 +116,7 @@ Travelers should consider the overall value of the vehicle rather than focusing 
 
 [Luxury SUVs such as the Mercedes GLS luxury SUV are the ideal choice when travel requirements extend beyond simple city transportation.](https://www.rnk.com/fleet/mb-gls) Their spacious cabins and versatile design make them particularly suitable for family travel and group journeys.
 
-[Families traveling with children](https://www.rnk.com/blog/family-road-trips-in-india-with-premium-vans) often appreciate the extra space available inside an SUV. The larger seating arrangement allows passengers to move comfortably during longer trips without feeling cramped.
+[Families traveling with children](https://www.rnk.com/blog/family-road-trips-in-India-with-premium-vans) often appreciate the extra space available inside an SUV. The larger seating arrangement allows passengers to move comfortably during longer trips without feeling cramped.
 
 SUVs are also extremely useful when luggage capacity becomes a priority. Airport transfers involving multiple suitcases or equipment bags can be handled more easily with the larger cargo area provided by SUVs.
 
