@@ -111,8 +111,8 @@ if (filteredBlogs.length === 0) {
 
               {allTags.map((t: string) => {
 
-                const slug = t.toLowerCase().replace(/\s+/g, "-");
-                const isActive = slug === tagSlug;
+               const slug = t.toLowerCase().trim().replace(/\s+/g, "-");
+                const isActive = slug === tagSlug.toLowerCase();
 
                 return (
                   <Link
