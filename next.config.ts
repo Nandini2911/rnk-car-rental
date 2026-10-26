@@ -2,9 +2,20 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  skipTrailingSlashRedirect: true,
 
   async redirects() {
     return [
+      {
+  source: "/services/luxury-chauffeur-service/",
+  destination: "/services/vip-movements",
+  permanent: true,
+},
+{
+  source: "/services/",
+  destination: "/",
+  permanent: true,
+},
       // Existing navigation redirects
       {
         source: "/services/fleet",

@@ -1,79 +1,99 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-export function proxy(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+const exactRedirects: Record<string, string> = {
+  "/Fleet": "/fleet",
 
-  if (pathname === "/Fleet") {
+  "/PrivacyPolicy": "/privacy-policy",
+
+  "/blog/How-luxury-car-rental-works-in-india":
+    "/blog/how-luxury-car-rental-works-in-india",
+
+  "/blog/vip-celebrity-airport-movements-in-India":
+    "/blog/vip-celebrity-airport-movements-in-india",
+
+  "/blog/family-road-trips-in-India-with-premium-vans":
+    "/blog/family-road-trips-in-india-with-premium-vans",
+
+  "/blog/road-trip-packing-list-for-Luxury-travelers":
+    "/blog/road-trip-packing-list-for-luxury-travelers",
+
+  "/blog/golden-triangle-luxury-road-trip-delhi-agra-Jaipur":
+    "/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur",
+
+  "/blog/Rolls-Royce wedding-entry-ideas-for-modern-couples":
+    "/blog/rolls-royce-wedding-entry-ideas-for-modern-couples",
+
+  "/blog/Corporate Retreat Transportation Guide for Mumbai & Karjat":
+    "/blog/corporate-retreat-transportation-guide-for-mumbai-and-karjat",
+};
+
+const retiredBlogPaths = new Set([
+  "/blogs/the benefits of hiring a chauffeur service for your luxury car rental",
+  "/blogs/key factors to consider when choosing a luxury car rental service",
+  "/blogs/top 5 must-experience road trips in india",
+]);
+
+export function proxy(request: NextRequest) {
+  const originalPath = request.nextUrl.pathname;
+  let decodedPath = originalPath;
+
+  try {
+    decodedPath = decodeURIComponent(originalPath);
+  } catch {
+    return NextResponse.next();
+  }
+
+  // Match old URLs with or without a trailing slash.
+  const lookupPath =
+    decodedPath === "/"
+      ? "/"
+      : decodedPath.replace(/\/+$/, "");
+
+  const destination = Object.prototype.hasOwnProperty.call(
+    exactRedirects,
+    lookupPath,
+  )
+    ? exactRedirects[lookupPath]
+    : undefined;
+
+  if (destination) {
     const url = request.nextUrl.clone();
-    url.pathname = "/fleet";
+    url.pathname = destination;
 
     return NextResponse.redirect(url, 301);
   }
 
+  const normalizedOldPath = lookupPath
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+
+  if (retiredBlogPaths.has(normalizedOldPath)) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/blog";
+
+    return NextResponse.redirect(url, 301);
+  }
+
+  // Remove trailing slashes from other page URLs.
   if (
-    pathname ===
-      "/blog/Rolls-Royce%20wedding-entry-ideas-for-modern-couples" ||
-    pathname ===
-      "/blog/Rolls-Royce wedding-entry-ideas-for-modern-couples"
+    originalPath !== "/" &&
+    originalPath.endsWith("/") &&
+    !originalPath.startsWith("/api/") &&
+    !originalPath.startsWith("/_next/") &&
+    !originalPath.includes(".")
   ) {
     const url = request.nextUrl.clone();
-    url.pathname =
-      "/blog/rolls-royce-wedding-entry-ideas-for-modern-couples";
+    url.pathname = originalPath.replace(/\/+$/, "");
 
-    return NextResponse.redirect(url, 301);
+    return NextResponse.redirect(url, 308);
   }
-const corporateRetreatPaths = [
-  "/blog/Corporate%20Retreat%20Transportation%20Guide%20for%20Mumbai%20&%20Karjat",
-  "/blog/Corporate%20Retreat%20Transportation%20Guide%20for%20Mumbai%20%26%20Karjat",
-];
-if (pathname === "/blog/family-road-trips-in-India-with-premium-vans") {
-  const url = request.nextUrl.clone();
-  url.pathname = "/blog/family-road-trips-in-india-with-premium-vans";
 
-  return NextResponse.redirect(url, 301);
-}
-if (pathname === "/blog/road-trip-packing-list-for-Luxury-travelers") {
-  const url = request.nextUrl.clone();
-  url.pathname = "/blog/road-trip-packing-list-for-luxury-travelers";
-
-  return NextResponse.redirect(url, 301);
-}
-if (pathname === "/blog/golden-triangle-luxury-road-trip-delhi-agra-Jaipur") {
-  const url = request.nextUrl.clone();
-  url.pathname = "/blog/golden-triangle-luxury-road-trip-delhi-agra-jaipur";
-
-  return NextResponse.redirect(url, 301);
-}
-if (pathname === "/PrivacyPolicy") {
-  const url = request.nextUrl.clone();
-  url.pathname = "/privacy-policy";
-
-  return NextResponse.redirect(url, 301);
-}
-if (pathname === "/blog/How-luxury-car-rental-works-in-india") {
-  const url = request.nextUrl.clone();
-  url.pathname = "/blog/how-luxury-car-rental-works-in-india";
-
-  return NextResponse.redirect(url, 301);
-}
-if (pathname === "/blog/vip-celebrity-airport-movements-in-India") {
-  const url = request.nextUrl.clone();
-  url.pathname = "/blog/vip-celebrity-airport-movements-in-india";
-
-  return NextResponse.redirect(url, 301);
-}
-if (corporateRetreatPaths.includes(pathname)) {
-  const url = request.nextUrl.clone();
-  url.pathname =
-    "/blog/corporate-retreat-transportation-guide-for-mumbai-and-karjat";
-
-  return NextResponse.redirect(url, 301);
-}
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/Fleet", "/fleet", "/blog/:path*", "/PrivacyPolicy",
-    "/privacy-policy",],
+  matcher: [
+    "/((?!api(?:/|$)|_next(?:/|$)|.*\\..*).*)",
+  ],
 };
