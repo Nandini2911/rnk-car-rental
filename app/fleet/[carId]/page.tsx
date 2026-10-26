@@ -62,7 +62,7 @@ function getCarSchema(car: any, category: any) {
         url: baseUrl,
         logo: {
           "@type": "ImageObject",
-          url: `${baseUrl}/logo.png`,
+         url: `${baseUrl}/rnk_logo.webp`,
         },
       },
       {

@@ -7,6 +7,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+  source: "/RNK_LOGO.jpg",
+  destination: "/rnk_logo.webp",
+  permanent: true,
+},
+      {
   source: "/services/luxury-chauffeur-service/",
   destination: "/services/vip-movements",
   permanent: true,
